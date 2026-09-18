@@ -1,198 +1,203 @@
 # Nuna
 
-App iOS de livro ilustrado (picture-book) para crianças de 3–6 anos, feito para
-o iPhone Duo. SwiftUI, iOS 27.1.
+An iOS picture-book app for children aged 3–6, built for the iPhone Duo.
+SwiftUI, iOS 27.1.
 
-Pasta irmã de geração de conteúdo: `scripts-picturebook/`.
+Sibling folder for content generation: `scripts-picturebook/`.
 
-## Telas
+## Screens
 
-| Home | Biblioteca | Leitor | Assinatura | Pais |
+| Home | Library | Reader | Subscription | Parents |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/01-home.jpg" width="160" alt="Home: continuar lendo, histórias da semana e chegaram agora"> | <img src="docs/screenshots/02-biblioteca.jpg" width="160" alt="Biblioteca: grade com busca e filtros"> | <img src="docs/screenshots/03-leitor.jpg" width="160" alt="Leitor: página ilustrada com o texto na faixa de Papel"> | <img src="docs/screenshots/04-assinatura.jpg" width="160" alt="Assinatura: planos anual e mensal com teste grátis"> | <img src="docs/screenshots/05-pais.jpg" width="160" alt="Área dos pais: assinatura e leitura"> |
+| <img src="docs/screenshots/01-home.jpg" width="160" alt="Home: pick up where you left off, stories of the week and just arrived"> | <img src="docs/screenshots/02-biblioteca.jpg" width="160" alt="Library: grid with search and filters"> | <img src="docs/screenshots/03-leitor.jpg" width="160" alt="Reader: an illustrated page with the text in the paper band"> | <img src="docs/screenshots/04-assinatura.jpg" width="160" alt="Subscription: yearly and monthly plans with a free trial"> | <img src="docs/screenshots/05-pais.jpg" width="160" alt="Parents area: subscription and reading"> |
 
-## Estado
+## Status
 
-Onboarding, Home, Biblioteca e leitor montados, com o design system aplicado e
-o primeiro livro carregando. Ainda não há ilustração: `BandPlaceholder`
-desenha as faixas horizontais com as cores de cada spread, então todo o
-layout já é verificável sem arte.
+Onboarding, Home, Library and reader are in place, with the design system
+applied and the first book loading. There is no illustration yet:
+`BandPlaceholder` draws the horizontal bands with each spread's colors, so the
+whole layout can already be checked without art.
 
-## Estrutura
+## Structure
 
 ```
 Nuna/
   DesignSystem/
-    Palette.swift      13 cores travadas + tokens de UI (que NÃO usam a paleta)
-    Typography.swift   New York (leitura) e SF Rounded (UI), piso de 24pt
-    Layout.swift       espaçamento 4pt, safe zone, constantes da dobra
+    Palette.swift      13 locked colors + UI tokens (which do NOT use the palette)
+    Typography.swift   New York (reading) and SF Rounded (UI), 24pt floor
+    Layout.swift       4pt spacing, safe zone, fold constants
   Models/
-    Book.swift         Book, Spread, LocalizedText com fallback de idioma
+    Book.swift         Book, Spread, LocalizedText with language fallback
   Services/
-    BookLoader.swift   lê o JSON do bundle
-    Store.swift        StoreKit 2: planos, compra, restauração, isPremium
+    BookLoader.swift   reads the JSON from the bundle
+    Store.swift        StoreKit 2: plans, purchase, restore, isPremium
   Views/
-    RootView.swift           TabView de Liquid Glass + apresentação do leitor e do paywall
-    Paywall/                 portão parental + paywall próprio
-    PageView.swift           ilustração + faixa de texto reservada
-    SpreadView.swift         compact = 1 página, regular = spread inteiro
-    ReaderView.swift         estado que sobrevive à dobra
-    Onboarding/              3 telas, texto dentro da faixa reservada da arte
-    Home/HomeView.swift      hero de continuar + prateleira horizontal
-    Library/LibraryView.swift  grade adaptativa por size class
-    Shared/SafeZoneImage.swift  imagem cuja faixa inferior funde com o fundo
+    RootView.swift           Liquid Glass TabView + reader and paywall presentation
+    Paywall/                 parental gate + custom paywall
+    PageView.swift           illustration + reserved text band
+    SpreadView.swift         compact = 1 page, regular = full spread
+    ReaderView.swift         state that survives the fold
+    Onboarding/              3 screens, text inside the art's reserved band
+    Home/HomeView.swift      continue-reading hero + horizontal shelf
+    Library/LibraryView.swift  adaptive grid by size class
+    Shared/SafeZoneImage.swift  image whose bottom band blends into the background
     Shared/BookCover.swift
   Resources/
     o-quintal-da-nuna.json   12 spreads, pt-BR / en / es-MX
-    onboarding.json          3 páginas, pt-BR / en / es-MX
-  Nuna.storekit        configuração local dos planos (só para o Xcode)
+    onboarding.json          3 pages, pt-BR / en / es-MX
+  Nuna.storekit        local plan configuration (Xcode only)
 ```
 
-O target usa grupo sincronizado com o sistema de arquivos, então basta colocar
-arquivos dentro de `Nuna/` — não precisa editar o `project.pbxproj`.
+The target uses a group synchronized with the file system, so dropping files
+inside `Nuna/` is enough — no need to edit `project.pbxproj`.
 
-## O livro
+## The book
 
-"O quintal da Nuna", 12 spreads. Estrutura de espelho: página esquerda a Nuna
-faz alguma coisa, página direita um bicho faz a mesma coisa melhor. Arco de um
-dia inteiro, do acordar ao dormir, o que também faz a paleta progredir do
-amarelo da manhã ao marrom da noite.
+"Nuna's Backyard", 12 spreads. Mirror structure: on the left page Nuna does
+something, on the right page an animal does the same thing better. The arc
+covers a whole day, from waking up to going to sleep, which also moves the
+palette from morning yellow to night brown.
 
-Texto original. Máximo 6 palavras por página nos três idiomas.
+Original text. At most 6 words per page in all three languages.
 
 ## Liquid Glass
 
-Em iOS 26+ a tab bar padrão **já é** Liquid Glass. Não se aplica
-`.glassEffect` nela — vidro à mão é só para controle custom. O que o app usa:
+On iOS 26+ the standard tab bar **already is** Liquid Glass. `.glassEffect` is
+not applied to it — hand-made glass is only for custom controls. What the app
+uses:
 
-| Onde | API |
+| Where | API |
 |---|---|
-| Tab bar | `TabView` + `Tab(_:systemImage:value:)` padrão |
-| Encolher ao rolar | `.tabBarMinimizeBehavior(.onScrollDown)` |
-| Cartão sobre o hero | `.glassEffect(.regular, in: .rect(cornerRadius:))` |
-| Botão de fechar o livro | `.glassEffect(.regular.interactive(), in: .capsule)` |
-| CTA do onboarding | `.buttonStyle(.glassProminent)` |
-| Borda de rolagem | `.scrollEdgeEffectStyle(.soft, for: .bottom)` |
+| Tab bar | standard `TabView` + `Tab(_:systemImage:value:)` |
+| Shrink on scroll | `.tabBarMinimizeBehavior(.onScrollDown)` |
+| Card over the hero | `.glassEffect(.regular, in: .rect(cornerRadius:))` |
+| Close-book button | `.glassEffect(.regular.interactive(), in: .capsule)` |
+| Onboarding CTA | `.buttonStyle(.glassProminent)` |
+| Scroll edge | `.scrollEdgeEffectStyle(.soft, for: .bottom)` |
 
-Tudo centralizado em `DesignSystem/Glass.swift`, pra trocar em um lugar só.
+All centralized in `DesignSystem/Glass.swift`, so it changes in one place.
 
-**Onde NÃO há vidro:** a faixa de 20% inferior de qualquer página. É onde mora
-o texto da história, e material translúcido por cima dele fica ilegível pra
-quem tem três anos. Por isso o leitor esconde a tab bar inteira e roda
-full-bleed, apresentado por `fullScreenCover` e não como aba.
+**Where there is NO glass:** the bottom 20% band of any page. That is where
+the story text lives, and translucent material over it becomes unreadable for
+a three-year-old. That is why the reader hides the whole tab bar and runs
+full-bleed, presented with `fullScreenCover` rather than as a tab.
 
-## Assinatura (StoreKit 2)
+## Subscription (StoreKit 2)
 
-Um grupo de assinaturas auto-renováveis, **Nuna Premium**, com dois planos.
-Compartilhamento Familiar ligado nos dois.
+One auto-renewable subscription group, **Nuna Premium**, with two plans.
+Family Sharing is on for both.
 
-| Plano | Product ID | Período | Preço no `.storekit` |
+| Plan | Product ID | Period | Price in the `.storekit` |
 |---|---|---|---|
-| Anual | `alexandrejunior.Nuna.premium.anual` | 1 ano, com **7 dias grátis** | R$ 119,90 |
-| Mensal | `alexandrejunior.Nuna.premium.mensal` | 1 mês, sem teste | R$ 19,90 |
+| Yearly | `alexandrejunior.Nuna.premium.anual` | 1 year, with a **7-day free trial** | R$ 119.90 |
+| Monthly | `alexandrejunior.Nuna.premium.mensal` | 1 month, no trial | R$ 19.90 |
 
-O teste grátis é oferta introdutória só do anual. Quem decide se a conta tem
-direito é a Apple (`Store.trialEligible`): quem já assinou ou já usou teste no
-grupo não ganha outro, e aí o app diz "Assinar" em vez de "Teste grátis".
+The free trial is an introductory offer on the yearly plan only. Apple decides
+whether the account is eligible (`Store.trialEligible`): anyone who has
+already subscribed or used a trial in the group doesn't get another one, and
+then the app says "Subscribe" instead of "Free trial".
 
-**O que é grátis:** só o primeiro livro do catálogo, `o-quintal-da-nuna`
-(`Store.livrosGratis`). Os outros levam cadeado até `isPremium`. Livro ainda
-sem arte continua "Em breve", nunca cadeado.
+**What is free:** only the first book in the catalog, `o-quintal-da-nuna`
+(`Store.livrosGratis`). The others show a lock until `isPremium`. A book that
+has no art yet stays "Coming soon", never locked.
 
-**Fluxo.** A categoria Kids exige portão parental antes de qualquer tela de
-compra e de qualquer link que sai do app, então nenhum toque cai direto no
+**Flow.** The Kids category requires a parental gate before any purchase
+screen and any link that leaves the app, so no tap goes straight to the
 paywall:
 
 ```
-"Teste grátis"/"Assinar" no cabeçalho da Home
-ou livro bloqueado (prateleiras, Biblioteca, história da semana)
+"Free trial"/"Subscribe" in the Home header
+or a locked book (shelves, Library, story of the week)
   → RootView  → PaywallFlow: ParentalGate → PaywallView
 ```
 
-O desvio mora só em `RootView.open(_:)`: as telas continuam chamando `onOpen`,
-e livro que não pode ser lido abre o `fullScreenCover` do paywall em vez do
-leitor. O portão é uma multiplicação escrita por extenso ("Quanto é sete vezes
-oito?") com resposta digitada. O paywall fecha sozinho quando `isPremium` vira
-`true`. `NunaApp` chama `Store.shared.start()` uma vez no launch, pra ouvir
-renovação, reembolso e compra aprovada por Ask to Buy com o app aberto.
+The detour lives only in `RootView.open(_:)`: the screens keep calling
+`onOpen`, and a book that can't be read opens the paywall's `fullScreenCover`
+instead of the reader. The gate is a multiplication written out in words
+("What is seven times eight?") with a typed answer. The paywall closes on its
+own when `isPremium` becomes `true`. `NunaApp` calls `Store.shared.start()`
+once at launch, to listen for renewals, refunds and Ask to Buy purchases
+approved while the app is open.
 
-**Testar local.** `Nuna/Nuna.storekit` só vale se estiver escolhido no scheme:
-*Product › Scheme › Edit Scheme… › Run › Options › StoreKit Configuration* →
-`Nuna.storekit`. Sem isso o app pede os produtos à App Store de verdade, não
-acha nenhum e o paywall fica sem planos. Com o app rodando, *Debug › StoreKit › Manage
-Transactions* cancela, reembolsa e aprova Ask to Buy.
+**Testing locally.** `Nuna/Nuna.storekit` only applies if it is selected in
+the scheme: *Product › Scheme › Edit Scheme… › Run › Options › StoreKit
+Configuration* → `Nuna.storekit`. Without it the app asks the real App Store
+for the products, finds none, and the paywall has no plans. With the app
+running, *Debug › StoreKit › Manage Transactions* cancels, refunds and
+approves Ask to Buy.
 
-**Antes de publicar**, no App Store Connect:
+**Before publishing**, in App Store Connect:
 
-1. Paid Apps Agreement assinado (contrato, banco, impostos) — sem ele nenhum
-   produto carrega fora do Xcode.
-2. Criar o grupo "Nuna Premium" e as duas assinaturas com **exatamente** os
-   mesmos Product IDs, períodos, preços, localização pt-BR e Compartilhamento
-   Familiar.
-3. Oferta introdutória de 7 dias grátis só no anual.
-4. Screenshot de revisão de cada assinatura, e nota pro revisor explicando o
-   portão parental.
-5. Trocar `Store.Links.privacidade` (hoje placeholder, marcado com `TODO:`)
-   pela URL real da política de privacidade, e usar a mesma URL no campo do
-   app. Termos de uso: EULA padrão da Apple (`Store.Links.termos`).
-6. Mandar as assinaturas para revisão junto com um build — a primeira compra
-   in-app de um app só é aprovada com uma versão nova.
+1. Paid Apps Agreement signed (contract, banking, tax) — without it no product
+   loads outside Xcode.
+2. Create the "Nuna Premium" group and both subscriptions with **exactly** the
+   same Product IDs, periods, prices, pt-BR localization and Family Sharing.
+3. 7-day free introductory offer on the yearly plan only.
+4. Review screenshot for each subscription, and a note for the reviewer
+   explaining the parental gate.
+5. Replace `Store.Links.privacidade` (currently a placeholder, marked with
+   `TODO:`) with the real privacy policy URL, and use the same URL in the
+   app's field. Terms of use: Apple's standard EULA (`Store.Links.termos`).
+6. Submit the subscriptions for review together with a build — an app's first
+   in-app purchase is only approved with a new version.
 
-## Assets esperados
+## Expected assets
 
-Nome dos assets carrega o slug do livro para dois livros nunca colidirem no
-Assets.xcassets. O `Book` injeta o `bookId` em cada `Spread` no init, e o
-`Spread.imageName` monta o nome — `spread_o-quintal-da-nuna_01` — sem o resto
-do app precisar saber.
+Asset names carry the book's slug so two books never collide in
+Assets.xcassets. `Book` injects the `bookId` into each `Spread` in its init,
+and `Spread.imageName` builds the name — `spread_o-quintal-da-nuna_01` —
+without the rest of the app needing to know.
 
-Por spread, três nomes possíveis:
+Per spread, three possible names:
 
-- `spread_<slug>_NN`      spread completo (opcional, 3:2)
-- `spread_<slug>_NN_l`    página esquerda — usada no spread aberto e na pose fechada
-- `spread_<slug>_NN_r`    página direita
+- `spread_<slug>_NN`      full spread (optional, 3:2)
+- `spread_<slug>_NN_l`    left page — used in the open spread and the closed pose
+- `spread_<slug>_NN_r`    right page
 
-Capa: `cover_<slug>` (2:3).
+Cover: `cover_<slug>` (2:3).
 
 Onboarding: `onboarding_01`, `onboarding_02`, `onboarding_03`.
 
-**Todas essas imagens precisam respeitar a safe zone**: os 20% inferiores em
-campo liso `#F7F3E9`, sem nenhum elemento. O onboarding depende disso — o
-título é desenhado dentro dessa faixa da própria arte, sem caixa e sem sombra,
-e como o fundo do app é o mesmo Papel a emenda entre imagem e interface
-desaparece. Se a arte tiver detalhe ali, o título fica ilegível.
+**All of these images must respect the safe zone**: the bottom 20% as a flat
+`#F7F3E9` field, with no elements at all. The onboarding depends on it — the
+title is drawn inside that band of the art itself, with no box and no shadow,
+and since the app background is the same Paper, the seam between image and
+interface disappears. If the art has detail there, the title becomes
+unreadable.
 
-O `pipeline/validate.py` do `scripts-picturebook` já mede isso. Proporção:
-`2:3` para página e onboarding, `3:2` para spread.
+`scripts-picturebook`'s `pipeline/validate.py` already measures this. Aspect
+ratio: `2:3` for page and onboarding, `3:2` for spread.
 
-Enquanto não existirem, o placeholder assume.
+Until they exist, the placeholder takes over.
 
-## Próximos passos
+## Next steps
 
-1. Gerar as ilustrações com `scripts-picturebook` e importar como `spread_NN_l`
-   e `spread_NN_r`.
-2. Narração por spread + read-along (`ReaderState` já reserva `audioPosition` e
-   `highlightedWord`).
-3. Portão parental na aba Pais — obrigatório na categoria Kids antes de
-   compra, link externo ou ajuste. A compra já passa pelo `ParentalGate`;
-   falta a aba.
+1. Generate the illustrations with `scripts-picturebook` and import them as
+   `spread_NN_l` and `spread_NN_r`.
+2. Narration per spread + read-along (`ReaderState` already reserves
+   `audioPosition` and `highlightedWord`).
+3. Parental gate on the Parents tab — required in the Kids category before a
+   purchase, external link or setting. The purchase already goes through
+   `ParentalGate`; the tab is still missing.
 
-<!-- As ~130 linhas que vinham depois deste ponto (versão de 16/09) se
-perderam em 18/09: o arquivo foi sobrescrito por engano antes de entrar no
-git. O que está acima foi recuperado do histórico; o que está abaixo é novo. -->
+<!-- The ~130 lines that came after this point (version of Sep 16) were lost
+on Sep 18: the file was overwritten by mistake before it entered git. What is
+above was recovered from history; what is below is new. -->
 
-## Para abrir
+## Opening the project
 
-- **Xcode 27** ou mais novo.
-- **Git LFS** antes de clonar — a mídia (arte, vídeos e falas, ~740 MB) mora nele:
+- **Xcode 27** or newer.
+- **Git LFS** before cloning — the media (art, videos and narration, ~740 MB)
+  lives in it:
 
   ```bash
   brew install git-lfs
   git lfs install
-  git clone <url-deste-repo>
+  git clone <this-repo-url>
   ```
 
-- **`Nuna/Segredos.plist`** — fora do repositório, de propósito. Guarda a chave
-  de envio do analytics:
+- **`Nuna/Segredos.plist`** — kept out of the repository on purpose. It holds
+  the analytics ingest key:
 
   ```xml
   <?xml version="1.0" encoding="UTF-8"?>
@@ -200,37 +205,36 @@ git. O que está acima foi recuperado do histórico; o que está abaixo é novo.
   <plist version="1.0">
   <dict>
       <key>NunaAnalyticsKey</key>
-      <string>UMA-DAS-NUNA_APP_KEYS-DO-SERVIDOR</string>
+      <string>ONE-OF-THE-SERVER'S-NUNA_APP_KEYS</string>
   </dict>
   </plist>
   ```
 
-  Sem ele o app compila e roda normalmente; só o analytics fica desligado.
+  Without it the app builds and runs normally; only analytics is turned off.
 
-## Como o conteúdo chega ao app
+## How content reaches the app
 
-A arte e os vídeos **não vão no download inicial** (~20 MB): cada livro é um
-pacote sob demanda (On-Demand Resources) baixado na primeira vez que alguém o
-abre, e depois funciona offline.
+Art and videos are **not part of the initial download** (~20 MB): each book is
+an on-demand pack (On-Demand Resources) downloaded the first time someone
+opens it, and after that it works offline.
 
-- **No TestFlight e na loja**, os pacotes vêm da Apple.
-- **Em build de Debug**, quem serve os pacotes é o **Xcode, do seu Mac**: o
-  iPhone precisa estar conectado e o app ter sido instalado por esse Xcode.
-  Um *Clean Build Folder* apaga os pacotes, e aí os livros não abrem até o
-  próximo build.
+- **On TestFlight and the App Store**, the packs come from Apple.
+- **In a Debug build**, the packs are served by **Xcode, from your Mac**: the
+  iPhone has to be connected and the app installed by that Xcode. A *Clean
+  Build Folder* deletes the packs, and books won't open until the next build.
 
-Os textos, as ilustrações, os vídeos e as falas são gerados por um pipeline à
-parte (não está neste repositório), que escreve direto no `Assets.xcassets` e
-no `Resources/catalog.json`.
+The texts, illustrations, videos and narration are generated by a separate
+pipeline (not in this repository), which writes straight into
+`Assets.xcassets` and `Resources/catalog.json`.
 
-## Onde está cada coisa
+## Where things live
 
 | | |
 |---|---|
-| `Nuna/Views/ReaderView.swift` | o leitor: virada de página, uma ou duas páginas, motion e voz |
-| `Nuna/Services/Pacotes.swift` | pacotes sob demanda (arte, motion, falas) |
-| `Nuna/Services/Narracao.swift` | a voz que lê cada página |
-| `Nuna/Views/Shared/MotionVideo.swift` | o player único dos vídeos em laço |
-| `Nuna/Services/Featured.swift` | a semana grátis e as prateleiras da Home |
-| `Nuna/Services/Diagnostico.swift` | caixa-preta: rastro e relatório de crash |
-| `docs/iphone-duo.md` | o que a Apple pede para o iPhone Duo e onde o app está |
+| `Nuna/Views/ReaderView.swift` | the reader: page turns, one or two pages, motion and voice |
+| `Nuna/Services/Pacotes.swift` | on-demand packs (art, motion, narration) |
+| `Nuna/Services/Narracao.swift` | the voice that reads each page |
+| `Nuna/Views/Shared/MotionVideo.swift` | the single player for the looping videos |
+| `Nuna/Services/Featured.swift` | the free week and the Home shelves |
+| `Nuna/Services/Diagnostico.swift` | black box: activity trail and crash report |
+| `docs/iphone-duo.md` | what Apple asks for the iPhone Duo and where the app stands |
