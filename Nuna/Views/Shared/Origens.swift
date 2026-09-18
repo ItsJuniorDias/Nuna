@@ -143,4 +143,6 @@ enum FimDoOnboarding {
 enum PropositoDoPortao: String {
     case subscribe
     case manageSubscription = "manage_subscription"
+    /// Terms of Use e Privacy Policy, no paywall e na área dos pais: abrem o Safari.
+    case externalLink = "external_link"
 }

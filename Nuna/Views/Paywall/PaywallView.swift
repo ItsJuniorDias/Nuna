@@ -45,6 +45,7 @@ struct PaywallView: View {
     }
 
     @Environment(\.verticalSizeClass) private var vSize
+    @Environment(\.openURL) private var openURL
     @Environment(\.postura) private var postura
 
     /// Anual pré-selecionado: é o plano com teste grátis e o de menor preço
@@ -64,6 +65,8 @@ struct PaywallView: View {
     /// o portão terminou de sair, senão a folha da App Store tenta subir por
     /// cima de uma tela que ainda está descendo.
     @State private var portaoLiberou = false
+    /// O que o portão vai liberar: a compra ou um link para fora do app.
+    @State private var pedido: DepoisDoPortao = .assinar
     @State private var registrouVisita = false
     @State private var abertoEm = Date()
 
@@ -131,9 +134,11 @@ struct PaywallView: View {
         }
         // Cada toque em Assinar pede a conta de novo: lembrar a resposta
         // deixaria a criança que pega o aparelho depois comprar com um toque.
+        // Terms e Privacy também passam por aqui — o paywall abre sem portão,
+        // e a diretriz 1.3 não aceita link para fora sem ele.
         .fullScreenCover(isPresented: $mostrandoPortao, onDismiss: aposPortao) {
             ParentalGate(
-                proposito: .subscribe,
+                proposito: pedido.proposito,
                 onPass: {
                     portaoLiberou = true
                     mostrandoPortao = false
@@ -599,24 +604,26 @@ struct PaywallView: View {
     }
 
     private var linkTermos: some View {
-        Link(destination: Store.Links.termos) {
+        Button { pedirPortao(abrindo: Store.Links.termos) } label: {
             Text("Terms of Use")
                 .foregroundStyle(UITokens.inkSecondary)
                 .padding(.vertical, Space.xxs)
                 .contentShape(.rect)
         }
-        .accessibilityHint("Opens outside the app")
+        .buttonStyle(.plain)
+        .accessibilityHint("Asks a math question, then opens outside the app")
     }
 
     private var linkPrivacidade: some View {
-        Link(destination: Store.Links.privacidade) {
+        Button { pedirPortao(abrindo: Store.Links.privacidade) } label: {
             Text("Privacy")
                 .foregroundStyle(UITokens.inkSecondary)
                 .padding(.vertical, Space.xxs)
                 .contentShape(.rect)
         }
+        .buttonStyle(.plain)
         .accessibilityLabel("Privacy Policy")
-        .accessibilityHint("Opens outside the app")
+        .accessibilityHint("Asks a math question, then opens outside the app")
     }
 
     private var separador: some View {
@@ -671,6 +678,16 @@ struct PaywallView: View {
         Analytics.shared.track(.subscribeTapped(plano: plano.analitico,
                                                 variante: comTeste ? .freeTrial : .subscribe,
                                                 origem: origem))
+        pedido = .assinar
+        portaoLiberou = false
+        mostrandoPortao = true
+    }
+
+    /// Terms e Privacy. Sem as travas da compra: ler os termos não depende
+    /// dos planos terem carregado.
+    private func pedirPortao(abrindo url: URL) {
+        guard !mostrandoPortao else { return }
+        pedido = .abrir(url)
         portaoLiberou = false
         mostrandoPortao = true
     }
@@ -678,7 +695,10 @@ struct PaywallView: View {
     private func aposPortao() {
         guard portaoLiberou else { return }
         portaoLiberou = false
-        assinar()
+        switch pedido {
+        case .assinar:         assinar()
+        case .abrir(let url):  openURL(url)
+        }
     }
 
     /// Só chamada depois do portão: nenhum outro caminho compra.
@@ -786,6 +806,19 @@ struct PaywallView: View {
             return proprio.errorDescription ?? generica
         default:
             return generica
+        }
+    }
+}
+
+/// O que vem depois do portão do paywall.
+private enum DepoisDoPortao {
+    case assinar
+    case abrir(URL)
+
+    var proposito: PropositoDoPortao {
+        switch self {
+        case .assinar: .subscribe
+        case .abrir:   .externalLink
         }
     }
 }

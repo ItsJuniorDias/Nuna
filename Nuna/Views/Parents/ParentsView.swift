@@ -6,8 +6,9 @@
 //  mesmo cartão chapado do paywall e das teclas do portão.
 //
 //  A aba não tem portão na entrada — ver o estado da assinatura não compra
-//  nada. O portão fica no que mexe com dinheiro: Assinar, dentro do
-//  paywall, e Gerenciar assinatura, aqui.
+//  nada. O portão fica no que mexe com dinheiro ou sai do app: Assinar,
+//  dentro do paywall; Gerenciar assinatura e os links de Terms e Privacy,
+//  aqui (diretriz 1.3: nenhum link para fora sem portão).
 //
 //  Só entra o que o app já faz de verdade. Idioma e narração ganham linha
 //  quando existirem: ajuste que não muda nada ensina o pai a desconfiar da
@@ -29,10 +30,15 @@ struct ParentsView: View {
     @State private var mostrandoAviso = false
     @State private var confirmandoRecomeco = false
     @State private var mostrandoPortao = false
-    /// Mesmo esquema do paywall: a folha da Apple só sobe depois que o
-    /// portão terminou de sair.
+    /// O que o portão vai liberar. Guardado antes de ele subir, lido depois
+    /// que ele sai.
+    @State private var pedido: DepoisDoPortao = .gerenciar
+    /// Mesmo esquema do paywall: a folha da Apple (ou o Safari) só sobe
+    /// depois que o portão terminou de sair.
     @State private var portaoLiberou = false
     @State private var gerenciando = false
+
+    @Environment(\.openURL) private var openURL
 
     @Environment(\.postura) private var postura
 
@@ -76,7 +82,7 @@ struct ParentsView: View {
         .scrollEdgeEffectStyle(.soft, for: .bottom)
         .fullScreenCover(isPresented: $mostrandoPortao, onDismiss: aposPortao) {
             ParentalGate(
-                proposito: .manageSubscription,
+                proposito: pedido.proposito,
                 onPass: {
                     portaoLiberou = true
                     mostrandoPortao = false
@@ -143,7 +149,7 @@ struct ParentsView: View {
                        titulo: "Subscription active",
                        texto: "Every story is unlocked, including for everyone in your Family Sharing group.")
                 divisor
-                Button(action: pedirPortao) {
+                Button { pedirPortao(.gerenciar) } label: {
                     rotuloLinha("Manage subscription", icone: "creditcard",
                                 acessorio: .seta)
                 }
@@ -245,19 +251,19 @@ struct ParentsView: View {
             compartilharDadosDeUso
 
             divisor
-            Link(destination: Store.Links.termos) {
+            Button { pedirPortao(.abrir(Store.Links.termos)) } label: {
                 rotuloLinha("Terms of Use", icone: "doc.text", acessorio: .externo)
             }
             .buttonStyle(LinhaStyle())
-            .accessibilityHint("Opens outside the app")
+            .accessibilityHint("Asks a math question, then opens outside the app")
 
             divisor
-            Link(destination: Store.Links.privacidade) {
+            Button { pedirPortao(.abrir(Store.Links.privacidade)) } label: {
                 rotuloLinha("Privacy Policy", icone: "hand.raised",
                             acessorio: .externo)
             }
             .buttonStyle(LinhaStyle())
-            .accessibilityHint("Opens outside the app")
+            .accessibilityHint("Asks a math question, then opens outside the app")
 
             divisor
             rotuloLinha("Version", icone: "info.circle", acessorio: .nenhum,
@@ -405,7 +411,8 @@ struct ParentsView: View {
 
     // MARK: Ações
 
-    private func pedirPortao() {
+    private func pedirPortao(_ destino: DepoisDoPortao) {
+        pedido = destino
         portaoLiberou = false
         mostrandoPortao = true
     }
@@ -413,7 +420,10 @@ struct ParentsView: View {
     private func aposPortao() {
         guard portaoLiberou else { return }
         portaoLiberou = false
-        gerenciando = true
+        switch pedido {
+        case .gerenciar:       gerenciando = true
+        case .abrir(let url):  openURL(url)
+        }
     }
 
     private func restaurar() {
@@ -449,6 +459,19 @@ struct ParentsView: View {
                                           mensagem: mensagem)
                 mostrandoAviso = true
             }
+        }
+    }
+}
+
+/// O que vem depois do portão da área dos pais.
+private enum DepoisDoPortao {
+    case gerenciar
+    case abrir(URL)
+
+    var proposito: PropositoDoPortao {
+        switch self {
+        case .gerenciar: .manageSubscription
+        case .abrir:     .externalLink
         }
     }
 }

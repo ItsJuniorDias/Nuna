@@ -2,10 +2,12 @@
 //  ParentalGate.swift
 //  Nuna
 //
-//  Portão parental. A categoria Kids exige um antes de qualquer compra, e ele
-//  precisa BARRAR quem tem de três a seis anos — não só atrasar. Aparece só
-//  no que mexe com dinheiro: Assinar, no `PaywallView`, e Gerenciar
-//  assinatura, na área dos pais.
+//  Portão parental. A categoria Kids (diretriz 1.3) exige um antes de
+//  qualquer compra e de qualquer link para fora do app, e ele precisa BARRAR
+//  quem tem de três a seis anos — não só atrasar. O paywall e a área dos
+//  pais abrem sem ele; ele aparece no toque que compra ou sai do app:
+//  Assinar e os links de Terms e Privacy, no `PaywallView`; Gerenciar
+//  assinatura e os mesmos dois links, no `ParentsView`.
 //
 //  Multiplicação em algarismos ("7 × 4"): é o formato que o adulto lê de
 //  relance, e a tábua do três ao nove não é conta que criança dessa idade

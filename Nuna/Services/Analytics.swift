@@ -347,6 +347,9 @@ final class Analytics {
         guard !iniciado else { return }
         iniciado = true
         compartilhar = UserDefaults.standard.object(forKey: Self.chaveCompartilhar) as? Bool ?? true
+        // Antes de qualquer evento e com ou sem compartilhamento: é a primeira
+        // abertura que diz se a instalação é nova. Só grava uma data local.
+        Jornada.iniciar(onboardingConcluido: UserDefaults.standard.bool(forKey: "onboardingConcluido"))
 
         guard compartilhar, config.configurado else {
             versaoDaFila += 1
@@ -474,7 +477,16 @@ final class Analytics {
         }
 
         let agora = Date()
-        let propriedades = evento.propriedades
+        var propriedades = evento.propriedades
+        // Jornada: faixas calculadas no aparelho, sem id. Ver Jornada.swift.
+        switch evento {
+        case .paywallViewed:
+            propriedades.merge(Jornada.aoVerPaywall()) { doEvento, _ in doEvento }
+        case .bookCompleted:
+            Jornada.aoConcluirLivro()
+        default:
+            break
+        }
         fila.append(EventoNaFila(
             eventId: Self.novoUUID(),
             nome: evento.nome,

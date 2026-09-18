@@ -111,6 +111,32 @@ enum Faixa {
         default:   return "6_plus"
         }
     }
+
+    // MARK: Jornada (ver Jornada.swift)
+
+    /// Tempo desde que o app passou a medir a jornada nesta instalação.
+    static func idadeDaInstalacao(_ s: TimeInterval) -> String {
+        let dia: TimeInterval = 86_400
+        switch s {
+        case ..<(1 * dia):  return "lt_1d"
+        case ..<(3 * dia):  return "1_3d"
+        case ..<(7 * dia):  return "3_7d"
+        case ..<(30 * dia): return "7_30d"
+        case ..<(90 * dia): return "30_90d"
+        default:            return "gte_90d"
+        }
+    }
+
+    /// Paywalls vistos antes, ou livros concluídos: "0" é a primeira vez.
+    static func jornada(_ n: Int) -> String {
+        switch n {
+        case ...0: return "0"
+        case 1:    return "1"
+        case ...4: return "2_4"
+        case ...9: return "5_9"
+        default:   return "gte_10"
+        }
+    }
 }
 
 /// Cronômetro que só anda com o app na frente: livro esquecido aberto com o
