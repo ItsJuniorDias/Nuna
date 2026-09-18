@@ -1,0 +1,251 @@
+{
+  "id": "o-silencio-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O silêncio da Nuna",
+    "en": "Nuna's Silence",
+    "es-MX": "El Silencio de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna corre, corre, corre. Muito barulho!",
+        "en": "Nuna runs, runs, runs. So much noise!",
+        "es-MX": "¡Nuna corre, corre, corre. Mucho ruido!"
+      },
+      "right": {
+        "pt-BR": "O macaco pula, pula. Faz barulho também.",
+        "en": "The monkey jumps, jumps. Makes noise too.",
+        "es-MX": "El mono salta, salta. Hace ruido también."
+      },
+      "scene": "A child in a forest clearing, running with arms wide. A monkey in a tree, jumping with arms wide. Forest floor with some leaves, dense green foliage, bright sky.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna para. Que bom. Tudo quieto.",
+        "en": "Nuna stops. How nice. All quiet.",
+        "es-MX": "Nuna se detiene. Qué bien. Todo callado."
+      },
+      "right": {
+        "pt-BR": "A preguiça para. Não faz nada.",
+        "en": "The sloth stops. Does nothing.",
+        "es-MX": "La pereza se detiene. No hace nada."
+      },
+      "scene": "A child stands still, looking up with a gentle smile. A sloth hangs motionless from a branch. Forest floor with roots, dense green canopy, soft blue sky.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna deita na grama. Olha para cima.",
+        "en": "Nuna lies on the grass. Looks up.",
+        "es-MX": "Nuna se acuesta en la hierba. Mira hacia arriba."
+      },
+      "right": {
+        "pt-BR": "O camaleão deita no galho. Olha. Espera.",
+        "en": "The chameleon lies on the branch. Looks. Waits.",
+        "es-MX": "El camaleón se acuesta en la rama. Mira. Espera."
+      },
+      "scene": "A child lying on green grass, looking up. A chameleon lying flat on a tree branch, looking up. Green grass, tree trunk and branches, bright blue sky.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna esconde. Bem quietinha aqui.",
+        "en": "Nuna hides. Very quiet here.",
+        "es-MX": "Nuna se esconde. Muy calladita aquí."
+      },
+      "right": {
+        "pt-BR": "A coruja se esconde. Ninguém a vê.",
+        "en": "The owl hides. No one sees it.",
+        "es-MX": "La lechuza se esconde. Nadie la ve."
+      },
+      "scene": "A child peeking from behind a large bush. An owl camouflaged behind leaves on a tree branch. Bush and forest floor, dense foliage, dappled light on the sky.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna respira devagar. Um passarinho canta.",
+        "en": "Nuna breathes slowly. A little bird sings.",
+        "es-MX": "Nuna respira despacio. Un pajarito canta."
+      },
+      "right": {
+        "pt-BR": "O cervo respira. Não faz barulho.",
+        "en": "The deer breathes. Makes no sound.",
+        "es-MX": "El venado respira. No hace ruido."
+      },
+      "scene": "A child sitting cross-legged, eyes closed, calm expression. A deer standing still in a clearing, head slightly bowed. Forest floor with fallen leaves, tall trees, soft sunlight.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna olha a formiga. Que pequena!",
+        "en": "Nuna looks at the ant. So tiny!",
+        "es-MX": "Nuna mira la hormiga. ¡Qué pequeña!"
+      },
+      "right": {
+        "pt-BR": "A preguiça olha a joaninha. Devagarinho.",
+        "en": "The sloth looks at the ladybug. Very slowly.",
+        "es-MX": "La pereza mira la mariquita. Muy despacio."
+      },
+      "scene": "A child kneeling on the ground, head close to the earth, observing something small. A sloth hanging low, head tilted, observing something tiny on a leaf. Ground with small plants, tree roots, soft light filtering through leaves.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna senta na pedra. Escuta o riacho.",
+        "en": "Nuna sits on a rock. Hears the stream.",
+        "es-MX": "Nuna se sienta en la roca. Escucha el arroyo."
+      },
+      "right": {
+        "pt-BR": "O camaleão senta no galho. Escuta.",
+        "en": "The chameleon sits on the branch. Listens.",
+        "es-MX": "El camaleón se sienta en la rama. Escucha."
+      },
+      "scene": "A child sitting on a large smooth rock beside a small stream, head slightly tilted. A chameleon perched on a branch overlooking a small puddle, head slightly tilted. Rocky ground, flowing water, dense forest foliage, bright sky.",
+      "colors": [
+        "oliva",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna vê uma borboleta. Ela voa leve.",
+        "en": "Nuna sees a butterfly. It flies lightly.",
+        "es-MX": "Nuna ve una mariposa. Ella vuela ligera."
+      },
+      "right": {
+        "pt-BR": "A coruja vê um vaga-lume. Voa na noite.",
+        "en": "The owl sees a firefly. Flies in the night.",
+        "es-MX": "La lechuza ve una luciérnaga. Vuela en la noche."
+      },
+      "scene": "A child standing still, pointing gently at a butterfly in the air. An owl perched on a branch, looking intently at a firefly glowing in the dark. Forest floor, tall trees with dark silhouettes, starry night sky.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna encontra um cogumelo. Que lindo!",
+        "en": "Nuna finds a mushroom. So pretty!",
+        "es-MX": "Nuna encuentra un hongo. ¡Qué bonito!"
+      },
+      "right": {
+        "pt-BR": "O cervo encontra a flor. Ele cheira.",
+        "en": "The deer finds a flower. It smells it.",
+        "es-MX": "El venado encuentra la flor. La huele."
+      },
+      "scene": "A child kneeling, gently touching a mushroom on the forest floor. A deer bending its head to sniff a small flower. Leafy forest floor, tree trunks, dappled sunlight.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna fica parada. O passarinho pousa.",
+        "en": "Nuna stands still. The bird lands.",
+        "es-MX": "Nuna se queda quieta. El pajarito aterriza."
+      },
+      "right": {
+        "pt-BR": "A preguiça fica quieta. O pássaro pousa.",
+        "en": "The sloth stays quiet. The bird lands.",
+        "es-MX": "La pereza se queda quieta. El pájaro aterriza."
+      },
+      "scene": "A child standing very still, a small bird perched on her outstretched finger. A sloth hanging motionless, a small bird perched on its head. Forest floor, dense foliage, bright sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna sente o vento. O mundo fala baixo.",
+        "en": "Nuna feels the wind. The world speaks softly.",
+        "es-MX": "Nuna siente el viento. El mundo habla bajo."
+      },
+      "right": {
+        "pt-BR": "O cervo sente o vento. Escuta a floresta.",
+        "en": "The deer feels the wind. Listens to the forest.",
+        "es-MX": "El venado siente el viento. Escucha el bosque."
+      },
+      "scene": "A child standing on a gentle hillside, eyes closed, face tilted up, feeling the wind. A deer standing alert in a field, ears perked, feeling the wind. Grassy hillside, distant trees, open sky with soft clouds.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna agora sabe. O silêncio é amigo.",
+        "en": "Nuna now knows. Silence is a friend.",
+        "es-MX": "Nuna ahora sabe. El silencio es amigo."
+      },
+      "right": {
+        "pt-BR": "A coruja agora sabe. O silêncio traz.",
+        "en": "The owl now knows. Silence brings.",
+        "es-MX": "La lechuza ahora sabe. El silencio trae."
+      },
+      "scene": "A child sitting peacefully under a tree, a small smile on her face, eyes open. An owl perched calmly on a branch, looking out with serene eyes. Tree roots and leaves on the ground, large tree trunk, soft light filtering through leaves.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    }
+  ]
+}

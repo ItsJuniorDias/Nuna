@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_o-jardim-da-nuna_01_l.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-o-jardim-da-nuna"
+    ]
+  }
+}

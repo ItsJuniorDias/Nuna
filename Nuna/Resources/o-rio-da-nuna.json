@@ -1,0 +1,251 @@
+{
+  "id": "o-rio-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Rio da Nuna",
+    "en": "Nuna's River",
+    "es-MX": "El Río de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna ve o rio.",
+        "en": "Nuna sees the river.",
+        "es-MX": "Nuna ve el río."
+      },
+      "right": {
+        "pt-BR": "Capivara ve o rio.",
+        "en": "Capybara sees the river.",
+        "es-MX": "Capibara ve el río."
+      },
+      "scene": "A small child stands on a grassy bank looking at a calm river, a capybara stands on a grassy bank looking at a calm river in the same pose. The background has a grassy bank, a wide river, and a clear sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna anda na areia.",
+        "en": "Nuna walks on the sand.",
+        "es-MX": "Nuna camina en la arena."
+      },
+      "right": {
+        "pt-BR": "Garça anda na areia.",
+        "en": "Heron walks on the sand.",
+        "es-MX": "Garza camina en la arena."
+      },
+      "scene": "A small child walks on a sandy riverbank, a heron walks on a sandy riverbank in the same pose. The background has a sandy bank, a narrow river, and a clear sky.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna para e observa.",
+        "en": "Nuna stops and watches.",
+        "es-MX": "Nuna se para y mira."
+      },
+      "right": {
+        "pt-BR": "Peixe para e observa.",
+        "en": "Fish stops and watches.",
+        "es-MX": "Pez se para y mira."
+      },
+      "scene": "A small child stands still, looking intently at something in the water, a fish floats still in the water, looking intently at something in the same pose. The background has a sandy river bottom, clear river water, and a sunlit surface.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna pisa na pedra.",
+        "en": "Nuna steps on a rock.",
+        "es-MX": "Nuna pisa la piedra."
+      },
+      "right": {
+        "pt-BR": "Garça pisa na pedra.",
+        "en": "Heron steps on a rock.",
+        "es-MX": "Garza pisa la piedra."
+      },
+      "scene": "A small child steps carefully onto a smooth river rock, a heron steps carefully onto a smooth river rock in the same pose. The background has river rocks, shallow water, and a distant bank.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna pula a pedra.",
+        "en": "Nuna jumps the rock.",
+        "es-MX": "Nuna salta la piedra."
+      },
+      "right": {
+        "pt-BR": "Capivara pula a pedra.",
+        "en": "Capybara jumps the rock.",
+        "es-MX": "Capibara salta la piedra."
+      },
+      "scene": "A small child jumps over a river rock, a capybara jumps over a river rock in the same pose. The background has river rocks, splashing water, and a distant green bank.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna molha o pé.",
+        "en": "Nuna wets her foot.",
+        "es-MX": "Nuna moja el pie."
+      },
+      "right": {
+        "pt-BR": "Capivara molha o pé.",
+        "en": "Capybara wets its foot.",
+        "es-MX": "Capibara moja el pie."
+      },
+      "scene": "A small child dips a foot into the cool river water, a capybara dips a foot into the cool river water in the same pose. The background has a sandy edge, clear water, and reflections.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna entra na água.",
+        "en": "Nuna enters the water.",
+        "es-MX": "Nuna entra al agua."
+      },
+      "right": {
+        "pt-BR": "Garça entra na água.",
+        "en": "Heron enters the water.",
+        "es-MX": "Garza entra al agua."
+      },
+      "scene": "A small child wades into the shallow river, a heron wades into the shallow river in the same pose. The background has a muddy bottom, knee-deep water, and reeds on the bank.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna espalha a água.",
+        "en": "Nuna splashes the water.",
+        "es-MX": "Nuna salpica el agua."
+      },
+      "right": {
+        "pt-BR": "Peixe espalha a água.",
+        "en": "Fish splashes the water.",
+        "es-MX": "Pez salpica el agua."
+      },
+      "scene": "A small child splashes water with her hands, a fish splashes water with its tail in the same pose. The background has rippling water, green river plants, and sunlight catching droplets.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna olha para cima.",
+        "en": "Nuna looks up.",
+        "es-MX": "Nuna mira hacia arriba."
+      },
+      "right": {
+        "pt-BR": "Libélula olha para cima.",
+        "en": "Dragonfly looks up.",
+        "es-MX": "Libélula mira hacia arriba."
+      },
+      "scene": "A small child tilts her head back, looking at the sky, a dragonfly hovers, tilting its head back looking at the sky in the same pose. The background has a river surface, tall reeds, and a bright sky.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna respira fundo.",
+        "en": "Nuna breathes deeply.",
+        "es-MX": "Nuna respira hondo."
+      },
+      "right": {
+        "pt-BR": "Capivara respira fundo.",
+        "en": "Capybara breathes deeply.",
+        "es-MX": "Capibara respira hondo."
+      },
+      "scene": "A small child stands in the river, taking a deep breath, a capybara stands in the river, taking a deep breath in the same pose. The background has submerged plants, calm water, and a distant forest line.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna mergulha feliz.",
+        "en": "Nuna dives happily.",
+        "es-MX": "Nuna bucea feliz."
+      },
+      "right": {
+        "pt-BR": "Peixe mergulha feliz.",
+        "en": "Fish dives happily.",
+        "es-MX": "Pez bucea feliz."
+      },
+      "scene": "A small child dives underwater with a joyful expression, a fish dives underwater with a joyful expression in the same pose. The background has clear blue water, sun rays filtering through, and blurry riverbed.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna flutua no rio.",
+        "en": "Nuna floats in the river.",
+        "es-MX": "Nuna flota en el río."
+      },
+      "right": {
+        "pt-BR": "Capivara flutua no rio.",
+        "en": "Capybara floats in the river.",
+        "es-MX": "Capibara flota en el río."
+      },
+      "scene": "A small child floats on her back in the calm river, a capybara floats on its back in the calm river in the same pose. The background has a serene river surface, soft reflections, and a distant gentle bank.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    }
+  ]
+}

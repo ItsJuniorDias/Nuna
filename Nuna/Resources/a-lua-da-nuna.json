@@ -1,0 +1,248 @@
+{
+  "id": "a-lua-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A lua da Nuna",
+    "en": "Nuna's Moon",
+    "es-MX": "La luna de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna olha a lua.",
+        "en": "Nuna sees the moon.",
+        "es-MX": "Nuna mira la luna."
+      },
+      "right": {
+        "pt-BR": "A lua e grande.",
+        "en": "The moon is big.",
+        "es-MX": "La luna es grande."
+      },
+      "scene": "A young child stands at a window looking up at the moon. The window has a simple sill. The sky is dark with a large, full moon. A similar window is on the right, with a large, full moon visible.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna ve a lua.",
+        "en": "Nuna sees the moon.",
+        "es-MX": "Nuna ve la luna."
+      },
+      "right": {
+        "pt-BR": "A coruja ve tambem.",
+        "en": "The owl sees it too.",
+        "es-MX": "El búho también la ve."
+      },
+      "scene": "A young child stands at a window, looking up at the moon. A tree branch extends into the window frame from the left. An owl sits on a tree branch, looking up at the moon, mirroring the child's pose. The ground is dark, the tree branch is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna levanta o braco.",
+        "en": "Nuna raises her arm.",
+        "es-MX": "Nuna levanta el brazo."
+      },
+      "right": {
+        "pt-BR": "A coruja abre a asa.",
+        "en": "The owl opens its wing.",
+        "es-MX": "El búho abre el ala."
+      },
+      "scene": "A young child stands at a window, raising one arm towards the moon. A tree branch extends into the window frame from the left. An owl sits on a tree branch, opening one wing towards the moon, mirroring the child's pose. The ground is dark, the tree branch is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna aponta para a lua.",
+        "en": "Nuna points at the moon.",
+        "es-MX": "Nuna señala la luna."
+      },
+      "right": {
+        "pt-BR": "O gato olha a lua.",
+        "en": "The cat looks at the moon.",
+        "es-MX": "El gato mira la luna."
+      },
+      "scene": "A young child stands at a window, pointing up at the moon. A cat sits on a window sill, looking up at the moon, mirroring the child's pose. The ground is dark, the window sill is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna sorri para a lua.",
+        "en": "Nuna smiles at the moon.",
+        "es-MX": "Nuna sonríe a la luna."
+      },
+      "right": {
+        "pt-BR": "O gato pisca para a lua.",
+        "en": "The cat winks at the moon.",
+        "es-MX": "El gato guiña a la luna."
+      },
+      "scene": "A young child stands at a window, smiling towards the moon. A cat sits on a window sill, winking towards the moon, mirroring the child's pose. The ground is dark, the window sill is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna ve a mariposa.",
+        "en": "Nuna sees the moth.",
+        "es-MX": "Nuna ve la polilla."
+      },
+      "right": {
+        "pt-BR": "A mariposa ve a lua.",
+        "en": "The moth sees the moon.",
+        "es-MX": "La polilla ve la luna."
+      },
+      "scene": "A young child stands at a window, looking at a moth flying near the window pane. A moth flies near a flower in the window, looking towards the moon, mirroring the child's gaze. The ground is dark, a flower is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna acena para a lua.",
+        "en": "Nuna waves at the moon.",
+        "es-MX": "Nuna saluda a la luna."
+      },
+      "right": {
+        "pt-BR": "A mariposa bate as asas.",
+        "en": "The moth flaps its wings.",
+        "es-MX": "La polilla aletea."
+      },
+      "scene": "A young child stands at a window, waving towards the moon. A moth flies near a flower in the window, flapping its wings towards the moon, mirroring the child's action. The ground is dark, a flower is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna escuta o lobo.",
+        "en": "Nuna hears the wolf.",
+        "es-MX": "Nuna escucha al lobo."
+      },
+      "right": {
+        "pt-BR": "O lobo uiva para a lua.",
+        "en": "The wolf howls at the moon.",
+        "es-MX": "El lobo aúlla a la luna."
+      },
+      "scene": "A young child stands at a window, listening intently. A distant wolf stands on a hill, howling at the moon, mirroring the child's pose. The ground is dark, a distant hill is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna uiva baixinho.",
+        "en": "Nuna howls softly.",
+        "es-MX": "Nuna aúlla suavemente."
+      },
+      "right": {
+        "pt-BR": "O lobo uiva alto.",
+        "en": "The wolf howls loudly.",
+        "es-MX": "El lobo aúlla fuerte."
+      },
+      "scene": "A young child stands at a window, making a soft howling sound. A distant wolf stands on a hill, howling loudly at the moon, mirroring the child's action. The ground is dark, a distant hill is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e a lua.",
+        "en": "Nuna and the moon.",
+        "es-MX": "Nuna y la luna."
+      },
+      "right": {
+        "pt-BR": "Amigos da noite.",
+        "en": "Nighttime friends.",
+        "es-MX": "Amigos de la noche."
+      },
+      "scene": "A young child stands at a window, looking at the moon with a peaceful expression. A large, full moon is prominent in the sky. The ground is dark, the window sill is in the middle, and the sky is dark with a large moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna da boa noite.",
+        "en": "Nuna says goodnight.",
+        "es-MX": "Nuna dice buenas noches."
+      },
+      "right": {
+        "pt-BR": "A lua sorri.",
+        "en": "The moon smiles.",
+        "es-MX": "La luna sonríe."
+      },
+      "scene": "A young child stands at a window, waving goodnight to the moon. The moon in the sky appears to have a gentle, smiling expression. The ground is dark, the window sill is in the middle, and the sky is dark with a large, smiling moon.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna dorme.",
+        "en": "Nuna sleeps.",
+        "es-MX": "Nuna duerme."
+      },
+      "right": {
+        "pt-BR": "A lua vigia.",
+        "en": "The moon watches.",
+        "es-MX": "La luna vigila."
+      },
+      "scene": "A young child is asleep in her bed, in a cozy room. The moon is visible through the window, shining softly. The bed is on the ground, the window is in the middle, and the sky with the moon is above.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "a-sombra-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A sombra da Nuna",
+    "en": "Nuna's Shadow",
+    "es-MX": "La sombra de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Sol forte!",
+        "en": "Bright sun!",
+        "es-MX": "¡Sol fuerte!"
+      },
+      "right": {
+        "pt-BR": "Nuna tem calor.",
+        "en": "Nuna is hot.",
+        "es-MX": "Nuna tiene calor."
+      },
+      "scene": "A young child stands on the left, looking up at the sun with a slightly uncomfortable expression. On the right, a small lizard basks in the sun. The ground is dry earth, with a clear sky above.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Procurando sombra.",
+        "en": "Looking for shade.",
+        "es-MX": "Buscando sombra."
+      },
+      "right": {
+        "pt-BR": "Onde está?",
+        "en": "Where is it?",
+        "es-MX": "¿Dónde está?"
+      },
+      "scene": "A young child on the left, hand over eyes, scans the horizon. On the right, a dog peeks from behind a small bush. The ground is sandy, with a few low plants and a bright sky.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Uma árvore grande.",
+        "en": "A big tree.",
+        "es-MX": "Un árbol grande."
+      },
+      "right": {
+        "pt-BR": "Ufa, que alívio!",
+        "en": "Phew, what a relief!",
+        "es-MX": "¡Uf, qué alivio!"
+      },
+      "scene": "A young child on the left, in the shade of a large tree, sighs happily. On the right, a cat stretches out under the same tree. The ground is grassy, with the tree trunk visible and a sunny sky.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna olha para baixo.",
+        "en": "Nuna looks down.",
+        "es-MX": "Nuna mira abajo."
+      },
+      "right": {
+        "pt-BR": "Sua sombra ali!",
+        "en": "Her shadow there!",
+        "es-MX": "¡Su sombra allí!"
+      },
+      "scene": "A young child on the left points to their shadow on the ground. On the right, a lizard looks at its own shadow. The ground is dusty earth, with a bright sky.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "A sombra é comprida.",
+        "en": "The shadow is long.",
+        "es-MX": "La sombra es larga."
+      },
+      "right": {
+        "pt-BR": "Muito comprida!",
+        "en": "Very long!",
+        "es-MX": "¡Muy larga!"
+      },
+      "scene": "A young child on the left, arms outstretched, marvels at their elongated shadow. On the right, a dog stretches, casting a long shadow. The ground is flat, with a bright sky above.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna corre.",
+        "en": "Nuna runs.",
+        "es-MX": "Nuna corre."
+      },
+      "right": {
+        "pt-BR": "A sombra corre junto.",
+        "en": "Shadow runs along.",
+        "es-MX": "La sombra corre también."
+      },
+      "scene": "A young child on the left is running, their shadow trailing behind. On the right, a cat is playfully chasing its own shadow. The ground is a path, with a clear sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna pula.",
+        "en": "Nuna jumps.",
+        "es-MX": "Nuna salta."
+      },
+      "right": {
+        "pt-BR": "A sombra pula também.",
+        "en": "Shadow jumps too.",
+        "es-MX": "La sombra salta también."
+      },
+      "scene": "A young child on the left is mid-air, jumping, with their shadow below. On the right, a dog is jumping to catch a leaf, its shadow mirrored. The ground is a patch of grass, with a clear sky.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "O sol vai embora.",
+        "en": "The sun goes away.",
+        "es-MX": "El sol se va."
+      },
+      "right": {
+        "pt-BR": "A sombra fica pequena.",
+        "en": "Shadow gets small.",
+        "es-MX": "La sombra se hace pequeña."
+      },
+      "scene": "A young child on the left looks at their shadow, which is now shorter. On the right, a lizard looks at its shrinking shadow. The sun is lower in the sky, casting longer evening shadows.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna acena.",
+        "en": "Nuna waves.",
+        "es-MX": "Nuna saluda."
+      },
+      "right": {
+        "pt-BR": "Tchau, sombra!",
+        "en": "Bye, shadow!",
+        "es-MX": "¡Adiós, sombra!"
+      },
+      "scene": "A young child on the left waves goodbye to their fading shadow. On the right, a cat lifts a paw as if waving. The sky is turning orange, with softer light.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "A lua já vem.",
+        "en": "The moon is coming.",
+        "es-MX": "La luna ya viene."
+      },
+      "right": {
+        "pt-BR": "Tudo escuro agora.",
+        "en": "All dark now.",
+        "es-MX": "Todo oscuro ahora."
+      },
+      "scene": "A young child on the left looks up at the sky, where a crescent moon is visible. On the right, a dog yawns under the darkening sky. The ground is dimly lit.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna vai dormir.",
+        "en": "Nuna goes to sleep.",
+        "es-MX": "Nuna va a dormir."
+      },
+      "right": {
+        "pt-BR": "Até amanhã, sol!",
+        "en": "See you tomorrow, sun!",
+        "es-MX": "¡Hasta mañana, sol!"
+      },
+      "scene": "A young child on the left is curled up in bed, eyes closed. On the right, a cat is sleeping peacefully. The room is dark, with a hint of moonlight from a window.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Sonhando com o dia.",
+        "en": "Dreaming of the day.",
+        "es-MX": "Soñando con el día."
+      },
+      "right": {
+        "pt-BR": "E com sua sombra.",
+        "en": "And her shadow.",
+        "es-MX": "Y con su sombra."
+      },
+      "scene": "A young child on the left, eyes closed, has a thought bubble above them showing a bright sun. On the right, a dog is dreaming, with a thought bubble showing a playful shadow. The room is still dark.",
+      "colors": [
+        "azul_profundo",
+        "rosa_poeira",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    }
+  ]
+}

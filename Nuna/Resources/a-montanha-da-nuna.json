@@ -1,0 +1,301 @@
+{
+  "id": "a-montanha-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A montanha da Nuna",
+    "en": "Nuna's Mountain",
+    "es-MX": "La montaña de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Theo começam a trilha.",
+        "en": "Nuna and Theo start up the trail.",
+        "es-MX": "Nuna y Theo empiezan el sendero."
+      },
+      "right": {
+        "pt-BR": "A cabra-montesa já chegou lá em cima.",
+        "en": "The mountain goat is already at the top.",
+        "es-MX": "La cabra montés ya está en la cima."
+      },
+      "scene": "On the left Nuna and Theo set off up a mountain path with small backpacks, looking up; on the right a mountain goat stands on a high rocky peak looking down, in the same looking-up line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a mountain peak band through the middle, a trail band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois sobem devagarinho.",
+        "en": "Both climb up slowly.",
+        "es-MX": "Los dos suben despacito."
+      },
+      "right": {
+        "pt-BR": "A lhama sobe carregando peso.",
+        "en": "The llama climbs with a heavy pack.",
+        "es-MX": "La llama sube con carga."
+      },
+      "scene": "On the left Nuna and Theo walk slowly up a gentle trail, leaning forward; on the right a llama walks up a mountain path with packs on its back, leaning forward in the same climbing step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a mountain slope band through the middle, a trail band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Os dois gritam: olááá!",
+        "en": "Both call out: hello-o-o!",
+        "es-MX": "Los dos gritan: ¡hola-a-a!"
+      },
+      "right": {
+        "pt-BR": "A marmota assobia ainda mais alto.",
+        "en": "The marmot whistles even louder.",
+        "es-MX": "La marmota silba más fuerte."
+      },
+      "scene": "On the left Nuna and Theo cup their hands around their mouths and call out across the valley; on the right a marmot stands up tall on a rock and whistles loudly with its mouth open, in the same calling pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a valley band through the middle, a rocky trail band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Theo cruzam a pontezinha.",
+        "en": "Nuna and Theo cross a little bridge.",
+        "es-MX": "Nuna y Theo cruzan el puentecito."
+      },
+      "right": {
+        "pt-BR": "O panda-vermelho atravessa pelo galho.",
+        "en": "The red panda crosses on a branch.",
+        "es-MX": "El panda rojo cruza por la rama."
+      },
+      "scene": "On the left Nuna and Theo walk carefully across a small wooden footbridge with rails, holding on; on the right a small panda with a ringed tail walks carefully along a tree branch, in the same careful crossing. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pine branch band through the middle, a footbridge and stream band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os dois andam dentro da nuvem.",
+        "en": "Both walk right into a cloud.",
+        "es-MX": "Los dos caminan dentro de la nube."
+      },
+      "right": {
+        "pt-BR": "O iaque mora acima das nuvens.",
+        "en": "The yak lives above the clouds.",
+        "es-MX": "El yak vive sobre las nubes."
+      },
+      "scene": "On the left Nuna and Theo walk through soft mist on the trail, arms out, smiling; on the right a shaggy yak stands on a high slope above a sea of clouds, in the same misty stroll. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a cloud band through the middle, a high slope band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois descansam na pedra.",
+        "en": "Both rest on a big rock.",
+        "es-MX": "Los dos descansan en la roca."
+      },
+      "right": {
+        "pt-BR": "O leopardo-das-neves cochila na rocha.",
+        "en": "The snow leopard naps on a ledge.",
+        "es-MX": "El leopardo de las nieves duerme ahí."
+      },
+      "scene": "On the left Nuna and Theo sit on a big flat rock with their legs dangling, resting; on the right a snow leopard naps stretched out on a rocky ledge with its long tail hanging down, in the same dangling rest. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rocky ledge band through the middle, a trail band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os dois chegam lá no topo!",
+        "en": "They made it to the top!",
+        "es-MX": "¡Los dos llegan a la cima!"
+      },
+      "right": {
+        "pt-BR": "A águia pousa no pico mais alto.",
+        "en": "The eagle lands on the highest peak.",
+        "es-MX": "El águila se posa en la cima."
+      },
+      "scene": "On the left Nuna and Theo stand on a grassy hilltop with their arms raised high, Theo's cape flying; on the right an eagle lands on the tallest mountain peak with its wings raised high, in the same arms-up pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a mountain peak band through the middle, a hilltop band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "tijolo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Theo juntam florzinhas.",
+        "en": "Nuna and Theo pick tiny flowers.",
+        "es-MX": "Nuna y Theo juntan florecitas."
+      },
+      "right": {
+        "pt-BR": "A pika junta flores para o inverno.",
+        "en": "The pika gathers flowers for winter.",
+        "es-MX": "La pika junta flores para el invierno."
+      },
+      "scene": "On the left Nuna and Theo crouch in an alpine meadow picking tiny wildflowers into little bunches; on the right a pika carries a mouthful of flowers to its pile between the rocks, in the same gathering pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rocky slope band through the middle, an alpine meadow band along the bottom.",
+      "colors": [
+        "magenta",
+        "verde_lima",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Agora, descendo com cuidado.",
+        "en": "Now down, very carefully.",
+        "es-MX": "Ahora, bajando con cuidado."
+      },
+      "right": {
+        "pt-BR": "A trepadeira desce de cabeça para baixo.",
+        "en": "The nuthatch climbs down headfirst.",
+        "es-MX": "El trepador baja de cabeza."
+      },
+      "scene": "On the left Nuna and Theo walk carefully down the trail, holding hands and looking at their feet; on the right a nuthatch walks headfirst down a tree trunk, in the same careful downward step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pine trunk band through the middle, a downhill trail band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Os dois abraçam uma árvore enorme.",
+        "en": "Both hug a giant tree.",
+        "es-MX": "Los dos abrazan un árbol enorme."
+      },
+      "right": {
+        "pt-BR": "O coala abraça a árvore o dia todo.",
+        "en": "The koala hugs its tree all day.",
+        "es-MX": "El koala abraza su árbol todo el día."
+      },
+      "scene": "On the left Nuna and Theo stretch their arms around a huge tree trunk from both sides; on the right a koala hugs a tree trunk with its arms and legs wrapped around it, in the same big hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tall tree band through the middle, a forest floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Theo esticam as pernas.",
+        "en": "Nuna and Theo stretch tired legs.",
+        "es-MX": "Nuna y Theo estiran las piernas."
+      },
+      "right": {
+        "pt-BR": "O puma se espreguiça bem comprido.",
+        "en": "The mountain lion stretches out long.",
+        "es-MX": "El puma se estira larguísimo."
+      },
+      "scene": "On the left Nuna and Theo sit at the bottom of the trail stretching their legs out long; on the right a mountain lion stretches out long on a rock with its legs reaching forward, in the same long stretch. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunset sky band across the top, a mountain band through the middle, a trailhead band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Theo dormem cansadinhos.",
+        "en": "Nuna and Theo sleep, all tired out.",
+        "es-MX": "Nuna y Theo duermen cansaditos."
+      },
+      "right": {
+        "pt-BR": "O urso dorme fundo na toca.",
+        "en": "The bear sleeps deep in its den.",
+        "es-MX": "El oso duerme en su cueva."
+      },
+      "scene": "On the left Nuna and Theo sleep in bunk beds in a little mountain cabin, curled up; on the right a bear sleeps curled up in a cozy den under the mountain snow, in the same curled sleep. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a cabin and mountain band through the middle, a bunk bed and den band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Theo stand side-by-side in the center, facing forward with small backpacks, one hand raised in a wave, with a small llama to their left, a small snow leopard to their right, and a small yak behind them, all looking at the children. The background features a green meadow band at the bottom, followed by a mountain range band, and a calm blue sky band at the top.",
+  "cover_bands": 3
+}

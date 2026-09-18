@@ -1,0 +1,251 @@
+{
+  "id": "a-praia-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Praia da Nuna",
+    "en": "Nuna's Beach",
+    "es-MX": "La Playa de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna chega na praia.",
+        "en": "Nuna arrives at beach.",
+        "es-MX": "Nuna llega a la playa."
+      },
+      "right": {
+        "pt-BR": "Gaivota chega voando.",
+        "en": "Seagull flies in.",
+        "es-MX": "Gaviota llega volando."
+      },
+      "scene": "A wide beach scene with a clear sky, a distant ocean, and sand in the foreground. Nuna stands on the sand, looking out. A seagull is landing on the sand, in the same pose.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna cava a areia fofa.",
+        "en": "Nuna digs soft sand.",
+        "es-MX": "Nuna cava arena suave."
+      },
+      "right": {
+        "pt-BR": "Caranguejo cava seu buraco.",
+        "en": "Crab digs its hole.",
+        "es-MX": "Cangrejo cava su hoyo."
+      },
+      "scene": "A close-up of a sandy beach with a faint horizon line. Nuna is kneeling and digging in the sand with her hands. A crab is digging in the sand with its claws, in the same pose.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna corre perto da onda.",
+        "en": "Nuna runs near wave.",
+        "es-MX": "Nuna corre cerca ola."
+      },
+      "right": {
+        "pt-BR": "Tartaruga corre da onda.",
+        "en": "Turtle runs from wave.",
+        "es-MX": "Tortuga corre de ola."
+      },
+      "scene": "A beach with gentle waves lapping the shore. Nuna is running on the wet sand, away from a small wave. A small sea turtle is running on the wet sand, in the same pose.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna boia na água rasa.",
+        "en": "Nuna floats in shallow water.",
+        "es-MX": "Nuna flota en agua baja."
+      },
+      "right": {
+        "pt-BR": "Gaivota boia na água calma.",
+        "en": "Seagull floats in calm water.",
+        "es-MX": "Gaviota flota en agua calma."
+      },
+      "scene": "A tranquil ocean scene with a clear sky. Nuna is floating on her back in the shallow water. A seagull is floating on the calm water, in the same pose.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna procura conchas vazias.",
+        "en": "Nuna looks for empty shells.",
+        "es-MX": "Nuna busca conchas vacías."
+      },
+      "right": {
+        "pt-BR": "Caranguejo procura conchas.",
+        "en": "Crab looks for shells.",
+        "es-MX": "Cangrejo busca conchas."
+      },
+      "scene": "A sandy beach with scattered shells, a distant ocean. Nuna is bending down, looking closely at the sand for shells. A crab is bending down, looking closely at the sand for shells, in the same pose.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna olha o céu azul.",
+        "en": "Nuna looks at blue sky.",
+        "es-MX": "Nuna mira el cielo azul."
+      },
+      "right": {
+        "pt-BR": "Gaivota olha o céu vasto.",
+        "en": "Seagull looks at vast sky.",
+        "es-MX": "Gaviota mira el cielo vasto."
+      },
+      "scene": "A wide-open beach scene with a vast, clear sky. Nuna is standing, looking up at the sky. A seagull is standing on the sand, looking up at the sky, in the same pose.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna toca a água fria.",
+        "en": "Nuna touches cold water.",
+        "es-MX": "Nuna toca el agua fría."
+      },
+      "right": {
+        "pt-BR": "Estrela-do-mar toca a areia.",
+        "en": "Starfish touches the sand.",
+        "es-MX": "Estrella de mar toca la arena."
+      },
+      "scene": "A close-up of the water's edge on a beach. Nuna is reaching her hand into the water. A starfish is resting on the wet sand at the water's edge, with one arm extending into the water, in the same pose.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna esconde seu tesouro.",
+        "en": "Nuna hides her treasure.",
+        "es-MX": "Nuna esconde su tesoro."
+      },
+      "right": {
+        "pt-BR": "Caranguejo esconde a comida.",
+        "en": "Crab hides its food.",
+        "es-MX": "Cangrejo esconde su comida."
+      },
+      "scene": "A sandy beach with a small mound of sand. Nuna is burying a small object in the sand. A crab is burying a small piece of food in the sand, in the same pose.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna brinca na areia.",
+        "en": "Nuna plays in the sand.",
+        "es-MX": "Nuna juega en la arena."
+      },
+      "right": {
+        "pt-BR": "Tartaruga brinca na areia.",
+        "en": "Turtle plays in the sand.",
+        "es-MX": "Tortuga juega en la arena."
+      },
+      "scene": "A sandy beach with a clear horizon line. Nuna is playing with a small toy in the sand. A small sea turtle is playing with a small shell in the sand, in the same pose.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna observa o mar.",
+        "en": "Nuna observes the sea.",
+        "es-MX": "Nuna observa el mar."
+      },
+      "right": {
+        "pt-BR": "Gaivota observa o mar.",
+        "en": "Seagull observes the sea.",
+        "es-MX": "Gaviota observa el mar."
+      },
+      "scene": "A broad ocean view with a clear sky above. Nuna is standing at the edge of the water, looking out at the ocean. A seagull is standing on a small rock at the water's edge, looking out at the ocean, in the same pose.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna sente a areia quente.",
+        "en": "Nuna feels warm sand.",
+        "es-MX": "Nuna siente arena caliente."
+      },
+      "right": {
+        "pt-BR": "Caranguejo sente a areia.",
+        "en": "Crab feels the sand.",
+        "es-MX": "Cangrejo siente la arena."
+      },
+      "scene": "A close-up of warm, dry sand. Nuna is sitting on the sand, touching it with her hands. A crab is sitting on the sand, touching it with its claws, in the same pose.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna acena adeus.",
+        "en": "Nuna waves goodbye.",
+        "es-MX": "Nuna dice adiós."
+      },
+      "right": {
+        "pt-BR": "Tartaruga nada adeus.",
+        "en": "Turtle swims goodbye.",
+        "es-MX": "Tortuga nada adiós."
+      },
+      "scene": "A beach with the ocean stretching to the horizon under a setting sun. Nuna is standing at the water's edge, waving. A sea turtle is in the shallow water, waving its flipper, in the same pose.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 4
+    }
+  ]
+}

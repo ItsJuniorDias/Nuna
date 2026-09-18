@@ -1,0 +1,251 @@
+{
+  "id": "o-medo-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Medo da Nuna",
+    "en": "Nuna's Fear",
+    "es-MX": "El Miedo de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna se assusta. Que barulhão!",
+        "en": "Nuna gets scared. What a big noise!",
+        "es-MX": "Nuna se asusta. ¡Qué ruido!"
+      },
+      "right": {
+        "pt-BR": "O gato se assusta. Que barulhão!",
+        "en": "The cat gets scared. What a big noise!",
+        "es-MX": "El gato se asusta. ¡Qué ruido!"
+      },
+      "scene": "A child on the left and a cat on the right, both jumping in surprise. The background has a wooden floor, a plain wall, and a high window.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna não tem mais medo. É só o trovão.",
+        "en": "Nuna is not scared anymore. It's just thunder.",
+        "es-MX": "Nuna ya no tiene miedo. Es solo el trueno."
+      },
+      "right": {
+        "pt-BR": "O gato não tem mais medo. É só o trovão.",
+        "en": "The cat is not scared anymore. It's just thunder.",
+        "es-MX": "El gato ya no tiene miedo. Es solo el trueno."
+      },
+      "scene": "A child on the left and a cat on the right, both looking calmly at the sky. The background shows a wooden floor, a plain wall with a window, and a stormy sky outside.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna tem medo. Tudo está escuro.",
+        "en": "Nuna is scared. Everything is dark.",
+        "es-MX": "Nuna tiene miedo. Todo está oscuro."
+      },
+      "right": {
+        "pt-BR": "A coruja tem medo. Tudo está escuro.",
+        "en": "The owl is scared. Everything is dark.",
+        "es-MX": "La lechuza tiene miedo. Todo está oscuro."
+      },
+      "scene": "A child on the left and an owl on the right, both with wide eyes in a dark room. The background has a dark floor, a dark wall, and a very dark ceiling.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna não tem mais medo. É só a noite.",
+        "en": "Nuna is not scared anymore. It's just night.",
+        "es-MX": "Nuna ya no tiene miedo. Es solo la noche."
+      },
+      "right": {
+        "pt-BR": "A coruja não tem mais medo. É só a noite.",
+        "en": "The owl is not scared anymore. It's just night.",
+        "es-MX": "La lechuza ya no tiene miedo. Es solo la noche."
+      },
+      "scene": "A child on the left and an owl on the right, both looking calm in a dimly lit room with a soft glow from a window. The background shows a floor, a wall, and a window with a moon outside.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna tem medo. É muito alto aqui!",
+        "en": "Nuna is scared. It's very high up here!",
+        "es-MX": "Nuna tiene miedo. ¡Es muy alto aquí!"
+      },
+      "right": {
+        "pt-BR": "O passarinho tem medo. É muito alto aqui!",
+        "en": "The bird is scared. It's very high up here!",
+        "es-MX": "El pajarito tiene miedo. ¡Es muy alto aquí!"
+      },
+      "scene": "A child on the left and a small bird on the right, both looking down nervously from a high place. The background shows a wooden tree branch, a distant ground, and a blue sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna não tem mais medo. É só o alto.",
+        "en": "Nuna is not scared anymore. It's just high up.",
+        "es-MX": "Nuna ya no tiene miedo. Es solo lo alto."
+      },
+      "right": {
+        "pt-BR": "O passarinho não tem mais medo. É só o alto.",
+        "en": "The bird is not scared anymore. It's just high up.",
+        "es-MX": "El pajarito ya no tiene miedo. Es solo lo alto."
+      },
+      "scene": "A child on the left and a small bird on the right, both looking calmly from a high place. The background shows a tree branch, distant trees, and a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna tem medo. Que bicho é esse?",
+        "en": "Nuna is scared. What animal is that?",
+        "es-MX": "Nuna tiene miedo. ¿Qué animal es ese?"
+      },
+      "right": {
+        "pt-BR": "O cachorro tem medo. Que bicho é esse?",
+        "en": "The dog is scared. What animal is that?",
+        "es-MX": "El perro tiene miedo. ¿Qué animal es ese?"
+      },
+      "scene": "A child on the left and a dog on the right, both recoiling in surprise at an unseen object. The background has a grassy ground, a bush, and a fence.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "tijolo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna não tem mais medo. É um amigo!",
+        "en": "Nuna is not scared anymore. It's a friend!",
+        "es-MX": "Nuna ya no tiene miedo. ¡Es un amigo!"
+      },
+      "right": {
+        "pt-BR": "O cachorro não tem mais medo. É um amigo!",
+        "en": "The dog is not scared anymore. It's a friend!",
+        "es-MX": "El perro ya no tiene miedo. ¡Es un amigo!"
+      },
+      "scene": "A child on the left and a dog on the right, both happily greeting another unseen animal. The background shows a grassy field, a flower bed, and a bright sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna tinha medo. Agora, Nuna ri.",
+        "en": "Nuna was scared. Now, Nuna laughs.",
+        "es-MX": "Nuna tenía miedo. Ahora, Nuna ríe."
+      },
+      "right": {
+        "pt-BR": "O gato tinha medo. Agora, o gato ronrona.",
+        "en": "The cat was scared. Now, the cat purrs.",
+        "es-MX": "El gato tenía miedo. Ahora, el gato ronronea."
+      },
+      "scene": "A child on the left laughing and a cat on the right purring contentedly. The background has a cozy indoor setting with a rug, a bookshelf, and a window.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna tinha medo. Agora, Nuna dorme.",
+        "en": "Nuna was scared. Now, Nuna sleeps.",
+        "es-MX": "Nuna tenía miedo. Ahora, Nuna duerme."
+      },
+      "right": {
+        "pt-BR": "A coruja tinha medo. Agora, a coruja dorme.",
+        "en": "The owl was scared. Now, the owl sleeps.",
+        "es-MX": "La lechuza tenía miedo. Ahora, la lechuza duerme."
+      },
+      "scene": "A child on the left sleeping soundly in bed and an owl on the right sleeping on a branch. The background shows a dark bedroom with a bed, a nightstand, and a window with stars.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna tinha medo. Agora, Nuna voa.",
+        "en": "Nuna was scared. Now, Nuna flies.",
+        "es-MX": "Nuna tenía miedo. Ahora, Nuna vuela."
+      },
+      "right": {
+        "pt-BR": "O passarinho tinha medo. Agora, o passarinho voa.",
+        "en": "The bird was scared. Now, the bird flies.",
+        "es-MX": "El pajarito tenía miedo. Ahora, el pajarito vuela."
+      },
+      "scene": "A child on the left pretending to fly with arms outstretched and a small bird on the right flying gracefully. The background shows a green field, distant hills, and a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna não tem mais medo. Nuna é corajosa!",
+        "en": "Nuna is not scared anymore. Nuna is brave!",
+        "es-MX": "Nuna ya no tiene miedo. ¡Nuna es valiente!"
+      },
+      "right": {
+        "pt-BR": "O cachorro não tem mais medo. O cachorro é corajoso!",
+        "en": "The dog is not scared anymore. The dog is brave!",
+        "es-MX": "El perro ya no tiene miedo. ¡El perro es valiente!"
+      },
+      "scene": "A child on the left standing tall and confident, and a dog on the right standing proudly. The background shows a sunny outdoor park with trees, grass, and a path.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    }
+  ]
+}

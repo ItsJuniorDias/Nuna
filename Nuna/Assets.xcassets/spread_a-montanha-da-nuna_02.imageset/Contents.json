@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_a-montanha-da-nuna_02.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-a-montanha-da-nuna"
+    ]
+  }
+}

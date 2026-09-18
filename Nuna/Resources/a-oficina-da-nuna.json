@@ -1,0 +1,301 @@
+{
+  "id": "a-oficina-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A oficina da Nuna",
+    "en": "Nuna's Craft Day",
+    "es-MX": "El taller de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Maya recortam papel.",
+        "en": "Nuna and Maya cut out paper shapes.",
+        "es-MX": "Nuna y Maya recortan papel."
+      },
+      "right": {
+        "pt-BR": "A formiga-cortadeira recorta folhas.",
+        "en": "The leafcutter ant cuts real leaves.",
+        "es-MX": "La hormiga cortadora recorta hojas."
+      },
+      "scene": "On the left Nuna and Maya sit at a craft table snipping paper shapes with safety scissors; on the right a leafcutter ant snips a round piece out of a leaf with its jaws, in the same snipping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a leafy branch band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas trançam tirinhas de papel.",
+        "en": "Both weave paper strips.",
+        "es-MX": "Las dos tejen tiras de papel."
+      },
+      "right": {
+        "pt-BR": "O pássaro-tecelão tece o ninho.",
+        "en": "The weaver bird weaves its nest.",
+        "es-MX": "El tejedor teje su nido."
+      },
+      "scene": "On the left Nuna and Maya weave long paper strips over and under into a mat; on the right a weaver bird hangs from a hanging nest, weaving grass in and out with its beak, in the same weaving motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hanging nest branch band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Maya colam pedrinhas.",
+        "en": "Nuna and Maya glue on little pebbles.",
+        "es-MX": "Nuna y Maya pegan piedritas."
+      },
+      "right": {
+        "pt-BR": "A larvinha cola pedrinhas na casinha.",
+        "en": "The caddisfly larva glues on tiny pebbles.",
+        "es-MX": "La larva pega piedritas en su casita."
+      },
+      "scene": "On the left Nuna and Maya press little pebbles onto a paper picture covered in glue; on the right a caddisfly larva sticks tiny pebbles onto its tube-shaped case at the bottom of a stream, in the same pressing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a stream water band through the middle, a table and streambed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas costuram com agulha grande.",
+        "en": "Both sew with a big needle.",
+        "es-MX": "Las dos cosen con aguja grande."
+      },
+      "right": {
+        "pt-BR": "O pássaro-alfaiate costura folhas.",
+        "en": "The tailorbird sews leaves together.",
+        "es-MX": "El pájaro sastre cose hojas."
+      },
+      "scene": "On the left Nuna and Maya sew yarn through a piece of felt with big plastic needles; on the right a tailorbird stitches two big leaves together with its beak to make a nest, in the same sewing motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a big leaf band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Maya fazem colagem de folhas.",
+        "en": "Nuna and Maya make a leaf collage.",
+        "es-MX": "Nuna y Maya hacen un collage de hojas."
+      },
+      "right": {
+        "pt-BR": "O caranguejo cola algas no casco.",
+        "en": "The decorator crab sticks on seaweed.",
+        "es-MX": "El cangrejo decorador se pega algas."
+      },
+      "scene": "On the left Nuna and Maya stick leaves all over a big sheet of paper; on the right a decorator crab sticks bits of seaweed all over its shell, in the same sticking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a seaweed band through the middle, a table and seabed band along the bottom.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "As duas modelam o barro.",
+        "en": "Both shape soft clay.",
+        "es-MX": "Las dos moldean el barro."
+      },
+      "right": {
+        "pt-BR": "O flamingo faz um ninho de barro.",
+        "en": "The flamingo builds a mud nest.",
+        "es-MX": "El flamenco hace un nido de lodo."
+      },
+      "scene": "On the left Nuna and Maya shape a little clay pot on the table with their hands; on the right a flamingo shapes a round mud nest with its beak at the edge of a lagoon, in the same shaping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a lagoon band through the middle, a table and mudflat band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Maya fazem um colar.",
+        "en": "Nuna and Maya string a necklace.",
+        "es-MX": "Nuna y Maya hacen un collar."
+      },
+      "right": {
+        "pt-BR": "A aranha faz um fio de seda.",
+        "en": "The spider spins silk thread.",
+        "es-MX": "La araña hace hilo de seda."
+      },
+      "scene": "On the left Nuna and Maya thread big wooden beads onto a long string; on the right a small spider lowers itself on a long silk thread from a twig, in the same threading line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a twig band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "As duas desenham com giz no chão.",
+        "en": "Both draw with sidewalk chalk.",
+        "es-MX": "Las dos dibujan con gis en el piso."
+      },
+      "right": {
+        "pt-BR": "A lesma desenha um rastro brilhante.",
+        "en": "The slug leaves a shiny trail.",
+        "es-MX": "La babosa deja un caminito brillante."
+      },
+      "scene": "On the left Nuna and Maya crouch on a sidewalk drawing long wiggly chalk lines; on the right a slug glides along a garden stone leaving a long wiggly shiny trail, in the same drawing line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a garden wall band through the middle, a sidewalk and stone band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "verde_lima",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Maya enrolam o papel.",
+        "en": "Nuna and Maya roll paper tubes.",
+        "es-MX": "Nuna y Maya enrollan el papel."
+      },
+      "right": {
+        "pt-BR": "A lagarta enrola uma folha inteira.",
+        "en": "The leafroller rolls up a whole leaf.",
+        "es-MX": "La oruga enrolla una hoja entera."
+      },
+      "scene": "On the left Nuna and Maya roll sheets of paper into tubes; on the right a leafroller caterpillar rolls a whole leaf into a tube around itself, in the same rolling motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a leafy branch band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "As duas fazem uma casinha de papel.",
+        "en": "Both build a paper house.",
+        "es-MX": "Las dos hacen una casita de papel."
+      },
+      "right": {
+        "pt-BR": "A vespa faz casa de papel de verdade.",
+        "en": "The paper wasp builds a real paper house.",
+        "es-MX": "La avispa hace una casa de papel."
+      },
+      "scene": "On the left Nuna and Maya fold and tape a little paper house on the table; on the right a paper wasp builds a small round paper nest under a leaf, in the same building pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a leaf and nest band through the middle, a craft table band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Dedos na tinta: que delícia!",
+        "en": "Fingers in the paint, what fun!",
+        "es-MX": "¡Dedos en la pintura, qué divertido!"
+      },
+      "right": {
+        "pt-BR": "A lula tem a própria tinta.",
+        "en": "The squid has its very own ink.",
+        "es-MX": "El calamar tiene su propia tinta."
+      },
+      "scene": "On the left Nuna and Maya dip their fingers in paint and swirl them across paper; on the right a squid swims away leaving a swirly cloud of ink in the water, in the same swirling shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, an open water band through the middle, a table and seabed band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "magenta_vivo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "As duas dormem sujinhas de tinta.",
+        "en": "Both sleep with painty stripes.",
+        "es-MX": "Las dos duermen manchadas de pintura."
+      },
+      "right": {
+        "pt-BR": "A zebra dorme cheia de listras.",
+        "en": "The zebra sleeps covered in stripes.",
+        "es-MX": "La cebra duerme llena de rayas."
+      },
+      "scene": "On the left Nuna and Maya sleep side by side with little stripes of paint still on their cheeks and arms; on the right a zebra sleeps lying in the grass with its stripes, in the same resting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and savanna band through the middle, a bed and grass band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Maya stand side-by-side in the center, facing forward, with a weaver bird, a caddisfly, and a tailorbird subtly placed around them, all looking towards the children.",
+  "cover_bands": 3
+}

@@ -1,0 +1,301 @@
+{
+  "id": "a-neve-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A neve da Nuna",
+    "en": "Nuna's Snow",
+    "es-MX": "La nieve de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Maya se agasalham.",
+        "en": "Nuna and Maya bundle up.",
+        "es-MX": "Nuna y Maya se abrigan."
+      },
+      "right": {
+        "pt-BR": "O passarinho estufa as penas.",
+        "en": "The chickadee puffs up its feathers.",
+        "es-MX": "El carbonero esponja sus plumas."
+      },
+      "scene": "On the left Nuna and Maya stand by a snowy door, bundled up in warm layers until they look round and puffy; on the right a chickadee sits on a branch puffed up into a round ball of feathers, the same round shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a calm winter sky band across the top, a snowy branch band through the middle, a deep snow band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas afundam na neve.",
+        "en": "Both sink deep into the snow.",
+        "es-MX": "Las dos se hunden en la nieve."
+      },
+      "right": {
+        "pt-BR": "A lebre passa por cima.",
+        "en": "The snowshoe hare hops on top.",
+        "es-MX": "La liebre pasa por encima."
+      },
+      "scene": "On the left Nuna and Maya step into deep snow, sinking up to their knees; on the right a snowshoe hare hops lightly across the top of the same deep snow on its wide feet, in the same stepping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a quiet sky band across the top, a band of snowy hills through the middle, a deep snowfield band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Maya descem de trenó.",
+        "en": "Nuna and Maya sled down the hill.",
+        "es-MX": "Nuna y Maya bajan en trineo."
+      },
+      "right": {
+        "pt-BR": "O ursinho-polar desce de barriga.",
+        "en": "The polar bear cub slides on its belly.",
+        "es-MX": "El osito polar baja de panza."
+      },
+      "scene": "On the left Nuna and Maya ride a small wooden sled down a gentle snowy slope, leaning forward; on the right a polar bear cub slides down a snowy slope on its belly in the same forward lean. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a gentle slope band through the middle, a flat snow band along the bottom.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Rolam, rolam na neve!",
+        "en": "Roll, roll in the snow!",
+        "es-MX": "¡Ruedan y ruedan en la nieve!"
+      },
+      "right": {
+        "pt-BR": "O cavalo rola de costas.",
+        "en": "The horse rolls on its back.",
+        "es-MX": "El caballo rueda de espaldas."
+      },
+      "scene": "On the left Nuna and Maya roll sideways across a snowy field, arms tucked in; on the right a horse rolls on its back in the snow with its legs in the air, in the same tumbling pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a fence and pine band through the middle, a snowy field band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Cava, cava um buraquinho!",
+        "en": "Dig, dig a little hole!",
+        "es-MX": "¡Cava, cava un hoyito!"
+      },
+      "right": {
+        "pt-BR": "A raposa cava uma toca inteira.",
+        "en": "The arctic fox digs a whole den.",
+        "es-MX": "El zorro ártico cava una madriguera."
+      },
+      "scene": "On the left Nuna and Maya kneel and dig a small hole in the snow with their hands; on the right an arctic fox digs a deep den into a snowbank with its front paws, in the same digging pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a snowbank band, a snow band, a frozen ground band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "marrom_fundo"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "As duas marcham na neve alta.",
+        "en": "Both march through deep snow.",
+        "es-MX": "Las dos marchan en la nieve alta."
+      },
+      "right": {
+        "pt-BR": "O alce tem pernas compridas.",
+        "en": "The moose steps high on long legs.",
+        "es-MX": "El alce pasa con sus patas largas."
+      },
+      "scene": "On the left Nuna and Maya march with high knees through deep snow; on the right a moose lifts its long legs high over deep snow in the same marching step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of bare trees through the middle, a deep snow band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Maya varrem o banco.",
+        "en": "Nuna and Maya sweep the bench.",
+        "es-MX": "Nuna y Maya barren la banca."
+      },
+      "right": {
+        "pt-BR": "O bisão varre com a cabeça.",
+        "en": "The bison sweeps snow with its head.",
+        "es-MX": "El bisonte barre con la cabeza."
+      },
+      "scene": "On the left Nuna and Maya brush snow off a park bench with big sweeping arms; on the right a bison swings its big head from side to side to sweep snow off the grass, in the same sweeping motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of snowy hills through the middle, a meadow band with a bench along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Maya canta. Nuna canta também.",
+        "en": "Maya sings. Nuna sings too.",
+        "es-MX": "Maya canta. Nuna también canta."
+      },
+      "right": {
+        "pt-BR": "O lobo uiva ainda mais alto.",
+        "en": "The wolf howls even louder.",
+        "es-MX": "El lobo aúlla mucho más fuerte."
+      },
+      "scene": "On the left Nuna and Maya sing with their heads tipped back and mouths open, little clouds of breath in the air; on the right a wolf sits in the snow and howls with its head tipped back, in the same singing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a pine forest band through the middle, a snowfield band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Maya se escondem no forte.",
+        "en": "Nuna and Maya hide in a snow fort.",
+        "es-MX": "Nuna y Maya se esconden en el fuerte."
+      },
+      "right": {
+        "pt-BR": "O lemingue vive sob a neve.",
+        "en": "The lemming lives under the snow.",
+        "es-MX": "El lemming vive bajo la nieve."
+      },
+      "scene": "On the left Nuna and Maya peek over the low wall of a snow fort, only their eyes showing; on the right a lemming peeks out of its tunnel under the snow, only its eyes showing, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a snow fort band, a snow surface band, a band of tunnels under the snow along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Sacode, sacode a neve!",
+        "en": "Shake, shake off the snow!",
+        "es-MX": "¡Sacude, sacude la nieve!"
+      },
+      "right": {
+        "pt-BR": "A rena se sacode inteirinha.",
+        "en": "The reindeer shakes from head to tail.",
+        "es-MX": "El reno se sacude de pies a cabeza."
+      },
+      "scene": "On the left Nuna and Maya wiggle and shake the snow off by a cabin door, flakes flying; on the right a reindeer shakes the snow off its whole body in the same wiggling shake, flakes flying. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a cabin and pine band through the middle, a snowy yard band along the bottom.",
+      "colors": [
+        "tijolo",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Maya tomam banho quentinho.",
+        "en": "Nuna and Maya take a warm bath.",
+        "es-MX": "Nuna y Maya se dan un baño tibio."
+      },
+      "right": {
+        "pt-BR": "O macaco fica na fonte quente.",
+        "en": "The snow monkey soaks in a hot spring.",
+        "es-MX": "El macaco se calienta en agua termal."
+      },
+      "scene": "On the left Nuna and Maya sit in a warm bath with steam rising, only their heads and shoulders above the water; on the right a snow monkey sits in a steaming hot spring with snow all around, only its head and shoulders above the water, in the same soaking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a snowy sky band across the top, a rocky steam band through the middle, a warm water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Maya dormem juntinhas.",
+        "en": "Nuna and Maya fall asleep, snug.",
+        "es-MX": "Nuna y Maya se duermen juntitas."
+      },
+      "right": {
+        "pt-BR": "Os bois-almiscarados dormem juntinhos.",
+        "en": "The musk oxen huddle close to sleep.",
+        "es-MX": "Los bueyes almizcleros duermen juntitos."
+      },
+      "scene": "On the left Nuna and Maya sleep side by side under a thick quilt, cuddled close; on the right a small herd of shaggy musk oxen huddles close together in the snow with their eyes closed, in the same cuddled shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, an ice ridge band through the middle, a snow band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Maya stand facing forward, smiling. A snowshoe hare, an arctic fox, and a lemur are scattered around them, looking up at the children.",
+  "cover_bands": 3
+}

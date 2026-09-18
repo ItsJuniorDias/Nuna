@@ -1,0 +1,301 @@
+{
+  "id": "a-danca-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A dança da Nuna",
+    "en": "Nuna's Dance",
+    "es-MX": "El baile de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Lia começam a dançar.",
+        "en": "Nuna and Lia start to dance.",
+        "es-MX": "Nuna y Lia empiezan a bailar."
+      },
+      "right": {
+        "pt-BR": "Os flamingos marcham dançando juntos.",
+        "en": "The flamingos march and dance together.",
+        "es-MX": "Los flamencos marchan bailando juntos."
+      },
+      "scene": "On the left Nuna and Lia march and sway side by side with their heads held high; on the right a group of flamingos marches side by side in a shallow lagoon with heads held high, in the same dancing march. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a far shore band through the middle, a shallow lagoon band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "turquesa",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas ficam num pé só.",
+        "en": "Both stand on one foot.",
+        "es-MX": "Las dos se paran en un pie."
+      },
+      "right": {
+        "pt-BR": "A garça dorme num pé só!",
+        "en": "The heron even sleeps on one leg!",
+        "es-MX": "¡La garza hasta duerme en una pata!"
+      },
+      "scene": "On the left Nuna and Lia balance on one foot with their arms out, wobbling a little; on the right a heron stands asleep on one leg in the shallows with its head tucked in, in the same one-leg balance. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a reed band through the middle, a still water band along the bottom.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Lia requebram.",
+        "en": "Nuna and Lia wiggle and waggle.",
+        "es-MX": "Nuna y Lia menean la cadera."
+      },
+      "right": {
+        "pt-BR": "A abelha dança para mostrar as flores.",
+        "en": "The bee dances to point to the flowers.",
+        "es-MX": "La abeja baila para señalar flores."
+      },
+      "scene": "On the left Nuna and Lia wiggle their hips from side to side with their hands up; on the right a honeybee waggles in a little figure-eight on the honeycomb, in the same wiggling dance. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a honeycomb band through the middle, a floor band along the bottom.",
+      "colors": [
+        "amarelo_vivo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas deslizam para trás.",
+        "en": "Both slide backward.",
+        "es-MX": "Las dos se deslizan para atrás."
+      },
+      "right": {
+        "pt-BR": "O tangará desliza para trás!",
+        "en": "The manakin moonwalks backward!",
+        "es-MX": "¡El saltarín se desliza para atrás!"
+      },
+      "scene": "On the left Nuna and Lia slide backward in their socks across a smooth floor, arms swinging; on the right a small manakin bird slides backward along a branch in quick little steps, in the same sliding move. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a window band across the top, a rainforest branch band through the middle, a smooth floor band along the bottom.",
+      "colors": [
+        "vermelho_quente",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Pé para cima, um, dois!",
+        "en": "Feet up high, one, two!",
+        "es-MX": "¡Pie arriba, uno, dos!"
+      },
+      "right": {
+        "pt-BR": "O atobá levanta os pés, um, dois!",
+        "en": "The booby lifts its feet, one, two!",
+        "es-MX": "¡El piquero alza las patas, una, dos!"
+      },
+      "scene": "On the left Nuna and Lia march in place lifting one foot high, then the other; on the right a booby lifts one big webbed foot high and then the other on a rocky shore, in the same high step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea band through the middle, a rocky shore band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Lia giram de mãos dadas.",
+        "en": "Nuna and Lia twirl hand in hand.",
+        "es-MX": "Nuna y Lia giran de la mano."
+      },
+      "right": {
+        "pt-BR": "Os cavalos-marinhos giram de rabo dado.",
+        "en": "The seahorses twirl, tails linked.",
+        "es-MX": "Los caballitos de mar giran enlazados."
+      },
+      "scene": "On the left Nuna and Lia twirl around holding hands, leaning back; on the right two seahorses twirl around each other with their tails linked in the sea grass, in the same twirl. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a water surface band across the top, a sea grass band through the middle, a sandy seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Lia abrem os braços.",
+        "en": "Nuna and Lia open their arms wide.",
+        "es-MX": "Nuna y Lia abren los brazos."
+      },
+      "right": {
+        "pt-BR": "A ave-do-paraíso abre a capa de penas.",
+        "en": "The bird-of-paradise opens its cape.",
+        "es-MX": "El ave del paraíso abre su capa."
+      },
+      "scene": "On the left Nuna and Lia open their arms wide with a big ta-da pose; on the right a bird-of-paradise spreads a round cape of feathers wide on a branch, in the same ta-da pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rainforest branch band through the middle, a forest floor band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "verde_lima",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "As duas dançam lado a lado.",
+        "en": "Both dance side by side.",
+        "es-MX": "Las dos bailan lado a lado."
+      },
+      "right": {
+        "pt-BR": "Os mergulhões dançam correndo na água.",
+        "en": "The grebes dance across the water.",
+        "es-MX": "Los zambullidores bailan sobre el agua."
+      },
+      "scene": "On the left Nuna and Lia dash side by side with their arms back and chests out; on the right two grebes run side by side across the surface of a lake, necks up and wings back, in the same dash. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a lakeshore band through the middle, a lake band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Cabeça para cima e para baixo!",
+        "en": "Heads go up and down!",
+        "es-MX": "¡Cabeza arriba y abajo!"
+      },
+      "right": {
+        "pt-BR": "O lagarto balança a cabeça também.",
+        "en": "The lizard bobs its head to the beat.",
+        "es-MX": "La lagartija mueve la cabeza."
+      },
+      "scene": "On the left Nuna and Lia bob their heads up and down to the music with their eyes closed; on the right a small lizard on a sunny rock bobs its head up and down, in the same bobbing move. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a garden wall band through the middle, a sunny rock band along the bottom.",
+      "colors": [
+        "terracota",
+        "verde_lima",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "As duas fazem ondas com os braços.",
+        "en": "Both make waves with their arms.",
+        "es-MX": "Las dos hacen olas con los brazos."
+      },
+      "right": {
+        "pt-BR": "O polvo dança com oito braços!",
+        "en": "The octopus sways with eight arms!",
+        "es-MX": "¡El pulpo baila con ocho brazos!"
+      },
+      "scene": "On the left Nuna and Lia wave their arms in soft, wavy lines like water; on the right an octopus drifts in the sea with its eight arms waving in soft curves, in the same wavy dance. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a water surface band across the top, an open water band through the middle, a coral band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "magenta"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Lia dançam devagarinho.",
+        "en": "Nuna and Lia dance slow and soft.",
+        "es-MX": "Nuna y Lia bailan lento."
+      },
+      "right": {
+        "pt-BR": "A água-viva dança bem devagar.",
+        "en": "The jellyfish dances slow, slow, slow.",
+        "es-MX": "La medusa baila lento, lento, lento."
+      },
+      "scene": "On the left Nuna and Lia sway slowly with their arms floating up above their heads; on the right a jellyfish drifts slowly upward with its bell opening and closing, in the same floating sway. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a deep water band through the middle, a seabed band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "lavanda",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Lia terminam num abraço.",
+        "en": "Nuna and Lia end with a hug.",
+        "es-MX": "Nuna y Lia terminan con un abrazo."
+      },
+      "right": {
+        "pt-BR": "Os grous dançam em par a vida toda.",
+        "en": "Crane couples dance together for life.",
+        "es-MX": "Las grullas bailan en pareja toda la vida."
+      },
+      "scene": "On the left Nuna and Lia finish their dance in a big hug, one foot lifted; on the right two cranes dance face to face in a meadow with their wings half open, in the same close embrace. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a far hill band through the middle, a meadow band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Lia stand side by side in the center, facing forward, with a flamingo, a honeybee, and a seahorse scattered around them, all facing the girls.",
+  "cover_bands": 3
+}

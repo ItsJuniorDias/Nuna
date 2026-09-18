@@ -1,0 +1,313 @@
+{
+  "id": "a-banda-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A banda da Nuna",
+    "en": "Nuna's Band",
+    "es-MX": "La banda de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Os três montam uma banda!",
+        "en": "The three friends start a band!",
+        "es-MX": "¡Los tres arman una banda!"
+      },
+      "right": {
+        "pt-BR": "Os passarinhos já cantam em coro.",
+        "en": "The birds already sing in a choir.",
+        "es-MX": "Los pajaritos ya cantan en coro."
+      },
+      "scene": "On the left Nuna, Theo and Lia sit in a row on the grass with pots, spoons and a toy drum; on the right a row of little birds sits on a branch singing together with their beaks open, in the same row. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree branch band through the middle, a backyard grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna canta: lá, lá, lá!",
+        "en": "Nuna sings: la, la, la!",
+        "es-MX": "Nuna canta: ¡la, la, la!"
+      },
+      "right": {
+        "pt-BR": "A baleia canta uma música comprida.",
+        "en": "The whale sings a very long song.",
+        "es-MX": "La ballena canta una canción larguísima."
+      },
+      "scene": "On the left Nuna sings with her mouth wide open and her head tilted up while Theo and Lia listen; on the right a humpback whale sings under the sea with its head tilted up, little song notes drifting up, in the same singing pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a sea surface band, an underwater band, a deep sea band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Theo batuca na barriga.",
+        "en": "Theo drums on his tummy.",
+        "es-MX": "Theo toca tambor en su panza."
+      },
+      "right": {
+        "pt-BR": "O gorila batuca no peito.",
+        "en": "The gorilla drums on its chest.",
+        "es-MX": "El gorila toca tambor en su pecho."
+      },
+      "scene": "On the left Theo pats a beat on his tummy with both hands while Nuna and Lia laugh; on the right a gorilla sits up and beats its chest with both hands, in the same drumming pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a jungle leaf band through the middle, a forest floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Lia imita um passarinho.",
+        "en": "Lia copies a birdsong.",
+        "es-MX": "Lia imita a un pajarito."
+      },
+      "right": {
+        "pt-BR": "O pássaro-lira imita qualquer som.",
+        "en": "The lyrebird copies any sound.",
+        "es-MX": "El ave lira imita cualquier sonido."
+      },
+      "scene": "On the left Lia whistles like a bird with puckered lips while Nuna and Theo listen, surprised; on the right a lyrebird sings on a forest log with its lacy tail raised, beak open, in the same whistling pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tall fern band through the middle, a forest log band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "marrom_fundo",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os três batem o pé: tum, tum!",
+        "en": "The three stomp: boom, boom!",
+        "es-MX": "Los tres zapatean: ¡pum, pum!"
+      },
+      "right": {
+        "pt-BR": "O coelho bate a pata: tum!",
+        "en": "The rabbit thumps its foot: thump!",
+        "es-MX": "El conejo golpea con la pata: ¡pum!"
+      },
+      "scene": "On the left Nuna, Theo and Lia stomp their feet in a line, knees lifted high; on the right a rabbit thumps one strong back foot on the ground, in the same stomping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hedge band through the middle, a meadow band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Lia batem palmas.",
+        "en": "Nuna and Lia clap along.",
+        "es-MX": "Nuna y Lia aplauden."
+      },
+      "right": {
+        "pt-BR": "A foca bate palmas embaixo d'água.",
+        "en": "The seal claps underwater.",
+        "es-MX": "La foca aplaude bajo el agua."
+      },
+      "scene": "On the left Nuna and Lia clap their hands to the beat while Theo keeps time on a pot; on the right a seal claps its front flippers together under the water, in the same clapping pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a sea surface band, an underwater kelp band, a rocky seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os três cantarolam: hum, hum.",
+        "en": "The three friends hum: hmm, hmm.",
+        "es-MX": "Los tres tararean: mmm, mmm."
+      },
+      "right": {
+        "pt-BR": "O beija-flor zumbe com as asas.",
+        "en": "The hummingbird hums with its wings.",
+        "es-MX": "El colibrí zumba con sus alas."
+      },
+      "scene": "On the left Nuna, Theo and Lia hum with closed mouths and swaying heads, eyes half closed; on the right a hummingbird hovers by a flower, wings a blur, in the same swaying hover. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a flowering vine band through the middle, a garden band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "magenta_vivo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna bate dois pauzinhos: clique!",
+        "en": "Nuna taps two sticks: click, click!",
+        "es-MX": "Nuna choca dos palitos: ¡clic, clic!"
+      },
+      "right": {
+        "pt-BR": "O golfinho faz clique, clique, clique.",
+        "en": "The dolphin clicks and clicks.",
+        "es-MX": "El delfín hace clic, clic, clic."
+      },
+      "scene": "On the left Nuna taps two sticks together with a big smile while Theo and Lia count along; on the right a dolphin swims with its head up and little click marks around its beak, in the same happy pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea surface band through the middle, a deep water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Lia toca no tronco com um graveto.",
+        "en": "Lia drums a log with a stick.",
+        "es-MX": "Lia toca el tronco con un palito."
+      },
+      "right": {
+        "pt-BR": "A cacatua também toca com graveto!",
+        "en": "The palm cockatoo drums with a stick too!",
+        "es-MX": "¡La cacatúa también toca con palito!"
+      },
+      "scene": "On the left Lia drums on a fallen log with a stick while Nuna and Theo dance beside her; on the right a palm cockatoo holds a stick in its foot and drums on a hollow tree branch, in the same drumming pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a treetop band through the middle, a fallen log band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "vermelho_quente"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Os três cantam bem alto!",
+        "en": "The three sing out loud!",
+        "es-MX": "¡Los tres cantan muy fuerte!"
+      },
+      "right": {
+        "pt-BR": "O bugio canta mais alto ainda.",
+        "en": "The howler monkey is even louder.",
+        "es-MX": "El mono aullador canta más fuerte."
+      },
+      "scene": "On the left Nuna, Theo and Lia sing loudly with their mouths wide open and arms up; on the right a howler monkey calls from a treetop with its mouth wide open, in the same loud pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rainforest canopy band through the middle, a forest floor band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Agora, bem baixinho...",
+        "en": "Now very, very softly...",
+        "es-MX": "Ahora, muy bajito..."
+      },
+      "right": {
+        "pt-BR": "O gato ronrona bem baixinho.",
+        "en": "The cat purrs softly.",
+        "es-MX": "El gato ronronea bajito."
+      },
+      "scene": "On the left Nuna, Theo and Lia sing softly with their fingers to their lips, leaning close together; on the right a cat purrs curled on a cushion with its eyes half closed, in the same quiet, cozy lean. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a porch window band through the middle, a porch floor band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Fim do show! Os três agradecem.",
+        "en": "The end! The three friends bow.",
+        "es-MX": "¡Fin! Los tres hacen una reverencia."
+      },
+      "right": {
+        "pt-BR": "Os grilos tocam a noite inteira.",
+        "en": "The crickets play all night long.",
+        "es-MX": "Los grillos tocan toda la noche."
+      },
+      "scene": "On the left Nuna, Theo and Lia take a bow together at dusk, holding hands; on the right crickets chirp on bent grass stems under the evening sky, in the same bowing shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a dusk sky band across the top, a tall grass band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna, Theo, and Lia stand side-by-side, facing forward, with a small gorilla, rabbit, and dolphin scattered around them, all facing the children.",
+  "cover_bands": 3
+}

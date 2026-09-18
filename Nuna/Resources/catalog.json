@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "o-quintal-da-nuna",
+      "order": 1,
+      "title": {
+        "pt-BR": "O quintal da Nuna",
+        "en": "Nuna's Backyard",
+        "es-MX": "El patio de Nuna"
+      },
+      "theme": "um dia inteiro no quintal, do acordar ao dormir, imitando os bichos que moram la",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-chuva-da-nuna",
+      "order": 2,
+      "title": {
+        "pt-BR": "A chuva da Nuna",
+        "en": "Nuna's Rain",
+        "es-MX": "La lluvia de Nuna"
+      },
+      "theme": "um dia de chuva: poca, lama, goteira, guarda-chuva; lesma, pato, minhoca, sapo",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-praia-da-nuna",
+      "order": 3,
+      "title": {
+        "pt-BR": "A praia da Nuna",
+        "en": "Nuna's Beach",
+        "es-MX": "La playa de Nuna"
+      },
+      "theme": "um dia na praia: cavar, boiar, catar concha, correr da onda; caranguejo, gaivota, estrela-do-mar, tartaruga",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-noite-da-nuna",
+      "order": 4,
+      "title": {
+        "pt-BR": "A noite da Nuna",
+        "en": "Nuna's Night",
+        "es-MX": "La noche de Nuna"
+      },
+      "theme": "o quintal depois que escurece: enxergar no escuro, ficar quieto, brilhar; coruja, vagalume, morcego, gato",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-horta-da-nuna",
+      "order": 5,
+      "title": {
+        "pt-BR": "A horta da Nuna",
+        "en": "Nuna's Garden",
+        "es-MX": "La huerta de Nuna"
+      },
+      "theme": "cuidar da horta: plantar, regar, esperar, colher; joaninha, minhoca, abelha, passarinho",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-rio-da-nuna",
+      "order": 6,
+      "title": {
+        "pt-BR": "O rio da Nuna",
+        "en": "Nuna's River",
+        "es-MX": "El rio de Nuna"
+      },
+      "theme": "um dia no rio: pular pedra, molhar o pe, mergulhar; capivara, garca, peixe, libelula",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-feira-da-nuna",
+      "order": 7,
+      "title": {
+        "pt-BR": "A feira da Nuna",
+        "en": "Nuna's Market",
+        "es-MX": "El mercado de Nuna"
+      },
+      "theme": "a feira de rua: carregar sacola, escolher fruta, cheirar tempero; pardal, gato, cachorro, pombo",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-mata-da-nuna",
+      "order": 8,
+      "title": {
+        "pt-BR": "A mata da Nuna",
+        "en": "Nuna's Forest",
+        "es-MX": "El bosque de Nuna"
+      },
+      "theme": "uma trilha na mata: subir, se esconder, ouvir barulho; tatu, quati, macaco, tucano",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-cozinha-da-nuna",
+      "order": 9,
+      "title": {
+        "pt-BR": "A cozinha da Nuna",
+        "en": "Nuna's Kitchen",
+        "es-MX": "La cocina de Nuna"
+      },
+      "theme": "cozinhar junto: misturar, provar, esperar assar; formiga, gato, passarinho na janela",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-vento-da-nuna",
+      "order": 10,
+      "title": {
+        "pt-BR": "O vento da Nuna",
+        "en": "Nuna's Wind",
+        "es-MX": "El viento de Nuna"
+      },
+      "theme": "um dia de vento forte: soltar pipa, segurar chapeu, rodar; gaviao, folha, borboleta, andorinha",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-fazenda-da-nuna",
+      "order": 11,
+      "title": {
+        "pt-BR": "A fazenda da Nuna",
+        "en": "Nuna's Farm",
+        "es-MX": "La granja de Nuna"
+      },
+      "theme": "um dia na fazenda: acordar cedo, dar milho, tirar leite; galinha, cavalo, porco, vaca",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-frio-da-nuna",
+      "order": 12,
+      "title": {
+        "pt-BR": "O frio da Nuna",
+        "en": "Nuna's Cold Day",
+        "es-MX": "El frio de Nuna"
+      },
+      "theme": "uma manha de neblina e frio: se enrolar, bafo no ar, correr pra esquentar; sabia, ovelha, gato, cachorro",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-cidade-da-nuna",
+      "order": 13,
+      "title": {
+        "pt-BR": "A cidade da Nuna",
+        "en": "Nuna's City",
+        "es-MX": "La ciudad de Nuna"
+      },
+      "theme": "um passeio na cidade: atravessar, subir escada, esperar; pombo, lagartixa, cachorro, bem-te-vi",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-banho-da-nuna",
+      "order": 14,
+      "title": {
+        "pt-BR": "O banho da Nuna",
+        "en": "Nuna's Bath",
+        "es-MX": "El bano de Nuna"
+      },
+      "theme": "hora do banho: molhar, ensaboar, chacoalhar, secar; pato de borracha, gato que odeia agua, passarinho na bica",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-festa-da-nuna",
+      "order": 15,
+      "title": {
+        "pt-BR": "A festa da Nuna",
+        "en": "Nuna's Party",
+        "es-MX": "La fiesta de Nuna"
+      },
+      "theme": "uma festa no quintal: dancar, cantar, dividir bolo; grilo, sapo, passarinho, formiga carregando migalha",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "o-jardim-da-nuna",
+      "order": 16,
+      "title": {
+        "pt-BR": "O jardim da Nuna",
+        "en": "Nuna's Flowers",
+        "es-MX": "El jardin de Nuna"
+      },
+      "theme": "entre as flores: cheirar, contar petala, ficar parada; beija-flor, abelha, borboleta, joaninha",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-viagem-da-nuna",
+      "order": 17,
+      "title": {
+        "pt-BR": "A viagem da Nuna",
+        "en": "Nuna's Trip",
+        "es-MX": "El viaje de Nuna"
+      },
+      "theme": "uma viagem de estrada: olhar a janela, dormir no caminho, chegar; passaro migrando, cachorro na carroceria, gado",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-silencio-da-nuna",
+      "order": 18,
+      "title": {
+        "pt-BR": "O silencio da Nuna",
+        "en": "Nuna's Quiet",
+        "es-MX": "El silencio de Nuna"
+      },
+      "theme": "aprender a ficar quieta pra ver os bichos aparecerem; bicho-preguica, camaleao, coruja, cervo",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-lua-da-nuna",
+      "order": 19,
+      "title": {
+        "pt-BR": "A lua da Nuna",
+        "en": "Nuna's Moon",
+        "es-MX": "La luna de Nuna"
+      },
+      "theme": "olhar a lua da janela e imaginar quem mais esta olhando; coruja, gato, mariposa, lobo distante",
+      "characters": [
+        "nuna"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-lama-da-nuna",
+      "order": 20,
+      "title": {
+        "pt-BR": "A lama da Nuna",
+        "en": "Nuna's Mud",
+        "es-MX": "El lodo de Nuna"
+      },
+      "theme": "brincar na lama sem medo de sujar: chapinhar, escorregar, cavar; porco, sapo, pato, minhoca",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-ninho-da-nuna",
+      "order": 21,
+      "title": {
+        "pt-BR": "O ninho da Nuna",
+        "en": "Nuna's Nest",
+        "es-MX": "El nido de Nuna"
+      },
+      "theme": "construir cabana enquanto os bichos constroem a casa deles; joao-de-barro, aranha, abelha, cupim",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-sombra-da-nuna",
+      "order": 22,
+      "title": {
+        "pt-BR": "A sombra da Nuna",
+        "en": "Nuna's Shadow",
+        "es-MX": "La sombra de Nuna"
+      },
+      "theme": "um dia de sol forte: procurar sombra, ver a sombra crescer, brincar com ela; lagartixa, cachorro, gato, arvore",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "a-semente-da-nuna",
+      "order": 23,
+      "title": {
+        "pt-BR": "A semente da Nuna",
+        "en": "Nuna's Seed",
+        "es-MX": "La semilla de Nuna"
+      },
+      "theme": "plantar uma semente e esperar: cavar, cobrir, regar, ver nascer; esquilo, passaro, formiga, minhoca",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-medo-da-nuna",
+      "order": 24,
+      "title": {
+        "pt-BR": "O medo da Nuna",
+        "en": "Nuna's Fear",
+        "es-MX": "El miedo de Nuna"
+      },
+      "theme": "coisas que assustam e deixam de assustar: barulho, escuro, altura; gato assustado, passarinho, cachorro, coruja",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-adeus-da-nuna",
+      "order": 25,
+      "title": {
+        "pt-BR": "O adeus da Nuna",
+        "en": "Nuna's Goodbye",
+        "es-MX": "El adios de Nuna"
+      },
+      "theme": "despedida no fim do verao: acenar, guardar, lembrar; andorinha indo embora, caracol, borboleta",
+      "characters": [
+        "nuna"
+      ]
+    },
+    {
+      "id": "o-parquinho-da-nuna",
+      "order": 26,
+      "title": {
+        "pt-BR": "O parquinho da Nuna",
+        "en": "Nuna's Playground",
+        "es-MX": "El parque de Nuna"
+      },
+      "theme": "brincar no parquinho com o amigo Theo: escorregar, balancar, subir, se pendurar; macaco, lontra, esquilo, cabrito",
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "id": "a-cachoeira-da-nuna",
+      "order": 27,
+      "title": {
+        "pt-BR": "A cachoeira da Nuna",
+        "en": "Nuna's Waterfall",
+        "es-MX": "La cascada de Nuna"
+      },
+      "theme": "um dia na cachoeira com a amiga Lia: molhar o pe, pular na agua rasa, deitar na pedra quente; lontra, sapo, martim-pescador, tartaruga",
+      "characters": [
+        "nuna",
+        "lia"
+      ],
+      "motion": true
+    },
+    {
+      "id": "o-piquenique-da-nuna",
+      "order": 28,
+      "title": {
+        "pt-BR": "O piquenique da Nuna",
+        "en": "Nuna's Picnic",
+        "es-MX": "El picnic de Nuna"
+      },
+      "theme": "um piquenique com o amigo Benji: estender a toalha, dividir o lanche, rolar na grama, olhar as nuvens; tatu-bola, coelho, sabia, joaninha",
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "id": "o-outono-da-nuna",
+      "order": 29,
+      "title": {
+        "pt-BR": "O outono da Nuna",
+        "en": "Nuna's Autumn",
+        "es-MX": "El otoño de Nuna"
+      },
+      "theme": "um dia de outono com a amiga Maya: pular nas folhas, juntar pinha, se esconder na pilha, soprar a folha; esquilo, ourico, pica-pau, raposa",
+      "characters": [
+        "nuna",
+        "maya"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-neve-da-nuna",
+      "order": 30,
+      "title": {
+        "pt-BR": "A neve da Nuna",
+        "en": "Nuna's Snow",
+        "es-MX": "La nieve de Nuna"
+      },
+      "theme": "um dia de neve com a amiga Maya: afundar, descer de treno, rolar, cavar, se esconder no forte; ursinho-polar, raposa-do-artico, alce, macaco-da-neve",
+      "characters": [
+        "nuna",
+        "maya"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-corrida-da-nuna",
+      "order": 31,
+      "title": {
+        "pt-BR": "A corrida da Nuna",
+        "en": "Nuna's Race",
+        "es-MX": "La carrera de Nuna"
+      },
+      "theme": "brincar de corrida no quintal com o amigo Theo: largar, pular corda, corrida de saco, ovo na colher, chegar junto; guepardo, canguru, pinguim, lesma",
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "id": "a-piscina-da-nuna",
+      "order": 32,
+      "title": {
+        "pt-BR": "A piscina da Nuna",
+        "en": "Nuna's Pool",
+        "es-MX": "La alberca de Nuna"
+      },
+      "theme": "uma tarde na piscina rasa com a amiga Lia: protetor, bater perna, boiar, esguichar, se enrolar na toalha; hipopotamo, pato, golfinho, lontra-marinha",
+      "characters": [
+        "nuna",
+        "lia"
+      ],
+      "motion": true
+    },
+    {
+      "id": "a-manha-da-nuna",
+      "order": 33,
+      "title": {
+        "pt-BR": "A manhã da Nuna",
+        "en": "Nuna's Morning",
+        "es-MX": "La mañana de Nuna"
+      },
+      "theme": "a manha com o amigo Benji: acordar, espreguicar, lavar o rosto, tomar cafe, sair para brincar; galo, guaxinim, girafa, coala",
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "id": "a-banda-da-nuna",
+      "order": 34,
+      "title": {
+        "pt-BR": "A banda da Nuna",
+        "en": "Nuna's Band",
+        "es-MX": "La banda de Nuna"
+      },
+      "theme": "montar uma banda com Theo e Lia: cantar, batucar, assobiar, bater o pe, cantar baixinho; baleia, gorila, cacatua, bugio",
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "id": "a-arrumacao-da-nuna",
+      "order": 35,
+      "title": {
+        "pt-BR": "A arrumação da Nuna",
+        "en": "Nuna's Clean-Up",
+        "es-MX": "La limpieza de Nuna"
+      },
+      "theme": "arrumar o quarto com a amiga Maya: guardar, empilhar, dobrar, fazer a cama, enrolar o tapete; hamster, gorila, pangolim, castor",
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "id": "as-asas-da-nuna",
+      "order": 36,
+      "title": {
+        "pt-BR": "As asas da Nuna",
+        "en": "Nuna's Wings",
+        "es-MX": "Las alas de Nuna"
+      },
+      "theme": "brincar de voar com o amigo Theo: abrir as asas, planar, pairar, pousar, sonhar que voa; condor, esquilo-voador, albatroz, andorinhao",
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "id": "a-danca-da-nuna",
+      "order": 37,
+      "title": {
+        "pt-BR": "A dança da Nuna",
+        "en": "Nuna's Dance",
+        "es-MX": "El baile de Nuna"
+      },
+      "theme": "uma tarde de danca com a amiga Lia: marchar, ficar num pe so, requebrar, girar, terminar num abraco; flamingo, abelha, cavalo-marinho, grou",
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "id": "o-deserto-da-nuna",
+      "order": 38,
+      "title": {
+        "pt-BR": "O deserto da Nuna",
+        "en": "Nuna's Desert",
+        "es-MX": "El desierto de Nuna"
+      },
+      "theme": "um passeio no deserto com o amigo Benji: chapeu de sol, areia quente, cavar, pular, contar estrelas; feneco, camelo, suricato, jerboa",
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "id": "o-acampamento-da-nuna",
+      "order": 39,
+      "title": {
+        "pt-BR": "O acampamento da Nuna",
+        "en": "Nuna's Campout",
+        "es-MX": "El campamento de Nuna"
+      },
+      "theme": "acampar no quintal com Benji e Maya: armar a barraca, juntar gravetos, acender a lanterna, fazer sombra, entrar no saco de dormir; morcego, castor, coruja, lagarta",
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ],
+      "motion": true
+    },
+    {
+      "id": "os-sentidos-da-nuna",
+      "order": 40,
+      "title": {
+        "pt-BR": "Os sentidos da Nuna",
+        "en": "Nuna's Senses",
+        "es-MX": "Los sentidos de Nuna"
+      },
+      "theme": "descobrir os sentidos com a amiga Maya: cheirar, escutar, olhar longe, tocar, provar; urso, aguia, toupeira-nariz-de-estrela, borboleta",
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "id": "o-esconde-esconde-da-nuna",
+      "order": 41,
+      "title": {
+        "pt-BR": "O esconde-esconde da Nuna",
+        "en": "Nuna's Hide-and-Seek",
+        "es-MX": "Las escondidas de Nuna"
+      },
+      "theme": "brincar de esconde-esconde com o amigo Theo: sair na ponta do pe, se esconder, espiar, ficar parado, achar; bicho-pau, linguado, polvo, gafanhoto",
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "id": "a-escola-da-nuna",
+      "order": 42,
+      "title": {
+        "pt-BR": "A escola da Nuna",
+        "en": "Nuna's School",
+        "es-MX": "La escuela de Nuna"
+      },
+      "theme": "um dia na escolinha com a amiga Lia: fazer fila, sentar na roda, lavar as maos, cochilar, ouvir historia; musaranho, peixe, girafa, suricato",
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "id": "as-bolhas-da-nuna",
+      "order": 43,
+      "title": {
+        "pt-BR": "As bolhas da Nuna",
+        "en": "Nuna's Bubbles",
+        "es-MX": "Las burbujas de Nuna"
+      },
+      "theme": "fazer bolhas de sabao com o amigo Benji: soprar, bolha gigante, correr atras, estourar; golfinho, aranha-mergulhadora, peixe-betta, beluga",
+      "characters": [
+        "nuna",
+        "benji"
+      ],
+      "motion": true
+    },
+    {
+      "id": "o-tesouro-da-nuna",
+      "order": 44,
+      "title": {
+        "pt-BR": "O tesouro da Nuna",
+        "en": "Nuna's Treasure Hunt",
+        "es-MX": "El tesoro de Nuna"
+      },
+      "theme": "uma caca ao tesouro com Theo e Maya: mapa, bussola, pegadas, cavar, dividir o tesouro; borboleta-monarca, texugo, macaco-prego, gaio",
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "id": "a-oficina-da-nuna",
+      "order": 45,
+      "title": {
+        "pt-BR": "A oficina da Nuna",
+        "en": "Nuna's Craft Day",
+        "es-MX": "El taller de Nuna"
+      },
+      "theme": "um dia de trabalhos manuais com a amiga Maya: recortar, tecer, costurar, colar, pintar com os dedos; formiga-cortadeira, tecelao, passaro-alfaiate, vespa",
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "id": "a-montanha-da-nuna",
+      "order": 46,
+      "title": {
+        "pt-BR": "A montanha da Nuna",
+        "en": "Nuna's Mountain",
+        "es-MX": "La montaña de Nuna"
+      },
+      "theme": "uma trilha na montanha com o amigo Theo: subir, gritar, atravessar a ponte, chegar no topo, descer; cabra-montesa, lhama, marmota, pika",
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "id": "a-fantasia-da-nuna",
+      "order": 47,
+      "title": {
+        "pt-BR": "A fantasia da Nuna",
+        "en": "Nuna's Dress-Up",
+        "es-MX": "El disfraz de Nuna"
+      },
+      "theme": "brincar de fantasia com a amiga Lia: chapeu, capa, mascara, coroa, trocar de fantasia; ermitao, pavao, guaxinim, baiacu",
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "id": "as-pedrinhas-da-nuna",
+      "order": 48,
+      "title": {
+        "pt-BR": "As pedrinhas da Nuna",
+        "en": "Nuna's Pebbles",
+        "es-MX": "Las piedritas de Nuna"
+      },
+      "theme": "juntar pedrinhas com o amigo Benji: achar, empilhar, jogar no lago, fazer caminho, dar de presente; lontra-marinha, sapinho-pedra, castor, pinguim",
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "id": "a-festa-do-pijama-da-nuna",
+      "order": 49,
+      "title": {
+        "pt-BR": "A festa do pijama da Nuna",
+        "en": "Nuna's Sleepover",
+        "es-MX": "La pijamada de Nuna"
+      },
+      "theme": "uma festa do pijama com Lia e Benji: vestir pijama, ninho de travesseiro, cochichar, dar voltinhas, dormir; morcego, cachorro, cisne, cachalote",
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "id": "a-turma-da-nuna",
+      "order": 50,
+      "title": {
+        "pt-BR": "A turma da Nuna",
+        "en": "Nuna's Friends",
+        "es-MX": "Los amigos de Nuna"
+      },
+      "theme": "a turma toda se encontra: dividir, esperar a vez, consolar, fazer as pazes, abraco de todo mundo; periquito, bonobo, chimpanze, macaco-da-neve",
+      "characters": [
+        "nuna",
+        "theo",
+        "lia",
+        "benji",
+        "maya"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "a-lama-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A lama da Nuna",
+    "en": "Nuna's Mud",
+    "es-MX": "El lodo de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna ama a lama.",
+        "en": "Nuna loves mud.",
+        "es-MX": "A Nuna le encanta el lodo."
+      },
+      "right": {
+        "pt-BR": "O porco também ama.",
+        "en": "Pig loves it too.",
+        "es-MX": "Al cerdo también le encanta."
+      },
+      "scene": "A child and a pig are looking at a puddle of mud. The child is on the left, the pig on the right, both with happy expressions. Ground is green grass with a large mud puddle, middle is clear, sky is clear.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pisa na lama.",
+        "en": "Nuna steps in mud.",
+        "es-MX": "Nuna pisa el lodo."
+      },
+      "right": {
+        "pt-BR": "O porco pisa na lama.",
+        "en": "Pig steps in mud.",
+        "es-MX": "El cerdo pisa el lodo."
+      },
+      "scene": "A child and a pig are carefully stepping into a mud puddle. The child is on the left, the pig on the right, both looking at their feet. Ground is muddy puddle, middle is clear, sky is clear.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna chapinha na lama.",
+        "en": "Nuna splashes mud.",
+        "es-MX": "Nuna salpica lodo."
+      },
+      "right": {
+        "pt-BR": "O porco chapinha feliz.",
+        "en": "Pig splashes happily.",
+        "es-MX": "El cerdo salpica feliz."
+      },
+      "scene": "A child and a pig are enthusiastically splashing in a mud puddle. The child is on the left, the pig on the right, both with mud flying. Ground is a large muddy puddle, middle is clear, sky is clear.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna escorrega na lama.",
+        "en": "Nuna slides in mud.",
+        "es-MX": "Nuna se resbala en el lodo."
+      },
+      "right": {
+        "pt-BR": "O porco escorrega mais.",
+        "en": "Pig slides more.",
+        "es-MX": "El cerdo se resbala más."
+      },
+      "scene": "A child and a pig are sliding on their bellies through a long patch of mud. The child is on the left, the pig on the right, both smiling. Ground is a long, slick mud patch, middle is clear, sky is clear.",
+      "colors": [
+        "terracota",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna rola na lama.",
+        "en": "Nuna rolls in mud.",
+        "es-MX": "Nuna rueda en el lodo."
+      },
+      "right": {
+        "pt-BR": "O porco rola na lama.",
+        "en": "Pig rolls in mud.",
+        "es-MX": "El cerdo rueda en el lodo."
+      },
+      "scene": "A child and a pig are rolling around in a large mud pit. The child is on the left, the pig on the right, both covered in mud. Ground is a wide, deep mud pit, middle is clear, sky is clear.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna cava um buraco.",
+        "en": "Nuna digs a hole.",
+        "es-MX": "Nuna cava un hoyo."
+      },
+      "right": {
+        "pt-BR": "O porco cava fundo.",
+        "en": "Pig digs deep.",
+        "es-MX": "El cerdo cava hondo."
+      },
+      "scene": "A child and a pig are digging enthusiastically in a muddy patch of ground. The child is on the left, the pig on the right, both with muddy snouts/hands. Ground is muddy earth with fresh holes, middle is clear, sky is clear.",
+      "colors": [
+        "terracota",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna encontra um sapo.",
+        "en": "Nuna finds a frog.",
+        "es-MX": "Nuna encuentra una rana."
+      },
+      "right": {
+        "pt-BR": "O sapo ama a lama.",
+        "en": "Frog loves the mud.",
+        "es-MX": "A la rana le encanta el lodo."
+      },
+      "scene": "A child is looking at a frog in a mud puddle. The child is on the left, the frog on the right, both curious. Ground is a muddy puddle with a frog, middle is clear, sky is clear.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna encontra uma minhoca.",
+        "en": "Nuna finds a worm.",
+        "es-MX": "Nuna encuentra una lombriz."
+      },
+      "right": {
+        "pt-BR": "A minhoca mora na lama.",
+        "en": "Worm lives in mud.",
+        "es-MX": "La lombriz vive en el lodo."
+      },
+      "scene": "A child is holding a small worm found in the mud. The child is on the left, a worm is on the right, both in a muddy environment. Ground is wet muddy soil, middle is clear, sky is clear.",
+      "colors": [
+        "marrom_fundo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna vê um pato.",
+        "en": "Nuna sees a duck.",
+        "es-MX": "Nuna ve un pato."
+      },
+      "right": {
+        "pt-BR": "O pato está na lama.",
+        "en": "Duck is in the mud.",
+        "es-MX": "El pato está en el lodo."
+      },
+      "scene": "A child is pointing at a duck in a muddy pond. The child is on the left, the duck on the right, both in a muddy water setting. Ground is a muddy pond, middle is green reeds, sky is clear.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca",
+        "azul_profundo"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna senta na lama.",
+        "en": "Nuna sits in mud.",
+        "es-MX": "Nuna se sienta en el lodo."
+      },
+      "right": {
+        "pt-BR": "O porco senta na lama.",
+        "en": "Pig sits in mud.",
+        "es-MX": "El cerdo se sienta en el lodo."
+      },
+      "scene": "A child and a pig are sitting comfortably in a shallow mud puddle. The child is on the left, the pig on the right, both covered in mud. Ground is a wide, shallow mud puddle, middle is clear, sky is clear.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna está cheia de lama.",
+        "en": "Nuna is full of mud.",
+        "es-MX": "Nuna está llena de lodo."
+      },
+      "right": {
+        "pt-BR": "O porco também está.",
+        "en": "Pig is too.",
+        "es-MX": "El cerdo también lo está."
+      },
+      "scene": "A child and a pig are completely covered in mud, smiling. The child is on the left, the pig on the right, both standing. Ground is muddy, middle is clear, sky is clear.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Lama é muito legal!",
+        "en": "Mud is super cool!",
+        "es-MX": "¡El lodo es genial!"
+      },
+      "right": {
+        "pt-BR": "Porco ama lama!",
+        "en": "Pig loves mud!",
+        "es-MX": "¡El cerdo ama el lodo!"
+      },
+      "scene": "A child and a pig are giving a thumbs up (or hoof up) gesture, still covered in mud. The child is on the left, the pig on the right, both looking happy. Ground is muddy, middle is clear, sky is clear.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

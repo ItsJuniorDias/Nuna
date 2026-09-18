@@ -1,0 +1,227 @@
+{
+  "id": "o-banho-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O banho da Nuna",
+    "en": "Nuna's Bath",
+    "es-MX": "El baño de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna entra na banheira. Água!",
+        "en": "Nuna gets in. Water!"
+      },
+      "right": {
+        "pt-BR": "Pato na banheira. Quack, quack!",
+        "en": "Duck in tub. Quack, quack!"
+      },
+      "scene": "A child sits in a bathtub on the left, a rubber duck floats in a bathtub on the right, both in a bathroom setting. Floor is tiles, middle is bathtub, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna molha o cabelo. Splash!",
+        "en": "Nuna wets her hair. Splash!"
+      },
+      "right": {
+        "pt-BR": "Passarinho molha as asas. Flap, flap!",
+        "en": "Bird wets wings. Flap, flap!"
+      },
+      "scene": "A child splashes water on her head in a bathtub on the left, a small bird splashes water on its wings under a faucet on the right. Floor is tiles, middle is bathtub/sink, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna esfrega os braços. Sabão!",
+        "en": "Nuna scrubs her arms. Soap!"
+      },
+      "right": {
+        "pt-BR": "Gato se esfrega. Ai, água!",
+        "en": "Cat rubs itself. Oh, water!"
+      },
+      "scene": "A child rubs her arm with soap in a bathtub on the left, a cat reluctantly rubs its fur with a paw near a small puddle on the right. Floor is tiles, middle is bathtub/floor, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna lava as pernas. Bolhas!",
+        "en": "Nuna washes her legs. Bubbles!"
+      },
+      "right": {
+        "pt-BR": "Pato lava o bico. Quack!",
+        "en": "Duck washes its beak. Quack!"
+      },
+      "scene": "A child's legs are visible in soapy water in a bathtub on the left, a rubber duck floats in a bubble-filled bathtub on the right. Floor is tiles, middle is bathtub, top is wall.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna esfrega a barriga. Cheiroso!",
+        "en": "Nuna rubs her belly. Smells good!"
+      },
+      "right": {
+        "pt-BR": "Gato lambe a barriga. Limpo!",
+        "en": "Cat licks its belly. Clean!"
+      },
+      "scene": "A child rubs her belly with soap in a bathtub on the left, a cat licks its belly while sitting on a mat on the right. Floor is tiles, middle is bathtub/mat, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna chacoalha a água. Muita espuma!",
+        "en": "Nuna splashes water. Much foam!"
+      },
+      "right": {
+        "pt-BR": "Pato chacoalha o corpo. Espuma!",
+        "en": "Duck shakes body. Foam!"
+      },
+      "scene": "A child splashes water vigorously in a bathtub creating foam on the left, a rubber duck is being splashed by water in a foamy bathtub on the right. Floor is tiles, middle is bathtub, top is wall.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna gosta da água. Quente!",
+        "en": "Nuna likes water. Warm!"
+      },
+      "right": {
+        "pt-BR": "Pato adora a água. Divertido!",
+        "en": "Duck loves water. Fun!"
+      },
+      "scene": "A child smiles happily in warm bath water on the left, a rubber duck floats contentedly in warm bath water on the right. Floor is tiles, middle is bathtub, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna sai do banho. Brrr!",
+        "en": "Nuna leaves bath. Brrr!"
+      },
+      "right": {
+        "pt-BR": "Gato foge da água. Sai, sai!",
+        "en": "Cat escapes water. Away, away!"
+      },
+      "scene": "A child steps out of a bathtub wrapped in a towel on the left, a cat leaps away from a small amount of water on the right. Floor is tiles, middle is bathtub/floor, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna se seca. Quentinho!",
+        "en": "Nuna dries herself. Warm!"
+      },
+      "right": {
+        "pt-BR": "Passarinho se seca. Sol!",
+        "en": "Bird dries itself. Sun!"
+      },
+      "scene": "A child wraps a towel around herself on the left, a small bird shakes water off its feathers in sunlight on the right. Floor is tiles, middle is floor/branch, top is window/sky.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna penteia o cabelo. Liso!",
+        "en": "Nuna combs her hair. Smooth!"
+      },
+      "right": {
+        "pt-BR": "Gato lambe o pelo. Macio!",
+        "en": "Cat licks its fur. Soft!"
+      },
+      "scene": "A child combs her wet hair in front of a mirror on the left, a cat meticulously licks its fur on a mat on the right. Floor is tiles, middle is floor/mat, top is wall.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna veste o pijama. Conforto!",
+        "en": "Nuna puts on pajamas. Comfort!"
+      },
+      "right": {
+        "pt-BR": "Pato volta para a cama. Soninho!",
+        "en": "Duck returns to bed. Sleepy!"
+      },
+      "scene": "A child puts on soft pajamas in a bedroom on the left, a rubber duck is placed gently back onto a small bed on the right. Floor is wood, middle is bed, top is wall.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna está limpa. Hora de dormir!",
+        "en": "Nuna is clean. Bedtime!"
+      },
+      "right": {
+        "pt-BR": "Todos limpos. Boa noite!",
+        "en": "All clean. Good night!"
+      },
+      "scene": "A child is tucked into bed on the left, a cat and a rubber duck are sleeping peacefully next to each other on a soft blanket on the right. Floor is wood, middle is bed, top is wall.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

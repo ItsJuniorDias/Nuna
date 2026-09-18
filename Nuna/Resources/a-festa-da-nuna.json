@@ -1,0 +1,254 @@
+{
+  "id": "a-festa-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A festa da Nuna",
+    "en": "Nuna's Party",
+    "es-MX": "La fiesta de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna convida.",
+        "en": "Nuna invites.",
+        "es-MX": "Nuna invita."
+      },
+      "right": {
+        "pt-BR": "Amigos chegam.",
+        "en": "Friends arrive.",
+        "es-MX": "Amigos llegan."
+      },
+      "scene": "A child stands by a gate, waving. On the right, a small group of animals approaches, looking excited. The ground is grassy, with a fence in the middle ground, and a clear sky above.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna danca.",
+        "en": "Nuna dances.",
+        "es-MX": "Nuna baila."
+      },
+      "right": {
+        "pt-BR": "Grilo danca.",
+        "en": "Cricket dances.",
+        "es-MX": "Grillo baila."
+      },
+      "scene": "A child stands on one leg, arms up, dancing. On the right, a cricket in the same pose, dancing. The ground is a patio, with low bushes in the middle ground, and a bright sky.",
+      "colors": [
+        "tijolo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna canta.",
+        "en": "Nuna sings.",
+        "es-MX": "Nuna canta."
+      },
+      "right": {
+        "pt-BR": "Sapo canta.",
+        "en": "Frog sings.",
+        "es-MX": "Sapo canta."
+      },
+      "scene": "A child stands with mouth open, hands clasped, singing. On the right, a frog on a lily pad in the same pose, singing. The ground is wet grass, with a pond in the middle ground, and trees in the background.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna sorri.",
+        "en": "Nuna smiles.",
+        "es-MX": "Nuna sonríe."
+      },
+      "right": {
+        "pt-BR": "Passarinho sorri.",
+        "en": "Bird smiles.",
+        "es-MX": "Pajarito sonríe."
+      },
+      "scene": "A child sits on a low wall, smiling happily. On the right, a small bird on a branch in the same pose, smiling. The ground is a path, with a garden wall in the middle ground, and a leafy tree.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna corta bolo.",
+        "en": "Nuna cuts cake.",
+        "es-MX": "Nuna corta pastel."
+      },
+      "right": {
+        "pt-BR": "Amigos esperam.",
+        "en": "Friends wait.",
+        "es-MX": "Amigos esperan."
+      },
+      "scene": "A child holds a knife, poised to cut a cake on a table. On the right, a group of small animals sits patiently, watching the cake. The ground is a picnic blanket, with a table in the middle ground, and a clear sky.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna oferece.",
+        "en": "Nuna offers.",
+        "es-MX": "Nuna ofrece."
+      },
+      "right": {
+        "pt-BR": "Formiga pega.",
+        "en": "Ant takes.",
+        "es-MX": "Hormiga toma."
+      },
+      "scene": "A child holds out a slice of cake on a plate. On the right, a small ant reaches out to take a crumb. The ground is a wooden deck, with a table in the middle ground, and a potted plant.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna divide.",
+        "en": "Nuna shares.",
+        "es-MX": "Nuna comparte."
+      },
+      "right": {
+        "pt-BR": "Amigos pegam.",
+        "en": "Friends take.",
+        "es-MX": "Amigos toman."
+      },
+      "scene": "A child holds a plate with multiple cake slices, offering them to others. On the right, several small animals are reaching for their own cake pieces. The ground is a grassy patch, with a low table, and flowers blooming.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna come bolo.",
+        "en": "Nuna eats cake.",
+        "es-MX": "Nuna come pastel."
+      },
+      "right": {
+        "pt-BR": "Sapo come bolo.",
+        "en": "Frog eats cake.",
+        "es-MX": "Sapo come pastel."
+      },
+      "scene": "A child holds a piece of cake to their mouth, eating. On the right, a frog on a leaf holds a small crumb to its mouth, eating. The ground is by a pond, with large leaves in the middle ground, and reeds.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna bebe suco.",
+        "en": "Nuna drinks juice.",
+        "es-MX": "Nuna bebe jugo."
+      },
+      "right": {
+        "pt-BR": "Passarinho bebe.",
+        "en": "Bird drinks.",
+        "es-MX": "Pajarito bebe."
+      },
+      "scene": "A child sips from a small cup. On the right, a bird sips from a water droplet on a leaf. The ground is a paved patio, with a bird bath in the middle ground, and a small bush.",
+      "colors": [
+        "tijolo",
+        "oliva",
+        "azul_fumaca",
+        "magenta"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna carrega.",
+        "en": "Nuna carries.",
+        "es-MX": "Nuna carga."
+      },
+      "right": {
+        "pt-BR": "Formiga carrega.",
+        "en": "Ant carries.",
+        "es-MX": "Hormiga carga."
+      },
+      "scene": "A child carries a small empty plate. On the right, an ant carries a tiny cake crumb. The ground is a dirt path, with pebbles in the middle ground, and a few blades of grass.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna acena.",
+        "en": "Nuna waves.",
+        "es-MX": "Nuna saluda."
+      },
+      "right": {
+        "pt-BR": "Amigos acenam.",
+        "en": "Friends wave.",
+        "es-MX": "Amigos saludan."
+      },
+      "scene": "A child waves goodbye, with an arm raised. On the right, the group of animals waves back, some with tiny paws. The ground is a garden path, with a fence in the middle ground, and a sunset sky.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna dorme.",
+        "en": "Nuna sleeps.",
+        "es-MX": "Nuna duerme."
+      },
+      "right": {
+        "pt-BR": "Todos dormem.",
+        "en": "Everyone sleeps.",
+        "es-MX": "Todos duermen."
+      },
+      "scene": "A child is asleep in a bed, covered by a blanket. On the right, the various animals are also asleep in their natural habitats. The ground is a floor, with a bed in the middle ground, and a window showing a night sky.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

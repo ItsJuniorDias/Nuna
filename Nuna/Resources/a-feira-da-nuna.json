@@ -1,0 +1,252 @@
+{
+  "id": "a-feira-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Feira da Nuna",
+    "en": "Nuna's Market",
+    "es-MX": "La Feria de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna carrega a sacola vazia.",
+        "en": "Nuna carries an empty bag.",
+        "es-MX": "Nuna lleva la bolsa vacía."
+      },
+      "right": {
+        "pt-BR": "Pardal carrega um galho leve.",
+        "en": "Sparrow carries a light twig.",
+        "es-MX": "Gorrión lleva una ramita ligera."
+      },
+      "scene": "A child walks on a paved street with market stalls in the background under a clear sky. A sparrow flies with a twig in its beak.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna olha frutas frescas.",
+        "en": "Nuna looks at fresh fruit.",
+        "es-MX": "Nuna mira frutas frescas."
+      },
+      "right": {
+        "pt-BR": "Gato olha peixe fresco.",
+        "en": "Cat looks at fresh fish.",
+        "es-MX": "Gato mira pescado fresco."
+      },
+      "scene": "A child stands in front of a fruit stall, looking at the produce. A cat sits in front of a fish stall, looking at the fish.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna escolhe uma maçã vermelha.",
+        "en": "Nuna chooses a red apple.",
+        "es-MX": "Nuna elige una manzana roja."
+      },
+      "right": {
+        "pt-BR": "Pardal escolhe uma semente pequena.",
+        "en": "Sparrow chooses a small seed.",
+        "es-MX": "Gorrión elige una semilla pequeña."
+      },
+      "scene": "A child reaches for a red apple in a basket on a market stall. A sparrow pecks at seeds on the ground.",
+      "colors": [
+        "tijolo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna cheira manjericão verde.",
+        "en": "Nuna smells green basil.",
+        "es-MX": "Nuna huele albahaca verde."
+      },
+      "right": {
+        "pt-BR": "Gato cheira grama fresca.",
+        "en": "Cat smells fresh grass.",
+        "es-MX": "Gato huele hierba fresca."
+      },
+      "scene": "A child leans over to smell a pot of green basil on a market table. A cat sniffs a patch of green grass.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna toca a abóbora grande.",
+        "en": "Nuna touches the big pumpkin.",
+        "es-MX": "Nuna toca la calabaza grande."
+      },
+      "right": {
+        "pt-BR": "Cachorro toca a bola grande.",
+        "en": "Dog touches the big ball.",
+        "es-MX": "Perro toca la pelota grande."
+      },
+      "scene": "A child's hand reaches out to touch a large pumpkin on a market display. A dog's paw touches a large ball on the ground.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna olha para o alto.",
+        "en": "Nuna looks up high.",
+        "es-MX": "Nuna mira hacia arriba."
+      },
+      "right": {
+        "pt-BR": "Pombo olha para o alto.",
+        "en": "Pigeon looks up high.",
+        "es-MX": "Paloma mira hacia arriba."
+      },
+      "scene": "A child tilts their head back, looking up at the sky above the market stalls. A pigeon cranes its neck, looking up at the sky.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna ouve a música alta.",
+        "en": "Nuna hears the loud music.",
+        "es-MX": "Nuna oye la música fuerte."
+      },
+      "right": {
+        "pt-BR": "Gato ouve um sino longe.",
+        "en": "Cat hears a distant bell.",
+        "es-MX": "Gato oye una campana lejana."
+      },
+      "scene": "A child stands with a hand near their ear, listening to music from a market stall. A cat sits with its ears perked, listening.",
+      "colors": [
+        "tijolo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna acena para um amigo.",
+        "en": "Nuna waves to a friend.",
+        "es-MX": "Nuna saluda a un amigo."
+      },
+      "right": {
+        "pt-BR": "Cachorro abana o rabo.",
+        "en": "Dog wags its tail.",
+        "es-MX": "Perro mueve la cola."
+      },
+      "scene": "A child raises a hand to wave at someone across the market. A dog stands with its tail wagging happily.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna sente o cheiro doce.",
+        "en": "Nuna smells the sweet scent.",
+        "es-MX": "Nuna siente el olor dulce."
+      },
+      "right": {
+        "pt-BR": "Pardal sente o cheiro do pão.",
+        "en": "Sparrow smells the bread.",
+        "es-MX": "Gorrión siente el olor del pan."
+      },
+      "scene": "A child takes a deep breath, smelling a sweet aroma from a bakery stall. A sparrow hops near a dropped piece of bread, smelling it.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna encontra uma flor bonita.",
+        "en": "Nuna finds a pretty flower.",
+        "es-MX": "Nuna encuentra una flor bonita."
+      },
+      "right": {
+        "pt-BR": "Gato encontra uma borboleta colorida.",
+        "en": "Cat finds a colorful butterfly.",
+        "es-MX": "Gato encuentra una mariposa colorida."
+      },
+      "scene": "A child points at a colorful flower in a pot at a flower stall. A cat stares intently at a butterfly flying nearby.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna carrega a sacola cheia.",
+        "en": "Nuna carries the full bag.",
+        "es-MX": "Nuna lleva la bolsa llena."
+      },
+      "right": {
+        "pt-BR": "Cachorro carrega um osso grande.",
+        "en": "Dog carries a big bone.",
+        "es-MX": "Perro lleva un hueso grande."
+      },
+      "scene": "A child walks away from the market, holding a heavy, full shopping bag. A dog trots with a large bone in its mouth.",
+      "colors": [
+        "terracota",
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna está feliz na feira.",
+        "en": "Nuna is happy at the market.",
+        "es-MX": "Nuna está feliz en la feria."
+      },
+      "right": {
+        "pt-BR": "Pombo está feliz no telhado.",
+        "en": "Pigeon is happy on the roof.",
+        "es-MX": "Paloma está feliz en el tejado."
+      },
+      "scene": "A child smiles broadly, standing amidst the market activity. A pigeon coos contentedly on a rooftop overlooking the market.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "a-viagem-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Viagem da Nuna",
+    "en": "Nuna's Trip",
+    "es-MX": "El Viaje de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna no carro.",
+        "en": "Nuna in the car.",
+        "es-MX": "Nuna en el auto."
+      },
+      "right": {
+        "pt-BR": "Pássaro no céu.",
+        "en": "Bird in the sky.",
+        "es-MX": "Pájaro en el cielo."
+      },
+      "scene": "A small child Nuna sits in a car seat looking forward, while on the right, a bird flies in the sky looking forward. Ground, middle distance, sky.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna olha a janela.",
+        "en": "Nuna looks out.",
+        "es-MX": "Nuna mira afuera."
+      },
+      "right": {
+        "pt-BR": "Pássaro olha a paisagem.",
+        "en": "Bird sees the view.",
+        "es-MX": "Pájaro ve el paisaje."
+      },
+      "scene": "A small child Nuna leans her head against a car window looking out, while on the right, a bird looks down at the landscape from flight. Road, trees, sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna vê o boi.",
+        "en": "Nuna sees the ox.",
+        "es-MX": "Nuna ve el buey."
+      },
+      "right": {
+        "pt-BR": "Pássaro vê o gado.",
+        "en": "Bird sees the cattle.",
+        "es-MX": "Pájaro ve el ganado."
+      },
+      "scene": "A small child Nuna points from inside a car window at an ox in a field, while on the right, a bird flies above looking down at a herd of cattle. Field, distant hills, sky.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna boceja no carro.",
+        "en": "Nuna yawns in car.",
+        "es-MX": "Nuna bosteza en auto."
+      },
+      "right": {
+        "pt-BR": "Cão boceja na caçamba.",
+        "en": "Dog yawns in truck.",
+        "es-MX": "Perro bosteza en camioneta."
+      },
+      "scene": "A small child Nuna yawns widely in her car seat, while on the right, a dog yawns widely in the back of a pickup truck. Road, fence, sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna esfrega os olhos.",
+        "en": "Nuna rubs her eyes.",
+        "es-MX": "Nuna frota sus ojos."
+      },
+      "right": {
+        "pt-BR": "Cão esfrega a pata.",
+        "en": "Dog rubs his paw.",
+        "es-MX": "Perro frota su pata."
+      },
+      "scene": "A small child Nuna rubs her eyes with both hands in the car, while on the right, a dog rubs its face with a paw in the back of a truck. Road, grass, sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna fecha os olhos.",
+        "en": "Nuna closes her eyes.",
+        "es-MX": "Nuna cierra los ojos."
+      },
+      "right": {
+        "pt-BR": "Cão fecha os olhos.",
+        "en": "Dog closes his eyes.",
+        "es-MX": "Perro cierra los ojos."
+      },
+      "scene": "A small child Nuna has her eyes closed in a car seat, while on the right, a dog has its eyes closed in the back of a pickup truck. Road, trees, sky.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna dorme tranquila.",
+        "en": "Nuna sleeps soundly.",
+        "es-MX": "Nuna duerme tranquila."
+      },
+      "right": {
+        "pt-BR": "Cão dorme tranquilo.",
+        "en": "Dog sleeps soundly.",
+        "es-MX": "Perro duerme tranquilo."
+      },
+      "scene": "A small child Nuna is sleeping with her head tilted in her car seat, while on the right, a dog is sleeping with its head tilted in the back of a truck. Road, fields, sky.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna acorda feliz.",
+        "en": "Nuna wakes happy.",
+        "es-MX": "Nuna despierta feliz."
+      },
+      "right": {
+        "pt-BR": "Cão acorda feliz.",
+        "en": "Dog wakes happy.",
+        "es-MX": "Perro despierta feliz."
+      },
+      "scene": "A small child Nuna stretches and smiles after waking in her car seat, while on the right, a dog stretches and smiles after waking in the back of a truck. Road, distant mountains, sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna olha à frente.",
+        "en": "Nuna looks ahead.",
+        "es-MX": "Nuna mira al frente."
+      },
+      "right": {
+        "pt-BR": "Pássaro olha à frente.",
+        "en": "Bird looks ahead.",
+        "es-MX": "Pájaro mira al frente."
+      },
+      "scene": "A small child Nuna looks forward from her car seat, while on the right, a bird flies forward looking ahead. Road, trees, sky.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna vê uma casa.",
+        "en": "Nuna sees a house.",
+        "es-MX": "Nuna ve una casa."
+      },
+      "right": {
+        "pt-BR": "Pássaro vê um ninho.",
+        "en": "Bird sees a nest.",
+        "es-MX": "Pájaro ve un nido."
+      },
+      "scene": "A small child Nuna points to a house in the distance from her car window, while on the right, a bird flies towards a nest in a tree. Road, field, sky.",
+      "colors": [
+        "oliva",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna sorri no carro.",
+        "en": "Nuna smiles in car.",
+        "es-MX": "Nuna sonríe en auto."
+      },
+      "right": {
+        "pt-BR": "Cão sorri na caçamba.",
+        "en": "Dog smiles in truck.",
+        "es-MX": "Perro sonríe en camioneta."
+      },
+      "scene": "A small child Nuna smiles broadly in her car seat, while on the right, a dog smiles broadly in the back of a pickup truck. Road, distant fields, sky.",
+      "colors": [
+        "mostarda",
+        "azul_profundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna chegou!",
+        "en": "Nuna arrived!",
+        "es-MX": "¡Nuna llegó!"
+      },
+      "right": {
+        "pt-BR": "Pássaro chegou!",
+        "en": "Bird arrived!",
+        "es-MX": "¡Pájaro llegó!"
+      },
+      "scene": "A small child Nuna stands outside a car, raising her arms in excitement, while on the right, a bird perches on a tree branch, raising its wings in excitement. Ground, house, sky.",
+      "colors": [
+        "oliva",
+        "tijolo",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

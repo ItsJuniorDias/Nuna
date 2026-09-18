@@ -1,0 +1,301 @@
+{
+  "id": "a-corrida-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A corrida da Nuna",
+    "en": "Nuna's Race",
+    "es-MX": "La carrera de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Theo, preparar... já!",
+        "en": "Nuna and Theo, ready, set, go!",
+        "es-MX": "Nuna y Theo, en sus marcas... ¡ya!"
+      },
+      "right": {
+        "pt-BR": "O guepardo já saiu voando.",
+        "en": "The cheetah is already off!",
+        "es-MX": "El guepardo ya salió disparado."
+      },
+      "scene": "On the left Nuna and Theo crouch at a start line drawn on the grass, ready to run; on the right a cheetah bursts forward out of a crouch across the savanna, in the same starting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a band of low trees through the middle, a grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois correm, correm!",
+        "en": "Both run as fast as they can.",
+        "es-MX": "¡Los dos corren y corren!"
+      },
+      "right": {
+        "pt-BR": "O avestruz dá passos gigantes.",
+        "en": "The ostrich takes giant steps.",
+        "es-MX": "El avestruz da pasos gigantes."
+      },
+      "scene": "On the left Nuna and Theo run side by side across the grass, arms pumping; on the right an ostrich runs across open plains with long, giant strides, in the same running pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a distant plains band through the middle, a grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Theo pulam a corda.",
+        "en": "Nuna and Theo jump over the rope.",
+        "es-MX": "Nuna y Theo saltan la cuerda."
+      },
+      "right": {
+        "pt-BR": "O impala pula lá no alto.",
+        "en": "The impala leaps way up high.",
+        "es-MX": "El impala salta altísimo."
+      },
+      "scene": "On the left Nuna and Theo leap over a rope lying on the grass, knees up; on the right an impala leaps high over tall grass in the same knees-up jump. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of tall grass through the middle, a dry ground band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Theo pulam no saco.",
+        "en": "Nuna and Theo hop in sacks.",
+        "es-MX": "Nuna y Theo saltan en costales."
+      },
+      "right": {
+        "pt-BR": "O canguru pula de pés juntos.",
+        "en": "The kangaroo hops with its feet together.",
+        "es-MX": "El canguro salta con las patas juntas."
+      },
+      "scene": "On the left Nuna and Theo hop forward inside two cloth sacks, feet together; on the right a kangaroo hops forward with both feet together, in the same bouncing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of gum trees through the middle, a dusty ground band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Theo levam o ovo na colher.",
+        "en": "Nuna and Theo carry eggs on spoons.",
+        "es-MX": "Nuna y Theo llevan el huevo en cuchara."
+      },
+      "right": {
+        "pt-BR": "O pinguim leva o ovo nos pés.",
+        "en": "The penguin carries its egg on its feet.",
+        "es-MX": "El pingüino lleva su huevo en las patas."
+      },
+      "scene": "On the left Nuna and Theo walk very carefully, each holding a spoon with an egg on it; on the right an emperor penguin shuffles carefully across the ice with an egg resting on its feet, in the same careful walk. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an ice ridge band through the middle, a flat ice band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Zigue, zague, pelos cones!",
+        "en": "Zig! Zag! Around the cones!",
+        "es-MX": "¡Zig, zag, entre los conos!"
+      },
+      "right": {
+        "pt-BR": "A lebre faz zigue-zague mais rápido.",
+        "en": "The hare zigzags even faster.",
+        "es-MX": "La liebre zigzaguea más rápido."
+      },
+      "scene": "On the left Nuna and Theo zigzag between little cones on the grass; on the right a hare zigzags across a meadow in the same swerving run. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hedge band through the middle, a meadow band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Agora, correndo de costas!",
+        "en": "Now run backward!",
+        "es-MX": "¡Ahora, corriendo de espaldas!"
+      },
+      "right": {
+        "pt-BR": "O lagostim nada para trás.",
+        "en": "The crayfish zips backward.",
+        "es-MX": "El acocil nada para atrás."
+      },
+      "scene": "On the left Nuna and Theo jog backward across the grass, looking over their shoulders; on the right a crayfish shoots backward through a clear stream with a flick of its tail, in the same backward dash. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a grassy bank band through the middle, a shallow streambed band along the bottom.",
+      "colors": [
+        "terracota",
+        "turquesa",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Agora, uma corrida bem lenta.",
+        "en": "Now a very slow race.",
+        "es-MX": "Ahora, una carrera muy lenta."
+      },
+      "right": {
+        "pt-BR": "A lesma ganha, bem devagar.",
+        "en": "The slug wins, nice and slow.",
+        "es-MX": "La babosa gana, muy despacito."
+      },
+      "scene": "On the left Nuna and Theo take tiny, slow steps toward a ribbon finish line, giggling; on the right a slug glides slowly along a leaf and reaches the tip first, in the same slow forward stretch. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a garden plant band through the middle, a grass band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "A capa do Theo voa na corrida.",
+        "en": "Theo's cape flies as he runs.",
+        "es-MX": "La capa de Theo vuela al correr."
+      },
+      "right": {
+        "pt-BR": "O lagarto corre de gola aberta.",
+        "en": "The frilled lizard runs on two legs.",
+        "es-MX": "El lagarto de gorguera corre en dos patas."
+      },
+      "scene": "On the left Theo runs with his cape flapping behind him while Nuna runs beside him with her arms spread wide; on the right a frilled lizard runs upright on its two back legs with its frill open wide, in the same flying run. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of dry bushes through the middle, a sandy ground band along the bottom.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Theo chegam juntos!",
+        "en": "Nuna and Theo finish together!",
+        "es-MX": "¡Nuna y Theo llegan juntos!"
+      },
+      "right": {
+        "pt-BR": "Os gnus correm aos milhares.",
+        "en": "The wildebeest run by the thousands.",
+        "es-MX": "Los ñus corren por miles."
+      },
+      "scene": "On the left Nuna and Theo run through a ribbon finish line side by side, holding hands; on the right a big herd of wildebeest runs together across the plains, side by side, in the same running pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a dust cloud band through the middle, a plains band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Hora de beber muita água.",
+        "en": "Time for lots of water.",
+        "es-MX": "Hora de tomar mucha agua."
+      },
+      "right": {
+        "pt-BR": "O camelo bebe um montão.",
+        "en": "The camel drinks a whole lot.",
+        "es-MX": "El camello toma un montón."
+      },
+      "scene": "On the left Nuna and Theo sit on the grass drinking from big water bottles, heads tipped back; on the right a camel drinks and drinks at a desert pool, in the same thirsty pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a band of sand dunes through the middle, a water pool band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Theo cochilam em pé.",
+        "en": "Nuna and Theo nod off standing up.",
+        "es-MX": "Nuna y Theo cabecean de pie."
+      },
+      "right": {
+        "pt-BR": "O cavalo cochila em pé mesmo.",
+        "en": "The horse can nap standing up.",
+        "es-MX": "El caballo sí dormita de pie."
+      },
+      "scene": "On the left Nuna and Theo stand leaning on each other with their eyes closing, very sleepy; on the right a horse sleeps standing up in a field with its eyes closed and head low, in the same sleepy stance. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a fence band through the middle, a field band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Theo stand side by side, facing forward, with a small cheetah, a small ostrich, and a small impala scattered around them, all looking towards Nuna and Theo, against a background of three horizontal bands.",
+  "cover_bands": 3
+}

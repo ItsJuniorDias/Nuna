@@ -1,0 +1,301 @@
+{
+  "id": "o-outono-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O outono da Nuna",
+    "en": "Nuna's Autumn",
+    "es-MX": "El otoño de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Maya sentem o vento frio.",
+        "en": "Nuna and Maya feel the chilly wind.",
+        "es-MX": "Nuna y Maya sienten el viento frío."
+      },
+      "right": {
+        "pt-BR": "A raposa se enrola no rabo.",
+        "en": "The fox curls up in its tail.",
+        "es-MX": "El zorro se enrolla en su cola."
+      },
+      "scene": "On the left Nuna and Maya hug themselves against a breeze, leaves blowing past; on the right a fox curls up wrapped in its bushy tail in the same hugging shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a cool sky band across the top, an autumn tree band through the middle, a leafy ground band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna e Maya pulam nas folhas.",
+        "en": "Nuna and Maya jump in the leaves.",
+        "es-MX": "Nuna y Maya saltan en las hojas."
+      },
+      "right": {
+        "pt-BR": "O esquilo pula mais longe.",
+        "en": "The squirrel jumps much farther.",
+        "es-MX": "La ardilla salta más lejos."
+      },
+      "scene": "On the left Nuna and Maya jump into a pile of fallen leaves, arms up; on the right a squirrel leaps from one branch to a far one in the same arms-up jump. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, autumn treetops, a leaf pile band, ground.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Maya juntam pinhas.",
+        "en": "Nuna and Maya gather pinecones.",
+        "es-MX": "Nuna y Maya juntan piñas."
+      },
+      "right": {
+        "pt-BR": "O ouriço leva frutinhas nos espinhos.",
+        "en": "The hedgehog carries berries on its spines.",
+        "es-MX": "El erizo lleva frutos en sus púas."
+      },
+      "scene": "On the left Nuna and Maya crouch picking up pinecones into their arms; on the right a hedgehog carries small berries stuck on its spines in the same crouched pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pine tree band through the middle, a forest floor band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Maya batem no tronco.",
+        "en": "Nuna and Maya tap on the tree.",
+        "es-MX": "Nuna y Maya tocan el tronco."
+      },
+      "right": {
+        "pt-BR": "O pica-pau bate bem mais rápido.",
+        "en": "The woodpecker taps much faster.",
+        "es-MX": "El pájaro carpintero toca más rápido."
+      },
+      "scene": "On the left Nuna and Maya knock on a thick tree trunk with their fists; on the right a woodpecker drums on a trunk with its beak in the same knocking pose, motion lines around its head. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, autumn leaves, a tree trunk band, ground.",
+      "colors": [
+        "marrom_fundo",
+        "terracota",
+        "vermelho_quente"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Maya se escondem na pilha.",
+        "en": "Nuna and Maya hide in the pile.",
+        "es-MX": "Nuna y Maya se esconden en el montón."
+      },
+      "right": {
+        "pt-BR": "A raposa some entre as folhas.",
+        "en": "The fox disappears among the leaves.",
+        "es-MX": "El zorro desaparece entre las hojas."
+      },
+      "scene": "On the left Nuna and Maya peek out of a big leaf pile, only their heads showing; on the right a fox almost fully hidden in fallen leaves, only its ears and eyes showing in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree band through the middle, a leaf pile band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Maya mordem uma maçã.",
+        "en": "Nuna and Maya munch an apple.",
+        "es-MX": "Nuna y Maya muerden una manzana."
+      },
+      "right": {
+        "pt-BR": "O veado come a maçã inteira.",
+        "en": "The deer eats the whole apple.",
+        "es-MX": "El venado se come toda la manzana."
+      },
+      "scene": "On the left Nuna and Maya each take a big bite of an apple under an apple tree; on the right a deer bends down and eats a whole fallen apple in the same biting pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, an apple tree band, an orchard grass band, ground.",
+      "colors": [
+        "tijolo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Maya andam em fila.",
+        "en": "Nuna and Maya walk in a line.",
+        "es-MX": "Nuna y Maya caminan en fila."
+      },
+      "right": {
+        "pt-BR": "Os patos andam em fila perfeita.",
+        "en": "The ducks walk in a perfect line.",
+        "es-MX": "Los patos caminan en fila perfecta."
+      },
+      "scene": "On the left Nuna and Maya walk one behind the other along a path, knees high; on the right a row of ducks waddles in a perfect straight line in the same marching pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pond edge band through the middle, a path band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Maya se abraçam pra esquentar.",
+        "en": "Nuna and Maya hug to keep warm.",
+        "es-MX": "Nuna y Maya se abrazan para calentarse."
+      },
+      "right": {
+        "pt-BR": "Os passarinhos se juntam no galho.",
+        "en": "The little birds huddle on a branch.",
+        "es-MX": "Los pajaritos se juntan en la rama."
+      },
+      "scene": "On the left Nuna and Maya huddle together in a warm hug; on the right three little birds huddle close together on a bare branch in the same huddled shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a grey-blue sky band across the top, a bare branch band through the middle, a leafy ground band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Maya acenam para o céu.",
+        "en": "Nuna and Maya wave at the sky.",
+        "es-MX": "Nuna y Maya saludan al cielo."
+      },
+      "right": {
+        "pt-BR": "Os gansos voam para longe.",
+        "en": "The geese fly far, far away.",
+        "es-MX": "Los gansos vuelan muy lejos."
+      },
+      "scene": "On the left Nuna and Maya wave up at the sky with both arms; on the right a V of geese flies away across the sky, wings raised like waving arms. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a distant hill band through the middle, a field band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Maya enchem os bolsos.",
+        "en": "Nuna and Maya fill their pockets.",
+        "es-MX": "Nuna y Maya llenan sus bolsillos."
+      },
+      "right": {
+        "pt-BR": "A formiga guarda comida pro frio.",
+        "en": "The ant saves food for winter.",
+        "es-MX": "La hormiga guarda comida para el frío."
+      },
+      "scene": "On the left Nuna and Maya stuff acorns and leaves into their pockets; on the right an ant carries a seed into its anthill in the same stuffing pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, trees, a ground band, an underground anthill band.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Maya tomam chocolate quente.",
+        "en": "Nuna and Maya sip hot cocoa.",
+        "es-MX": "Nuna y Maya toman chocolate caliente."
+      },
+      "right": {
+        "pt-BR": "O gato se esquenta no sol.",
+        "en": "The cat warms up in the sun.",
+        "es-MX": "El gato se calienta al sol."
+      },
+      "scene": "On the left Nuna and Maya sit on a porch step holding warm mugs; on the right a cat stretches out in a patch of sunlight in the same cozy sitting curve. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a late afternoon sky band across the top, a porch band through the middle, a leafy yard band along the bottom.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Maya dormem quentinhas.",
+        "en": "Nuna and Maya sleep snug and warm.",
+        "es-MX": "Nuna y Maya duermen calentitas."
+      },
+      "right": {
+        "pt-BR": "O ouriço dorme até a primavera.",
+        "en": "The hedgehog sleeps until spring.",
+        "es-MX": "El erizo duerme hasta la primavera."
+      },
+      "scene": "On the left Nuna and Maya sleep side by side under a thick blanket; on the right a hedgehog sleeps curled in a nest of leaves in the same tucked-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and wall band through the middle, a bed and leaf nest band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Maya stand side by side, smiling, with a fox, a squirrel, and a hedgehog looking up at them from the ground.",
+  "cover_bands": 3
+}

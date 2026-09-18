@@ -1,0 +1,301 @@
+{
+  "id": "as-pedrinhas-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "As pedrinhas da Nuna",
+    "en": "Nuna's Pebbles",
+    "es-MX": "Las piedritas de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Benji acham uma pedrinha lisa.",
+        "en": "Nuna and Benji find a smooth pebble.",
+        "es-MX": "Nuna y Benji hallan una piedrita lisa."
+      },
+      "right": {
+        "pt-BR": "A lontra-marinha tem pedra preferida.",
+        "en": "The sea otter has a favorite rock.",
+        "es-MX": "La nutria marina tiene piedra favorita."
+      },
+      "scene": "On the left Nuna and Benji crouch by a stream holding up one smooth round pebble together; on the right a sea otter floats on its back holding up its favorite rock with both paws, in the same holding-up pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a streamside and sea band through the middle, a pebbly bank band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois sentem a pedra quentinha.",
+        "en": "Both feel the warm stone.",
+        "es-MX": "Los dos tocan la piedra tibia."
+      },
+      "right": {
+        "pt-BR": "O lagarto se esquenta na pedra.",
+        "en": "The lizard warms up on a rock.",
+        "es-MX": "La lagartija se calienta en la piedra."
+      },
+      "scene": "On the left Nuna and Benji lie on their tummies with their hands flat on a big sun-warmed stone; on the right a lizard lies flat on a sunny rock soaking up the warmth, in the same flat-out pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunny sky band across the top, a rocky bank band through the middle, a big warm stone band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Os dois empilham uma torre de pedrinhas.",
+        "en": "Both stack a pebble tower.",
+        "es-MX": "Los dos apilan una torre de piedritas."
+      },
+      "right": {
+        "pt-BR": "O peixe faz um castelo de areia.",
+        "en": "The cichlid fish builds a sand castle.",
+        "es-MX": "El pez cíclido hace un castillo de arena."
+      },
+      "scene": "On the left Nuna and Benji carefully stack flat pebbles into a little tower; on the right a small cichlid fish piles up sand into a tall mound on the lake bottom, in the same careful building pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a lake water band through the middle, a pebbly shore and sandy lakebed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os dois jogam pedrinha no lago: plof!",
+        "en": "They toss pebbles in the pond: plop!",
+        "es-MX": "Los dos tiran piedritas al lago: ¡plop!"
+      },
+      "right": {
+        "pt-BR": "O pato mergulha: tchibum!",
+        "en": "The duck dives in: splash!",
+        "es-MX": "El pato se zambulle: ¡splash!"
+      },
+      "scene": "On the left Nuna and Benji toss little pebbles into a pond from the grassy edge, rings spreading on the water; on the right a duck dives headfirst into the pond with a splash, rings spreading on the water, in the same tossing arc. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pond water band through the middle, a grassy edge band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os dois se enrolam como pedrinhas.",
+        "en": "Both curl up like little pebbles.",
+        "es-MX": "Los dos se hacen bolita como piedritas."
+      },
+      "right": {
+        "pt-BR": "O sapinho vira pedrinha e rola.",
+        "en": "The pebble toad rolls like a pebble.",
+        "es-MX": "El sapito rueda como una piedrita."
+      },
+      "scene": "On the left Nuna and Benji curl up into round balls on the grass, giggling; on the right a tiny pebble toad curls into a ball and tumbles down a rocky slope like a little stone, in the same curled-up shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a misty sky band across the top, a rocky slope band through the middle, a grass band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois espiam debaixo da pedra.",
+        "en": "Both peek under a rock.",
+        "es-MX": "Los dos miran bajo la piedra."
+      },
+      "right": {
+        "pt-BR": "A salamandra mora debaixo das pedras.",
+        "en": "The salamander lives under rocks.",
+        "es-MX": "La salamandra vive bajo las piedras."
+      },
+      "scene": "On the left Nuna and Benji gently lift the edge of a flat rock and peek underneath; on the right a salamander rests in the cool damp space under a flat rock, peeking out, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a forest sky band across the top, a mossy bank band through the middle, a flat rock and soil band along the bottom.",
+      "colors": [
+        "oliva",
+        "tijolo",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os dois fazem uma carinha de pedra.",
+        "en": "Both make a pebble face.",
+        "es-MX": "Los dos hacen una carita de piedras."
+      },
+      "right": {
+        "pt-BR": "O ouriço-do-mar se cobre de pedrinhas.",
+        "en": "The sea urchin wears pebbles on top.",
+        "es-MX": "El erizo de mar se pone piedritas."
+      },
+      "scene": "On the left Nuna and Benji arrange pebbles on the sand into a big smiling face; on the right a sea urchin on the seabed holds little pebbles and shells on top of its spines, in the same arranging pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a shallow water band through the middle, a sand and seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "lavanda",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os dois fazem um caminho de pedrinhas.",
+        "en": "Both make a pebble path.",
+        "es-MX": "Los dos hacen un caminito de piedras."
+      },
+      "right": {
+        "pt-BR": "A carriça faz calçada de pedrinhas.",
+        "en": "The rock wren paves a pebble path.",
+        "es-MX": "El chivirín pone un caminito de piedras."
+      },
+      "scene": "On the left Nuna and Benji lay pebbles in a winding little path across the grass; on the right a rock wren sets a small pebble in a tiny stone path at the door of its nest in the rocks, in the same laying-down pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rocky outcrop band through the middle, a grass and path band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os dois carregam uma pedra grande.",
+        "en": "Both carry a big rock together.",
+        "es-MX": "Los dos cargan una piedra grande."
+      },
+      "right": {
+        "pt-BR": "O caranguejo-do-coco ergue muito peso.",
+        "en": "The coconut crab lifts super heavy things.",
+        "es-MX": "El cangrejo cocotero carga muchísimo peso."
+      },
+      "scene": "On the left Nuna and Benji carry a big round rock together, cheeks puffed; on the right a coconut crab lifts a heavy coconut with its big claws, in the same heavy-lifting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a palm band through the middle, a sand band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna dá uma pedrinha para o Benji.",
+        "en": "Nuna gives Benji a pebble.",
+        "es-MX": "Nuna le da una piedrita a Benji."
+      },
+      "right": {
+        "pt-BR": "O pinguim dá pedrinha de presente.",
+        "en": "The penguin gives a pebble as a gift.",
+        "es-MX": "El pingüino regala una piedrita."
+      },
+      "scene": "On the left Nuna holds out a smooth pebble to Benji with both hands, and he smiles; on the right a penguin offers a small pebble in its beak to another penguin, in the same giving pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an icy shore band through the middle, a pebbly beach band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Os dois fazem uma represinha.",
+        "en": "Both build a tiny stream dam.",
+        "es-MX": "Los dos hacen una presita."
+      },
+      "right": {
+        "pt-BR": "O castor faz uma represa enorme.",
+        "en": "The beaver builds a giant dam.",
+        "es-MX": "El castor construye una presa enorme."
+      },
+      "scene": "On the left Nuna and Benji crouch in a tiny shallow trickle, stacking pebbles into a little dam; on the right a beaver adds a branch to a big dam of sticks and mud across a stream, in the same building pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a dam and pond band through the middle, a shallow trickle band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "turquesa",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Benji dormem com a pedrinha.",
+        "en": "Nuna and Benji sleep holding their pebble.",
+        "es-MX": "Nuna y Benji duermen con su piedrita."
+      },
+      "right": {
+        "pt-BR": "A lapa fica agarradinha na pedra.",
+        "en": "The limpet holds on to its rock.",
+        "es-MX": "La lapa se abraza a su roca."
+      },
+      "scene": "On the left Nuna and Benji sleep side by side, each holding a smooth pebble close; on the right a limpet clings snugly to a rock in a quiet tide pool, in the same holding-close pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and tide pool band through the middle, a bed and rock band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Benji stand facing forward, smiling, holding a smooth round pebble together in the center of the image. A tiny pebble toad looks up at them from the bottom left, and a small cichlid fish swims in the bottom right, also facing them.",
+  "cover_bands": 3
+}

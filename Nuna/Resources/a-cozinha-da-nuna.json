@@ -1,0 +1,252 @@
+{
+  "id": "a-cozinha-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Cozinha da Nuna",
+    "en": "Nuna's Kitchen",
+    "es-MX": "La Cocina de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna na cozinha.",
+        "en": "Nuna in kitchen.",
+        "es-MX": "Nuna en cocina."
+      },
+      "right": {
+        "pt-BR": "Formiga na cozinha.",
+        "en": "Ant in kitchen.",
+        "es-MX": "Hormiga en cocina."
+      },
+      "scene": "A kitchen scene. Nuna stands on the left. An ant stands on the right. Floor is wood, middle is a counter, top is a window.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pega farinha.",
+        "en": "Nuna gets flour.",
+        "es-MX": "Nuna toma harina."
+      },
+      "right": {
+        "pt-BR": "Formiga pega migalha.",
+        "en": "Ant gets crumb.",
+        "es-MX": "Hormiga toma migaja."
+      },
+      "scene": "A kitchen scene. Nuna reaches for a flour bag on the left. An ant reaches for a crumb on the right. Floor, counter, wall.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna mistura tudo.",
+        "en": "Nuna mixes all.",
+        "es-MX": "Nuna mezcla todo."
+      },
+      "right": {
+        "pt-BR": "Formiga mistura terra.",
+        "en": "Ant mixes earth.",
+        "es-MX": "Hormiga mezcla tierra."
+      },
+      "scene": "A kitchen scene. Nuna stirs a bowl on the left. An ant stirs a pile of dirt on the right. Floor, table, window.",
+      "colors": [
+        "mostarda",
+        "azul_profundo",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna prova a massa.",
+        "en": "Nuna tastes dough.",
+        "es-MX": "Nuna prueba masa."
+      },
+      "right": {
+        "pt-BR": "Formiga prova a folha.",
+        "en": "Ant tastes leaf.",
+        "es-MX": "Hormiga prueba hoja."
+      },
+      "scene": "A kitchen scene. Nuna has a spoon near her mouth on the left. An ant has a leaf near its mouth on the right. Floor, counter, wall with a window.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna espera assar.",
+        "en": "Nuna waits bake.",
+        "es-MX": "Nuna espera hornear."
+      },
+      "right": {
+        "pt-BR": "Gato espera rato.",
+        "en": "Cat waits mouse.",
+        "es-MX": "Gato espera ratón."
+      },
+      "scene": "A kitchen scene. Nuna sits patiently on the left. A cat sits patiently on the right. Floor, oven, wall.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna olha o forno.",
+        "en": "Nuna looks oven.",
+        "es-MX": "Nuna mira horno."
+      },
+      "right": {
+        "pt-BR": "Gato olha o buraco.",
+        "en": "Cat looks hole.",
+        "es-MX": "Gato mira agujero."
+      },
+      "scene": "A kitchen scene. Nuna peeks into an oven on the left. A cat peeks into a small hole on the right. Floor, oven, wall.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna come bolo.",
+        "en": "Nuna eats cake.",
+        "es-MX": "Nuna come pastel."
+      },
+      "right": {
+        "pt-BR": "Gato come peixe.",
+        "en": "Cat eats fish.",
+        "es-MX": "Gato come pescado."
+      },
+      "scene": "A kitchen scene. Nuna bites into a cake slice on the left. A cat bites into a fish on the right. Floor, table, wall.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna lava louca.",
+        "en": "Nuna washes dishes.",
+        "es-MX": "Nuna lava platos."
+      },
+      "right": {
+        "pt-BR": "Gato lava pata.",
+        "en": "Cat washes paw.",
+        "es-MX": "Gato lava pata."
+      },
+      "scene": "A kitchen scene. Nuna washes a plate in a sink on the left. A cat licks its paw on the right. Floor, sink, window.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna abre a janela.",
+        "en": "Nuna opens window.",
+        "es-MX": "Nuna abre ventana."
+      },
+      "right": {
+        "pt-BR": "Passarinho abre asa.",
+        "en": "Bird opens wing.",
+        "es-MX": "Pajarito abre ala."
+      },
+      "scene": "A kitchen scene. Nuna pushes open a window on the left. A bird spreads its wing on the right. Floor, window sill, outside sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna cheira a flor.",
+        "en": "Nuna smells flower.",
+        "es-MX": "Nuna huele flor."
+      },
+      "right": {
+        "pt-BR": "Passarinho cheira ar.",
+        "en": "Bird smells air.",
+        "es-MX": "Pajarito huele aire."
+      },
+      "scene": "A kitchen scene. Nuna leans to smell a flower on the left. A bird leans to smell the air on the right. Floor, window sill, garden outside.",
+      "colors": [
+        "terracota",
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna come fruta.",
+        "en": "Nuna eats fruit.",
+        "es-MX": "Nuna come fruta."
+      },
+      "right": {
+        "pt-BR": "Passarinho come semente.",
+        "en": "Bird eats seed.",
+        "es-MX": "Pajarito come semilla."
+      },
+      "scene": "A kitchen scene. Nuna holds a piece of fruit to her mouth on the left. A bird holds a seed to its beak on the right. Floor, table, window.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "azul_fumaca",
+        "magenta"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna acena adeus.",
+        "en": "Nuna waves goodbye.",
+        "es-MX": "Nuna dice adiós."
+      },
+      "right": {
+        "pt-BR": "Passarinho voa adeus.",
+        "en": "Bird flies goodbye.",
+        "es-MX": "Pajarito vuela adiós."
+      },
+      "scene": "A kitchen scene. Nuna waves from a window on the left. A bird flies away from the window on the right. Floor, window, sky.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    }
+  ]
+}

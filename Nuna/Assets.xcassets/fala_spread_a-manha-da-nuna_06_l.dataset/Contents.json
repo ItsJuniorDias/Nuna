@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "filename": "fala_spread_a-manha-da-nuna_06_l.mp3",
+      "idiom": "universal",
+      "universal-type-identifier": "public.mp3"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-a-manha-da-nuna"
+    ]
+  }
+}

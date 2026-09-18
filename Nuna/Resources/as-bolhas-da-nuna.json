@@ -1,0 +1,301 @@
+{
+  "id": "as-bolhas-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "As bolhas da Nuna",
+    "en": "Nuna's Bubbles",
+    "es-MX": "Las burbujas de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Benji mexem a água com sabão.",
+        "en": "Nuna and Benji stir the bubble soap.",
+        "es-MX": "Nuna y Benji revuelven el jabón."
+      },
+      "right": {
+        "pt-BR": "A cigarrinha faz a própria espuma.",
+        "en": "The spittlebug makes its own foam.",
+        "es-MX": "El salivazo hace su propia espuma."
+      },
+      "scene": "On the left Nuna and Benji kneel by a bowl stirring soapy water into foam with a spoon; on the right a tiny spittlebug sits in a blob of foam it made on a plant stem, in the same foamy scene. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a garden plant band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois sopram uma bolha.",
+        "en": "Both blow a bubble.",
+        "es-MX": "Los dos soplan una burbuja."
+      },
+      "right": {
+        "pt-BR": "O golfinho sopra anéis de bolha.",
+        "en": "The dolphin blows bubble rings.",
+        "es-MX": "El delfín sopla anillos de burbujas."
+      },
+      "scene": "On the left Nuna and Benji blow through bubble wands, cheeks puffed, a round bubble floating out; on the right a dolphin blows a round ring of bubbles in the water, cheeks puffed, in the same blowing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea surface band through the middle, an underwater band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna faz uma bolha gigante!",
+        "en": "Nuna makes a giant bubble!",
+        "es-MX": "¡Nuna hace una burbuja gigante!"
+      },
+      "right": {
+        "pt-BR": "A aranha leva uma bolha para o fundo.",
+        "en": "The diving bell spider carries a bubble.",
+        "es-MX": "La araña buceadora lleva su burbuja."
+      },
+      "scene": "On the left Nuna holds up a big wand with a giant wobbly bubble while Benji watches with his mouth open; on the right a small diving bell spider holds a big air bubble under the water among pond plants, in the same holding-up pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pond surface band through the middle, an underwater plant band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os dois fazem mil bolhinhas.",
+        "en": "Both make a thousand tiny bubbles.",
+        "es-MX": "Los dos hacen mil burbujitas."
+      },
+      "right": {
+        "pt-BR": "A rã faz um ninho de espuma.",
+        "en": "The tree frog makes a foam nest.",
+        "es-MX": "La rana hace un nido de espuma."
+      },
+      "scene": "On the left Nuna and Benji wave their wands and hundreds of tiny bubbles swirl around them; on the right a small tree frog sits on a leaf above a pond beside a fluffy foam nest full of tiny bubbles, in the same bubbly scene. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leafy branch band through the middle, a pond band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Benji fazem um trem de bolhas.",
+        "en": "Nuna and Benji make a bubble train.",
+        "es-MX": "Nuna y Benji hacen un tren de burbujas."
+      },
+      "right": {
+        "pt-BR": "O caracol boia numa balsa de bolhas.",
+        "en": "The sea snail floats on a bubble raft.",
+        "es-MX": "El caracol flota en una balsa de burbujas."
+      },
+      "scene": "On the left Nuna and Benji run in a line leaving a long trail of bubbles behind them; on the right a small sea snail floats upside down on a raft of bubbles at the sea surface, in the same bubble line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea surface band through the middle, a lawn and deep water band along the bottom.",
+      "colors": [
+        "lavanda",
+        "turquesa",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois sopram bolhas no copo.",
+        "en": "Both blow bubbles in their cups.",
+        "es-MX": "Los dos soplan burbujas en el vaso."
+      },
+      "right": {
+        "pt-BR": "O peixe-betta faz um ninho de bolhas.",
+        "en": "The betta fish builds a bubble nest.",
+        "es-MX": "El pez betta hace un nido de burbujas."
+      },
+      "scene": "On the left Nuna and Benji blow through straws into cups of water, bubbles rising to the top; on the right a betta fish blows little bubbles into a floating nest at the water surface, in the same blowing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a water surface band through the middle, a table and water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "vermelho_quente",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "A bolha pousa no nariz do Benji.",
+        "en": "A bubble lands on Benji's nose.",
+        "es-MX": "Una burbuja cae en la nariz de Benji."
+      },
+      "right": {
+        "pt-BR": "O besouro-d'água leva bolha nas costas.",
+        "en": "The water beetle carries a bubble.",
+        "es-MX": "El escarabajo acuático lleva una burbuja."
+      },
+      "scene": "On the left a bubble lands on Benji's nose and he goes cross-eyed while Nuna laughs; on the right a water beetle swims with a shiny air bubble stuck to its back, in the same bubble-carrying pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pond surface band through the middle, a pond water band along the bottom.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os dois fazem barba de espuma.",
+        "en": "Both make foamy beards.",
+        "es-MX": "Los dos se hacen barba de espuma."
+      },
+      "right": {
+        "pt-BR": "O bode tem barba de verdade.",
+        "en": "The goat has a real beard.",
+        "es-MX": "El chivo tiene barba de verdad."
+      },
+      "scene": "On the left Nuna and Benji wear foamy beards on their chins, chins up proudly; on the right a goat stands on a rock with its real beard, chin up proudly, in the same proud pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hill band through the middle, a rock and lawn band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os dois correm atrás das bolhas.",
+        "en": "Both chase the bubbles.",
+        "es-MX": "Los dos persiguen las burbujas."
+      },
+      "right": {
+        "pt-BR": "O cachorrinho pula para pegar bolhas.",
+        "en": "The puppy leaps to catch bubbles.",
+        "es-MX": "El perrito brinca para atrapar burbujas."
+      },
+      "scene": "On the left Nuna and Benji jump up reaching for floating bubbles; on the right a puppy leaps up snapping playfully at floating bubbles, in the same jumping reach. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hedge band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "mostarda",
+        "verde_lima",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Plic, plic! Os dois estouram bolhas.",
+        "en": "Pop, pop! They pop the bubbles.",
+        "es-MX": "¡Pop, pop! Los dos revientan burbujas."
+      },
+      "right": {
+        "pt-BR": "A beluga estoura os anéis de bolha.",
+        "en": "The beluga pops its bubble rings.",
+        "es-MX": "La beluga revienta sus anillos."
+      },
+      "scene": "On the left Nuna and Benji poke bubbles with their fingers, little pops sparkling; on the right a beluga whale nudges and pops a ring of bubbles with its nose, in the same poking move. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea surface band through the middle, a cold sea band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "turquesa",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Os dois ficam cheios de espuma.",
+        "en": "Both get covered in foam.",
+        "es-MX": "Los dos quedan llenos de espuma."
+      },
+      "right": {
+        "pt-BR": "A lontra esfrega o pelo todinho.",
+        "en": "The sea otter scrubs its fur clean.",
+        "es-MX": "La nutria se talla todo el pelo."
+      },
+      "scene": "On the left Nuna and Benji laugh, covered in foam, scrubbing their arms; on the right a sea otter floats on its back scrubbing its fur with its paws, in the same scrubbing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a kelp band through the middle, a lawn and sea band along the bottom.",
+      "colors": [
+        "turquesa",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Benji sonham com bolhas.",
+        "en": "Nuna and Benji dream of bubbles.",
+        "es-MX": "Nuna y Benji sueñan con burbujas."
+      },
+      "right": {
+        "pt-BR": "O hipopótamo dorme debaixo d'água.",
+        "en": "The hippo can sleep underwater.",
+        "es-MX": "El hipopótamo duerme bajo el agua."
+      },
+      "scene": "On the left Nuna and Benji sleep side by side with little dream bubbles floating above them; on the right a hippo sleeps under the water of a river with little bubbles floating up, in the same sleeping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a river surface band through the middle, a bed and river band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Benji stand front and center, full body, looking forward, with a tiny snail, a small seahorse, and a beluga whale scattered around them, all facing the children.",
+  "cover_bands": 4
+}

@@ -1,0 +1,311 @@
+{
+  "id": "a-turma-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A turma da Nuna",
+    "en": "Nuna's Friends",
+    "es-MX": "Los amigos de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Theo chegou! Beijinho de nariz.",
+        "en": "Theo's here! A nose bump hello.",
+        "es-MX": "¡Llegó Theo! Beso de nariz."
+      },
+      "right": {
+        "pt-BR": "Os cavalos se cumprimentam de nariz.",
+        "en": "Horses say hello nose to nose.",
+        "es-MX": "Los caballos se saludan nariz con nariz."
+      },
+      "scene": "On the left Nuna and Theo lean in and bump noses hello at the garden gate; on the right two horses touch noses gently over a fence, in the same nose-to-nose greeting. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a morning sky band across the top, a fence and field band through the middle, a garden path band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna divide a maçã com a Lia.",
+        "en": "Nuna shares her apple with Lia.",
+        "es-MX": "Nuna comparte su manzana con Lia."
+      },
+      "right": {
+        "pt-BR": "Os periquitos dividem bico a bico.",
+        "en": "Lovebirds share food beak to beak.",
+        "es-MX": "Los periquitos comparten pico a pico."
+      },
+      "scene": "On the left Nuna hands half of an apple to Lia, both smiling; on the right two lovebirds on a branch pass a seed from beak to beak, in the same sharing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a branch band through the middle, a garden band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Benji esperam a vez.",
+        "en": "Nuna and Benji take turns.",
+        "es-MX": "Nuna y Benji esperan su turno."
+      },
+      "right": {
+        "pt-BR": "As abelhas se revezam para abanar.",
+        "en": "Bees take turns fanning the hive.",
+        "es-MX": "Las abejas se turnan para abanicar."
+      },
+      "scene": "On the left Nuna slides down a little slide while Benji waits his turn at the ladder; on the right a row of bees fans their wings at the hive entrance while another bee lands to take its turn, in the same taking-turns order. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a slide and beehive band through the middle, a playground band along the bottom.",
+      "colors": [
+        "amarelo_vivo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Maya está tristinha. Nuna abraça.",
+        "en": "Maya feels sad. Nuna hugs her.",
+        "es-MX": "Maya está triste. Nuna la abraza."
+      },
+      "right": {
+        "pt-BR": "O bonobo abraça o amigo triste.",
+        "en": "Bonobos hug a friend who is sad.",
+        "es-MX": "El bonobo abraza al amigo triste."
+      },
+      "scene": "On the left Nuna sits on the grass and gives Maya a gentle hug while Maya rests her head on Nuna's shoulder; on the right a bonobo wraps its arms around a friend sitting beside it in the forest, in the same gentle hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a forest band through the middle, a grass band along the bottom.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os três fazem um castelo juntos.",
+        "en": "The three build a castle together.",
+        "es-MX": "Los tres hacen un castillo juntos."
+      },
+      "right": {
+        "pt-BR": "Os cães-da-pradaria cavam a vila juntos.",
+        "en": "Prairie dogs dig their town together.",
+        "es-MX": "Los perritos de la pradera cavan juntos."
+      },
+      "scene": "On the left Nuna, Theo and Lia build a big sandcastle together in a sandbox; on the right a family of prairie dogs digs mounds and tunnels together in a grassy field, in the same working-together cluster. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a prairie mound band through the middle, a sandbox band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Benji e Maya fazem as pazes.",
+        "en": "Benji and Maya make up.",
+        "es-MX": "Benji y Maya se contentan."
+      },
+      "right": {
+        "pt-BR": "Os chimpanzés fazem as pazes com beijo.",
+        "en": "Chimps make up with a kiss and hug.",
+        "es-MX": "Los chimpancés se contentan con un beso."
+      },
+      "scene": "On the left Benji and Maya hug after a little squabble over a ball while Nuna holds the ball and smiles; on the right two chimpanzees kiss and hug on the forest floor, in the same making-up hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a forest band through the middle, a lawn and forest floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os três dividem o guarda-chuva.",
+        "en": "The three share one umbrella.",
+        "es-MX": "Los tres comparten el paraguas."
+      },
+      "right": {
+        "pt-BR": "Os patinhos se abrigam na asa da mãe.",
+        "en": "Ducklings hide under mom's wing.",
+        "es-MX": "Los patitos se tapan bajo el ala."
+      },
+      "scene": "On the left Nuna, Theo and Maya squeeze together under one umbrella in the rain, laughing; on the right a row of ducklings tucks under their mother's wing in the rain, in the same huddled shelter. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a rainy sky band across the top, a falling rain band through the middle, a puddle path band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os três coçam as costas um do outro.",
+        "en": "They scratch each other's backs.",
+        "es-MX": "Los tres se rascan la espalda."
+      },
+      "right": {
+        "pt-BR": "As zebras coçam as costas uma da outra.",
+        "en": "Zebras scratch each other's backs.",
+        "es-MX": "Las cebras se rascan la espalda."
+      },
+      "scene": "On the left Nuna, Lia and Benji sit in a little row, each scratching the back of the friend in front; on the right two zebras stand side by side nibbling and scratching each other's backs, in the same friendly scratch. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a savanna band through the middle, a grass band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Theo empresta a capa para o Benji.",
+        "en": "Theo lends Benji his cape.",
+        "es-MX": "Theo le presta su capa a Benji."
+      },
+      "right": {
+        "pt-BR": "Os ermitões trocam de concha em fila.",
+        "en": "Hermit crabs pass shells down the line.",
+        "es-MX": "Los ermitaños se pasan las conchas."
+      },
+      "scene": "On the left Theo ties his cape around Benji's shoulders while Nuna claps; on the right a line of hermit crabs waits by the shore as one moves into a bigger shell and passes its old one on, in the same passing-along order. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a shore band through the middle, a lawn and sand band along the bottom.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Lia ensina a Maya a pular.",
+        "en": "Lia teaches Maya to jump rope.",
+        "es-MX": "Lia le enseña a Maya a saltar."
+      },
+      "right": {
+        "pt-BR": "A cabra ensina o filhote a subir.",
+        "en": "The goat teaches her kid to climb.",
+        "es-MX": "La cabra enseña a su cría a trepar."
+      },
+      "scene": "On the left Lia shows Maya how to jump rope while Nuna turns one end of the rope; on the right a mother goat hops up a low rock while her kid watches and follows, in the same showing-how pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rocky hill band through the middle, a sidewalk and rock band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Os três chamam: venham todos!",
+        "en": "The three call: everybody, come!",
+        "es-MX": "Los tres llaman: ¡vengan todos!"
+      },
+      "right": {
+        "pt-BR": "Os lobos uivam para chamar a turma.",
+        "en": "Wolves howl to call the pack.",
+        "es-MX": "Los lobos aúllan para llamar a la manada."
+      },
+      "scene": "On the left Nuna, Theo and Maya call out with their hands around their mouths toward the garden gate; on the right two wolves howl with their heads up on a hill to call the rest of the pack, in the same calling pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an afternoon sky band across the top, a hill band through the middle, a garden band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Todo mundo junto: abraço de turma!",
+        "en": "Everybody together: a group hug!",
+        "es-MX": "¡Todos juntos: un abrazo de grupo!"
+      },
+      "right": {
+        "pt-BR": "Os macacos-da-neve se abraçam num montão.",
+        "en": "Snow monkeys huddle in a big hug.",
+        "es-MX": "Los macacos de nieve se abrazan en bola."
+      },
+      "scene": "On the left Nuna, Theo, Lia, Benji and Maya squeeze together in one big group hug on the grass; on the right a group of snow monkeys huddles together in one big warm hug, in the same group hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunset sky band across the top, a hill band through the middle, a grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "lia",
+        "benji",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna, Theo, Lia, Benji, and Maya stand side-by-side in the center, facing forward, with a bee, a squirrel, and a lovebird scattered around them, all looking towards the children. The top third of the scene is calm and uncluttered.",
+  "cover_bands": 3
+}

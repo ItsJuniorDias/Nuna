@@ -1,0 +1,313 @@
+{
+  "id": "o-tesouro-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O tesouro da Nuna",
+    "en": "Nuna's Treasure Hunt",
+    "es-MX": "El tesoro de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Os três acham um mapa!",
+        "en": "The three friends find a map!",
+        "es-MX": "¡Los tres encuentran un mapa!"
+      },
+      "right": {
+        "pt-BR": "A borboleta-monarca sabe o caminho.",
+        "en": "The monarch butterfly knows the way.",
+        "es-MX": "La mariposa monarca sabe el camino."
+      },
+      "scene": "On the left Nuna, Theo and Maya kneel around an old paper map on the grass, pointing; on the right a monarch butterfly flies over hills and fields on its long trip, in the same pointing-ahead direction. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hill band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Maya segura a bússola.",
+        "en": "Maya holds the compass.",
+        "es-MX": "Maya sostiene la brújula."
+      },
+      "right": {
+        "pt-BR": "A tartaruga-marinha tem bússola por dentro.",
+        "en": "Sea turtles have a compass inside.",
+        "es-MX": "La tortuga marina trae brújula por dentro."
+      },
+      "scene": "On the left Maya holds a toy compass out in front while Nuna and Theo look over her shoulders; on the right a sea turtle swims straight ahead across the open sea, in the same heading-forward pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an open sea band through the middle, a lawn and deep water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Os três seguem as pegadas.",
+        "en": "They follow the footprints.",
+        "es-MX": "Los tres siguen las huellas."
+      },
+      "right": {
+        "pt-BR": "A formiga segue a trilha de cheiro.",
+        "en": "The ant follows a scent trail.",
+        "es-MX": "La hormiga sigue un caminito de olor."
+      },
+      "scene": "On the left Nuna, Theo and Maya walk in a line looking down at footprints on a dirt path; on the right a line of ants follows an invisible trail along the ground, in the same follow-the-path line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a bush band through the middle, a dirt path band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Pé na pedra, pé na pedra!",
+        "en": "Step, step, on the stones!",
+        "es-MX": "¡Pie en la piedra, pie en la piedra!"
+      },
+      "right": {
+        "pt-BR": "O basilisco corre por cima da água!",
+        "en": "The basilisk lizard runs on water!",
+        "es-MX": "¡El basilisco corre sobre el agua!"
+      },
+      "scene": "On the left Nuna, Theo and Maya step from stone to stone across a tiny shallow stream, arms out for balance; on the right a basilisk lizard runs upright across the surface of a stream, in the same stepping run. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leafy bank band through the middle, a shallow stream band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Theo acha uma porta secreta!",
+        "en": "Theo finds a secret door!",
+        "es-MX": "¡Theo encuentra una puerta secreta!"
+      },
+      "right": {
+        "pt-BR": "A aranha tem uma portinha secreta.",
+        "en": "The trapdoor spider has a secret door.",
+        "es-MX": "La araña tiene una puertita secreta."
+      },
+      "scene": "On the left Theo lifts a little wooden hatch in the ground while Nuna and Maya peek in; on the right a small trapdoor spider peeks out from under a round lid of soil it made, in the same lifting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a hedge band through the middle, a garden soil band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os três cavam com a pá.",
+        "en": "The three dig with shovels.",
+        "es-MX": "Los tres escarban con palitas."
+      },
+      "right": {
+        "pt-BR": "O texugo cava muito mais rápido.",
+        "en": "The badger digs way faster.",
+        "es-MX": "El tejón escarba mucho más rápido."
+      },
+      "scene": "On the left Nuna, Theo and Maya dig with small shovels, dirt flying behind them; on the right a badger digs fast with its strong front claws, dirt flying behind it, in the same digging pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a meadow band through the middle, a soil band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "terracota",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os três abrem o baú: crec!",
+        "en": "The three crack open the chest!",
+        "es-MX": "¡Los tres abren el baúl: crac!"
+      },
+      "right": {
+        "pt-BR": "O macaco-prego quebra coco com pedra.",
+        "en": "The capuchin cracks nuts with a stone.",
+        "es-MX": "El capuchino rompe nueces con piedras."
+      },
+      "scene": "On the left Nuna, Theo and Maya pry open the lid of a small wooden treasure chest together; on the right a capuchin monkey lifts a stone and cracks open a nut on a flat rock, in the same cracking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a palm and rock band through the middle, a soil and flat rock band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "vermelho_quente"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os três dividem o tesouro.",
+        "en": "The three share the treasure.",
+        "es-MX": "Los tres comparten el tesoro."
+      },
+      "right": {
+        "pt-BR": "Os bonobos também dividem a comida.",
+        "en": "Bonobos share their food too.",
+        "es-MX": "Los bonobos también comparten comida."
+      },
+      "scene": "On the left Nuna, Theo and Maya sit in a circle handing out shells and buttons from the chest; on the right three bonobos sit together in the forest handing fruit to one another, in the same sharing circle. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a forest band through the middle, a lawn and forest floor band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "oliva",
+        "magenta"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os três enchem os bolsos.",
+        "en": "They fill up their pockets.",
+        "es-MX": "Los tres se llenan los bolsillos."
+      },
+      "right": {
+        "pt-BR": "A canguru guarda o filhote no bolso.",
+        "en": "The kangaroo keeps her joey in a pocket.",
+        "es-MX": "Mamá canguro tiene bolsa para su cría."
+      },
+      "scene": "On the left Nuna, Theo and Maya tuck treasures into their front pockets, patting them; on the right a kangaroo stands with her joey peeking out of her pouch, in the same pocket-patting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a gum tree band through the middle, a dry grass band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Maya guarda um pouco para depois.",
+        "en": "Maya saves some for later.",
+        "es-MX": "Maya guarda un poco para después."
+      },
+      "right": {
+        "pt-BR": "O gaio esconde bolotas para depois.",
+        "en": "The jay hides acorns for later.",
+        "es-MX": "El arrendajo esconde bellotas."
+      },
+      "scene": "On the left Maya tucks one shell into a hole under a tree root while Nuna and Theo keep watch; on the right a jay pushes an acorn into a hole in the ground under a tree, in the same tucking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an oak tree band through the middle, a root and ground band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Os três descansam juntinhos.",
+        "en": "The three rest in a pile.",
+        "es-MX": "Los tres descansan juntitos."
+      },
+      "right": {
+        "pt-BR": "Os leões descansam todos juntos.",
+        "en": "The lions rest all together.",
+        "es-MX": "Los leones descansan todos juntos."
+      },
+      "scene": "On the left Nuna, Theo and Maya lie in a tired, happy pile under a tree; on the right a family of lions rests together in a heap under a tree on the savanna, in the same happy pile. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a late afternoon sky band across the top, a tree band through the middle, a grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Boa noite, tesouro!",
+        "en": "Good night, treasure!",
+        "es-MX": "¡Buenas noches, tesoro!"
+      },
+      "right": {
+        "pt-BR": "O polvo dorme na toca com conchas.",
+        "en": "The octopus sleeps in a den of shells.",
+        "es-MX": "El pulpo duerme en su cueva de conchas."
+      },
+      "scene": "On the left Nuna, Theo and Maya sleep side by side with the little treasure chest beside them; on the right an octopus sleeps curled in its den with shells piled around it, in the same curled sleep. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and rock band through the middle, a bed and seabed band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna, Theo, and Maya stand side by side, smiling at the viewer, with a monarch butterfly, a badger, and a kangaroo positioned around them, all facing the children. The background is a calm, open sky at the top, a band of distant trees in the middle, and a grassy field at the bottom.",
+  "cover_bands": 3
+}

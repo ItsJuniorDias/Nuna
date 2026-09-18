@@ -1,0 +1,251 @@
+{
+  "id": "a-fazenda-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A fazenda da Nuna",
+    "en": "Nuna's Farm",
+    "es-MX": "La Granja de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna acorda bem cedinho. O sol ja vem!",
+        "en": "Nuna wakes up early. The sun is coming!",
+        "es-MX": "Nuna se despierta temprano. ¡El sol ya viene!"
+      },
+      "right": {
+        "pt-BR": "O galo tambem acorda. Canta bem forte!",
+        "en": "The rooster wakes too. Sings very loud!",
+        "es-MX": "El gallo también se despierta. ¡Canta muy fuerte!"
+      },
+      "scene": "A young girl stretches her arms to the sky, yawning. A rooster stretches its neck to the sky, crowing. Both are in a farmyard with a fence in the middle ground and a rising sun in the sky.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna vai para o celeiro. O dia comecou!",
+        "en": "Nuna goes to the barn. The day has begun!",
+        "es-MX": "Nuna va al granero. ¡El día ha comenzado!"
+      },
+      "right": {
+        "pt-BR": "A galinha corre. Quer seu milho logo!",
+        "en": "The hen runs. Wants her corn soon!",
+        "es-MX": "La gallina corre. ¡Quiere su maíz pronto!"
+      },
+      "scene": "A young girl walks towards a barn, looking excited. A hen runs towards a feed trough, looking eager. Both are in a farmyard with a barn in the background and a clear sky.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna joga milho. As galinhas comem!",
+        "en": "Nuna throws corn. The hens eat!",
+        "es-MX": "Nuna tira maíz. ¡Las gallinas comen!"
+      },
+      "right": {
+        "pt-BR": "O porco come milho. Faz um barulho!",
+        "en": "The pig eats corn. Makes a big noise!",
+        "es-MX": "El cerdo come maíz. ¡Hace un ruido!"
+      },
+      "scene": "A young girl scatters corn on the ground with an open hand. A pig eats corn from the ground with its snout. Both are in a farmyard with a wooden fence in the middle ground and a clear sky.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna bebe agua. Que sede, ai que bom!",
+        "en": "Nuna drinks water. So thirsty, so good!",
+        "es-MX": "Nuna bebe agua. ¡Qué sed, qué rico!"
+      },
+      "right": {
+        "pt-BR": "O cavalo bebe agua. Faz um pocinho!",
+        "en": "The horse drinks water. Makes a small puddle!",
+        "es-MX": "El caballo bebe agua. ¡Hace un charquito!"
+      },
+      "scene": "A young girl drinks water from a cup. A horse drinks water from a trough. Both are in a farmyard with a water pump in the background and a clear sky.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna acaricia o cavalo. Ele e manso.",
+        "en": "Nuna pets the horse. He is gentle.",
+        "es-MX": "Nuna acaricia al caballo. Él es manso."
+      },
+      "right": {
+        "pt-BR": "O cavalo cheira a Nuna. Ele e carinhoso.",
+        "en": "The horse sniffs Nuna. He is affectionate.",
+        "es-MX": "El caballo huele a Nuna. Él es cariñoso."
+      },
+      "scene": "A young girl gently pats the side of a horse's head. A horse nuzzles its head against the girl's hand. Both are in a stable with hay on the ground and wooden walls.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna ajuda a mamae. Vamos tirar o leite!",
+        "en": "Nuna helps mommy. Let's milk the cow!",
+        "es-MX": "Nuna ayuda a mamá. ¡Vamos a ordeñar!"
+      },
+      "right": {
+        "pt-BR": "A vaca esta quietinha. Gosta de carinho.",
+        "en": "The cow is still. Likes to be petted.",
+        "es-MX": "La vaca está quietita. Le gusta el cariño."
+      },
+      "scene": "A young girl stands next to an adult, holding a small pail. A cow stands calmly as if being milked. Both are in a milking parlor with hay on the ground and wooden walls.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna carrega o balde. Que pesado!",
+        "en": "Nuna carries the pail. So heavy!",
+        "es-MX": "Nuna carga el balde. ¡Qué pesado!"
+      },
+      "right": {
+        "pt-BR": "A vaca come capim. Que saboroso!",
+        "en": "The cow eats grass. So tasty!",
+        "es-MX": "La vaca come pasto. ¡Qué sabroso!"
+      },
+      "scene": "A young girl walks carefully, carrying a small, full pail with both hands. A cow eats grass from the ground with its head down. Both are in a grassy field with a fence in the background and a blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna se senta na cerca. Olhando o mundo.",
+        "en": "Nuna sits on the fence. Watching the world.",
+        "es-MX": "Nuna se sienta en la cerca. Mirando el mundo."
+      },
+      "right": {
+        "pt-BR": "O porco se espreguica. Depois vai dormir.",
+        "en": "The pig stretches out. Then goes to sleep.",
+        "es-MX": "El cerdo se estira. Luego va a dormir."
+      },
+      "scene": "A young girl sits on a wooden fence, looking out at the farm. A pig lies down in the mud, stretching its legs. Both are in a farmyard with a fence in the middle ground and a clear sky.",
+      "colors": [
+        "marrom_fundo",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna corre no campo. Que vento bom!",
+        "en": "Nuna runs in the field. What a nice wind!",
+        "es-MX": "Nuna corre en el campo. ¡Qué buen viento!"
+      },
+      "right": {
+        "pt-BR": "O cavalo corre livre. Que alegria!",
+        "en": "The horse runs free. What joy!",
+        "es-MX": "El caballo corre libre. ¡Qué alegría!"
+      },
+      "scene": "A young girl runs with arms outstretched in a wide-open field. A horse gallops freely across the field with its mane flowing. Both are in a large green field with a distant tree line and a blue sky.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna brinca na terra. Faz um buraco.",
+        "en": "Nuna plays in the dirt. Makes a hole.",
+        "es-MX": "Nuna juega en la tierra. Hace un agujero."
+      },
+      "right": {
+        "pt-BR": "A galinha ciscando. Procura um bichinho.",
+        "en": "The hen scratches. Looks for a bug.",
+        "es-MX": "La gallina escarba. Busca un bichito."
+      },
+      "scene": "A young girl kneels on the ground, digging in the dirt with her hands. A hen scratches at the dirt with its claws. Both are in a farmyard with loose earth on the ground and a wooden fence in the background.",
+      "colors": [
+        "terracota",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna esfrega as maos. Que sujeira!",
+        "en": "Nuna rubs her hands. So dirty!",
+        "es-MX": "Nuna se frota las manos. ¡Qué suciedad!"
+      },
+      "right": {
+        "pt-BR": "O porco no lamaçal. Adora a lama!",
+        "en": "The pig in the mud. Loves the mud!",
+        "es-MX": "El cerdo en el lodazal. ¡Le encanta el lodo!"
+      },
+      "scene": "A young girl rubs her dirty hands together with a playful grimace. A pig rolls around happily in a muddy puddle. Both are in a farmyard with a muddy patch on the ground and a wooden fence.",
+      "colors": [
+        "marrom_fundo",
+        "rosa_poeira",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna dorme feliz. Sonha com a fazenda.",
+        "en": "Nuna sleeps happily. Dreams of the farm.",
+        "es-MX": "Nuna duerme feliz. Sueña con la granja."
+      },
+      "right": {
+        "pt-BR": "O galo dorme no poleiro. Amanha tem mais!",
+        "en": "The rooster sleeps on its perch. More tomorrow!",
+        "es-MX": "El gallo duerme en el gallinero. ¡Mañana hay más!"
+      },
+      "scene": "A young girl sleeps soundly in her bed, smiling gently. A rooster sleeps on a wooden perch, head tucked under its wing. Both are in a cozy bedroom/barn interior with a window showing the night sky.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3
+    }
+  ]
+}

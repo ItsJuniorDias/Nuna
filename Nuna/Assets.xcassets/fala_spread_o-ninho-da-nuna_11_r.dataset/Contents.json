@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "filename": "fala_spread_o-ninho-da-nuna_11_r.mp3",
+      "idiom": "universal",
+      "universal-type-identifier": "public.mp3"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-o-ninho-da-nuna"
+    ]
+  }
+}

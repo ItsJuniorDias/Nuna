@@ -1,0 +1,301 @@
+{
+  "id": "a-escola-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A escola da Nuna",
+    "en": "Nuna's School",
+    "es-MX": "La escuela de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Lia se cumprimentam.",
+        "en": "Nuna and Lia say hello.",
+        "es-MX": "Nuna y Lia se saludan."
+      },
+      "right": {
+        "pt-BR": "Os cães-da-pradaria se dão um beijinho.",
+        "en": "Prairie dogs say hello with a kiss.",
+        "es-MX": "Los perritos de la pradera se besan."
+      },
+      "scene": "On the left Nuna and Lia greet each other at the school gate, leaning in close with big smiles; on the right two prairie dogs touch noses in a little kiss by their burrow, in the same leaning-in greeting. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a morning sky band across the top, a school fence band through the middle, a path and grassy mound band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas fazem fila para entrar.",
+        "en": "Both line up to go inside.",
+        "es-MX": "Las dos hacen fila para entrar."
+      },
+      "right": {
+        "pt-BR": "Os musaranhos andam em trenzinho.",
+        "en": "Baby shrews follow mom like a train.",
+        "es-MX": "Las musarañas bebé van en trenecito."
+      },
+      "scene": "On the left Nuna and Lia stand one behind the other in a line at the classroom door; on the right a mother shrew leads her babies in a line, each one holding on to the one in front, in the same follow-along line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a school wall band through the middle, a path band along the bottom.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Lia penduram a mochila.",
+        "en": "Nuna and Lia hang up their backpacks.",
+        "es-MX": "Nuna y Lia cuelgan su mochila."
+      },
+      "right": {
+        "pt-BR": "O papagaio se pendura pelo bico.",
+        "en": "The parrot hangs on by its beak.",
+        "es-MX": "El loro se cuelga con el pico."
+      },
+      "scene": "On the left Nuna and Lia reach up to hang their small backpacks on hooks by the door; on the right a parrot hangs from a branch holding on with its beak, in the same reaching-up hang. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a classroom wall band across the top, a branch and hook band through the middle, a floor band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "vermelho_quente",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas sentam na roda.",
+        "en": "Both sit in the circle.",
+        "es-MX": "Las dos se sientan en la ronda."
+      },
+      "right": {
+        "pt-BR": "Os peixes também nadam em cardume!",
+        "en": "Fish swim in a school too!",
+        "es-MX": "¡Los peces nadan en un banco!"
+      },
+      "scene": "On the left Nuna and Lia sit cross-legged on a round rug in a circle of little cushions; on the right a school of small fish swims round and round in a circle, in the same round shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a classroom window band across the top, an open water band through the middle, a rug and seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Lia cantam com a turma.",
+        "en": "Nuna and Lia sing with the class.",
+        "es-MX": "Nuna y Lia cantan con el grupo."
+      },
+      "right": {
+        "pt-BR": "As cigarras cantam todas juntas.",
+        "en": "The cicadas sing all together.",
+        "es-MX": "Las chicharras cantan todas juntas."
+      },
+      "scene": "On the left Nuna and Lia sing with their mouths open and hands on their knees; on the right a row of cicadas sings together on a tree branch, in the same singing row. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree branch band through the middle, a rug band along the bottom.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "As duas lavam as mãos.",
+        "en": "Both wash their hands.",
+        "es-MX": "Las dos se lavan las manos."
+      },
+      "right": {
+        "pt-BR": "O louva-a-deus limpa as patinhas.",
+        "en": "The mantis cleans its front legs.",
+        "es-MX": "La mantis se limpia las patitas."
+      },
+      "scene": "On the left Nuna and Lia rub soapy hands together at a low sink; on the right a praying mantis cleans its folded front legs with its mouth, in the same rubbing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a sink and leaf band through the middle, a floor band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Glub, glub! Água fresquinha.",
+        "en": "Glug, glug! Cool water.",
+        "es-MX": "¡Glu, glu! Agua fresquita."
+      },
+      "right": {
+        "pt-BR": "A girafa abre as pernas para beber.",
+        "en": "The giraffe spreads its legs to drink.",
+        "es-MX": "La jirafa abre las patas para beber."
+      },
+      "scene": "On the left Nuna and Lia bend down to sip from a low water fountain, one after the other; on the right a giraffe spreads its front legs wide and bends down to drink from a water hole, in the same bending pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a savanna tree band through the middle, a water hole and floor band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "As duas ouvem a história.",
+        "en": "Both listen to a story.",
+        "es-MX": "Las dos escuchan el cuento."
+      },
+      "right": {
+        "pt-BR": "Os filhotes de suricato também têm aula!",
+        "en": "Meerkat pups have lessons too!",
+        "es-MX": "¡Las crías de suricata tienen clase!"
+      },
+      "scene": "On the left Nuna and Lia sit close together on the rug listening with wide eyes; on the right two meerkat pups sit side by side watching a grown meerkat show them what to do, in the same listening pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall and window band across the top, a sandy burrow band through the middle, a rug and sand band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Lia cochilam no colchonete.",
+        "en": "Nuna and Lia nap on their mats.",
+        "es-MX": "Nuna y Lia duermen en su colchoneta."
+      },
+      "right": {
+        "pt-BR": "O coala dorme quase o dia todo.",
+        "en": "The koala naps nearly all day.",
+        "es-MX": "El koala duerme casi todo el día."
+      },
+      "scene": "On the left Nuna and Lia nap curled up side by side on soft mats; on the right a koala sleeps curled up in the fork of a eucalyptus tree, in the same curled nap. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a eucalyptus band through the middle, a mat band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "As duas aprendem as letrinhas.",
+        "en": "Both learn their letters.",
+        "es-MX": "Las dos aprenden las letras."
+      },
+      "right": {
+        "pt-BR": "O filhote aprende a canção do papai.",
+        "en": "The baby bird learns dad's song.",
+        "es-MX": "El pajarito aprende el canto de papá."
+      },
+      "scene": "On the left Nuna and Lia trace big letters on paper at a little table, watching closely; on the right a baby bird sits beside its father on a branch copying his song, watching closely. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a branch band through the middle, a table band along the bottom.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Lia se despedem com abraço.",
+        "en": "Nuna and Lia hug goodbye.",
+        "es-MX": "Nuna y Lia se despiden con un abrazo."
+      },
+      "right": {
+        "pt-BR": "Os cisnes fazem coração com o pescoço.",
+        "en": "The swans make a heart with their necks.",
+        "es-MX": "Los cisnes hacen un corazón con el cuello."
+      },
+      "scene": "On the left Nuna and Lia hug goodbye at the school gate, heads leaning together; on the right two swans face each other on a pond with their necks curved into a heart shape, in the same leaning hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an afternoon sky band across the top, a school gate band through the middle, a pond and path band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Lia correm para casa.",
+        "en": "Nuna and Lia run to go home.",
+        "es-MX": "Nuna y Lia corren a casa."
+      },
+      "right": {
+        "pt-BR": "A foquinha acha a mamãe pela voz.",
+        "en": "The seal pup finds mom by her voice.",
+        "es-MX": "La foquita encuentra a mamá por su voz."
+      },
+      "scene": "On the left Nuna and Lia run out of the school gate with their arms wide open; on the right a seal pup shuffles across a crowded beach toward its mother, calling, in the same arms-open run. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an afternoon sky band across the top, a gate and rocks band through the middle, a sidewalk and beach band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Lia stand side by side, facing forward, with a small parrot, a tiny praying mantis, and a baby baboon cub looking at them from different spots around their feet. The top third of the scene is calm and empty.",
+  "cover_bands": 3
+}

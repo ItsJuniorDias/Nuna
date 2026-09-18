@@ -1,0 +1,242 @@
+{
+  "id": "a-chuva-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Chuva da Nuna",
+    "en": "Nuna's Rain",
+    "es-MX": "La Lluvia de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna ve a chuva.",
+        "en": "Nuna sees rain.",
+        "es-MX": "Nuna ve la lluvia."
+      },
+      "right": {
+        "pt-BR": "O pato ve a chuva.",
+        "en": "The duck sees rain.",
+        "es-MX": "El pato ve la lluvia."
+      },
+      "scene": "A child stands by a window looking out at falling rain. A duck stands by a pond looking at falling rain. Ground is wet, sky is grey with rain.",
+      "colors": [
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pisa na poça.",
+        "en": "Nuna steps in puddle.",
+        "es-MX": "Nuna pisa el charco."
+      },
+      "right": {
+        "pt-BR": "O pato entra na poça.",
+        "en": "The duck goes in puddle.",
+        "es-MX": "El pato entra al charco."
+      },
+      "scene": "A child in rain boots steps into a puddle, splashing. A duck steps into a puddle, splashing. Ground is muddy with puddles, sky is overcast.",
+      "colors": [
+        "terracota",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna gosta da lama.",
+        "en": "Nuna likes mud.",
+        "es-MX": "A Nuna le gusta el lodo."
+      },
+      "right": {
+        "pt-BR": "O sapo gosta da lama.",
+        "en": "The frog likes mud.",
+        "es-MX": "Al sapo le gusta el lodo."
+      },
+      "scene": "A child plays with mud, hands dirty. A frog sits in mud, content. Ground is very muddy, sky is dark grey.",
+      "colors": [
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna tem um guarda-chuva.",
+        "en": "Nuna has umbrella.",
+        "es-MX": "Nuna tiene paraguas."
+      },
+      "right": {
+        "pt-BR": "O cogumelo e um guarda-chuva.",
+        "en": "Mushroom is umbrella.",
+        "es-MX": "El hongo es paraguas."
+      },
+      "scene": "A child holds an open umbrella above their head. A small mushroom stands tall, sheltering a tiny bug. Ground is wet grass, sky is raining.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna olha a goteira.",
+        "en": "Nuna watches drip.",
+        "es-MX": "Nuna mira el goteo."
+      },
+      "right": {
+        "pt-BR": "O caracol olha a goteira.",
+        "en": "The snail watches drip.",
+        "es-MX": "El caracol mira el goteo."
+      },
+      "scene": "A child looks up at a single drop of water falling from a leaf. A snail on a leaf watches a single drop of water fall. Ground is wet, sky is still raining.",
+      "colors": [
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna encontra uma lesma.",
+        "en": "Nuna finds a slug.",
+        "es-MX": "Nuna encuentra una babosa."
+      },
+      "right": {
+        "pt-BR": "A minhoca encontra a lesma.",
+        "en": "The worm finds slug.",
+        "es-MX": "La lombriz encuentra la babosa."
+      },
+      "scene": "A child points at a slug on a wet leaf. A worm emerges from soil near a slug on a wet leaf. Ground is damp soil, sky is cloudy.",
+      "colors": [
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna pula na poça.",
+        "en": "Nuna jumps in puddle.",
+        "es-MX": "Nuna salta en el charco."
+      },
+      "right": {
+        "pt-BR": "O sapo pula na poça.",
+        "en": "The frog jumps in puddle.",
+        "es-MX": "El sapo salta en el charco."
+      },
+      "scene": "A child in rain boots jumps high, splashing a puddle. A frog jumps into a puddle, creating ripples. Ground is a large puddle, sky is grey.",
+      "colors": [
+        "azul_profundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna sente a gota.",
+        "en": "Nuna feels a drop.",
+        "es-MX": "Nuna siente la gota."
+      },
+      "right": {
+        "pt-BR": "O pato sente a gota.",
+        "en": "The duck feels a drop.",
+        "es-MX": "El pato siente la gota."
+      },
+      "scene": "A child with open palm catches a raindrop. A duck's feather catches a raindrop. Ground is wet, sky is still raining.",
+      "colors": [
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna brinca na lama.",
+        "en": "Nuna plays in mud.",
+        "es-MX": "Nuna juega en el lodo."
+      },
+      "right": {
+        "pt-BR": "A minhoca brinca na lama.",
+        "en": "The worm plays in mud.",
+        "es-MX": "La lombriz juega en el lodo."
+      },
+      "scene": "A child digs in mud with a small stick. A worm wiggles through mud. Ground is very muddy, sky is dark.",
+      "colors": [
+        "marrom_fundo",
+        "tijolo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna corre na chuva.",
+        "en": "Nuna runs in rain.",
+        "es-MX": "Nuna corre en la lluvia."
+      },
+      "right": {
+        "pt-BR": "O pato corre na chuva.",
+        "en": "The duck runs in rain.",
+        "es-MX": "El pato corre en la lluvia."
+      },
+      "scene": "A child runs joyfully through falling rain. A duck runs across a wet field. Ground is wet grass, sky is raining heavily.",
+      "colors": [
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna vê o sol.",
+        "en": "Nuna sees the sun.",
+        "es-MX": "Nuna ve el sol."
+      },
+      "right": {
+        "pt-BR": "O sapo vê o sol.",
+        "en": "The frog sees the sun.",
+        "es-MX": "El sapo ve el sol."
+      },
+      "scene": "A child looks up at a break in the clouds, with a peek of sunlight. A frog on a lily pad looks up at a peek of sunlight. Ground is wet, sky is clearing.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna feliz com a chuva.",
+        "en": "Nuna happy with rain.",
+        "es-MX": "Nuna feliz con la lluvia."
+      },
+      "right": {
+        "pt-BR": "Bichos felizes com a chuva.",
+        "en": "Animals happy with rain.",
+        "es-MX": "Animales felices con la lluvia."
+      },
+      "scene": "A child smiles broadly, enjoying the aftermath of rain. A group of happy animals (duck, frog, slug, worm) enjoy the wet environment. Ground is lush and wet, sky is bright after rain.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    }
+  ]
+}

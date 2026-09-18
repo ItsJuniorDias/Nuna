@@ -1,0 +1,313 @@
+{
+  "id": "o-acampamento-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O acampamento da Nuna",
+    "en": "Nuna's Campout",
+    "es-MX": "El campamento de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Os três armam a barraca.",
+        "en": "The three friends pitch the tent.",
+        "es-MX": "Los tres arman la carpa."
+      },
+      "right": {
+        "pt-BR": "O morcego faz barraca com uma folha.",
+        "en": "Tent bats make a tent from a leaf.",
+        "es-MX": "El murciélago hace carpa con una hoja."
+      },
+      "scene": "On the left Nuna, Benji and Maya pull up a small tent together in the backyard; on the right a few little tent bats hang under a big leaf they have bent into a tent shape, in the same tent shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a backyard tree band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os três juntam gravetos.",
+        "en": "The three gather sticks.",
+        "es-MX": "Los tres juntan palitos."
+      },
+      "right": {
+        "pt-BR": "O castor junta galhos inteiros.",
+        "en": "The beaver gathers whole branches.",
+        "es-MX": "El castor junta ramas enteras."
+      },
+      "scene": "On the left Nuna, Benji and Maya walk along carrying small bundles of sticks in their arms; on the right a beaver drags a whole leafy branch along a pond bank, in the same carrying walk. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree line band through the middle, a pond bank and lawn band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Os três carregam o isopor juntos.",
+        "en": "The three carry the cooler together.",
+        "es-MX": "Los tres cargan la hielera juntos."
+      },
+      "right": {
+        "pt-BR": "As formigas carregam juntas também.",
+        "en": "Ants carry things together too.",
+        "es-MX": "Las hormigas también cargan juntas."
+      },
+      "scene": "On the left Nuna, Benji and Maya carry a small cooler together, one hand each; on the right a team of ants carries a big leaf together along a stem, in the same team carry. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leafy stem band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "tijolo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os três acendem as lanternas.",
+        "en": "The three switch on their headlamps.",
+        "es-MX": "Los tres prenden sus linternas."
+      },
+      "right": {
+        "pt-BR": "A lula acende luzinhas no mar.",
+        "en": "The firefly squid lights up the sea.",
+        "es-MX": "El calamar luciérnaga ilumina el mar."
+      },
+      "scene": "On the left Nuna, Benji and Maya switch on little headlamps at dusk, three small beams of light; on the right a firefly squid glows with tiny dots of light in the dark sea, in the same little glow. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a dusk sky band across the top, a tent and sea band through the middle, a lawn and deep water band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "amarelo_vivo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os três fazem: uuu, uuu!",
+        "en": "The three friends hoot: whoo, whoo!",
+        "es-MX": "Los tres hacen: ¡uuu, uuu!"
+      },
+      "right": {
+        "pt-BR": "A coruja responde: uuu!",
+        "en": "The owl hoots back: whoo!",
+        "es-MX": "El búho contesta: ¡uuu!"
+      },
+      "scene": "On the left Nuna, Benji and Maya cup their hands around their mouths and hoot toward the trees; on the right an owl on a branch hoots back with its beak open and its head tipped forward, in the same hooting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tree branch band through the middle, a tent and lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os três espiam pela porta da barraca.",
+        "en": "They peek out of the tent.",
+        "es-MX": "Los tres se asoman de la carpa."
+      },
+      "right": {
+        "pt-BR": "O cão-da-pradaria espia da toca.",
+        "en": "The prairie dog peeks out of its burrow.",
+        "es-MX": "El perrito de la pradera se asoma."
+      },
+      "scene": "On the left Nuna, Benji and Maya poke their heads out of the tent door, one above the other; on the right a prairie dog pokes its head out of a burrow hole in a grassy mound, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tent band through the middle, a grassy mound band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os três fazem um túnel de coberta.",
+        "en": "They make a blanket tunnel.",
+        "es-MX": "Los tres hacen un túnel de cobija."
+      },
+      "right": {
+        "pt-BR": "A toupeira cava túneis sem parar.",
+        "en": "The mole digs tunnels all day long.",
+        "es-MX": "El topo cava túneles sin parar."
+      },
+      "scene": "On the left Nuna, Benji and Maya crawl one after another through a tunnel made of blankets between two chairs; on the right a mole digs through a long winding tunnel underground, in the same crawling pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a night sky band across the top, a lawn band, a blanket tunnel band, an underground soil band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Amoras para todo mundo!",
+        "en": "Berries for everyone!",
+        "es-MX": "¡Moras para todos!"
+      },
+      "right": {
+        "pt-BR": "O urso come amoras do arbusto.",
+        "en": "The bear eats berries right off the bush.",
+        "es-MX": "El oso come moras del arbusto."
+      },
+      "scene": "On the left Nuna, Benji and Maya sit by the tent eating berries from a bowl, cheeks full; on the right a bear sits by a bush eating berries right off the branches, in the same happy munching pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a berry bush band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "magenta",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Maya faz um coelho de sombra.",
+        "en": "Maya makes a bunny shadow.",
+        "es-MX": "Maya hace un conejito de sombra."
+      },
+      "right": {
+        "pt-BR": "O coelho de verdade mexe as orelhas.",
+        "en": "A real rabbit twitches its ears.",
+        "es-MX": "El conejo de verdad mueve las orejas."
+      },
+      "scene": "On the left Maya makes a bunny shadow on the tent wall with her hands while Nuna and Benji hold up a flashlight; on the right a real rabbit sits in the moonlit grass with its long ears up and twitching, in the same ears-up shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tent wall band through the middle, a moonlit grass band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Benji fecha o zíper da barraca.",
+        "en": "Benji zips the tent shut.",
+        "es-MX": "Benji cierra el cierre de la carpa."
+      },
+      "right": {
+        "pt-BR": "A tartaruga fecha o casco todinho.",
+        "en": "The box turtle shuts its shell tight.",
+        "es-MX": "La tortuga de caja cierra su caparazón."
+      },
+      "scene": "On the left Benji zips the tent door closed from inside while Nuna and Maya wave good night through the gap; on the right a box turtle pulls in its head and closes its hinged shell tight, in the same closing motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tent door band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Aaah! Hora de dormir.",
+        "en": "Yaaawn! Time for bed.",
+        "es-MX": "¡Aaah! Hora de dormir."
+      },
+      "right": {
+        "pt-BR": "O leão boceja um bocejo gigante.",
+        "en": "The lion yawns a giant yawn.",
+        "es-MX": "El león bosteza enorme."
+      },
+      "scene": "On the left Nuna, Benji and Maya yawn wide with their arms stretched up inside the tent; on the right a lion yawns a huge yawn lying in the grass, in the same big stretch. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tent inside band through the middle, a sleeping mat band along the bottom.",
+      "colors": [
+        "mostarda",
+        "azul_profundo",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Os três entram no saco de dormir.",
+        "en": "They wiggle into sleeping bags.",
+        "es-MX": "Los tres se meten al saco de dormir."
+      },
+      "right": {
+        "pt-BR": "A lagarta se enrola no casulo.",
+        "en": "The caterpillar wraps up in a cocoon.",
+        "es-MX": "La oruga se envuelve en su capullo."
+      },
+      "scene": "On the left Nuna, Benji and Maya lie in a row snug inside their sleeping bags, only their faces showing; on the right a caterpillar wrapped snug inside a silky cocoon hangs from a twig, in the same snug wrap. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a tent roof band through the middle, a sleeping bag band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "verde_lima",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna, Benji, and Maya stand side-by-side in the center, looking forward, with a small bear, a few ants, and a tiny owl scattered around them, all facing the children.",
+  "cover_bands": 3
+}

@@ -1,0 +1,239 @@
+{
+  "id": "o-vento-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Vento da Nuna",
+    "en": "Nuna's Wind",
+    "es-MX": "El Viento de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna sente o vento",
+        "en": "Nuna feels the wind",
+        "es-MX": "Nuna siente el viento"
+      },
+      "right": {
+        "pt-BR": "Folha sente o vento",
+        "en": "Leaf feels the wind",
+        "es-MX": "Hoja siente el viento"
+      },
+      "scene": "A child stands on a grassy field, arms outstretched, facing left. A large leaf on the right side of the spread also stands on the grass, bending in the wind with a similar posture. A clear blue sky above.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pula, o vento leva",
+        "en": "Nuna jumps, wind carries",
+        "es-MX": "Nuna salta, viento lleva"
+      },
+      "right": {
+        "pt-BR": "Borboleta pula, o vento leva",
+        "en": "Butterfly jumps, wind carries",
+        "es-MX": "Mariposa salta, viento lleva"
+      },
+      "scene": "A child is mid-air, jumping from a grassy hill, arms up. A butterfly on the right is also mid-air, wings spread, carried by the wind. A bright blue sky above with some wispy clouds.",
+      "colors": [
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna corre muito",
+        "en": "Nuna runs fast",
+        "es-MX": "Nuna corre rápido"
+      },
+      "right": {
+        "pt-BR": "Andorinha corre muito",
+        "en": "Swallow runs fast",
+        "es-MX": "Golondrina corre rápido"
+      },
+      "scene": "A child runs across a flat, open field, arms back, hair flying. A swallow on the right flies low to the ground, wings spread, mirroring the child's motion. A distant tree line on the horizon under a clear sky.",
+      "colors": [
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna solta a pipa",
+        "en": "Nuna flies the kite",
+        "es-MX": "Nuna suelta la cometa"
+      },
+      "right": {
+        "pt-BR": "Gaviao solta-se no ar",
+        "en": "Hawk soars in air",
+        "es-MX": "Gavilán se eleva en el aire"
+      },
+      "scene": "A child stands on a small hill, looking up, holding a kite string. A kite flies high in the sky. A hawk on the right soars high, wings spread, mirroring the kite's position. A clear blue sky.",
+      "colors": [
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna segura o chapeu",
+        "en": "Nuna holds her hat",
+        "es-MX": "Nuna sujeta su sombrero"
+      },
+      "right": {
+        "pt-BR": "Andorinha ajeita as penas",
+        "en": "Swallow adjusts feathers",
+        "es-MX": "Golondrina acomoda plumas"
+      },
+      "scene": "A child holds a hat firmly on her head with both hands, facing into the wind on a grassy plain. A swallow on the right, perched on a fence post, tucks its head, appearing to adjust its feathers against the wind. A light blue sky above.",
+      "colors": [
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna rodopia feliz",
+        "en": "Nuna spins happily",
+        "es-MX": "Nuna gira feliz"
+      },
+      "right": {
+        "pt-BR": "Folha rodopia contente",
+        "en": "Leaf spins content",
+        "es-MX": "Hoja gira contenta"
+      },
+      "scene": "A child spins around in a circle on a flat field, arms out, dress twirling. A large leaf on the right spins in the air, mimicking the child's movement. A clear blue sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna salta com o vento",
+        "en": "Nuna bounces with wind",
+        "es-MX": "Nuna brinca con el viento"
+      },
+      "right": {
+        "pt-BR": "Borboleta salta com o vento",
+        "en": "Butterfly bounces with wind",
+        "es-MX": "Mariposa brinca con el viento"
+      },
+      "scene": "A child is captured mid-bounce, feet off the ground, arms slightly bent, in a grassy area. A butterfly on the right is also mid-air, wings up, seemingly pushed by the wind. A light blue sky with fluffy clouds.",
+      "colors": [
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna inclina para o lado",
+        "en": "Nuna leans sideways",
+        "es-MX": "Nuna se inclina de lado"
+      },
+      "right": {
+        "pt-BR": "Gaviao inclina para o lado",
+        "en": "Hawk leans sideways",
+        "es-MX": "Gavilán se inclina de lado"
+      },
+      "scene": "A child leans dramatically to one side, resisting a strong gust of wind on a field. A hawk on the right is captured in flight, wings tilted, leaning into the wind. A turbulent sky with fast-moving clouds.",
+      "colors": [
+        "tijolo",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna estende a mao",
+        "en": "Nuna reaches hand out",
+        "es-MX": "Nuna extiende la mano"
+      },
+      "right": {
+        "pt-BR": "Folha estende a ponta",
+        "en": "Leaf extends its tip",
+        "es-MX": "Hoja extiende la punta"
+      },
+      "scene": "A child stands on a gentle slope, extending one hand forward, palm open, feeling the wind. A large leaf on the right is also held by the wind, with its tip outstretched, mirroring the child's gesture. A clear sky above.",
+      "colors": [
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna balanca a cabeca",
+        "en": "Nuna shakes her head",
+        "es-MX": "Nuna sacude la cabeza"
+      },
+      "right": {
+        "pt-BR": "Borboleta balanca as asas",
+        "en": "Butterfly shakes wings",
+        "es-MX": "Mariposa sacude las alas"
+      },
+      "scene": "A child stands on a grassy patch, head tilted and slightly shaking, hair blowing. A butterfly on the right is perched on a flower, gently flapping its wings as if shaking them. A sunny sky above.",
+      "colors": [
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna observa o ceu",
+        "en": "Nuna watches the sky",
+        "es-MX": "Nuna observa el cielo"
+      },
+      "right": {
+        "pt-BR": "Andorinha observa o ceu",
+        "en": "Swallow watches sky",
+        "es-MX": "Golondrina observa el cielo"
+      },
+      "scene": "A child stands on a high point, looking intently at the sky, one hand shielding eyes. A swallow on the right is perched on a branch, head tilted up, also observing the sky. A vast, open blue sky.",
+      "colors": [
+        "terracota",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna abraca o vento",
+        "en": "Nuna hugs the wind",
+        "es-MX": "Nuna abraza el viento"
+      },
+      "right": {
+        "pt-BR": "Gaviao abraca o ar",
+        "en": "Hawk hugs the air",
+        "es-MX": "Gavilán abraza el aire"
+      },
+      "scene": "A child stands on a hilltop, arms wide open as if embracing an invisible force. A hawk on the right is soaring with wings fully extended, appearing to embrace the air. A vast, dramatic sky with swirling clouds.",
+      "colors": [
+        "marrom_fundo",
+        "azul_profundo"
+      ],
+      "bands": 4
+    }
+  ]
+}

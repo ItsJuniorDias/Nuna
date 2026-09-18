@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_a-cachoeira-da-nuna_11_r.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-a-cachoeira-da-nuna"
+    ]
+  }
+}

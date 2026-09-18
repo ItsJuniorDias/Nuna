@@ -1,0 +1,301 @@
+{
+  "id": "a-arrumacao-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A arrumação da Nuna",
+    "en": "Nuna's Clean-Up",
+    "es-MX": "La limpieza de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Maya guardam os brinquedos.",
+        "en": "Nuna and Maya pick up the toys.",
+        "es-MX": "Nuna y Maya guardan los juguetes."
+      },
+      "right": {
+        "pt-BR": "O hamster guarda tudo nas bochechas.",
+        "en": "The hamster stuffs its cheeks full.",
+        "es-MX": "El hámster guarda todo en sus cachetes."
+      },
+      "scene": "On the left Nuna and Maya gather armfuls of toys from a messy bedroom floor; on the right a hamster sits with its cheeks stuffed round and full of seeds, in the same arms-full pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a bedroom wall band across the top, a shelf band through the middle, a messy floor band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas empilham as almofadas.",
+        "en": "Both stack up the cushions.",
+        "es-MX": "Las dos apilan los cojines."
+      },
+      "right": {
+        "pt-BR": "As tartarugas se empilham no tronco.",
+        "en": "The turtles stack up on a log.",
+        "es-MX": "Las tortugas se apilan en un tronco."
+      },
+      "scene": "On the left Nuna and Maya stack three cushions into a neat tower on the bed; on the right three turtles sit stacked on top of each other on a log in a pond, in the same tower shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a pond reed band through the middle, a pond water band along the bottom.",
+      "colors": [
+        "oliva",
+        "turquesa",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Dobra aqui, dobra ali.",
+        "en": "Fold here, fold there.",
+        "es-MX": "Dobla aquí, dobla allá."
+      },
+      "right": {
+        "pt-BR": "A joaninha dobra as asas direitinho.",
+        "en": "The ladybug folds its wings neatly.",
+        "es-MX": "La catarina dobla sus alas con cuidado."
+      },
+      "scene": "On the left Nuna and Maya fold small shirts into neat squares on the bed; on the right a ladybug on a leaf tucks its thin wings neatly under its shell, in the same folding pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a leaf band through the middle, a bed and leaf band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "vermelho_quente",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas enfileiram os sapatos.",
+        "en": "Both line up the shoes.",
+        "es-MX": "Las dos ponen los zapatos en fila."
+      },
+      "right": {
+        "pt-BR": "As lagartas andam em fila.",
+        "en": "The caterpillars march nose to tail.",
+        "es-MX": "Las orugas marchan en fila."
+      },
+      "scene": "On the left Nuna and Maya crouch and line up pairs of shoes in a long row by the wall; on the right a long line of caterpillars marches nose to tail along a branch, in the same neat row. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a branch band through the middle, a floor band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Maya arrumam a cama.",
+        "en": "Nuna and Maya make the bed.",
+        "es-MX": "Nuna y Maya tienden la cama."
+      },
+      "right": {
+        "pt-BR": "O gorila faz uma cama nova toda noite.",
+        "en": "The gorilla makes a new bed every night.",
+        "es-MX": "El gorila hace una cama nueva cada noche."
+      },
+      "scene": "On the left Nuna and Maya pull a blanket smooth across a bed and fluff the pillow; on the right a gorilla bends leafy branches into a round nest bed on the forest floor, in the same smoothing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall and window band across the top, a jungle leaf band through the middle, a bed and forest floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Maya deixam tudo bonito.",
+        "en": "Nuna and Maya make it look nice.",
+        "es-MX": "Nuna y Maya lo dejan bonito."
+      },
+      "right": {
+        "pt-BR": "O pássaro-caramanchão arruma seus tesouros.",
+        "en": "The bowerbird arranges its treasures.",
+        "es-MX": "El pájaro jardinero acomoda sus tesoros."
+      },
+      "scene": "On the left Nuna and Maya place a little plant and a toy bear neatly on a shelf, stepping back to look; on the right a bowerbird places small shells and berries neatly in front of its twig bower, stepping back to look. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a shelf and twig bower band through the middle, a floor and forest floor band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "As duas carregam o cesto.",
+        "en": "Both carry the laundry basket.",
+        "es-MX": "Las dos cargan el cesto."
+      },
+      "right": {
+        "pt-BR": "O besouro carrega muito mais.",
+        "en": "The rhino beetle lifts way more.",
+        "es-MX": "El escarabajo rinoceronte carga más."
+      },
+      "scene": "On the left Nuna and Maya carry a full laundry basket together, one on each side; on the right a rhinoceros beetle lifts a big twig on its horn, in the same heavy-lifting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a leafy band through the middle, a floor and soil band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Maya fecham a caixa.",
+        "en": "Nuna and Maya close the toy box.",
+        "es-MX": "Nuna y Maya cierran la caja."
+      },
+      "right": {
+        "pt-BR": "O marisco fecha a concha.",
+        "en": "The clam shuts its shell tight.",
+        "es-MX": "La almeja cierra su concha."
+      },
+      "scene": "On the left Nuna and Maya push down the lid of a toy box together; on the right a clam on the sandy seabed snaps its shell closed, in the same closing motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a toy box and water band through the middle, a floor and sandy seabed band along the bottom.",
+      "colors": [
+        "tijolo",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Maya juntam as meias.",
+        "en": "Nuna and Maya match up the socks.",
+        "es-MX": "Nuna y Maya juntan los calcetines."
+      },
+      "right": {
+        "pt-BR": "As araras voam sempre em par.",
+        "en": "The macaws always fly in pairs.",
+        "es-MX": "Las guacamayas vuelan en pareja."
+      },
+      "scene": "On the left Nuna and Maya sit on the rug holding up matching pairs of socks, side by side; on the right two macaws fly side by side across the sky, wings in step, in the same side-by-side pair. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a treetop band through the middle, a rug band along the bottom.",
+      "colors": [
+        "vermelho_quente",
+        "azul_profundo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "As duas enrolam o tapete.",
+        "en": "Both roll up the rug.",
+        "es-MX": "Las dos enrollan el tapete."
+      },
+      "right": {
+        "pt-BR": "O pangolim se enrola inteirinho.",
+        "en": "The pangolin rolls up tight.",
+        "es-MX": "El pangolín se enrolla todito."
+      },
+      "scene": "On the left Nuna and Maya kneel and roll up a small rug into a tight roll; on the right a pangolin curls up into a tight round roll of scales, in the same rolled-up shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a grassy band through the middle, a floor and ground band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Maya limpam a mesa.",
+        "en": "Nuna and Maya wipe the table.",
+        "es-MX": "Nuna y Maya limpian la mesa."
+      },
+      "right": {
+        "pt-BR": "O camarão limpa o peixe grandão.",
+        "en": "The cleaner shrimp cleans a big fish.",
+        "es-MX": "El camarón limpia a un pez grandote."
+      },
+      "scene": "On the left Nuna and Maya wipe a little table with cloths in big circles; on the right a cleaner shrimp picks the side of a big friendly fish clean, in the same wiping motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a coral band through the middle, a table and seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Quarto arrumado. Hora de dormir!",
+        "en": "The room is tidy. Bedtime!",
+        "es-MX": "Cuarto limpio. ¡A dormir!"
+      },
+      "right": {
+        "pt-BR": "O castor dorme na casa que fez.",
+        "en": "The beaver sleeps in the lodge it built.",
+        "es-MX": "El castor duerme en la casa que hizo."
+      },
+      "scene": "On the left Nuna and Maya lie tucked into a neat bed in their tidy room, eyes closing; on the right a beaver sleeps curled up inside its stick lodge, shown in cross-section by a pond, in the same tucked-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a lodge and window band through the middle, a pond water band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Maya stand front and center, smiling, with a small hamster, a ladybug, and a turtle looking up at them. The background is a simple room with a clear sky above.",
+  "cover_bands": 3
+}

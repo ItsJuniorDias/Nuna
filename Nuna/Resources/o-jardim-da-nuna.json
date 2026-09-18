@@ -1,0 +1,252 @@
+{
+  "id": "o-jardim-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Jardim da Nuna",
+    "en": "Nuna's Garden",
+    "es-MX": "El Jardín de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna entra no jardim.",
+        "en": "Nuna enters the garden.",
+        "es-MX": "Nuna entra al jardín."
+      },
+      "right": {
+        "pt-BR": "O beija-flor também.",
+        "en": "The hummingbird too.",
+        "es-MX": "El colibrí también."
+      },
+      "scene": "A small child Nuna stands at the garden entrance, looking forward. A hummingbird hovers in the air, facing forward. Ground is grass, middle ground has short flowers, sky is clear.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna se abaixa para ver a flor.",
+        "en": "Nuna bends to see the flower.",
+        "es-MX": "Nuna se agacha para ver la flor."
+      },
+      "right": {
+        "pt-BR": "A abelha também.",
+        "en": "The bee too.",
+        "es-MX": "La abeja también."
+      },
+      "scene": "A small child Nuna kneels down, peering at a large flower. A bee hovers near another flower, looking closely. Ground is soil with small plants, middle ground has large flowers, sky is clear.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna cheira a flor.",
+        "en": "Nuna smells the flower.",
+        "es-MX": "Nuna huele la flor."
+      },
+      "right": {
+        "pt-BR": "A borboleta também.",
+        "en": "The butterfly too.",
+        "es-MX": "La mariposa también."
+      },
+      "scene": "A small child Nuna gently leans in to smell a flower, eyes closed. A butterfly is perched on a flower, antennae twitching. Ground is green, middle ground has tall flowers, sky is bright.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna toca a pétala.",
+        "en": "Nuna touches the petal.",
+        "es-MX": "Nuna toca el pétalo."
+      },
+      "right": {
+        "pt-BR": "A joaninha também.",
+        "en": "The ladybug too.",
+        "es-MX": "La mariquita también."
+      },
+      "scene": "A small child Nuna extends a finger to gently touch a flower petal. A ladybug crawls on a flower petal. Ground is dirt, middle ground has medium flowers, sky is light.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna conta as pétalas.",
+        "en": "Nuna counts the petals.",
+        "es-MX": "Nuna cuenta los pétalos."
+      },
+      "right": {
+        "pt-BR": "O beija-flor conta também.",
+        "en": "The hummingbird counts too.",
+        "es-MX": "El colibrí cuenta también."
+      },
+      "scene": "A small child Nuna holds up fingers, pointing at petals on a flower. A hummingbird hovers near a flower, looking intently at its petals. Ground is grass, middle ground has many flowers, sky is clear.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna fica bem quietinha.",
+        "en": "Nuna stays very still.",
+        "es-MX": "Nuna se queda muy quieta."
+      },
+      "right": {
+        "pt-BR": "A abelha também.",
+        "en": "The bee too.",
+        "es-MX": "La abeja también."
+      },
+      "scene": "A small child Nuna stands motionless among flowers, hands by her sides. A bee rests on a flower, unmoving. Ground is green, middle ground has dense flowers, sky is bright.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna observa o voo.",
+        "en": "Nuna watches the flight.",
+        "es-MX": "Nuna observa el vuelo."
+      },
+      "right": {
+        "pt-BR": "A borboleta voa.",
+        "en": "The butterfly flies.",
+        "es-MX": "La mariposa vuela."
+      },
+      "scene": "A small child Nuna looks up, following something with her eyes. A butterfly flies gracefully above flowers. Ground is patchy grass, middle ground has various flowers, sky is open.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna acena para a joaninha.",
+        "en": "Nuna waves at the ladybug.",
+        "es-MX": "Nuna saluda a la mariquita."
+      },
+      "right": {
+        "pt-BR": "A joaninha acena de volta.",
+        "en": "The ladybug waves back.",
+        "es-MX": "La mariquita saluda de vuelta."
+      },
+      "scene": "A small child Nuna holds up a hand, waving gently towards a flower. A ladybug on a leaf appears to lift a tiny leg. Ground is dirt, middle ground has low flowers, sky is clear.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna se esconde entre as flores.",
+        "en": "Nuna hides among flowers.",
+        "es-MX": "Nuna se esconde entre las flores."
+      },
+      "right": {
+        "pt-BR": "O beija-flor também.",
+        "en": "The hummingbird too.",
+        "es-MX": "El colibrí también."
+      },
+      "scene": "A small child Nuna peeks out from behind a large cluster of flowers. A hummingbird is partially hidden by a flower, looking out. Ground is green, middle ground is filled with tall flowers, sky is bright.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna escuta o zumbido.",
+        "en": "Nuna hears the buzzing.",
+        "es-MX": "Nuna escucha el zumbido."
+      },
+      "right": {
+        "pt-BR": "A abelha voa, zzzzz.",
+        "en": "The bee flies, zzzzz.",
+        "es-MX": "La abeja vuela, zzzzz."
+      },
+      "scene": "A small child Nuna holds a hand to her ear, listening. A bee flies past a flower, leaving a faint trail. Ground is soil, middle ground has various flowers, sky is clear.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna sorri para a borboleta.",
+        "en": "Nuna smiles at the butterfly.",
+        "es-MX": "Nuna sonríe a la mariposa."
+      },
+      "right": {
+        "pt-BR": "A borboleta sorri de volta.",
+        "en": "The butterfly smiles back.",
+        "es-MX": "La mariposa sonríe de vuelta."
+      },
+      "scene": "A small child Nuna has a happy expression, looking at a butterfly. A butterfly is perched on a flower, its wings slightly open. Ground is green, middle ground has colorful flowers, sky is open.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna se despede do jardim.",
+        "en": "Nuna says goodbye to the garden.",
+        "es-MX": "Nuna se despide del jardín."
+      },
+      "right": {
+        "pt-BR": "Os amigos também.",
+        "en": "The friends too.",
+        "es-MX": "Los amigos también."
+      },
+      "scene": "A small child Nuna stands at the edge of the garden, waving goodbye. A hummingbird, bee, butterfly, and ladybug are all visible among the flowers, appearing to wave. Ground is path, middle ground has many flowers, sky is clear.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 4
+    }
+  ]
+}

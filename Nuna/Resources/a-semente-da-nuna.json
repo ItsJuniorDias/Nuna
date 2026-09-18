@@ -1,0 +1,253 @@
+{
+  "id": "a-semente-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A semente da Nuna",
+    "en": "Nuna's seed",
+    "es-MX": "La semilla de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna encontra uma semente pequena.",
+        "en": "Nuna finds a small seed.",
+        "es-MX": "Nuna encuentra una semilla pequeña."
+      },
+      "right": {
+        "pt-BR": "Um esquilo encontra uma noz.",
+        "en": "A squirrel finds a nut.",
+        "es-MX": "Una ardilla encuentra una nuez."
+      },
+      "scene": "A young child Nuna is looking at a small seed in her hand. A squirrel is looking at a nut in its paws. They are in a grassy field with a few flowers, under a clear sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna cava um buraco no chão.",
+        "en": "Nuna digs a hole in the ground.",
+        "es-MX": "Nuna cava un hoyo en el suelo."
+      },
+      "right": {
+        "pt-BR": "Um esquilo cava um buraco para esconder.",
+        "en": "A squirrel digs a hole to hide.",
+        "es-MX": "Una ardilla cava un hoyo para esconder."
+      },
+      "scene": "A young child Nuna is kneeling and digging in soft earth with a small shovel. A squirrel is digging in the earth with its paws. They are in a garden with a distant fence under a bright sky.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna coloca a semente na terra.",
+        "en": "Nuna puts the seed in the earth.",
+        "es-MX": "Nuna pone la semilla en la tierra."
+      },
+      "right": {
+        "pt-BR": "Um esquilo coloca a noz no buraco.",
+        "en": "A squirrel puts the nut in the hole.",
+        "es-MX": "Una ardilla pone la nuez en el hoyo."
+      },
+      "scene": "A young child Nuna is gently placing a small seed into a shallow hole in the soil. A squirrel is carefully placing a nut into a hole in the soil. They are in a close-up view of dark earth, under a clear sky.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna cobre a semente com terra.",
+        "en": "Nuna covers the seed with soil.",
+        "es-MX": "Nuna cubre la semilla con tierra."
+      },
+      "right": {
+        "pt-BR": "Um esquilo cobre a noz com terra.",
+        "en": "A squirrel covers the nut with soil.",
+        "es-MX": "Una ardilla cubre la nuez con tierra."
+      },
+      "scene": "A young child Nuna is using her hands to push soil over a planted seed. A squirrel is using its paws to push soil over a buried nut. They are in a garden bed with green leaves nearby, under a bright sky.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna rega a semente com água.",
+        "en": "Nuna waters the seed with water.",
+        "es-MX": "Nuna riega la semilla con agua."
+      },
+      "right": {
+        "pt-BR": "Um pássaro bebe água na poça.",
+        "en": "A bird drinks water from a puddle.",
+        "es-MX": "Un pájaro bebe agua de un charco."
+      },
+      "scene": "A young child Nuna is gently pouring water from a small watering can onto the ground. A bird is bending its head to drink water from a small puddle. They are in a green garden, under a soft blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna espera, o tempo passa.",
+        "en": "Nuna waits, time passes.",
+        "es-MX": "Nuna espera, el tiempo pasa."
+      },
+      "right": {
+        "pt-BR": "Um pássaro espera, o sol se move.",
+        "en": "A bird waits, the sun moves.",
+        "es-MX": "Un pájaro espera, el sol se mueve."
+      },
+      "scene": "A young child Nuna is sitting patiently on the ground, looking at the spot where she planted the seed. A bird is perched quietly on a branch, looking at the sky. They are in a garden with long shadows, under an evening sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna rega de novo. Mais água.",
+        "en": "Nuna waters again. More water.",
+        "es-MX": "Nuna riega de nuevo. Más agua."
+      },
+      "right": {
+        "pt-BR": "Uma formiga bebe gotas de chuva.",
+        "en": "An ant drinks raindrops.",
+        "es-MX": "Una hormiga bebe gotas de lluvia."
+      },
+      "scene": "A young child Nuna is pouring water from a watering can onto the earth. An ant is drinking from a tiny water droplet on a leaf. They are in a wet garden with large leaves, under a cloudy sky.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna se inclina para ver de perto.",
+        "en": "Nuna leans in to see closely.",
+        "es-MX": "Nuna se inclina para ver de cerca."
+      },
+      "right": {
+        "pt-BR": "Uma minhoca sobe do chão.",
+        "en": "An earthworm comes up from the ground.",
+        "es-MX": "Una lombriz sale de la tierra."
+      },
+      "scene": "A young child Nuna is bending down, looking intently at the ground. An earthworm is emerging from the soil, its head visible. They are in a garden with rich dark earth, under a bright sky.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Algo verde brota da terra!",
+        "en": "Something green sprouts from earth!",
+        "es-MX": "¡Algo verde brota de la tierra!"
+      },
+      "right": {
+        "pt-BR": "Uma folha nova aparece.",
+        "en": "A new leaf appears.",
+        "es-MX": "Una hoja nueva aparece."
+      },
+      "scene": "A young child Nuna is pointing with surprise and joy at a tiny green sprout emerging from the soil. A small green leaf is unfurling from a stem. They are in a garden with brown earth, under a sunny sky.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "É a planta de Nuna!",
+        "en": "It's Nuna's plant!",
+        "es-MX": "¡Es la planta de Nuna!"
+      },
+      "right": {
+        "pt-BR": "É a planta do esquilo!",
+        "en": "It's the squirrel's plant!",
+        "es-MX": "¡Es la planta de la ardilla!"
+      },
+      "scene": "A young child Nuna is happily looking at a small green plant with two leaves. A squirrel is curiously looking at a similar small green plant. They are in a garden with some pebbles on the ground, under a bright sky.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "A plantinha cresce, Nuna sorri.",
+        "en": "The little plant grows, Nuna smiles.",
+        "es-MX": "La plantita crece, Nuna sonríe."
+      },
+      "right": {
+        "pt-BR": "A semente da Nuna vira flor.",
+        "en": "Nuna's seed becomes a flower.",
+        "es-MX": "La semilla de Nuna se convierte en flor."
+      },
+      "scene": "A young child Nuna is smiling at a slightly taller plant with more leaves. A flower is blooming on a plant, attracting a bee. They are in a vibrant green garden, under a sunny sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca",
+        "magenta"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Que linda flor Nuna tem!",
+        "en": "What a beautiful flower Nuna has!",
+        "es-MX": "¡Qué linda flor tiene Nuna!"
+      },
+      "right": {
+        "pt-BR": "Um pássaro canta para a flor.",
+        "en": "A bird sings to the flower.",
+        "es-MX": "Un pájaro canta a la flor."
+      },
+      "scene": "A young child Nuna is admiring a fully bloomed flower with several petals. A bird is perched on a branch near a similar blooming flower, singing. They are in a colorful flower garden, under a clear blue sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_profundo",
+        "magenta"
+      ],
+      "bands": 4
+    }
+  ]
+}

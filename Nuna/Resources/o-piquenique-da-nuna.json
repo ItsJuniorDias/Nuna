@@ -1,0 +1,301 @@
+{
+  "id": "o-piquenique-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O piquenique da Nuna",
+    "en": "Nuna's Picnic",
+    "es-MX": "El picnic de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Benji estendem a toalha.",
+        "en": "Nuna and Benji spread the blanket.",
+        "es-MX": "Nuna y Benji extienden el mantel."
+      },
+      "right": {
+        "pt-BR": "A aranha estende a teia inteira.",
+        "en": "The spider spreads a whole web.",
+        "es-MX": "La araña extiende toda su tela."
+      },
+      "scene": "On the left Nuna and Benji hold two corners of a picnic blanket and spread it over the grass; on the right a spider stretches a wide web between two stems in the same spreading pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a meadow band through the middle, a grass band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna e Benji abrem a cesta.",
+        "en": "Nuna and Benji open the basket.",
+        "es-MX": "Nuna y Benji abren la canasta."
+      },
+      "right": {
+        "pt-BR": "O esquilo abre a noz.",
+        "en": "The squirrel cracks open a nut.",
+        "es-MX": "La ardilla abre la nuez."
+      },
+      "scene": "On the left Nuna and Benji kneel and lift the lid of a picnic basket together; on the right a squirrel sits up holding a nut and opens it in the same lifting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree trunk band through the middle, a grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Benji dividem o lanche.",
+        "en": "Nuna and Benji share their snack.",
+        "es-MX": "Nuna y Benji comparten la merienda."
+      },
+      "right": {
+        "pt-BR": "As formigas dividem a migalha.",
+        "en": "The ants share one crumb.",
+        "es-MX": "Las hormigas comparten la migaja."
+      },
+      "scene": "On the left Nuna and Benji sit facing each other breaking a sandwich in half; on the right a line of ants carries one big crumb together in the same sharing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a picnic blanket band through the middle, a grass band along the bottom.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Benji comem cenoura.",
+        "en": "Nuna and Benji crunch carrots.",
+        "es-MX": "Nuna y Benji comen zanahoria."
+      },
+      "right": {
+        "pt-BR": "O coelho come mais rápido.",
+        "en": "The rabbit crunches even faster.",
+        "es-MX": "El conejo come más rápido."
+      },
+      "scene": "On the left Nuna and Benji sit cross-legged each biting a carrot; on the right a rabbit sits up nibbling a carrot in the same upright pose, cheeks full. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a meadow band through the middle, a grass band along the bottom.",
+      "colors": [
+        "terracota",
+        "verde_lima",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Benji rolam na grama.",
+        "en": "Nuna and Benji roll in the grass.",
+        "es-MX": "Nuna y Benji ruedan en el pasto."
+      },
+      "right": {
+        "pt-BR": "O tatu-bola vira uma bola.",
+        "en": "The armadillo rolls into a ball.",
+        "es-MX": "El armadillo se hace bolita."
+      },
+      "scene": "On the left Nuna and Benji roll down a gentle grassy slope curled up; on the right a three-banded armadillo rolls itself into a perfect ball in the same curled shape. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, a hilltop band, a grassy slope band, flat ground.",
+      "colors": [
+        "verde_lima",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Benji olham as nuvens.",
+        "en": "Nuna and Benji watch the clouds.",
+        "es-MX": "Nuna y Benji miran las nubes."
+      },
+      "right": {
+        "pt-BR": "O passarinho voa até elas.",
+        "en": "The little bird flies up to them.",
+        "es-MX": "El pajarito vuela hasta ellas."
+      },
+      "scene": "On the left Nuna and Benji lie on their backs pointing up at big soft clouds; on the right a small bird flies up among the same clouds with wings open. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide cloudy sky band across the top, a distant tree band through the middle, a grass band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "verde_lima",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Benji cantam uma canção.",
+        "en": "Nuna and Benji sing a song.",
+        "es-MX": "Nuna y Benji cantan una canción."
+      },
+      "right": {
+        "pt-BR": "O sabiá canta a tarde inteira.",
+        "en": "The thrush sings all afternoon.",
+        "es-MX": "El zorzal canta toda la tarde."
+      },
+      "scene": "On the left Nuna and Benji sit on the blanket singing with heads tipped back; on the right a thrush sings from a branch with its beak open in the same tipped-back pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an afternoon sky band across the top, a branch band through the middle, a blanket and grass band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Benji brincam de estátua.",
+        "en": "Nuna and Benji play statues.",
+        "es-MX": "Nuna y Benji juegan a las estatuas."
+      },
+      "right": {
+        "pt-BR": "O louva-a-deus nem se mexe.",
+        "en": "The mantis doesn't move at all.",
+        "es-MX": "La mantis no se mueve nada."
+      },
+      "scene": "On the left Nuna and Benji freeze mid-step on one leg with arms raised; on the right a praying mantis holds perfectly still on a stem with front legs raised in the same frozen pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tall grass band through the middle, a ground band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Benji tomam o suco.",
+        "en": "Nuna and Benji sip their juice.",
+        "es-MX": "Nuna y Benji toman su jugo."
+      },
+      "right": {
+        "pt-BR": "A borboleta toma néctar na flor.",
+        "en": "The butterfly sips from a flower.",
+        "es-MX": "La mariposa toma de la flor."
+      },
+      "scene": "On the left Nuna and Benji sip juice through straws from two cups; on the right a butterfly sips from a flower with its long tongue in the same sipping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a flower band through the middle, a grass band along the bottom.",
+      "colors": [
+        "amarelo_vivo",
+        "verde_lima",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Benji correm da chuvinha.",
+        "en": "Nuna and Benji run from the drizzle.",
+        "es-MX": "Nuna y Benji corren de la llovizna."
+      },
+      "right": {
+        "pt-BR": "A joaninha se esconde na folha.",
+        "en": "The ladybug hides under a leaf.",
+        "es-MX": "La catarina se esconde en la hoja."
+      },
+      "scene": "On the left Nuna and Benji run holding the blanket over their heads as light rain falls; on the right a ladybug shelters under a broad leaf like an umbrella in the same covered pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a rainy sky band, falling drizzle, a meadow band, grass.",
+      "colors": [
+        "azul_fumaca",
+        "verde_lima",
+        "vermelho_quente"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Benji tiram um cochilo.",
+        "en": "Nuna and Benji take a nap.",
+        "es-MX": "Nuna y Benji toman una siesta."
+      },
+      "right": {
+        "pt-BR": "O gato cochila bem mais.",
+        "en": "The cat naps much longer.",
+        "es-MX": "El gato duerme mucho más."
+      },
+      "scene": "On the left Nuna and Benji nap curled up on the blanket under a tree; on the right a cat sleeps curled in a tight ring in the same curled pose, deeply asleep. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree shade band through the middle, a blanket and grass band along the bottom.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Benji dobram a toalha.",
+        "en": "Nuna and Benji fold the blanket.",
+        "es-MX": "Nuna y Benji doblan el mantel."
+      },
+      "right": {
+        "pt-BR": "O caracol leva a casa junto.",
+        "en": "The snail takes its house along.",
+        "es-MX": "El caracol lleva su casa."
+      },
+      "scene": "On the left Nuna and Benji fold the picnic blanket together and carry the basket home; on the right a snail slides along a stem carrying its shell in the same carrying pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a meadow band through the middle, a path band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Benji stand smiling at the viewer, holding a picnic blanket, with a squirrel, a rabbit, and a ladybug looking up at them from the ground.",
+  "cover_bands": 3
+}

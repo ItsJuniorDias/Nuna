@@ -1,0 +1,252 @@
+{
+  "id": "o-ninho-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Ninho da Nuna",
+    "en": "Nuna's Nest",
+    "es-MX": "El Nido de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna quer um ninho.",
+        "en": "Nuna wants a nest.",
+        "es-MX": "Nuna quiere un nido."
+      },
+      "right": {
+        "pt-BR": "O João-de-Barro quer casa.",
+        "en": "Hornero wants a home.",
+        "es-MX": "El Hornero quiere casa."
+      },
+      "scene": "A small child Nuna on the left, an hornero bird on the right, both looking up expectantly. Ground is green grass, mid-ground is a light blue sky with a few clouds, upper-ground is a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pega galhos secos.",
+        "en": "Nuna picks dry sticks.",
+        "es-MX": "Nuna toma ramas secas."
+      },
+      "right": {
+        "pt-BR": "O João-de-Barro pega barro.",
+        "en": "Hornero picks mud.",
+        "es-MX": "El Hornero toma lodo."
+      },
+      "scene": "A small child Nuna on the left, an hornero bird on the right, both bending down to pick up materials from the ground. Ground is brown dirt, mid-ground is a low green bush, upper-ground is a light blue sky.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna amontoa os galhos.",
+        "en": "Nuna piles the sticks.",
+        "es-MX": "Nuna amontona las ramas."
+      },
+      "right": {
+        "pt-BR": "O João-de-Barro empilha barro.",
+        "en": "Hornero stacks mud.",
+        "es-MX": "El Hornero apila lodo."
+      },
+      "scene": "A small child Nuna on the left, an hornero bird on the right, both standing next to small piles of building materials. Ground is green grass, mid-ground is a blooming flower, upper-ground is a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna junta as folhas.",
+        "en": "Nuna gathers leaves.",
+        "es-MX": "Nuna junta las hojas."
+      },
+      "right": {
+        "pt-BR": "A Aranha puxa fios.",
+        "en": "Spider pulls threads.",
+        "es-MX": "La Araña jala hilos."
+      },
+      "scene": "A small child Nuna on the left, a spider on the right, both reaching out to collect materials. Ground is a forest floor with fallen leaves, mid-ground is tree trunks, upper-ground is tree canopies.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna tece com as mãos.",
+        "en": "Nuna weaves with hands.",
+        "es-MX": "Nuna teje con manos."
+      },
+      "right": {
+        "pt-BR": "A Aranha tece a teia.",
+        "en": "Spider weaves web.",
+        "es-MX": "La Araña teje la telaraña."
+      },
+      "scene": "A small child Nuna on the left, a spider on the right, both meticulously working with their collected materials. Ground is green grass, mid-ground is a large flower, upper-ground is a light blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna faz parede.",
+        "en": "Nuna builds a wall.",
+        "es-MX": "Nuna hace pared."
+      },
+      "right": {
+        "pt-BR": "A Aranha faz parede.",
+        "en": "Spider builds a wall.",
+        "es-MX": "La Araña hace pared."
+      },
+      "scene": "A small child Nuna on the left, a spider on the right, both constructing vertical structures with their materials. Ground is green grass, mid-ground is a wooden fence, upper-ground is a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna achou uma flor.",
+        "en": "Nuna found a flower.",
+        "es-MX": "Nuna encontró una flor."
+      },
+      "right": {
+        "pt-BR": "A Abelha achou néctar.",
+        "en": "Bee found nectar.",
+        "es-MX": "La Abeja encontró néctar."
+      },
+      "scene": "A small child Nuna on the left, a bee on the right, both looking at a colorful flower with interest. Ground is green grass, mid-ground is a field of wildflowers, upper-ground is a bright blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda",
+        "magenta"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna aperta as flores.",
+        "en": "Nuna presses flowers.",
+        "es-MX": "Nuna aprieta las flores."
+      },
+      "right": {
+        "pt-BR": "A Abelha faz mel.",
+        "en": "Bee makes honey.",
+        "es-MX": "La Abeja hace miel."
+      },
+      "scene": "A small child Nuna on the left, a bee on the right, both engaged in a gentle, focused activity with flowers. Ground is a wooden table, mid-ground is a vase with flowers, upper-ground is a patterned wallpaper.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna faz seu telhado.",
+        "en": "Nuna makes her roof.",
+        "es-MX": "Nuna hace su techo."
+      },
+      "right": {
+        "pt-BR": "A Abelha faz colmeia.",
+        "en": "Bee makes honeycomb.",
+        "es-MX": "La Abeja hace colmena."
+      },
+      "scene": "A small child Nuna on the left, a bee on the right, both carefully constructing a roof-like structure. Ground is green grass, mid-ground is a tree branch, upper-ground is a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna pega mais barro.",
+        "en": "Nuna picks more mud.",
+        "es-MX": "Nuna toma más lodo."
+      },
+      "right": {
+        "pt-BR": "O Cupim pega madeira.",
+        "en": "Termite picks wood.",
+        "es-MX": "El Comején toma madera."
+      },
+      "scene": "A small child Nuna on the left, a termite on the right, both gathering natural materials from the ground. Ground is wet earth, mid-ground is small roots, upper-ground is the underside of a large leaf.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna constrói seu ninho.",
+        "en": "Nuna builds her nest.",
+        "es-MX": "Nuna construye su nido."
+      },
+      "right": {
+        "pt-BR": "O Cupim constrói monte.",
+        "en": "Termite builds mound.",
+        "es-MX": "El Comején construye montículo."
+      },
+      "scene": "A small child Nuna on the left, a termite on the right, both actively constructing their homes. Ground is dry dirt, mid-ground is short, dry grass, upper-ground is a blue sky with a few wispy clouds.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna entra no ninho.",
+        "en": "Nuna enters the nest.",
+        "es-MX": "Nuna entra en el nido."
+      },
+      "right": {
+        "pt-BR": "O Cupim entra na casa.",
+        "en": "Termite enters home.",
+        "es-MX": "El Comején entra en la casa."
+      },
+      "scene": "A small child Nuna on the left, a termite on the right, both entering their finished structures. Ground is green grass, mid-ground is a small, cozy shelter for Nuna and a termite mound for the termite, upper-ground is a clear blue sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    }
+  ]
+}

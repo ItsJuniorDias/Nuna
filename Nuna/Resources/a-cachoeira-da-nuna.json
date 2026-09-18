@@ -1,0 +1,301 @@
+{
+  "id": "a-cachoeira-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A cachoeira da Nuna",
+    "en": "Nuna's Waterfall",
+    "es-MX": "La cascada de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Lia molham o pé.",
+        "en": "Nuna and Lia dip their toes.",
+        "es-MX": "Nuna y Lia mojan los pies."
+      },
+      "right": {
+        "pt-BR": "A garça entra até o joelho.",
+        "en": "The heron wades in to its knees.",
+        "es-MX": "La garza entra hasta las rodillas."
+      },
+      "scene": "On the left Nuna and Lia sit on the edge of a stream dipping their toes in the water; on the right a heron stands in the same water up to its knees, one leg lifted. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, a small waterfall band, a stream band, a pebble bank band.",
+      "colors": [
+        "turquesa",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna e Lia pulam na água rasa.",
+        "en": "Nuna and Lia jump in shallow water.",
+        "es-MX": "Nuna y Lia saltan al agua baja."
+      },
+      "right": {
+        "pt-BR": "O peixinho pula a cachoeira.",
+        "en": "The little fish leaps up the waterfall.",
+        "es-MX": "El pececito salta la cascada."
+      },
+      "scene": "On the left Nuna and Lia jump into ankle-deep water with a small splash; on the right a small fish leaps up against a little waterfall in the same arched jump. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, rocks, a falling water band, a splash pool band.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Lia deitam na pedra quente.",
+        "en": "Nuna and Lia lie on a warm rock.",
+        "es-MX": "Nuna y Lia descansan en la roca."
+      },
+      "right": {
+        "pt-BR": "A tartaruga toma sol a tarde toda.",
+        "en": "The turtle suns itself all afternoon.",
+        "es-MX": "La tortuga toma sol toda la tarde."
+      },
+      "scene": "On the left Nuna and Lia lie on their tummies on a flat rock, chins on their hands; on the right a turtle stretches out on a flat rock in the same lying pose, head raised to the sun. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a bright sky band across the top, a flat rock band through the middle, a water band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Lia prendem o fôlego.",
+        "en": "Nuna and Lia hold their breath.",
+        "es-MX": "Nuna y Lia aguantan la respiración."
+      },
+      "right": {
+        "pt-BR": "A lontra mergulha muito mais.",
+        "en": "The otter dives much longer.",
+        "es-MX": "La nutria bucea mucho más."
+      },
+      "scene": "On the left Nuna and Lia crouch in shallow water with puffed cheeks and pinched noses; on the right an otter dives deep below the surface in the same tucked shape. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, riverbank, a water surface band, a deep underwater band.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "marrom_fundo"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Lia pescam com a mão.",
+        "en": "Nuna and Lia fish with their hands.",
+        "es-MX": "Nuna y Lia pescan con la mano."
+      },
+      "right": {
+        "pt-BR": "O martim-pescador pega de primeira.",
+        "en": "The kingfisher catches one first try.",
+        "es-MX": "El martín pescador atrapa a la primera."
+      },
+      "scene": "On the left Nuna and Lia bend over the stream reaching into the water with cupped hands; on the right a kingfisher dives beak-first into the water in the same reaching line and comes up with a fish. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an overhanging branch band through the middle, a water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "oliva",
+        "tijolo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Lia sobem a pedra lisa.",
+        "en": "Nuna and Lia climb the slippery rock.",
+        "es-MX": "Nuna y Lia suben la piedra lisa."
+      },
+      "right": {
+        "pt-BR": "A lagartixa sobe sem escorregar.",
+        "en": "The lizard climbs without slipping.",
+        "es-MX": "La lagartija sube sin resbalar."
+      },
+      "scene": "On the left Nuna and Lia climb a tall smooth rock on hands and knees; on the right a lizard runs straight up a smooth rock face in the same climbing pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, a tall rock band, a moss band, water.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Lia boiam de costas.",
+        "en": "Nuna and Lia float on their backs.",
+        "es-MX": "Nuna y Lia flotan boca arriba."
+      },
+      "right": {
+        "pt-BR": "A capivara boia com o nariz de fora.",
+        "en": "The capybara floats, just its nose out.",
+        "es-MX": "El capibara flota con la nariz afuera."
+      },
+      "scene": "On the left Nuna and Lia float on their backs in a calm pool, arms spread; on the right a capybara floats in the same calm water with only its nose and eyes above the surface. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a bank grass band across the top, a wide still water band through the middle, a deeper water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Lia chacoalham a água.",
+        "en": "Nuna and Lia shake off the water.",
+        "es-MX": "Nuna y Lia se sacuden el agua."
+      },
+      "right": {
+        "pt-BR": "O cachorro se chacoalha muito mais.",
+        "en": "The dog shakes water everywhere.",
+        "es-MX": "El perro se sacude mucho más."
+      },
+      "scene": "On the left Nuna and Lia stand on the bank shaking water off their arms, droplets flying; on the right a dog shakes its whole body in the same wiggling pose, a big spray of droplets all around. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a riverbank band through the middle, a pebble band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Lia fazem barquinho de folha.",
+        "en": "Nuna and Lia make a leaf boat.",
+        "es-MX": "Nuna y Lia hacen un barquito de hoja."
+      },
+      "right": {
+        "pt-BR": "A formiga navega de verdade.",
+        "en": "The ant really sails it.",
+        "es-MX": "La hormiga navega de verdad."
+      },
+      "scene": "On the left Nuna and Lia crouch at the water's edge setting a big leaf afloat; on the right an ant stands proudly on a floating leaf sailing down the stream. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a bank band through the middle, a gentle stream band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "turquesa",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Lia cantam bem alto.",
+        "en": "Nuna and Lia sing out loud.",
+        "es-MX": "Nuna y Lia cantan muy fuerte."
+      },
+      "right": {
+        "pt-BR": "O sapo canta mais alto.",
+        "en": "The toad croaks even louder.",
+        "es-MX": "El sapo canta más fuerte."
+      },
+      "scene": "On the left Nuna and Lia sit on a rock singing with mouths open and heads tipped back; on the right a toad on a lily pad croaks with its throat puffed up in the same tipped-back pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a reeds band through the middle, a pond band along the bottom.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "magenta"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Lia secam no sol.",
+        "en": "Nuna and Lia dry in the sun.",
+        "es-MX": "Nuna y Lia se secan al sol."
+      },
+      "right": {
+        "pt-BR": "A borboleta abre as asas no sol.",
+        "en": "The butterfly opens its wings wide.",
+        "es-MX": "La mariposa abre sus alas al sol."
+      },
+      "scene": "On the left Nuna and Lia stand with arms stretched out wide to dry in the sun; on the right a butterfly on a warm stone opens its wings wide in the same outstretched shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunny sky band across the top, a warm rock band through the middle, a ground band along the bottom.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Lia voltam molhadinhas.",
+        "en": "Nuna and Lia head home, still wet.",
+        "es-MX": "Nuna y Lia vuelven mojaditas."
+      },
+      "right": {
+        "pt-BR": "O martim-pescador dorme no galho.",
+        "en": "The kingfisher sleeps on its branch.",
+        "es-MX": "El martín pescador duerme en la rama."
+      },
+      "scene": "On the left Nuna and Lia walk home along the path, leaning on each other sleepily; on the right a kingfisher dozes on a branch over the water in the same leaning pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a branch and trees band through the middle, a path band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Lia stand side-by-side facing forward in the center, a small otter peeks from behind a rock, a small turtle looks up from the ground, and a small fish leaps from a stream in the foreground.",
+  "cover_bands": 3
+}

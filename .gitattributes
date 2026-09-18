@@ -1,0 +1,8 @@
+# Mídia no Git LFS: arte (HEIC/PNG/JPEG), motion (MP4) e narração (MP3).
+# Sem isto, cada reexportação do pipeline somaria centenas de MB ao histórico.
+*.heic filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.mp3  filter=lfs diff=lfs merge=lfs -text

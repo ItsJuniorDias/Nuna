@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "n": 1,
+      "image": "onboarding_01",
+      "title": {
+        "pt-BR": "Um livro que dobra",
+        "en": "A book that folds",
+        "es-MX": "Un libro que se dobla"
+      },
+      "body": {
+        "pt-BR": "Abra o aparelho e a página vira um livro de verdade.",
+        "en": "Open the device and the page becomes a real book.",
+        "es-MX": "Abre el dispositivo y la página se vuelve un libro de verdad."
+      },
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "image": "onboarding_02",
+      "title": {
+        "pt-BR": "De um lado a Nuna",
+        "en": "Nuna on one side",
+        "es-MX": "De un lado Nuna"
+      },
+      "body": {
+        "pt-BR": "Do outro, o bicho fazendo a mesma coisa melhor.",
+        "en": "On the other, the animal doing it better.",
+        "es-MX": "Del otro, el animal haciéndolo mejor."
+      },
+      "colors": [
+        "oliva",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 3,
+      "image": "onboarding_03",
+      "title": {
+        "pt-BR": "Feito pra três anos",
+        "en": "Made for three-year-olds",
+        "es-MX": "Hecho para tres años"
+      },
+      "body": {
+        "pt-BR": "Letra grande, poucas palavras, um toque pra virar.",
+        "en": "Big type, few words, one tap to turn.",
+        "es-MX": "Letra grande, pocas palabras, un toque para pasar."
+      },
+      "colors": [
+        "rosa_poeira",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    }
+  ],
+  "cta": {
+    "pt-BR": "Começar a ler",
+    "en": "Start reading",
+    "es-MX": "Empezar a leer"
+  },
+  "skip": {
+    "pt-BR": "Pular",
+    "en": "Skip",
+    "es-MX": "Saltar"
+  },
+  "next": {
+    "pt-BR": "Próximo",
+    "en": "Next",
+    "es-MX": "Siguiente"
+  }
+}

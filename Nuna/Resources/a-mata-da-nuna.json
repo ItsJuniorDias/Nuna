@@ -1,0 +1,252 @@
+{
+  "id": "a-mata-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A mata da Nuna",
+    "en": "Nuna's Forest",
+    "es-MX": "La selva de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna vai passear.",
+        "en": "Nuna goes for a walk.",
+        "es-MX": "Nuna va a pasear."
+      },
+      "right": {
+        "pt-BR": "A mata espera por ela.",
+        "en": "The forest waits.",
+        "es-MX": "La selva la espera."
+      },
+      "scene": "Nuna stands on a forest path, looking forward. A lush green forest with tall trees and dappled sunlight. Ground level shows dirt path and fallen leaves, midground has tree trunks and undergrowth, background has more dense forest.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna vai na trilha.",
+        "en": "Nuna walks the trail.",
+        "es-MX": "Nuna camina el sendero."
+      },
+      "right": {
+        "pt-BR": "O tatu vai na trilha.",
+        "en": "The armadillo walks the trail.",
+        "es-MX": "El armadillo camina el sendero."
+      },
+      "scene": "Nuna walks on a narrow dirt path, looking down at her feet. An armadillo walks on a similar path. Ground level is a dirt path with small roots, midground shows low bushes and tree trunks, background is dense forest.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna sobe um morro.",
+        "en": "Nuna climbs a hill.",
+        "es-MX": "Nuna sube una loma."
+      },
+      "right": {
+        "pt-BR": "O quati sobe um morro.",
+        "en": "The coati climbs a hill.",
+        "es-MX": "El coatí sube una loma."
+      },
+      "scene": "Nuna bends over, hands on knees, climbing a small incline. A coati is in a similar pose, climbing. Ground level is a steep, leafy incline, midground has ferns and rocks, background shows more trees.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "tijolo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna olha para cima.",
+        "en": "Nuna looks up.",
+        "es-MX": "Nuna mira hacia arriba."
+      },
+      "right": {
+        "pt-BR": "O macaco olha para cima.",
+        "en": "The monkey looks up.",
+        "es-MX": "El mono mira hacia arriba."
+      },
+      "scene": "Nuna stands with her head tilted back, looking up into the trees. A monkey is perched on a branch, looking up. Ground level is forest floor, midground has tree trunks, upper level shows dense tree canopy and sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna se esconde.",
+        "en": "Nuna hides.",
+        "es-MX": "Nuna se esconde."
+      },
+      "right": {
+        "pt-BR": "O tatu se esconde.",
+        "en": "The armadillo hides.",
+        "es-MX": "El armadillo se esconde."
+      },
+      "scene": "Nuna peeks out from behind a large bush or tree trunk. An armadillo peeks from behind a rock or log. Ground level is covered in leaves and dirt, midground has dense foliage and a hiding spot, background is blurred forest.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna ouve um barulho.",
+        "en": "Nuna hears a sound.",
+        "es-MX": "Nuna oye un ruido."
+      },
+      "right": {
+        "pt-BR": "O quati ouve um barulho.",
+        "en": "The coati hears a sound.",
+        "es-MX": "El coatí oye un ruido."
+      },
+      "scene": "Nuna stops, head slightly cocked, listening intently. A coati pauses, ears perked, listening. Ground level is forest floor, midground has sparse undergrowth, background is tall trees.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna vê uma fruta.",
+        "en": "Nuna sees a fruit.",
+        "es-MX": "Nuna ve una fruta."
+      },
+      "right": {
+        "pt-BR": "O macaco vê uma fruta.",
+        "en": "The monkey sees a fruit.",
+        "es-MX": "El mono ve una fruta."
+      },
+      "scene": "Nuna points at a colorful fruit hanging from a branch. A monkey on a branch reaches for a fruit. Ground level is forest floor, midground has tree trunks and low branches, upper level has branches with fruit and leaves.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "tijolo",
+        "magenta"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna imita o tucano.",
+        "en": "Nuna mimics the toucan.",
+        "es-MX": "Nuna imita al tucán."
+      },
+      "right": {
+        "pt-BR": "O tucano faz barulho.",
+        "en": "The toucan makes noise.",
+        "es-MX": "El tucán hace ruido."
+      },
+      "scene": "Nuna has her hands cupped around her mouth, making a sound. A toucan is perched on a branch, head tilted, making a sound. Ground level is forest floor, midground has tree trunks, upper level shows branches and foliage.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna anda devagar.",
+        "en": "Nuna walks slowly.",
+        "es-MX": "Nuna camina despacio."
+      },
+      "right": {
+        "pt-BR": "O tatu anda devagar.",
+        "en": "The armadillo walks slowly.",
+        "es-MX": "El armadillo camina despacio."
+      },
+      "scene": "Nuna takes small, careful steps on the forest floor. An armadillo moves slowly on the ground. Ground level is covered in leaves and small sticks, midground has low plants, background is dense trees.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna espreita.",
+        "en": "Nuna peeks.",
+        "es-MX": "Nuna se asoma."
+      },
+      "right": {
+        "pt-BR": "O quati espreita.",
+        "en": "The coati peeks.",
+        "es-MX": "El coatí se asoma."
+      },
+      "scene": "Nuna crouches behind a large fern, looking out. A coati is partially hidden behind a log, looking out. Ground level is dense undergrowth, midground has hiding spots, background is forest.",
+      "colors": [
+        "oliva",
+        "tijolo",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna acena adeus.",
+        "en": "Nuna waves goodbye.",
+        "es-MX": "Nuna dice adiós."
+      },
+      "right": {
+        "pt-BR": "O macaco acena adeus.",
+        "en": "The monkey waves goodbye.",
+        "es-MX": "El mono dice adiós."
+      },
+      "scene": "Nuna stands on the path, waving one hand. A monkey on a high branch lifts one hand in a waving gesture. Ground level is path, midground has trees, upper level has canopy and sky.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "A mata da Nuna.",
+        "en": "Nuna's forest.",
+        "es-MX": "La selva de Nuna."
+      },
+      "right": {
+        "pt-BR": "Um lugar para voltar.",
+        "en": "A place to return.",
+        "es-MX": "Un lugar para volver."
+      },
+      "scene": "Nuna stands smiling on a path, looking back at the forest. The dense forest looms behind her. Ground level is a clear path, midground shows the edge of the forest with tall trees, background is deep forest.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "terracota"
+      ],
+      "bands": 3
+    }
+  ]
+}

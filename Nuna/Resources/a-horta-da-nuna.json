@@ -1,0 +1,250 @@
+{
+  "id": "a-horta-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A Horta da Nuna",
+    "en": "Nuna's Garden",
+    "es-MX": "La Huerta de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna tem sementes pequenas.",
+        "en": "Nuna has tiny seeds.",
+        "es-MX": "Nuna tiene semillas pequeñas."
+      },
+      "right": {
+        "pt-BR": "O passarinho tem sementes pequenas.",
+        "en": "Bird has tiny seeds.",
+        "es-MX": "El pajarito tiene semillas pequeñas."
+      },
+      "scene": "A small child on the left holds tiny seeds in their open palm. A small bird on the right holds tiny seeds in its beak, in a similar pose. Ground in the foreground, a fence in the midground, and a clear sky in the background.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna cava a terra macia.",
+        "en": "Nuna digs soft soil.",
+        "es-MX": "Nuna cava tierra suave."
+      },
+      "right": {
+        "pt-BR": "A minhoca cava a terra macia.",
+        "en": "Worm digs soft soil.",
+        "es-MX": "La lombriz cava tierra suave."
+      },
+      "scene": "A small child on the left is kneeling and digging in soft soil with their hands. A worm on the right is burrowing into soft soil, in a similar pose. A garden bed in the foreground, green plants in the midground, and a blue sky in the background.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna planta as sementes.",
+        "en": "Nuna plants the seeds.",
+        "es-MX": "Nuna planta las semillas."
+      },
+      "right": {
+        "pt-BR": "O esquilo planta sementes.",
+        "en": "Squirrel plants seeds.",
+        "es-MX": "La ardilla planta semillas."
+      },
+      "scene": "A small child on the left is gently placing a seed into a small hole in the soil. A squirrel on the right is burying an acorn in the soil, in a similar pose. A close-up of a garden bed in the foreground, with blurred green foliage in the background.",
+      "colors": [
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna rega com carinho.",
+        "en": "Nuna waters with care.",
+        "es-MX": "Nuna riega con cariño."
+      },
+      "right": {
+        "pt-BR": "A abelha rega com carinho.",
+        "en": "Bee waters with care.",
+        "es-MX": "La abeja riega con cariño."
+      },
+      "scene": "A small child on the left holds a small watering can, gently pouring water onto the soil. A bee on the right is collecting nectar from a flower, in a similar pose. Green leaves and flowers in the foreground, with soft garden background.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna espera o sol brilhar.",
+        "en": "Nuna waits for sun.",
+        "es-MX": "Nuna espera el sol."
+      },
+      "right": {
+        "pt-BR": "O girassol espera o sol brilhar.",
+        "en": "Sunflower waits for sun.",
+        "es-MX": "El girasol espera el sol."
+      },
+      "scene": "A small child on the left stands looking up at the sky. A sunflower on the right is turned towards the sun, in a similar pose. A garden path in the foreground, tall plants in the midground, and a bright blue sky with a sun in the background.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna vê brotinhos verdes.",
+        "en": "Nuna sees green sprouts.",
+        "es-MX": "Nuna ve brotes verdes."
+      },
+      "right": {
+        "pt-BR": "A joaninha vê brotinhos verdes.",
+        "en": "Ladybug sees green sprouts.",
+        "es-MX": "La mariquita ve brotes verdes."
+      },
+      "scene": "A small child on the left is kneeling and pointing at tiny green sprouts emerging from the soil. A ladybug on the right is perched on a tiny green sprout, in a similar pose. Close-up of garden soil with small green plants.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna afasta o caracol faminto.",
+        "en": "Nuna moves hungry snail.",
+        "es-MX": "Nuna quita caracol hambriento."
+      },
+      "right": {
+        "pt-BR": "O ouriço afasta o caracol faminto.",
+        "en": "Hedgehog moves hungry snail.",
+        "es-MX": "El erizo quita caracol hambriento."
+      },
+      "scene": "A small child on the left gently moves a snail away from a plant. A hedgehog on the right nudges a snail away from a plant, in a similar pose. Green leaves and soil in the foreground, with blurred garden background.",
+      "colors": [
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna observa as flores lindas.",
+        "en": "Nuna watches pretty flowers.",
+        "es-MX": "Nuna observa flores bonitas."
+      },
+      "right": {
+        "pt-BR": "A abelha observa as flores lindas.",
+        "en": "Bee watches pretty flowers.",
+        "es-MX": "La abeja observa flores bonitas."
+      },
+      "scene": "A small child on the left is bending down to look closely at a colorful flower. A bee on the right is hovering near a colorful flower, in a similar pose. A bed of various flowers in the foreground, with a soft green background.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "magenta"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna colhe o fruto maduro.",
+        "en": "Nuna picks ripe fruit.",
+        "es-MX": "Nuna recoge fruta madura."
+      },
+      "right": {
+        "pt-BR": "O passarinho colhe o fruto maduro.",
+        "en": "Bird picks ripe fruit.",
+        "es-MX": "El pajarito recoge fruta madura."
+      },
+      "scene": "A small child on the left is reaching up to pick a ripe fruit from a plant. A bird on the right is pecking at a ripe fruit on a branch, in a similar pose. A fruit-bearing plant in the foreground, with green foliage and a blue sky in the background.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna prova a horta fresca.",
+        "en": "Nuna tastes fresh garden.",
+        "es-MX": "Nuna prueba la huerta fresca."
+      },
+      "right": {
+        "pt-BR": "O coelho prova a horta fresca.",
+        "en": "Rabbit tastes fresh garden.",
+        "es-MX": "El conejo prueba la huerta fresca."
+      },
+      "scene": "A small child on the left is taking a bite of a freshly picked vegetable. A rabbit on the right is nibbling on a fresh leaf, in a similar pose. A close-up of fresh vegetables and leaves in a garden setting.",
+      "colors": [
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna compartilha com amigos.",
+        "en": "Nuna shares with friends.",
+        "es-MX": "Nuna comparte con amigos."
+      },
+      "right": {
+        "pt-BR": "O esquilo compartilha com amigos.",
+        "en": "Squirrel shares with friends.",
+        "es-MX": "La ardilla comparte con amigos."
+      },
+      "scene": "A small child on the left is offering a piece of fruit to another child. A squirrel on the right is sharing a nut with another squirrel, in a similar pose. A picnic blanket on the ground, with garden produce and blurred garden background.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna ama sua horta.",
+        "en": "Nuna loves her garden.",
+        "es-MX": "Nuna ama su huerta."
+      },
+      "right": {
+        "pt-BR": "A joaninha ama a horta.",
+        "en": "Ladybug loves the garden.",
+        "es-MX": "La mariquita ama la huerta."
+      },
+      "scene": "A small child on the left is happily hugging a large pumpkin in a garden. A ladybug on the right is resting contentedly on a large leaf, in a similar pose. A vibrant and thriving garden with various plants and vegetables, under a sunny sky.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 4
+    }
+  ]
+}

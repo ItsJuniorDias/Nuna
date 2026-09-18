@@ -1,0 +1,301 @@
+{
+  "id": "as-asas-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "As asas da Nuna",
+    "en": "Nuna's Wings",
+    "es-MX": "Las alas de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Theo abrem as asas.",
+        "en": "Nuna and Theo spread their wings.",
+        "es-MX": "Nuna y Theo abren sus alas."
+      },
+      "right": {
+        "pt-BR": "O condor abre asas enormes.",
+        "en": "The condor spreads giant wings.",
+        "es-MX": "El cóndor abre unas alas enormes."
+      },
+      "scene": "On the left Nuna stands with paper wings on her back and Theo holds his cape out wide, both with arms spread; on the right a condor stands on a rocky ledge with its huge wings spread wide, in the same arms-out pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a big sky band across the top, a mountain ledge band through the middle, a backyard grass band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois batem os braços, rápido!",
+        "en": "Both flap their arms, fast!",
+        "es-MX": "¡Los dos aletean, rápido!"
+      },
+      "right": {
+        "pt-BR": "A abelha bate as asas muito mais.",
+        "en": "The bee beats its wings way faster.",
+        "es-MX": "La abeja aletea muchísimo más rápido."
+      },
+      "scene": "On the left Nuna and Theo flap their arms up and down as fast as they can, little motion lines around them; on the right a bee hovers by a flower with its wings a blur, motion lines around them, in the same fast flapping. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a flower bush band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "amarelo_vivo",
+        "verde_lima",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Theo pulam do degrau.",
+        "en": "Nuna and Theo hop off a step.",
+        "es-MX": "Nuna y Theo saltan del escalón."
+      },
+      "right": {
+        "pt-BR": "O esquilo-voador plana entre as árvores.",
+        "en": "The flying squirrel glides tree to tree.",
+        "es-MX": "La ardilla voladora planea entre árboles."
+      },
+      "scene": "On the left Nuna and Theo hop off a low porch step with their arms stretched out to the sides; on the right a flying squirrel glides between two trees with its legs stretched out wide, in the same spread-out jump. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a treetop band through the middle, a porch and lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os dois planam morro abaixo.",
+        "en": "Both glide down the hill.",
+        "es-MX": "Los dos planean por la colina."
+      },
+      "right": {
+        "pt-BR": "O albatroz plana horas sem cansar.",
+        "en": "The albatross glides for hours.",
+        "es-MX": "El albatros planea por horas."
+      },
+      "scene": "On the left Nuna and Theo run gently down a grassy slope with their arms held out straight like wings; on the right an albatross glides over the ocean with its long straight wings held out, in the same gliding pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, an ocean band through the middle, a grassy slope band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_fumaca",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Theo param na ponta do pé.",
+        "en": "Nuna and Theo hold still on tiptoe.",
+        "es-MX": "Nuna y Theo se quedan de puntitas."
+      },
+      "right": {
+        "pt-BR": "O falcão fica parado no ar.",
+        "en": "The kestrel hangs still in the air.",
+        "es-MX": "El cernícalo se queda quieto en el aire."
+      },
+      "scene": "On the left Nuna and Theo balance on tiptoe with their arms out, flapping gently to stay still; on the right a kestrel hovers in one spot high over a field with its wings flickering, in the same balancing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a field band through the middle, a garden path band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois voam em roda no quintal.",
+        "en": "They zoom around the yard.",
+        "es-MX": "Los dos vuelan en círculo."
+      },
+      "right": {
+        "pt-BR": "A cegonha dá voltas lá no alto.",
+        "en": "The stork circles way up high.",
+        "es-MX": "La cigüeña da vueltas allá arriba."
+      },
+      "scene": "On the left Nuna and Theo zoom in a big circle around the yard with their arms out like wings; on the right a stork soars in a wide circle high in the sky with its wings out, in the same circling pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a high sky band across the top, a rooftop and tree band through the middle, a yard band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "tijolo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Theo pulam o esguicho.",
+        "en": "Nuna and Theo leap over the sprinkler.",
+        "es-MX": "Nuna y Theo saltan el aspersor."
+      },
+      "right": {
+        "pt-BR": "O peixe-voador voa sobre o mar.",
+        "en": "The flying fish flies over the sea.",
+        "es-MX": "El pez volador vuela sobre el mar."
+      },
+      "scene": "On the left Nuna and Theo leap over a lawn sprinkler's arc of water with their arms out; on the right a flying fish sails over the waves with its fins spread like wings, in the same leaping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a spray and wave band through the middle, a lawn and sea band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "amarelo_vivo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os dois pousam de mansinho.",
+        "en": "Both land very softly.",
+        "es-MX": "Los dos aterrizan despacito."
+      },
+      "right": {
+        "pt-BR": "A coruja pousa sem um barulhinho.",
+        "en": "The owl lands without a sound.",
+        "es-MX": "El búho aterriza sin hacer ruido."
+      },
+      "scene": "On the left Nuna and Theo land softly on the grass on tiptoe, arms still out, fingers to their lips; on the right an owl lands softly on a branch with its wings still open, in the same soft landing. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a dusk sky band across the top, a tree branch band through the middle, a lawn band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Um atrás do outro, em fila!",
+        "en": "One behind the other, in a line!",
+        "es-MX": "¡Uno detrás del otro, en fila!"
+      },
+      "right": {
+        "pt-BR": "Os pelicanos voam em fila no mar.",
+        "en": "The pelicans fly in a long line.",
+        "es-MX": "Los pelícanos vuelan en fila."
+      },
+      "scene": "On the left Nuna and Theo run one behind the other along a garden path with their arms out like wings; on the right a line of pelicans flies low over the sea one behind the other, in the same follow-the-leader line. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea band through the middle, a garden path and beach band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Os dois voam até a casa da vovó.",
+        "en": "Both fly all the way to Grandma's.",
+        "es-MX": "Los dos vuelan hasta casa de la abuela."
+      },
+      "right": {
+        "pt-BR": "A andorinha-do-ártico voa o mundo todo.",
+        "en": "The arctic tern flies around the world.",
+        "es-MX": "El charrán ártico vuela por todo el mundo."
+      },
+      "scene": "On the left Nuna and Theo run toward a little house at the end of a long path, arms spread, pretending to fly far; on the right an arctic tern flies over a vast ocean toward a far horizon, in the same far-flying pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a far horizon band through the middle, a long path and ocean band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "terracota",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Theo não voam de verdade.",
+        "en": "Nuna and Theo can't really fly.",
+        "es-MX": "Nuna y Theo no vuelan de verdad."
+      },
+      "right": {
+        "pt-BR": "O pinguim também não, e tudo bem!",
+        "en": "Penguins can't either, and that's okay!",
+        "es-MX": "El pingüino tampoco, ¡y está bien!"
+      },
+      "scene": "On the left Nuna and Theo sit on the grass laughing, their arms tucked in like little wings; on the right a penguin stands on the ice flapping its short wings, feet firmly on the ground, in the same tucked-wing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, an ice and hedge band through the middle, a lawn and ice band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Theo sonham que voam.",
+        "en": "Nuna and Theo dream they can fly.",
+        "es-MX": "Nuna y Theo sueñan que vuelan."
+      },
+      "right": {
+        "pt-BR": "O andorinhão dorme voando de verdade.",
+        "en": "The swift really sleeps while flying.",
+        "es-MX": "El vencejo duerme volando de verdad."
+      },
+      "scene": "On the left Nuna and Theo sleep side by side with smiles and their arms spread out on the blanket like wings; on the right a swift glides high in the night sky with its eyes closed and its wings spread, in the same sleeping spread. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and cloud band through the middle, a bed band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Theo stand side by side in the center, facing forward with arms spread like wings, a small bird flying above them and a tiny squirrel looking up from below.",
+  "cover_bands": 3
+}

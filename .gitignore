@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Xcode — estado de cada máquina, não do projeto
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Segredos locais: a chave de envio do analytics (ver README)
+Nuna/Segredos.plist

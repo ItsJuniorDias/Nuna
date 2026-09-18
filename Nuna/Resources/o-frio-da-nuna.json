@@ -1,0 +1,252 @@
+{
+  "id": "o-frio-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O Frio da Nuna",
+    "en": "Nuna's Cold",
+    "es-MX": "El Frío de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna se enrola.",
+        "en": "Nuna curls up.",
+        "es-MX": "Nuna se acurruca."
+      },
+      "right": {
+        "pt-BR": "A ovelha se enrola.",
+        "en": "The sheep curls up.",
+        "es-MX": "La oveja se acurruca."
+      },
+      "scene": "A child and a sheep are curled up on a soft rug in a cozy bedroom. The floor is light, the middle ground has a bed and window, and the sky is visible outside the window.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna faz bafo.",
+        "en": "Nuna makes breath.",
+        "es-MX": "Nuna echa vaho."
+      },
+      "right": {
+        "pt-BR": "A ovelha faz bafo.",
+        "en": "The sheep makes breath.",
+        "es-MX": "La oveja echa vaho."
+      },
+      "scene": "A child and a sheep stand outside in a foggy field, their breath visible in the cold air. The ground is covered in short grass, the middle ground is dense fog, and the sky is a lighter shade of fog.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna treme assim.",
+        "en": "Nuna shivers like this.",
+        "es-MX": "Nuna tiembla así."
+      },
+      "right": {
+        "pt-BR": "A ovelha treme assim.",
+        "en": "The sheep shivers like this.",
+        "es-MX": "La oveja tiembla así."
+      },
+      "scene": "A child and a sheep are standing and shivering in a chilly outdoor setting. The ground is a path, the middle ground has bare trees, and the sky is overcast.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna se espreguica.",
+        "en": "Nuna stretches out.",
+        "es-MX": "Nuna se estira."
+      },
+      "right": {
+        "pt-BR": "O gato se espreguica.",
+        "en": "The cat stretches out.",
+        "es-MX": "El gato se estira."
+      },
+      "scene": "A child and a cat are stretching their arms and legs. The setting is a bedroom with a soft rug on the floor, a low bed in the middle ground, and a window showing a misty morning sky.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna corre um pouco.",
+        "en": "Nuna runs a little.",
+        "es-MX": "Nuna corre un poco."
+      },
+      "right": {
+        "pt-BR": "O gato corre um pouco.",
+        "en": "The cat runs a little.",
+        "es-MX": "El gato corre un poco."
+      },
+      "scene": "A child and a cat are running playfully across a grassy field. The ground is green grass, the middle ground has distant trees shrouded in fog, and the sky is light gray.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna pula assim.",
+        "en": "Nuna jumps like this.",
+        "es-MX": "Nuna salta así."
+      },
+      "right": {
+        "pt-BR": "O gato pula assim.",
+        "en": "The cat jumps like this.",
+        "es-MX": "El gato salta así."
+      },
+      "scene": "A child and a cat are jumping in the air in a playful way. The ground is a paved path, the middle ground has low bushes, and the sky is a bright, foggy white.",
+      "colors": [
+        "marrom_fundo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna encolhe os ombros.",
+        "en": "Nuna shrugs shoulders.",
+        "es-MX": "Nuna encoge hombros."
+      },
+      "right": {
+        "pt-BR": "O gato encolhe os ombros.",
+        "en": "The cat shrugs shoulders.",
+        "es-MX": "El gato encoge hombros."
+      },
+      "scene": "A child and a cat are shrugging their shoulders in a slightly confused or cold manner. The setting is a porch with a wooden floor, a low railing in the middle ground, and a foggy background.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna sente o vento.",
+        "en": "Nuna feels the wind.",
+        "es-MX": "Nuna siente el viento."
+      },
+      "right": {
+        "pt-BR": "O cachorro sente o vento.",
+        "en": "The dog feels the wind.",
+        "es-MX": "El perro siente el viento."
+      },
+      "scene": "A child and a dog are standing, facing into a gentle breeze, with their fur/hair slightly ruffled. The ground is a dirt path, the middle ground has tall dry grass, and the sky is hazy.",
+      "colors": [
+        "marrom_fundo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna sacode o corpo.",
+        "en": "Nuna shakes her body.",
+        "es-MX": "Nuna sacude el cuerpo."
+      },
+      "right": {
+        "pt-BR": "O cachorro sacode o corpo.",
+        "en": "The dog shakes its body.",
+        "es-MX": "El perro sacude el cuerpo."
+      },
+      "scene": "A child and a dog are shaking their bodies, as if to warm up or dry off. The setting is a backyard with a patch of muddy ground, a low fence in the middle ground, and a cloudy sky.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna se agacha.",
+        "en": "Nuna crouches down.",
+        "es-MX": "Nuna se agacha."
+      },
+      "right": {
+        "pt-BR": "O cachorro se agacha.",
+        "en": "The dog crouches down.",
+        "es-MX": "El perro se agacha."
+      },
+      "scene": "A child and a dog are crouching low to the ground, looking intently at something. The ground is soft grass, the middle ground has some small rocks, and the sky is a uniform gray.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna corre de volta.",
+        "en": "Nuna runs back.",
+        "es-MX": "Nuna corre de vuelta."
+      },
+      "right": {
+        "pt-BR": "O cachorro corre de volta.",
+        "en": "The dog runs back.",
+        "es-MX": "El perro corre de vuelta."
+      },
+      "scene": "A child and a dog are running towards a warm house in the distance. The ground is a gravel path, the middle ground has a blurred garden, and the sky is still foggy.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna esta quentinha.",
+        "en": "Nuna is warm.",
+        "es-MX": "Nuna está calientita."
+      },
+      "right": {
+        "pt-BR": "A ovelha esta quentinha.",
+        "en": "The sheep is warm.",
+        "es-MX": "La oveja está calientita."
+      },
+      "scene": "A child and a sheep are snuggled together under a blanket next to a fireplace. The floor is wooden, the middle ground has a cozy rug and a fireplace, and the background is a warm wall.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

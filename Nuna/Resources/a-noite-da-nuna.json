@@ -1,0 +1,243 @@
+{
+  "id": "a-noite-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A noite da Nuna",
+    "en": "Nuna's Night",
+    "es-MX": "La noche de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna ve a noite chegar.",
+        "en": "Nuna sees night come.",
+        "es-MX": "Nuna ve llegar la noche."
+      },
+      "right": {
+        "pt-BR": "A noite chega para a coruja.",
+        "en": "Night comes for the owl.",
+        "es-MX": "La noche llega para el búho."
+      },
+      "scene": "A child stands looking up at a darkening sky. An owl perches on a branch, looking up at the darkening sky. The ground is covered in tall grass, a fence is in the middle, and the sky is dark above.",
+      "colors": [
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna tenta enxergar longe.",
+        "en": "Nuna tries to see far.",
+        "es-MX": "Nuna intenta ver lejos."
+      },
+      "right": {
+        "pt-BR": "O gato enxerga na escuridão.",
+        "en": "The cat sees in the dark.",
+        "es-MX": "El gato ve en la oscuridad."
+      },
+      "scene": "A child squints, looking into the distance. A cat squints, looking into the distance. The ground is dark, bushes are in the middle, and the sky is a deep night above.",
+      "colors": [
+        "marrom_fundo",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna caminha devagar.",
+        "en": "Nuna walks slowly.",
+        "es-MX": "Nuna camina despacio."
+      },
+      "right": {
+        "pt-BR": "O morcego voa sem fazer barulho.",
+        "en": "The bat flies silently.",
+        "es-MX": "El murciélago vuela sin ruido."
+      },
+      "scene": "A child takes careful steps. A bat glides through the air. The ground is a path, trees are in the middle, and the night sky is above.",
+      "colors": [
+        "terracota",
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna escuta o vento.",
+        "en": "Nuna hears the wind.",
+        "es-MX": "Nuna escucha el viento."
+      },
+      "right": {
+        "pt-BR": "A coruja escuta tudo.",
+        "en": "The owl hears everything.",
+        "es-MX": "El búho escucha todo."
+      },
+      "scene": "A child cups a hand to an ear. An owl cocks its head, listening intently. The ground is soft grass, tall reeds are in the middle, and the starry sky is above.",
+      "colors": [
+        "oliva",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna tenta ficar parada.",
+        "en": "Nuna tries to stand still.",
+        "es-MX": "Nuna intenta quedarse quieta."
+      },
+      "right": {
+        "pt-BR": "O gato fica bem quietinho.",
+        "en": "The cat stays very still.",
+        "es-MX": "El gato se queda muy quieto."
+      },
+      "scene": "A child stands frozen, trying not to move. A cat sits perfectly still, observing. The ground is dirt, a small bush is in the middle, and the dark sky is above.",
+      "colors": [
+        "marrom_fundo",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna levanta os braços.",
+        "en": "Nuna lifts her arms.",
+        "es-MX": "Nuna levanta los brazos."
+      },
+      "right": {
+        "pt-BR": "O morcego abre as asas.",
+        "en": "The bat spreads its wings.",
+        "es-MX": "El murciélago abre las alas."
+      },
+      "scene": "A child stretches arms wide, looking up. A bat hangs upside down, wings spread wide. The ground is covered in fallen leaves, a tree trunk is in the middle, and the night sky is above.",
+      "colors": [
+        "terracota",
+        "azul_profundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna vê uma luz.",
+        "en": "Nuna sees a light.",
+        "es-MX": "Nuna ve una luz."
+      },
+      "right": {
+        "pt-BR": "O vagalume acende sua luz.",
+        "en": "The firefly lights up.",
+        "es-MX": "La luciérnaga enciende su luz."
+      },
+      "scene": "A child points at a tiny glow. A firefly glows brightly. The ground is dark, some tall grass is in the middle, and the night sky with distant stars is above.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna tenta brilhar também.",
+        "en": "Nuna tries to glow too.",
+        "es-MX": "Nuna intenta brillar también."
+      },
+      "right": {
+        "pt-BR": "O vagalume brilha no escuro.",
+        "en": "The firefly glows in dark.",
+        "es-MX": "La luciérnaga brilla en la oscuridad."
+      },
+      "scene": "A child holds hands out, wishing for a glow. A firefly emits a strong, soft light. The ground is a patch of moss, a dark bush is in the middle, and the deep night sky is above.",
+      "colors": [
+        "oliva",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna deita na grama.",
+        "en": "Nuna lies on the grass.",
+        "es-MX": "Nuna se acuesta en la hierba."
+      },
+      "right": {
+        "pt-BR": "O gato deita no quintal.",
+        "en": "The cat lies in the yard.",
+        "es-MX": "El gato se acuesta en el patio."
+      },
+      "scene": "A child lies down on their back. A cat lies down on its side. The ground is a soft patch of grass, a low fence is in the middle, and the moonlit sky is above.",
+      "colors": [
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna olha a lua.",
+        "en": "Nuna looks at the moon.",
+        "es-MX": "Nuna mira la luna."
+      },
+      "right": {
+        "pt-BR": "A coruja olha a lua.",
+        "en": "The owl looks at the moon.",
+        "es-MX": "El búho mira la luna."
+      },
+      "scene": "A child gazes up at the sky. An owl gazes up at the sky. The ground is dark, a tree branch is in the middle, and a large moon is in the sky.",
+      "colors": [
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna sonha com a noite.",
+        "en": "Nuna dreams of night.",
+        "es-MX": "Nuna sueña con la noche."
+      },
+      "right": {
+        "pt-BR": "O morcego sonha com o dia.",
+        "en": "The bat dreams of day.",
+        "es-MX": "El murciélago sueña con el día."
+      },
+      "scene": "A child sleeps peacefully. A bat sleeps hanging upside down. The ground is a soft bed, a window is in the middle, and the starry sky is visible outside.",
+      "colors": [
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Boa noite, Nuna.",
+        "en": "Good night, Nuna.",
+        "es-MX": "Buenas noches, Nuna."
+      },
+      "right": {
+        "pt-BR": "Boa noite, bichos do quintal.",
+        "en": "Good night, yard animals.",
+        "es-MX": "Buenas noches, animales del patio."
+      },
+      "scene": "A child is tucked into bed. Various small animals are nestled in their sleeping spots in the yard. The ground is a cozy bedroom floor, a window shows the dark yard, and the moon is high in the sky.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    }
+  ]
+}

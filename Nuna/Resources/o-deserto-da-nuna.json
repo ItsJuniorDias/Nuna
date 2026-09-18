@@ -1,0 +1,301 @@
+{
+  "id": "o-deserto-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O deserto da Nuna",
+    "en": "Nuna's Desert",
+    "es-MX": "El desierto de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Benji põem chapéu de sol.",
+        "en": "Nuna and Benji put on sun hats.",
+        "es-MX": "Nuna y Benji se ponen sombrero."
+      },
+      "right": {
+        "pt-BR": "O feneco se refresca com as orelhas.",
+        "en": "The fennec fox cools off with big ears.",
+        "es-MX": "El fénec se refresca con sus orejotas."
+      },
+      "scene": "On the left Nuna and Benji put on wide sun hats at the edge of the desert, holding the brims with both hands; on the right a fennec fox sits on the sand with its huge ears standing up wide, in the same hands-up pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a hot sky band across the top, a dune band through the middle, a sand band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois pegam gotinhas de orvalho.",
+        "en": "Both catch little drops of dew.",
+        "es-MX": "Los dos atrapan gotitas de rocío."
+      },
+      "right": {
+        "pt-BR": "O camaleão bebe o orvalho.",
+        "en": "The chameleon sips drops of dew.",
+        "es-MX": "El camaleón bebe gotitas de rocío."
+      },
+      "scene": "On the left Nuna and Benji hold out cupped hands to catch dew drops from a desert bush in the cool early morning; on the right a chameleon on a thin branch licks dew drops from a leaf, in the same careful catching pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a dawn sky band across the top, a desert bush band through the middle, a sand band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Ai, ai! A areia está quente!",
+        "en": "Ouch! The sand is hot!",
+        "es-MX": "¡Ay, ay! ¡La arena está caliente!"
+      },
+      "right": {
+        "pt-BR": "O lagarto dança para não se queimar.",
+        "en": "The lizard lifts its feet to cool off.",
+        "es-MX": "La lagartija alza las patas del calor."
+      },
+      "scene": "On the left Nuna and Benji hop from foot to foot on hot sand, one foot lifted each; on the right a dune lizard lifts two feet off the hot sand at a time, in the same hopping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a hot sky band across the top, a dune band through the middle, a sand band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os dois levam água nas costas.",
+        "en": "Both carry water in backpacks.",
+        "es-MX": "Los dos cargan agua en la mochila."
+      },
+      "right": {
+        "pt-BR": "O camelo guarda gordura na corcova.",
+        "en": "The camel stores fat in its hump.",
+        "es-MX": "El camello guarda grasa en la joroba."
+      },
+      "scene": "On the left Nuna and Benji walk across the sand carrying small backpacks with water bottles; on the right a camel walks across the sand with its big hump on its back, in the same carrying walk. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a dune band through the middle, a sand band along the bottom.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Benji olham lá longe.",
+        "en": "Nuna and Benji look far away.",
+        "es-MX": "Nuna y Benji miran a lo lejos."
+      },
+      "right": {
+        "pt-BR": "O suricato vigia de pé.",
+        "en": "The meerkat keeps watch, standing tall.",
+        "es-MX": "La suricata vigila de pie."
+      },
+      "scene": "On the left Nuna and Benji stand on a low sand mound shading their eyes with their hands, looking far; on the right a meerkat stands tall on its back legs on a mound, looking far with its paws up, in the same lookout pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a far dune band through the middle, a sand mound band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois cavam na areia.",
+        "en": "Both dig in the sand.",
+        "es-MX": "Los dos escarban en la arena."
+      },
+      "right": {
+        "pt-BR": "A tartaruga cava uma toca funda.",
+        "en": "The desert tortoise digs a deep burrow.",
+        "es-MX": "La tortuga del desierto cava su casa."
+      },
+      "scene": "On the left Nuna and Benji kneel and dig in the sand with their hands, sand flying behind them; on the right a desert tortoise digs a burrow into a sandy bank with its front legs, in the same digging pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a cactus band through the middle, a sandy bank band along the bottom.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Benji desenham na areia.",
+        "en": "Nuna and Benji draw in the sand.",
+        "es-MX": "Nuna y Benji dibujan en la arena."
+      },
+      "right": {
+        "pt-BR": "O baiacu desenha círculos na areia.",
+        "en": "The pufferfish draws circles in sand.",
+        "es-MX": "El pez globo dibuja círculos en la arena."
+      },
+      "scene": "On the left Nuna and Benji draw big swirly circles in the sand with sticks; on the right a small pufferfish swims over the seabed making a big circle pattern in the sand, in the same drawing motion. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a dune and water band through the middle, a sand and seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Os dois descansam na sombra.",
+        "en": "Both rest in the shade.",
+        "es-MX": "Los dos descansan en la sombra."
+      },
+      "right": {
+        "pt-BR": "O rato-canguru dorme o dia todo.",
+        "en": "The kangaroo rat sleeps all day.",
+        "es-MX": "La rata canguro duerme todo el día."
+      },
+      "scene": "On the left Nuna and Benji sit in the shade of a big rock with their hats over their faces; on the right a kangaroo rat sleeps curled up in its cool burrow under the sand, in the same resting curl. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a big rock band through the middle, a sand and burrow band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna e Benji pulam como coelhos.",
+        "en": "Nuna and Benji hop like bunnies.",
+        "es-MX": "Nuna y Benji brincan como conejitos."
+      },
+      "right": {
+        "pt-BR": "O jerboa pula muito mais longe.",
+        "en": "The jerboa hops way farther.",
+        "es-MX": "El jerboa salta mucho más lejos."
+      },
+      "scene": "On the left Nuna and Benji hop across the sand with their hands up like bunny paws; on the right a jerboa leaps far across the sand on its long back legs, paws tucked up, in the same hopping pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a dune band through the middle, a sand band along the bottom.",
+      "colors": [
+        "lavanda",
+        "terracota",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Os dois cheiram a flor do cacto.",
+        "en": "Both sniff a cactus flower.",
+        "es-MX": "Los dos huelen la flor del cactus."
+      },
+      "right": {
+        "pt-BR": "O beija-flor bebe da flor do cacto.",
+        "en": "The hummingbird sips from it.",
+        "es-MX": "El colibrí bebe de la flor del cactus."
+      },
+      "scene": "On the left Nuna and Benji lean in carefully to sniff a flower on top of a small cactus, hands behind their backs; on the right a hummingbird hovers at a cactus flower and sips from it, in the same leaning-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunset sky band across the top, a cactus band through the middle, a sand band along the bottom.",
+      "colors": [
+        "magenta_vivo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Benji contam as estrelas.",
+        "en": "Nuna and Benji count the stars.",
+        "es-MX": "Nuna y Benji cuentan las estrellas."
+      },
+      "right": {
+        "pt-BR": "O besouro se guia pelas estrelas.",
+        "en": "The dung beetle follows the stars.",
+        "es-MX": "El escarabajo se guía con las estrellas."
+      },
+      "scene": "On the left Nuna and Benji lie on a blanket on the sand pointing up at the starry sky; on the right a dung beetle rolls its little ball across the sand under the starry sky, head tilted up, in the same looking-up pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a starry night sky band across the top, a dune band through the middle, a sand band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Os dois dormem bem juntinhos.",
+        "en": "Both sleep snuggled close.",
+        "es-MX": "Los dos duermen bien juntitos."
+      },
+      "right": {
+        "pt-BR": "Os gerbos dormem juntinhos na toca.",
+        "en": "The gerbils sleep snuggled in a burrow.",
+        "es-MX": "Los gerbos duermen juntitos."
+      },
+      "scene": "On the left Nuna and Benji sleep snuggled close under a blanket, the desert night outside; on the right a few gerbils sleep snuggled in a little pile inside their burrow under the sand, in the same snug huddle. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a dune band through the middle, a sand and burrow band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "benji"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Benji stand at the center, facing forward, with their hands on their hips, smiling at the viewer. Around them, a dune lizard, a kangaroo rat, and a jerboa are scattered, all looking towards the children. The background is composed of three horizontal bands: a sandy foreground, a middle ground with low desert bushes, and a calm sky in the upper third.",
+  "cover_bands": 3
+}

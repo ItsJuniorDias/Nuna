@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_o-deserto-da-nuna_10_l.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-o-deserto-da-nuna"
+    ]
+  }
+}

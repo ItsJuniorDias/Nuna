@@ -1,0 +1,301 @@
+{
+  "id": "o-parquinho-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O parquinho da Nuna",
+    "en": "Nuna's Playground",
+    "es-MX": "El parque de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Theo chegam correndo.",
+        "en": "Nuna and Theo run in.",
+        "es-MX": "Nuna y Theo llegan corriendo."
+      },
+      "right": {
+        "pt-BR": "A lebre chega antes deles.",
+        "en": "The hare gets there first.",
+        "es-MX": "La liebre llega primero."
+      },
+      "scene": "On the left Nuna and Theo run side by side toward the playground, legs stretched mid-stride; on the right a hare leaps ahead in the same running stretch, already at the gate. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a calm morning sky band across the top, a playground fence band through the middle, a sandy ground band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna e Theo escorregam.",
+        "en": "Nuna and Theo slide down.",
+        "es-MX": "Nuna y Theo se resbalan."
+      },
+      "right": {
+        "pt-BR": "A lontra escorrega mais rápido.",
+        "en": "The otter slides even faster.",
+        "es-MX": "La nutria se resbala más rápido."
+      },
+      "scene": "On the left Nuna and Theo slide down a short slide together, leaning forward with arms up; on the right an otter slides down a smooth riverbank on its belly in the same forward lean, clearly faster. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a pale sky band across the top, a slide and bank band through the middle, a ground band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Os dois sobem a escada.",
+        "en": "Both climb the ladder.",
+        "es-MX": "Los dos suben la escalera."
+      },
+      "right": {
+        "pt-BR": "O esquilo sobe mais alto.",
+        "en": "The squirrel climbs up higher.",
+        "es-MX": "La ardilla sube más alto."
+      },
+      "scene": "On the left Nuna and Theo climb a wooden ladder one step apart, hands on the rungs; on the right a squirrel climbs a tree trunk in the same reaching pose, much higher up. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, treetops, a wooden climbing frame band, ground.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Theo se penduram.",
+        "en": "Nuna and Theo hang on tight.",
+        "es-MX": "Nuna y Theo se cuelgan fuerte."
+      },
+      "right": {
+        "pt-BR": "O macaco se pendura com o rabo.",
+        "en": "The monkey hangs by its tail.",
+        "es-MX": "El mono se cuelga con la cola."
+      },
+      "scene": "On the left Nuna and Theo hang side by side from a horizontal bar, legs dangling; on the right a monkey hangs from a branch by its tail alone in the same dangling pose, hands free. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, a leafy branch band, a climbing bar band, ground.",
+      "colors": [
+        "verde_lima",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Theo balançam bem alto.",
+        "en": "Nuna and Theo swing up high.",
+        "es-MX": "Nuna y Theo se columpian alto."
+      },
+      "right": {
+        "pt-BR": "O passarinho voa mais alto ainda.",
+        "en": "The little bird flies even higher.",
+        "es-MX": "El pajarito vuela más alto aún."
+      },
+      "scene": "On the left Nuna and Theo swing high on two swings, legs stretched forward; on the right a small bird flies in the same forward-stretched shape, much higher in the sky. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide open sky band across the top, a swing frame band through the middle, a grass band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "tijolo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os dois pulam da pedra.",
+        "en": "Both jump off the rock.",
+        "es-MX": "Los dos saltan de la piedra."
+      },
+      "right": {
+        "pt-BR": "O cabrito pula de pedra em pedra.",
+        "en": "The goat hops from rock to rock.",
+        "es-MX": "La cabrita salta de piedra en piedra."
+      },
+      "scene": "On the left Nuna and Theo jump off a low boulder together, knees bent in the air; on the right a young goat leaps between tall rocks in the same bent-knee jump. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, distant hills, a rocks band, ground.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Theo abre a capa. Voa?",
+        "en": "Theo opens his cape. Flying?",
+        "es-MX": "Theo abre su capa. ¿Vuela?"
+      },
+      "right": {
+        "pt-BR": "O gavião voa de verdade.",
+        "en": "The hawk really flies.",
+        "es-MX": "El halcón vuela de verdad."
+      },
+      "scene": "On the left Theo stands on tiptoe holding his cape out wide while Nuna spreads her arms beside him; on the right a hawk soars with wings spread wide in the same open shape, truly in the air. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a big sky band across the top, a low hill band through the middle, a grass band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Theo fazem um túnel.",
+        "en": "Nuna and Theo make a tunnel.",
+        "es-MX": "Nuna y Theo hacen un túnel."
+      },
+      "right": {
+        "pt-BR": "A formiga faz um túnel maior.",
+        "en": "The ant makes a longer tunnel.",
+        "es-MX": "La hormiga hace un túnel más largo."
+      },
+      "scene": "On the left Nuna and Theo kneel in a sandbox digging a small tunnel with their hands; on the right an ant carries a grain of soil out of a long winding tunnel seen in cross-section below the ground. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, playground, a sand band, an underground soil band.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "marrom_fundo"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os dois brincam de esconder.",
+        "en": "They play hide-and-seek.",
+        "es-MX": "Los dos juegan a esconderse."
+      },
+      "right": {
+        "pt-BR": "A coruja some no tronco.",
+        "en": "The owl vanishes on the trunk.",
+        "es-MX": "El búho desaparece en el tronco."
+      },
+      "scene": "On the left Nuna and Theo peek out from behind a low bush, only their heads showing; on the right an owl pressed flat against a tree trunk, almost invisible, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a bush and tree band through the middle, a ground band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Theo dão voltas.",
+        "en": "Nuna and Theo spin around.",
+        "es-MX": "Nuna y Theo dan vueltas."
+      },
+      "right": {
+        "pt-BR": "O cachorro gira atrás do rabo.",
+        "en": "The puppy spins after its tail.",
+        "es-MX": "El perrito gira tras su cola."
+      },
+      "scene": "On the left Nuna and Theo spin in a circle holding hands, leaning back; on the right a puppy spins in a tight circle chasing its own tail, leaning the same way. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a playground band through the middle, a grass band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "mostarda",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Theo descansam no banco.",
+        "en": "Nuna and Theo rest on the bench.",
+        "es-MX": "Nuna y Theo descansan en la banca."
+      },
+      "right": {
+        "pt-BR": "A preguiça descansa o dia todo.",
+        "en": "The sloth rests all day long.",
+        "es-MX": "El perezoso descansa todo el día."
+      },
+      "scene": "On the left Nuna and Theo sit slumped on a park bench, eyes half closed; on the right a sloth hangs from a branch fully relaxed in the same slumped pose, eyes closed. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: sky, a branch band, a bench band, ground.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Theo dão tchau. Amanhã!",
+        "en": "Nuna and Theo wave. See you tomorrow!",
+        "es-MX": "Nuna y Theo dicen adiós. ¡Hasta mañana!"
+      },
+      "right": {
+        "pt-BR": "O macaco dá tchau com o rabo.",
+        "en": "The monkey waves with its tail.",
+        "es-MX": "El mono dice adiós con la cola."
+      },
+      "scene": "On the left Nuna and Theo walk home waving goodbye over their shoulders; on the right a monkey on a branch waves goodbye with the curl of its tail in the same waving gesture. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a tree line band through the middle, a path band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Theo stand side by side, facing forward and smiling, with a squirrel, a small bird, and a puppy looking at them from different spots around their feet.",
+  "cover_bands": 3
+}

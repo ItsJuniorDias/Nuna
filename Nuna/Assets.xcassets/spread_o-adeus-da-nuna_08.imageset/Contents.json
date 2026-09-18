@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_o-adeus-da-nuna_08.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-o-adeus-da-nuna"
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "a-fantasia-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A fantasia da Nuna",
+    "en": "Nuna's Dress-Up",
+    "es-MX": "El disfraz de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Lia abrem o baú de fantasias.",
+        "en": "Nuna and Lia open the dress-up trunk.",
+        "es-MX": "Nuna y Lia abren el baúl de disfraces."
+      },
+      "right": {
+        "pt-BR": "O ermitão procura uma casa nova.",
+        "en": "The hermit crab looks for a new shell.",
+        "es-MX": "El ermitaño busca una concha nueva."
+      },
+      "scene": "On the left Nuna and Lia lift the lid of a big costume trunk full of hats and capes; on the right a hermit crab peeks into an empty shell on the sand, trying it on, in the same peeking-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a trunk and sand band through the middle, a floor and beach band along the bottom.",
+      "colors": [
+        "tijolo",
+        "mostarda",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas põem chapéus enormes.",
+        "en": "Both put on giant hats.",
+        "es-MX": "Las dos se ponen sombreros enormes."
+      },
+      "right": {
+        "pt-BR": "A cacatua levanta o topete.",
+        "en": "The cockatoo raises its crest.",
+        "es-MX": "La cacatúa levanta su copete."
+      },
+      "scene": "On the left Nuna and Lia put on huge floppy hats that flop over their eyes; on the right a cockatoo raises its tall crest of feathers on a branch, in the same big-hat shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a branch band through the middle, a floor band along the bottom.",
+      "colors": [
+        "mostarda",
+        "amarelo_vivo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Lia vestem capas compridas.",
+        "en": "Nuna and Lia wear long capes.",
+        "es-MX": "Nuna y Lia se ponen capas largas."
+      },
+      "right": {
+        "pt-BR": "O pavão abre a cauda enorme.",
+        "en": "The peacock spreads its giant tail.",
+        "es-MX": "El pavo real abre su gran cola."
+      },
+      "scene": "On the left Nuna and Lia spread out long capes behind them like fans; on the right a peacock fans out its huge tail of eye-spotted feathers, in the same fanned-out shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a garden band through the middle, a floor band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas põem máscaras.",
+        "en": "Both put on masks.",
+        "es-MX": "Las dos se ponen antifaz."
+      },
+      "right": {
+        "pt-BR": "O guaxinim usa máscara sempre.",
+        "en": "The raccoon wears a mask all the time.",
+        "es-MX": "El mapache siempre trae antifaz."
+      },
+      "scene": "On the left Nuna and Lia hold little eye masks up to their faces, peeking through; on the right a raccoon peeks out from a tree hollow with its natural mask markings, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a tree hollow band through the middle, a floor band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Lia usam coroa.",
+        "en": "Nuna and Lia wear crowns.",
+        "es-MX": "Nuna y Lia usan corona."
+      },
+      "right": {
+        "pt-BR": "O grou-coroado tem coroa de penas.",
+        "en": "The crowned crane has a feather crown.",
+        "es-MX": "La grulla coronada tiene corona de plumas."
+      },
+      "scene": "On the left Nuna and Lia stand tall wearing paper crowns, chins up; on the right a crowned crane stands tall with its round crown of feathers, chin up, in the same royal pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a grassland band through the middle, a floor and grass band along the bottom.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "As duas põem óculos engraçados.",
+        "en": "Both put on silly glasses.",
+        "es-MX": "Las dos se ponen lentes chistosos."
+      },
+      "right": {
+        "pt-BR": "A coruja-de-óculos já tem os dela.",
+        "en": "The spectacled owl has built-in glasses.",
+        "es-MX": "El búho de anteojos ya trae los suyos."
+      },
+      "scene": "On the left Nuna and Lia put on big round toy glasses and blink; on the right a spectacled owl sits on a branch with round markings around its eyes like glasses, in the same blinking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a rainforest branch band through the middle, a floor band along the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Lia vestem casacos fofos.",
+        "en": "Nuna and Lia wear big puffy coats.",
+        "es-MX": "Nuna y Lia usan abrigos esponjados."
+      },
+      "right": {
+        "pt-BR": "O baiacu se enche e fica enorme.",
+        "en": "The pufferfish puffs up huge.",
+        "es-MX": "El pez globo se infla enorme."
+      },
+      "scene": "On the left Nuna and Lia wear giant puffy coats that make them look perfectly round; on the right a pufferfish puffs up into a round spiky ball, in the same perfectly round shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, an open water band through the middle, a floor and seabed band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "As duas trocam de fantasia, rapidinho!",
+        "en": "Both switch costumes, super fast!",
+        "es-MX": "¡Las dos cambian de disfraz, rapidito!"
+      },
+      "right": {
+        "pt-BR": "O choco muda de cor rapidinho.",
+        "en": "The cuttlefish changes colors in a flash.",
+        "es-MX": "La sepia cambia de color al instante."
+      },
+      "scene": "On the left Nuna and Lia spin around mid-change, costumes flying in the air; on the right a cuttlefish ripples with changing patterns in the water, in the same quick-change swirl. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, an open water band through the middle, a floor and seabed band along the bottom.",
+      "colors": [
+        "magenta_vivo",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "As duas põem rabo de mentira.",
+        "en": "Both wear pretend tails.",
+        "es-MX": "Las dos se ponen colas de mentira."
+      },
+      "right": {
+        "pt-BR": "O quetzal tem um rabo compridíssimo.",
+        "en": "The quetzal has a super long tail.",
+        "es-MX": "El quetzal tiene una cola larguísima."
+      },
+      "scene": "On the left Nuna and Lia wear long pretend tails trailing on the floor behind them; on the right a quetzal perches on a branch with its very long tail feathers trailing down, in the same trailing tail. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a cloud forest branch band through the middle, a floor band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "vermelho_quente",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Lia desfilam pelo corredor.",
+        "en": "Nuna and Lia strut down the hall.",
+        "es-MX": "Nuna y Lia desfilan por el pasillo."
+      },
+      "right": {
+        "pt-BR": "O pombo estufa o peito e desfila.",
+        "en": "The pigeon puffs up and struts too.",
+        "es-MX": "La paloma se esponja y presume."
+      },
+      "scene": "On the left Nuna and Lia strut down a hallway with their chests out and noses up; on the right a pigeon puffs up its chest and struts along a sidewalk, in the same proud strut. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a city step band through the middle, a hallway and sidewalk band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "lavanda",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna e Lia tiram a fantasia.",
+        "en": "Nuna and Lia take off the costumes.",
+        "es-MX": "Nuna y Lia se quitan el disfraz."
+      },
+      "right": {
+        "pt-BR": "A cigarra sai da casca velha.",
+        "en": "The cicada climbs out of its old shell.",
+        "es-MX": "La chicharra sale de su cáscara vieja."
+      },
+      "scene": "On the left Nuna and Lia wriggle out of their costumes, leaving them in a heap; on the right a cicada climbs out of its old empty shell on a tree trunk, in the same wriggling-out pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a tree trunk band through the middle, a floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "De volta a ser só Nuna e Lia.",
+        "en": "Just Nuna and Lia again.",
+        "es-MX": "Otra vez solo Nuna y Lia."
+      },
+      "right": {
+        "pt-BR": "O ermitão achou a casa perfeita.",
+        "en": "The hermit crab found the perfect shell.",
+        "es-MX": "El ermitaño encontró la concha ideal."
+      },
+      "scene": "On the left Nuna and Lia stand side by side smiling, just themselves, the costumes put away; on the right a hermit crab sits happily in a shell that fits just right, in the same happy stance. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a trunk and beach band through the middle, a floor and sand band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Lia stand side-by-side, smiling and facing forward, with a hermit crab, a cockatoo, and a raccoon looking at them from around their feet.",
+  "cover_bands": 3
+}

@@ -1,0 +1,251 @@
+{
+  "id": "a-cidade-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A cidade da Nuna",
+    "en": "Nuna's City",
+    "es-MX": "La ciudad de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna passeia na cidade",
+        "en": "Nuna walks in the city",
+        "es-MX": "Nuna pasea por la ciudad"
+      },
+      "right": {
+        "pt-BR": "Pombo passeia na cidade",
+        "en": "Pigeon walks in the city",
+        "es-MX": "Paloma pasea por la ciudad"
+      },
+      "scene": "A young girl is walking on a city sidewalk. A pigeon is walking on the same sidewalk in a similar pose. The background shows buildings and a clear sky.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna espera o semáforo",
+        "en": "Nuna waits for the light",
+        "es-MX": "Nuna espera el semáforo"
+      },
+      "right": {
+        "pt-BR": "Pombo espera o semáforo",
+        "en": "Pigeon waits for the light",
+        "es-MX": "Paloma espera el semáforo"
+      },
+      "scene": "A young girl stands patiently at a street corner, looking at a traffic light. A pigeon stands nearby, also looking at the traffic light in a similar pose. A crosswalk is visible on the street.",
+      "colors": [
+        "tijolo",
+        "azul_profundo",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna atravessa a rua",
+        "en": "Nuna crosses the street",
+        "es-MX": "Nuna cruza la calle"
+      },
+      "right": {
+        "pt-BR": "Pombo atravessa a rua",
+        "en": "Pigeon crosses the street",
+        "es-MX": "Paloma cruza la calle"
+      },
+      "scene": "A young girl is walking across a crosswalk. A pigeon is walking across the same crosswalk in a similar pose. City buildings are in the background.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna sobe degraus",
+        "en": "Nuna climbs steps",
+        "es-MX": "Nuna sube escalones"
+      },
+      "right": {
+        "pt-BR": "Lagartixa sobe degraus",
+        "en": "Lizard climbs steps",
+        "es-MX": "Lagartija sube escalones"
+      },
+      "scene": "A young girl is climbing a short flight of outdoor steps. A lizard is climbing the same steps in a similar pose. A wall is behind them.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "rosa_poeira"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna observa o chão",
+        "en": "Nuna watches the ground",
+        "es-MX": "Nuna observa el suelo"
+      },
+      "right": {
+        "pt-BR": "Lagartixa observa o chão",
+        "en": "Lizard watches the ground",
+        "es-MX": "Lagartija observa el suelo"
+      },
+      "scene": "A young girl is looking down at the ground with curiosity. A lizard is also looking down at the ground, in a similar curious pose. The setting is a sunny patio.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna se agacha no muro",
+        "en": "Nuna crouches on the wall",
+        "es-MX": "Nuna se agacha en el muro"
+      },
+      "right": {
+        "pt-BR": "Lagartixa se agacha no muro",
+        "en": "Lizard crouches on the wall",
+        "es-MX": "Lagartija se agacha en el muro"
+      },
+      "scene": "A young girl is crouching on top of a low stone wall. A lizard is also crouching on the wall in a similar pose. Green foliage is behind the wall.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna corre feliz",
+        "en": "Nuna runs happily",
+        "es-MX": "Nuna corre feliz"
+      },
+      "right": {
+        "pt-BR": "Cachorro corre feliz",
+        "en": "Dog runs happily",
+        "es-MX": "Perro corre feliz"
+      },
+      "scene": "A young girl is running with joy on a park path. A dog is running alongside her, in a similar joyful pose. Trees and grass line the path.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna cheira a flor",
+        "en": "Nuna sniffs the flower",
+        "es-MX": "Nuna huele la flor"
+      },
+      "right": {
+        "pt-BR": "Cachorro cheira a flor",
+        "en": "Dog sniffs the flower",
+        "es-MX": "Perro huele la flor"
+      },
+      "scene": "A young girl is bending down to smell a flower in a garden. A dog is also bending down to smell a flower, in a similar pose. A fence is in the background.",
+      "colors": [
+        "oliva",
+        "rosa_poeira",
+        "azul_profundo"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna salta e brinca",
+        "en": "Nuna jumps and plays",
+        "es-MX": "Nuna salta y juega"
+      },
+      "right": {
+        "pt-BR": "Cachorro salta e brinca",
+        "en": "Dog jumps and plays",
+        "es-MX": "Perro salta y juega"
+      },
+      "scene": "A young girl is mid-jump, playing in a grassy area. A dog is also mid-jump, playing in a similar pose. Distant trees are visible.",
+      "colors": [
+        "mostarda",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna olha para cima",
+        "en": "Nuna looks up",
+        "es-MX": "Nuna mira hacia arriba"
+      },
+      "right": {
+        "pt-BR": "Bem-te-vi olha para cima",
+        "en": "Kiskadee looks up",
+        "es-MX": "Bienteveo mira hacia arriba"
+      },
+      "scene": "A young girl is looking up towards the sky, her head tilted back. A kiskadee bird is perched on a branch, also looking up in a similar pose. A clear sky is visible above.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna canta uma canção",
+        "en": "Nuna sings a song",
+        "es-MX": "Nuna canta una canción"
+      },
+      "right": {
+        "pt-BR": "Bem-te-vi canta uma canção",
+        "en": "Kiskadee sings a song",
+        "es-MX": "Bienteveo canta una canción"
+      },
+      "scene": "A young girl stands with her mouth open, as if singing. A kiskadee bird is perched on a wire, also with its beak open, as if singing. Utility poles are in the background.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna volta para casa",
+        "en": "Nuna goes back home",
+        "es-MX": "Nuna vuelve a casa"
+      },
+      "right": {
+        "pt-BR": "Bem-te-vi volta para casa",
+        "en": "Kiskadee goes back home",
+        "es-MX": "Bienteveo vuelve a casa"
+      },
+      "scene": "A young girl is walking towards a house with a contented expression. A kiskadee bird is flying towards a nest in a tree, in a similar pose. A sunset sky is in the background.",
+      "colors": [
+        "tijolo",
+        "azul_profundo",
+        "oliva"
+      ],
+      "bands": 5
+    }
+  ]
+}

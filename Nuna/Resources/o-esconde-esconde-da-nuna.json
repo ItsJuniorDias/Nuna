@@ -1,0 +1,301 @@
+{
+  "id": "o-esconde-esconde-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O esconde-esconde da Nuna",
+    "en": "Nuna's Hide-and-Seek",
+    "es-MX": "Las escondidas de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Theo saem na pontinha do pé.",
+        "en": "Nuna and Theo tiptoe away.",
+        "es-MX": "Nuna y Theo se van de puntitas."
+      },
+      "right": {
+        "pt-BR": "O lince anda sem fazer barulho.",
+        "en": "The lynx walks without a sound.",
+        "es-MX": "El lince camina sin hacer ruido."
+      },
+      "scene": "On the left Nuna and Theo tiptoe away across the yard with their fingers to their lips; on the right a lynx walks softly on big padded paws through a forest, in the same tiptoe step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a forest and fence band through the middle, a yard band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os dois ficam retinhos atrás do poste.",
+        "en": "Both stand straight behind a pole.",
+        "es-MX": "Los dos se paran derechitos tras el poste."
+      },
+      "right": {
+        "pt-BR": "O bicho-pau parece um galho.",
+        "en": "The stick insect looks like a twig.",
+        "es-MX": "El insecto palo parece una ramita."
+      },
+      "scene": "On the left Nuna and Theo stand very straight and thin behind a skinny garden pole, arms pressed to their sides; on the right a stick insect holds perfectly still on a branch, looking just like a twig, in the same straight pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a branch band through the middle, a garden band along the bottom.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Theo deitam sob as folhas.",
+        "en": "Nuna and Theo lie under the leaves.",
+        "es-MX": "Nuna y Theo se acuestan bajo las hojas."
+      },
+      "right": {
+        "pt-BR": "O linguado some debaixo da areia.",
+        "en": "The flounder vanishes under the sand.",
+        "es-MX": "El lenguado desaparece bajo la arena."
+      },
+      "scene": "On the left Nuna and Theo lie flat under a pile of fallen leaves, only their eyes peeking out; on the right a flounder lies flat on the seabed covered in sand, only its eyes peeking out, in the same flat hiding pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tree and water band through the middle, a leaf pile and sandy seabed band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Os dois espiam atrás do sofá.",
+        "en": "Both peek over the sofa.",
+        "es-MX": "Los dos se asoman tras el sillón."
+      },
+      "right": {
+        "pt-BR": "O hipopótamo só mostra os olhos.",
+        "en": "The hippo shows only its eyes.",
+        "es-MX": "El hipopótamo solo enseña los ojos."
+      },
+      "scene": "On the left Nuna and Theo peek over the back of a sofa, only their eyes and ears showing; on the right a hippo lies hidden in a river with only its eyes and ears above the water, in the same peeking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a sofa and riverbank band through the middle, a river band along the bottom.",
+      "colors": [
+        "tijolo",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os dois cabem no cesto.",
+        "en": "Both squeeze into a basket.",
+        "es-MX": "Los dos caben en la canasta."
+      },
+      "right": {
+        "pt-BR": "O polvo cabe numa conchinha.",
+        "en": "The octopus squeezes into a tiny shell.",
+        "es-MX": "El pulpo cabe en una conchita."
+      },
+      "scene": "On the left Nuna and Theo squeeze together inside a big laundry basket, knees tucked up; on the right an octopus squeezes itself into a small empty shell on the seabed, arms tucked in, in the same tucked shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a basket and sea band through the middle, a floor and seabed band along the bottom.",
+      "colors": [
+        "mostarda",
+        "turquesa",
+        "terracota"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Theo somem no cobertor.",
+        "en": "Nuna and Theo blend into the quilt.",
+        "es-MX": "Nuna y Theo se pierden en la cobija."
+      },
+      "right": {
+        "pt-BR": "O cavalo-marinho some no coral.",
+        "en": "The pygmy seahorse blends into coral.",
+        "es-MX": "El caballito se pierde en el coral."
+      },
+      "scene": "On the left Nuna and Theo sit wrapped in a bumpy patchwork quilt, almost invisible in its pattern; on the right a tiny pygmy seahorse clings to a bumpy coral branch, almost invisible in its pattern, in the same hidden pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a coral band through the middle, a bed and seabed band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "turquesa",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Shhh! Os dois nem se mexem.",
+        "en": "Shhh! Nobody moves.",
+        "es-MX": "¡Shhh! Los dos ni se mueven."
+      },
+      "right": {
+        "pt-BR": "O filhote de cervo fica quietinho.",
+        "en": "The fawn stays perfectly still.",
+        "es-MX": "El cervatillo se queda quietito."
+      },
+      "scene": "On the left Nuna and Theo crouch behind a bush, perfectly still, fingers to their lips; on the right a spotted fawn lies curled and perfectly still in tall grass, in the same crouched stillness. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a bush band through the middle, a tall grass band along the bottom.",
+      "colors": [
+        "oliva",
+        "terracota",
+        "verde_lima"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Theo se esconde, mas o pé aparece!",
+        "en": "Theo hides, but his feet stick out!",
+        "es-MX": "¡Theo se esconde, pero se ven sus pies!"
+      },
+      "right": {
+        "pt-BR": "O caracol entra, mas a casinha aparece!",
+        "en": "The snail hides, but its shell shows!",
+        "es-MX": "El caracol se esconde, ¡se ve su concha!"
+      },
+      "scene": "On the left Theo hides under an upside-down box with his feet sticking out while Nuna giggles behind her hands; on the right a snail tucked inside its shell sits on a big leaf with the shell in plain sight, in the same half-hidden pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a box and leafy band through the middle, a floor and garden band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os dois se cobrem de folhas.",
+        "en": "Both cover up with leaves.",
+        "es-MX": "Los dos se cubren de hojas."
+      },
+      "right": {
+        "pt-BR": "A preguiça tem até planta no pelo.",
+        "en": "The sloth grows tiny plants in its fur.",
+        "es-MX": "El perezoso tiene plantitas en el pelo."
+      },
+      "scene": "On the left Nuna and Theo drape big leaves over their heads and shoulders, peeking out; on the right a sloth hangs from a branch with tiny plants growing in its shaggy fur, peeking out, in the same leafy disguise. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a rainforest branch band through the middle, a garden band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Theo se agacham no capim.",
+        "en": "Nuna and Theo crouch in tall grass.",
+        "es-MX": "Nuna y Theo se agachan en el pasto."
+      },
+      "right": {
+        "pt-BR": "O gafanhoto some na grama.",
+        "en": "The grasshopper disappears in the grass.",
+        "es-MX": "El chapulín desaparece en el pasto."
+      },
+      "scene": "On the left Nuna and Theo crouch low in tall grass, only the tops of their heads showing; on the right a grasshopper sits on a grass stem, almost invisible among the blades, in the same crouched pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a tall grass band through the middle, a ground band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Achei! Os dois riem sem parar.",
+        "en": "Found you! They laugh and laugh.",
+        "es-MX": "¡Te encontré! Los dos ríen y ríen."
+      },
+      "right": {
+        "pt-BR": "Os chimpanzés também riem brincando.",
+        "en": "Chimps laugh when they play, too.",
+        "es-MX": "Los chimpancés también ríen al jugar."
+      },
+      "scene": "On the left Nuna and Theo tumble out of the grass laughing with their mouths wide open; on the right two young chimpanzees roll on the forest floor laughing with their mouths open, in the same tumbling laugh. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a forest band through the middle, a grass and forest floor band along the bottom.",
+      "colors": [
+        "oliva",
+        "mostarda",
+        "vermelho_quente"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Theo se escondem para dormir.",
+        "en": "Nuna and Theo hide under the covers.",
+        "es-MX": "Nuna y Theo se esconden bajo la cobija."
+      },
+      "right": {
+        "pt-BR": "A marmota dorme escondida na toca.",
+        "en": "The marmot sleeps tucked in its burrow.",
+        "es-MX": "La marmota duerme en su madriguera."
+      },
+      "scene": "On the left Nuna and Theo lie in bed with the covers pulled up to their noses, eyes closing; on the right a marmot sleeps curled up in a cozy burrow under the ground, in the same tucked-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a bedroom and meadow band through the middle, a bed and burrow band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "theo"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Theo stand in the center, looking forward, with a lynx, an octopus, and a young deer scattered around them, all facing the children.",
+  "cover_bands": 3
+}

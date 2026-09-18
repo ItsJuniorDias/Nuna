@@ -1,0 +1,301 @@
+{
+  "id": "a-piscina-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A piscina da Nuna",
+    "en": "Nuna's Pool",
+    "es-MX": "La alberca de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Lia passam protetor solar.",
+        "en": "Nuna and Lia put on sunscreen.",
+        "es-MX": "Nuna y Lia se ponen bloqueador."
+      },
+      "right": {
+        "pt-BR": "O hipopótamo faz seu próprio protetor.",
+        "en": "The hippo makes its own sunscreen.",
+        "es-MX": "El hipopótamo hace su propio bloqueador."
+      },
+      "scene": "On the left Nuna and Lia rub sunscreen on each other's arms at the edge of a shallow pool; on the right a hippo stands in the sun at a river edge, glistening and cool, in the same standing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sunny sky band across the top, a garden band through the middle, a pool edge band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas descem a escadinha.",
+        "en": "Both climb down the pool steps.",
+        "es-MX": "Las dos bajan la escalerita."
+      },
+      "right": {
+        "pt-BR": "O elefante entra bem devagar.",
+        "en": "The elephant wades in slowly.",
+        "es-MX": "El elefante entra muy despacio."
+      },
+      "scene": "On the left Nuna and Lia step down the little stairs into a shallow pool, one step at a time; on the right an elephant wades slowly down a riverbank into the water, one big step at a time. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leafy band through the middle, a water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna e Lia batem as pernas.",
+        "en": "Nuna and Lia kick their legs.",
+        "es-MX": "Nuna y Lia patalean."
+      },
+      "right": {
+        "pt-BR": "O pato bate os pés na água.",
+        "en": "The duck paddles its feet underwater.",
+        "es-MX": "El pato patalea bajo el agua."
+      },
+      "scene": "On the left Nuna and Lia hold the edge of a shallow pool and kick their legs, splashing; on the right a duck paddles its webbed feet under the water, shown half above and half below the surface, in the same kicking pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a pool edge band, a water surface band, an underwater band along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "As duas boiam de costas.",
+        "en": "Both float on their backs.",
+        "es-MX": "Las dos flotan boca arriba."
+      },
+      "right": {
+        "pt-BR": "O peixe-lua boia deitadinho.",
+        "en": "The sunfish floats lying flat.",
+        "es-MX": "El pez luna flota de ladito."
+      },
+      "scene": "On the left Nuna and Lia float on their backs with arm floaties, faces to the sky; on the right a big ocean sunfish floats flat on its side at the surface of the sea, in the same floating pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a calm water band through the middle, a deep water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "amarelo_vivo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Lia giram de mãos dadas.",
+        "en": "Nuna and Lia spin, holding hands.",
+        "es-MX": "Nuna y Lia giran de la mano."
+      },
+      "right": {
+        "pt-BR": "O golfinho gira no ar.",
+        "en": "The spinner dolphin spins in the air.",
+        "es-MX": "El delfín tornillo gira en el aire."
+      },
+      "scene": "On the left Nuna and Lia spin in a circle in waist-deep water, holding hands and leaning back; on the right a spinner dolphin leaps out of the sea and spins in the air, in the same twirling shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leaping splash band through the middle, a sea band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "magenta_vivo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna e Lia sentam na boia.",
+        "en": "Nuna and Lia ride on a float.",
+        "es-MX": "Nuna y Lia se suben al flotador."
+      },
+      "right": {
+        "pt-BR": "Os cisnezinhos andam nas costas da mãe.",
+        "en": "The cygnets ride on mom's back.",
+        "es-MX": "Los cisnitos van en la espalda de mamá."
+      },
+      "scene": "On the left Nuna and Lia sit together on a big round pool float, drifting; on the right two fluffy cygnets ride on their mother swan's back as she glides on a lake, in the same riding pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a reed band through the middle, a still water band along the bottom.",
+      "colors": [
+        "turquesa",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "As duas nadam com a prancha.",
+        "en": "Both swim with a kickboard.",
+        "es-MX": "Las dos nadan con la tabla."
+      },
+      "right": {
+        "pt-BR": "A tartaruga nada com as nadadeiras.",
+        "en": "The sea turtle swims with its flippers.",
+        "es-MX": "La tortuga marina nada con sus aletas."
+      },
+      "scene": "On the left Nuna and Lia hold a foam kickboard with arms stretched forward and kick across the pool; on the right a sea turtle glides through the water with its front flippers stretched forward, in the same swimming pose. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a sky band across the top, a water surface band, an underwater band, a sandy bottom band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "verde_lima"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Lia nadam como peixinhos.",
+        "en": "Nuna and Lia swim like little fish.",
+        "es-MX": "Nuna y Lia nadan como pececitos."
+      },
+      "right": {
+        "pt-BR": "O peixinho nem precisa de boia.",
+        "en": "The little fish needs no floaties.",
+        "es-MX": "El pececito no necesita flotadores."
+      },
+      "scene": "On the left Nuna and Lia paddle with their hands pressed together like fins, wearing arm floaties; on the right a little fish swims in clear water with its fins out, in the same fin-hands pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a water surface band, an underwater band with pebbles along the bottom.",
+      "colors": [
+        "turquesa",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Esguicha, esguicha bem alto!",
+        "en": "Squirt, squirt, way up high!",
+        "es-MX": "¡Chorros de agua, bien alto!"
+      },
+      "right": {
+        "pt-BR": "A baleia esguicha ainda mais alto.",
+        "en": "The whale spouts even higher.",
+        "es-MX": "La ballena echa un chorro más alto."
+      },
+      "scene": "On the left Nuna and Lia squeeze water squirters and shoot two streams of water up into the air; on the right a whale at the sea surface blows a tall spout of water up into the air, in the same upward spray. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a spray band through the middle, a sea band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "turquesa",
+        "azul_profundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Enroladas na toalha, quentinhas.",
+        "en": "Wrapped up snug in towels.",
+        "es-MX": "Envueltas en la toalla, calientitas."
+      },
+      "right": {
+        "pt-BR": "O morcego se enrola nas asas.",
+        "en": "The bat wraps up in its wings.",
+        "es-MX": "El murciélago se envuelve en sus alas."
+      },
+      "scene": "On the left Nuna and Lia stand wrapped snugly in big towels, only their faces peeking out; on the right a bat hangs from a branch wrapped snugly in its own wings, only its face peeking out, in the same wrapped shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a leafy branch band through the middle, a pool deck band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Na borda, só devagarinho.",
+        "en": "Walk slowly by the pool.",
+        "es-MX": "En la orilla, muy despacito."
+      },
+      "right": {
+        "pt-BR": "O jabuti anda mais devagar ainda.",
+        "en": "The tortoise walks even slower.",
+        "es-MX": "La tortuga de tierra va más lento."
+      },
+      "scene": "On the left Nuna and Lia walk slowly and carefully along the pool edge, holding hands; on the right a tortoise walks very slowly across the grass, in the same careful step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a garden hedge band through the middle, a pool deck and grass band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "turquesa"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna e Lia cochilam de mãos dadas.",
+        "en": "Nuna and Lia nap, holding hands.",
+        "es-MX": "Nuna y Lia duermen de la mano."
+      },
+      "right": {
+        "pt-BR": "As lontras dormem de mãos dadas.",
+        "en": "Sea otters sleep holding paws.",
+        "es-MX": "Las nutrias duermen de la mano."
+      },
+      "scene": "On the left Nuna and Lia nap side by side on a towel in the shade, holding hands; on the right two sea otters float on their backs asleep in the sea, holding paws, in the same side-by-side pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a late afternoon sky band across the top, a gentle wave band through the middle, a calm sea band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Lia stand side by side, facing forward and smiling, with a small hippo, a small duck, and a small bat around them, all looking at the girls. The background shows three horizontal bands.",
+  "cover_bands": 3
+}

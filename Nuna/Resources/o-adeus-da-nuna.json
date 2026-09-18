@@ -1,0 +1,253 @@
+{
+  "id": "o-adeus-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O adeus da Nuna",
+    "en": "Nuna's Goodbye",
+    "es-MX": "El adiós de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna ve o sol",
+        "en": "Nuna sees sun",
+        "es-MX": "Nuna ve el sol"
+      },
+      "right": {
+        "pt-BR": "Andorinha ve o sol",
+        "en": "Swallow sees sun",
+        "es-MX": "Golondrina ve el sol"
+      },
+      "scene": "A child stands on green grass, looking up at the sky. A swallow bird is in the air, also looking up. The sky is bright with a warm sun.",
+      "colors": [
+        "mostarda",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna acena adeus",
+        "en": "Nuna waves goodbye",
+        "es-MX": "Nuna dice adiós"
+      },
+      "right": {
+        "pt-BR": "Andorinha acena adeus",
+        "en": "Swallow waves goodbye",
+        "es-MX": "Golondrina dice adiós"
+      },
+      "scene": "A child stands on a grassy field, one arm raised, waving. A swallow bird is flying away, one wing raised, in a similar waving motion. The sky is clear.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna sente o vento",
+        "en": "Nuna feels wind",
+        "es-MX": "Nuna siente el viento"
+      },
+      "right": {
+        "pt-BR": "Borboleta sente o vento",
+        "en": "Butterfly feels wind",
+        "es-MX": "Mariposa siente el viento"
+      },
+      "scene": "A child stands on a hill, hair gently blowing. A butterfly is perched on a flower, its wings fluttering in the breeze. The sky is expansive.",
+      "colors": [
+        "terracota",
+        "azul_fumaca",
+        "oliva",
+        "magenta"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna fecha os olhos",
+        "en": "Nuna closes eyes",
+        "es-MX": "Nuna cierra ojos"
+      },
+      "right": {
+        "pt-BR": "Borboleta fecha asas",
+        "en": "Butterfly closes wings",
+        "es-MX": "Mariposa cierra alas"
+      },
+      "scene": "A child stands with eyes gently closed, a peaceful expression. A butterfly is resting on a leaf, its wings folded together. The background is a soft green field.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna guarda a flor",
+        "en": "Nuna keeps flower",
+        "es-MX": "Nuna guarda la flor"
+      },
+      "right": {
+        "pt-BR": "Caracol guarda a folha",
+        "en": "Snail keeps leaf",
+        "es-MX": "Caracol guarda la hoja"
+      },
+      "scene": "A child holds a small flower in cupped hands. A snail is slowly moving over a fallen leaf, clinging to it. The ground is brown earth.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna guarda a pedra",
+        "en": "Nuna keeps stone",
+        "es-MX": "Nuna guarda la piedra"
+      },
+      "right": {
+        "pt-BR": "Caracol guarda a casa",
+        "en": "Snail keeps shell",
+        "es-MX": "Caracol guarda la casa"
+      },
+      "scene": "A child holds a smooth, small stone in one hand. A snail is tucked partly inside its shell. The setting is a forest floor with twigs and dirt.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna lembra o cheiro",
+        "en": "Nuna recalls smell",
+        "es-MX": "Nuna recuerda el olor"
+      },
+      "right": {
+        "pt-BR": "Borboleta lembra o cheiro",
+        "en": "Butterfly recalls smell",
+        "es-MX": "Mariposa recuerda el olor"
+      },
+      "scene": "A child is gently sniffing a flower held close. A butterfly is hovering near another flower, antennae twitching. The background is a field of flowers.",
+      "colors": [
+        "oliva",
+        "azul_fumaca",
+        "magenta",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna lembra a luz",
+        "en": "Nuna recalls light",
+        "es-MX": "Nuna recuerda la luz"
+      },
+      "right": {
+        "pt-BR": "Andorinha lembra a luz",
+        "en": "Swallow recalls light",
+        "es-MX": "Golondrina recuerda la luz"
+      },
+      "scene": "A child stands with a hand shading their eyes, looking towards a bright spot. A swallow bird is flying towards the horizon where the sun is setting. The sky is wide.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "terracota"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna chora um pouco",
+        "en": "Nuna cries a little",
+        "es-MX": "Nuna llora un poco"
+      },
+      "right": {
+        "pt-BR": "Caracol chora um pouco",
+        "en": "Snail cries a little",
+        "es-MX": "Caracol llora un poco"
+      },
+      "scene": "A child has a single tear rolling down their cheek. A snail leaves a small trail of moisture on a leaf. The setting is damp earth with green plants.",
+      "colors": [
+        "marrom_fundo",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna sonha agora",
+        "en": "Nuna dreams now",
+        "es-MX": "Nuna sueña ahora"
+      },
+      "right": {
+        "pt-BR": "Borboleta sonha agora",
+        "en": "Butterfly dreams now",
+        "es-MX": "Mariposa sueña ahora"
+      },
+      "scene": "A child is sleeping peacefully in a bed. A butterfly is resting on a branch, wings slightly folded. The background is a soft, dark room.",
+      "colors": [
+        "azul_profundo",
+        "rosa_poeira",
+        "marrom_fundo"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna espera o sol",
+        "en": "Nuna waits for sun",
+        "es-MX": "Nuna espera el sol"
+      },
+      "right": {
+        "pt-BR": "Andorinha espera o sol",
+        "en": "Swallow waits for sun",
+        "es-MX": "Golondrina espera el sol"
+      },
+      "scene": "A child is looking out a window at a dark sky. A swallow bird is perched on a branch, looking towards the horizon. The sky is dark blue.",
+      "colors": [
+        "azul_profundo",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna sorri depois",
+        "en": "Nuna smiles later",
+        "es-MX": "Nuna sonríe después"
+      },
+      "right": {
+        "pt-BR": "Andorinha sorri depois",
+        "en": "Swallow smiles later",
+        "es-MX": "Golondrina sonríe después"
+      },
+      "scene": "A child is smiling brightly, looking up at a clear sky. A swallow bird is soaring high in the air, its wings spread wide as if smiling. The sky is a vibrant blue.",
+      "colors": [
+        "azul_fumaca",
+        "mostarda",
+        "oliva"
+      ],
+      "bands": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "spread_o-frio-da-nuna_04.heic",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "on-demand-resource-tags": [
+      "livro-o-frio-da-nuna"
+    ]
+  }
+}

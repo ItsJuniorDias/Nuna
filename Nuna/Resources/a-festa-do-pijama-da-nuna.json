@@ -1,0 +1,313 @@
+{
+  "id": "a-festa-do-pijama-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "A festa do pijama da Nuna",
+    "en": "Nuna's Sleepover",
+    "es-MX": "La pijamada de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Os três vestem pijama.",
+        "en": "The three put on pajamas.",
+        "es-MX": "Los tres se ponen la pijama."
+      },
+      "right": {
+        "pt-BR": "A lebre troca de pelo no inverno.",
+        "en": "The hare changes into a winter coat.",
+        "es-MX": "La liebre cambia su pelaje en invierno."
+      },
+      "scene": "On the left Nuna, Lia and Benji pull on cozy pajamas in a bedroom, arms through sleeves; on the right a hare sits in the snow halfway into its thick winter coat, in the same changing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: an evening sky band across the top, a window and snowy field band through the middle, a bedroom floor band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Os três fazem um ninho de travesseiros.",
+        "en": "The three build a pillow nest.",
+        "es-MX": "Los tres hacen un nido de almohadas."
+      },
+      "right": {
+        "pt-BR": "A coelha forra o ninho com pelo.",
+        "en": "The rabbit lines her nest with soft fur.",
+        "es-MX": "La coneja forra su nido con pelo."
+      },
+      "scene": "On the left Nuna, Lia and Benji pile pillows and blankets into a big round nest on the floor; on the right a mother rabbit tucks soft fur into a round nest in the grass, in the same nest-building pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a grass and pillow band through the middle, a floor band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Lia cochicha um segredo.",
+        "en": "Lia whispers a secret.",
+        "es-MX": "Lia cuenta un secreto."
+      },
+      "right": {
+        "pt-BR": "As girafas cantarolam de noite.",
+        "en": "Giraffes hum softly at night.",
+        "es-MX": "Las jirafas tararean de noche."
+      },
+      "scene": "On the left Lia whispers into Nuna's ear while Benji leans in to listen; on the right two giraffes stand close together under the night sky, heads near each other, in the same leaning-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a savanna tree band through the middle, a pillow nest and grass band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "terracota",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Benji deita de ponta-cabeça!",
+        "en": "Benji lies upside down!",
+        "es-MX": "¡Benji se acuesta al revés!"
+      },
+      "right": {
+        "pt-BR": "O morcego dorme de ponta-cabeça.",
+        "en": "The bat sleeps upside down.",
+        "es-MX": "El murciélago duerme de cabeza."
+      },
+      "scene": "On the left Benji lies with his feet up on the pillow and his head at the bottom of the bed while Nuna and Lia giggle; on the right a bat hangs upside down from a branch fast asleep, in the same upside-down pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a branch and headboard band through the middle, a bed band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Os três fazem estrelas no teto.",
+        "en": "The three make stars on the ceiling.",
+        "es-MX": "Los tres hacen estrellas en el techo."
+      },
+      "right": {
+        "pt-BR": "Os vaga-lumes piscam todos juntos.",
+        "en": "The fireflies blink all together.",
+        "es-MX": "Las luciérnagas parpadean juntas."
+      },
+      "scene": "On the left Nuna, Lia and Benji lie on their backs shining flashlights that make little lights on the ceiling; on the right a field of fireflies blinks on together in the dark forest, in the same twinkling pattern. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a ceiling and night sky band across the top, a forest band through the middle, a bedroom floor band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "amarelo_vivo",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Os três abraçam os bichinhos.",
+        "en": "They hug their stuffed animals.",
+        "es-MX": "Los tres abrazan sus peluches."
+      },
+      "right": {
+        "pt-BR": "O orangotanguinho abraça a mamãe.",
+        "en": "The baby orangutan hugs its mom.",
+        "es-MX": "El bebé orangután abraza a su mamá."
+      },
+      "scene": "On the left Nuna, Lia and Benji each squeeze a soft stuffed animal in a big hug; on the right a baby orangutan hugs its mother tight on a jungle branch, in the same big hug. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a jungle branch band through the middle, a pillow nest band along the bottom.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Os três dão voltinhas antes de deitar.",
+        "en": "They turn in circles before lying down.",
+        "es-MX": "Los tres dan vueltitas antes de acostarse."
+      },
+      "right": {
+        "pt-BR": "O cachorro dá voltas antes de deitar.",
+        "en": "The dog circles before lying down.",
+        "es-MX": "El perro da vueltas antes de acostarse."
+      },
+      "scene": "On the left Nuna, Lia and Benji turn in little circles on the pillow nest before flopping down; on the right a dog turns around in a circle on its bed before lying down, in the same circling turn. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a dog bed and window band through the middle, a pillow nest band along the bottom.",
+      "colors": [
+        "mostarda",
+        "tijolo",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Benji entra no saco de dormir.",
+        "en": "Benji wiggles into his sleeping bag.",
+        "es-MX": "Benji se mete al saco de dormir."
+      },
+      "right": {
+        "pt-BR": "O peixe-papagaio dorme numa bolha.",
+        "en": "The parrotfish sleeps in a bubble blanket.",
+        "es-MX": "El pez loro duerme en su burbuja."
+      },
+      "scene": "On the left Benji wiggles into his sleeping bag up to his chin while Nuna and Lia zip theirs; on the right a parrotfish sleeps inside a clear bubble-like cocoon on the reef, in the same snug wrap. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night water band across the top, a coral reef band through the middle, a sleeping bag band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_profundo",
+        "magenta"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Os três afofam o travesseiro.",
+        "en": "They fluff up their pillows.",
+        "es-MX": "Los tres esponjan su almohada."
+      },
+      "right": {
+        "pt-BR": "O gatinho amassa a almofada.",
+        "en": "The kitten kneads its cushion.",
+        "es-MX": "El gatito amasa su cojín."
+      },
+      "scene": "On the left Nuna, Lia and Benji punch and fluff their pillows with both hands; on the right a kitten kneads a soft cushion with both front paws, in the same pressing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wall band across the top, a cushion and window band through the middle, a pillow band along the bottom.",
+      "colors": [
+        "rosa_poeira",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Os três escondem a cabeça na coberta.",
+        "en": "They tuck their heads under the blanket.",
+        "es-MX": "Los tres esconden la cabeza en la cobija."
+      },
+      "right": {
+        "pt-BR": "O cisne dorme com a cabeça na asa.",
+        "en": "The swan tucks its head under its wing.",
+        "es-MX": "El cisne esconde la cabeza en el ala."
+      },
+      "scene": "On the left Nuna, Lia and Benji pull the blanket over their heads, only a tuft of blanket moving; on the right a swan floats asleep with its head tucked under its wing, in the same tucked-in shape. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a pond band through the middle, a blanket band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Os três dividem uma coberta grande.",
+        "en": "The three share one big blanket.",
+        "es-MX": "Los tres comparten una cobija grande."
+      },
+      "right": {
+        "pt-BR": "O lobo cobre o nariz com o rabo.",
+        "en": "The wolf covers its nose with its tail.",
+        "es-MX": "El lobo se tapa con su cola."
+      },
+      "scene": "On the left Nuna, Lia and Benji lie close under one big blanket pulled up to their noses; on the right a wolf sleeps curled up in the snow with its bushy tail over its nose, in the same covered-up curl. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a snowy forest band through the middle, a blanket band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Boa noite, Nuna, Lia e Benji.",
+        "en": "Good night, Nuna, Lia and Benji.",
+        "es-MX": "Buenas noches, Nuna, Lia y Benji."
+      },
+      "right": {
+        "pt-BR": "O cachalote dorme de pé no mar.",
+        "en": "Sperm whales sleep standing up in the sea.",
+        "es-MX": "El cachalote duerme parado en el mar."
+      },
+      "scene": "On the left Nuna, Lia and Benji sleep side by side in a row on the pillow nest; on the right a few sperm whales float upright asleep side by side in the deep sea, in the same row. A clear strip of empty ground separates the two halves at the center. Four horizontal bands: a night sky band across the top, a sea surface band, a deep sea band, a pillow nest band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "lavanda"
+      ],
+      "bands": 4,
+      "characters": [
+        "nuna",
+        "lia",
+        "benji"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna, Lia, and Benji stand front and center, facing forward, with a hare, a kitten, and a baby orangutan scattered around them, all looking towards the children. The background is composed of three horizontal bands.",
+  "cover_bands": 3
+}

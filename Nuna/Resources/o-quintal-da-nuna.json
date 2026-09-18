@@ -1,0 +1,253 @@
+{
+  "id": "o-quintal-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "O quintal da Nuna",
+    "en": "Nuna's Backyard",
+    "es-MX": "El patio de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna acorda e estica tudo.",
+        "en": "Nuna wakes up and stretches.",
+        "es-MX": "Nuna despierta y se estira."
+      },
+      "right": {
+        "pt-BR": "O gato estica mais ainda.",
+        "en": "The cat stretches even more.",
+        "es-MX": "El gato se estira más."
+      },
+      "scene": "On the left a small child sits up in bed with both arms stretched high overhead; on the right a cat stands in the same pose, front legs pushed forward and back arched high. Three horizontal bands: a pale morning sky band across the top, a bed and floor band through the middle, a warm ground band along the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "pele_media"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "Nuna pula a poça.",
+        "en": "Nuna jumps over the puddle.",
+        "es-MX": "Nuna salta el charco."
+      },
+      "right": {
+        "pt-BR": "O sapo pula bem melhor.",
+        "en": "The frog jumps much better.",
+        "es-MX": "La rana salta mucho mejor."
+      },
+      "scene": "On the left a small child leaps mid-air over a flat oval puddle, knees tucked; on the right a frog leaps in the same arc at the same height. Four horizontal bands: sky, a distant hedge, wet ground with two flat puddles, and a dark foreground band of grass.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "Nuna cava um buraco fundo.",
+        "en": "Nuna digs a deep hole.",
+        "es-MX": "Nuna cava un hoyo hondo."
+      },
+      "right": {
+        "pt-BR": "O tatu cava mais fundo.",
+        "en": "The armadillo digs deeper.",
+        "es-MX": "El armadillo cava más hondo."
+      },
+      "scene": "On the left a small child kneels and digs into the earth with both hands, a small mound of soil beside her; on the right an armadillo digs in the same kneeling posture with a much larger mound. Three horizontal bands: a flat sky, a mid band of dry field, and a thick dark band of turned earth in the foreground.",
+      "colors": [
+        "terracota",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna sobe até o galho.",
+        "en": "Nuna climbs up to the branch.",
+        "es-MX": "Nuna sube hasta la rama."
+      },
+      "right": {
+        "pt-BR": "O macaco sobe até o topo.",
+        "en": "The monkey climbs to the top.",
+        "es-MX": "El mono sube hasta arriba."
+      },
+      "scene": "On the left a small child clings to a low thick branch, one leg hooked over it; on the right a monkey hangs from a much higher branch in the same hooked pose. Four horizontal bands: sky at the top, a canopy of flat leaf shapes, a band of trunks, and a shaded ground band.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna carrega o balde cheio.",
+        "en": "Nuna carries the full bucket.",
+        "es-MX": "Nuna carga la cubeta llena."
+      },
+      "right": {
+        "pt-BR": "A formiga carrega folha maior.",
+        "en": "The ant carries a bigger leaf.",
+        "es-MX": "La hormiga carga una hoja mayor."
+      },
+      "scene": "On the left a small child walks leaning sideways, carrying a heavy bucket with both hands; on the right a single large ant walks in the same leaning posture carrying one enormous leaf above it. Three horizontal bands: sky, a long field band, and a foreground path band.",
+      "colors": [
+        "terracota",
+        "oliva",
+        "mostarda"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "Nuna boia na água parada.",
+        "en": "Nuna floats on still water.",
+        "es-MX": "Nuna flota en agua quieta."
+      },
+      "right": {
+        "pt-BR": "O peixe não para nunca.",
+        "en": "The fish never stops moving.",
+        "es-MX": "El pez nunca se detiene."
+      },
+      "scene": "On the left a small child floats on her back, arms spread wide, seen from above on flat water; on the right a fish lies in the same spread-out silhouette but tilted, mid-turn. Three horizontal bands: a band of bank grass at the top, a wide flat water band through the middle, and a darker deep-water band at the bottom.",
+      "colors": [
+        "azul_profundo",
+        "azul_fumaca",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna se esconde atrás da folha.",
+        "en": "Nuna hides behind a leaf.",
+        "es-MX": "Nuna se esconde tras la hoja."
+      },
+      "right": {
+        "pt-BR": "O bicho-pau some de vez.",
+        "en": "The stick insect vanishes completely.",
+        "es-MX": "El insecto palo desaparece."
+      },
+      "scene": "On the left a small child crouches behind one oversized flat leaf, only her head and boots showing; on the right a stick insect stands among identical twigs, almost indistinguishable from them. Four horizontal bands: sky, tall stems, a dense band of foliage, and dark ground.",
+      "colors": [
+        "oliva",
+        "marrom_fundo",
+        "mostarda"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna canta alto no quintal.",
+        "en": "Nuna sings loud in the yard.",
+        "es-MX": "Nuna canta fuerte en el patio."
+      },
+      "right": {
+        "pt-BR": "O sabiá canta mais bonito.",
+        "en": "The thrush sings much sweeter.",
+        "es-MX": "El zorzal canta más bonito."
+      },
+      "scene": "On the left a small child stands with head tipped back and chest out, mouth a single small stroke; on the right a thrush perches on a wire in exactly the same tipped-back posture. Three horizontal bands: a wide warm sky, a band of low rooftops, and a yard band at the bottom.",
+      "colors": [
+        "mostarda",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "Nuna corre até o muro.",
+        "en": "Nuna runs to the wall.",
+        "es-MX": "Nuna corre hasta el muro."
+      },
+      "right": {
+        "pt-BR": "A lagartixa chega antes dela.",
+        "en": "The lizard gets there first.",
+        "es-MX": "La lagartija llega primero."
+      },
+      "scene": "On the left a small child runs at full stretch, one leg forward and one back; on the right a lizard runs in the same stretched silhouette, already touching the wall. Three horizontal bands: a flat brick wall filling the upper half, a narrow band of weeds, and a warm ground band.",
+      "colors": [
+        "tijolo",
+        "terracota",
+        "oliva"
+      ],
+      "bands": 3
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna faz casa de gravetos.",
+        "en": "Nuna builds a house of twigs.",
+        "es-MX": "Nuna hace casa de ramitas."
+      },
+      "right": {
+        "pt-BR": "O joão-de-barro faz de barro.",
+        "en": "The ovenbird builds his from mud.",
+        "es-MX": "El hornero la hace de barro."
+      },
+      "scene": "On the left a small child kneels beside a small leaning shelter built of straight twigs; on the right a bird stands beside a round closed mud nest on a fence post, in the same kneeling-proud posture. Four horizontal bands: pale sky, distant trees, a fence line, and a foreground ground band.",
+      "colors": [
+        "terracota",
+        "marrom_fundo",
+        "azul_fumaca"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "Nuna abre os braços. Voa?",
+        "en": "Nuna opens her arms. Flying?",
+        "es-MX": "Nuna abre los brazos. ¿Vuela?"
+      },
+      "right": {
+        "pt-BR": "A garça voa de verdade.",
+        "en": "The heron really flies.",
+        "es-MX": "La garza vuela de verdad."
+      },
+      "scene": "On the left a small child stands on tiptoe with both arms opened wide and straight, heels lifted off the ground; on the right a heron is airborne with wings opened in exactly the same wide straight line, well above the ground. Four horizontal bands: a tall dusk sky, a distant tree line, a field band, and a low foreground band.",
+      "colors": [
+        "rosa_poeira",
+        "azul_fumaca",
+        "terracota"
+      ],
+      "bands": 4
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Nuna fecha os olhos. Boa noite.",
+        "en": "Nuna closes her eyes. Goodnight.",
+        "es-MX": "Nuna cierra los ojos. Buenas noches."
+      },
+      "right": {
+        "pt-BR": "O quintal inteiro dorme junto.",
+        "en": "The whole yard sleeps too.",
+        "es-MX": "Todo el patio duerme también."
+      },
+      "scene": "On the left a small child lies curled on her side in bed, eyes closed as two short flat strokes; on the right the same backyard at night, every animal from the book curled and still in the same direction. Three horizontal bands: a deep night sky, a band of dark foliage, and a sleeping ground band at the bottom.",
+      "colors": [
+        "marrom_fundo",
+        "azul_profundo",
+        "magenta"
+      ],
+      "bands": 3
+    }
+  ],
+  "cover_scene": "A small child stands on a grassy knoll, facing forward, with a frog, a cat, and a lizard looking up at her from the ground.",
+  "cover_bands": 3
+}

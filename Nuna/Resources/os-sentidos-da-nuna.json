@@ -1,0 +1,301 @@
+{
+  "id": "os-sentidos-da-nuna",
+  "version": 1,
+  "title": {
+    "pt-BR": "Os sentidos da Nuna",
+    "en": "Nuna's Senses",
+    "es-MX": "Los sentidos de Nuna"
+  },
+  "spreads": [
+    {
+      "n": 1,
+      "left": {
+        "pt-BR": "Nuna e Maya cheiram uma flor.",
+        "en": "Nuna and Maya sniff a flower.",
+        "es-MX": "Nuna y Maya huelen una flor."
+      },
+      "right": {
+        "pt-BR": "O urso sente cheiro de muito longe.",
+        "en": "The bear smells from miles away.",
+        "es-MX": "El oso huele desde muy lejos."
+      },
+      "scene": "On the left Nuna and Maya lean in with their eyes closed to sniff a big flower; on the right a bear lifts its nose high into the breeze to sniff, eyes closed, in the same sniffing pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a flower bush and hill band through the middle, a meadow band along the bottom.",
+      "colors": [
+        "magenta",
+        "oliva",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 2,
+      "left": {
+        "pt-BR": "As duas escutam com a mão na orelha.",
+        "en": "Both cup their ears to listen.",
+        "es-MX": "Las dos ponen la mano en la oreja."
+      },
+      "right": {
+        "pt-BR": "A raposa-orelhuda ouve até barulhinho.",
+        "en": "The bat-eared fox hears tiny sounds.",
+        "es-MX": "El zorro orejudo oye ruiditos."
+      },
+      "scene": "On the left Nuna and Maya cup their hands behind their ears, listening hard; on the right a bat-eared fox sits in the grass with its huge ears turned forward, listening, in the same listening pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a dry grass band through the middle, a ground band along the bottom.",
+      "colors": [
+        "terracota",
+        "mostarda",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 3,
+      "left": {
+        "pt-BR": "As duas olham de binóculo.",
+        "en": "Both look through binoculars.",
+        "es-MX": "Las dos miran con binoculares."
+      },
+      "right": {
+        "pt-BR": "A águia enxerga longe lá do alto.",
+        "en": "The eagle sees far from way up high.",
+        "es-MX": "El águila ve lejísimos desde arriba."
+      },
+      "scene": "On the left Nuna and Maya look through toy binoculars from the top of a little hill; on the right an eagle perches on a high cliff and gazes far across the valley, in the same looking pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a wide sky band across the top, a valley and cliff band through the middle, a hilltop band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 4,
+      "left": {
+        "pt-BR": "Nuna e Maya tocam o musgo macio.",
+        "en": "Nuna and Maya touch soft moss.",
+        "es-MX": "Nuna y Maya tocan el musgo suave."
+      },
+      "right": {
+        "pt-BR": "A toupeira sente tudo com o nariz.",
+        "en": "The star-nosed mole feels with its nose.",
+        "es-MX": "El topo siente todo con la nariz."
+      },
+      "scene": "On the left Nuna and Maya kneel and gently pat a soft patch of moss with their fingertips; on the right a star-nosed mole feels the soil with the little starry fingers on its nose, in the same gentle touching pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a forest sky band across the top, a mossy log band through the middle, a soil band along the bottom.",
+      "colors": [
+        "oliva",
+        "verde_lima",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 5,
+      "left": {
+        "pt-BR": "Nuna e Maya provam limão: azedo!",
+        "en": "Nuna and Maya taste a lemon: sour!",
+        "es-MX": "Nuna y Maya prueban limón: ¡ácido!"
+      },
+      "right": {
+        "pt-BR": "A borboleta prova com os pés.",
+        "en": "The butterfly tastes with its feet.",
+        "es-MX": "La mariposa prueba con las patas."
+      },
+      "scene": "On the left Nuna and Maya each lick a lemon slice and scrunch up their faces; on the right a butterfly stands on a flower tasting it with its feet, in the same careful tasting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a lemon tree band through the middle, a flower garden band along the bottom.",
+      "colors": [
+        "amarelo_vivo",
+        "verde_lima",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 6,
+      "left": {
+        "pt-BR": "As duas sentem o vento no rosto.",
+        "en": "Both feel the breeze on their faces.",
+        "es-MX": "Las dos sienten el viento en la cara."
+      },
+      "right": {
+        "pt-BR": "A foca sente a água com o bigode.",
+        "en": "The seal feels water with its whiskers.",
+        "es-MX": "La foca siente el agua con sus bigotes."
+      },
+      "scene": "On the left Nuna and Maya stand with their eyes closed and faces lifted into a breeze; on the right a seal swims with its face forward and whiskers spread to feel the water, eyes half closed, in the same face-forward pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a breezy shore band through the middle, a sea band along the bottom.",
+      "colors": [
+        "turquesa",
+        "azul_fumaca",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 7,
+      "left": {
+        "pt-BR": "Nuna e Maya escutam a concha.",
+        "en": "Nuna and Maya listen to a seashell.",
+        "es-MX": "Nuna y Maya escuchan el caracol."
+      },
+      "right": {
+        "pt-BR": "A baleia ouve de muito longe.",
+        "en": "The whale hears from far away.",
+        "es-MX": "La ballena oye desde muy lejos."
+      },
+      "scene": "On the left Nuna and Maya each hold a big seashell to one ear, listening; on the right a whale floats quietly in the deep sea listening, in the same still listening pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a sea band through the middle, a deep sea band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "turquesa",
+        "rosa_poeira"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 8,
+      "left": {
+        "pt-BR": "Nuna e Maya andam descalças.",
+        "en": "Nuna and Maya walk barefoot on grass.",
+        "es-MX": "Nuna y Maya caminan descalzas."
+      },
+      "right": {
+        "pt-BR": "O elefante sente o chão com os pés.",
+        "en": "The elephant feels the ground with its feet.",
+        "es-MX": "El elefante siente el suelo con las patas."
+      },
+      "scene": "On the left Nuna and Maya walk barefoot on soft grass with their eyes on their toes; on the right an elephant stands with its big feet flat on the ground, feeling the ground, in the same careful step. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a savanna tree band through the middle, a grass band along the bottom.",
+      "colors": [
+        "verde_lima",
+        "terracota",
+        "azul_fumaca"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 9,
+      "left": {
+        "pt-BR": "As duas adivinham de olhos fechados.",
+        "en": "Both guess with their eyes closed.",
+        "es-MX": "Las dos adivinan con los ojos cerrados."
+      },
+      "right": {
+        "pt-BR": "O bagre sente gosto com o corpo todo.",
+        "en": "The catfish tastes with its whole body.",
+        "es-MX": "El bagre saborea con todo el cuerpo."
+      },
+      "scene": "On the left Nuna and Maya reach into a cloth bag with their eyes closed, feeling a mystery toy; on the right a catfish glides along a riverbed feeling its way with its long whiskers, in the same feeling-around pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a river water band through the middle, a riverbed band along the bottom.",
+      "colors": [
+        "azul_fumaca",
+        "oliva",
+        "marrom_fundo"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 10,
+      "left": {
+        "pt-BR": "Nuna e Maya olham com a lupa.",
+        "en": "Nuna and Maya use a magnifying glass.",
+        "es-MX": "Nuna y Maya miran con la lupa."
+      },
+      "right": {
+        "pt-BR": "A libélula enxerga quase tudo em volta.",
+        "en": "The dragonfly sees almost all around.",
+        "es-MX": "La libélula ve casi todo alrededor."
+      },
+      "scene": "On the left Nuna and Maya lean over a leaf looking at a tiny beetle through a big magnifying glass; on the right a dragonfly perches on a reed with its huge round eyes, in the same close-looking lean. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a reed band through the middle, a pond edge band along the bottom.",
+      "colors": [
+        "turquesa",
+        "verde_lima",
+        "mostarda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 11,
+      "left": {
+        "pt-BR": "As duas sentem cheiro de pão.",
+        "en": "Both smell fresh bread.",
+        "es-MX": "Las dos huelen pan recién hecho."
+      },
+      "right": {
+        "pt-BR": "O quiuí fareja com a ponta do bico.",
+        "en": "The kiwi smells with its beak tip.",
+        "es-MX": "El kiwi huele con la punta del pico."
+      },
+      "scene": "On the left Nuna and Maya lean toward a warm loaf of bread on a table, sniffing with their eyes closed; on the right a kiwi bird pokes its long beak into the forest floor, sniffing, in the same leaning-in pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a sky band across the top, a kitchen window and fern band through the middle, a table and forest floor band along the bottom.",
+      "colors": [
+        "mostarda",
+        "marrom_fundo",
+        "oliva"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    },
+    {
+      "n": 12,
+      "left": {
+        "pt-BR": "Boa noite, olhos. Boa noite, nariz.",
+        "en": "Good night, eyes. Good night, nose.",
+        "es-MX": "Buenas noches, ojos. Buenas noches, nariz."
+      },
+      "right": {
+        "pt-BR": "O pato dorme com um olho aberto.",
+        "en": "The duck sleeps with one eye open.",
+        "es-MX": "El pato duerme con un ojo abierto."
+      },
+      "scene": "On the left Nuna and Maya lie in bed with their eyes closed, each touching the tip of her nose, smiling; on the right a duck rests on a pond bank with its head tucked, one eye closed and one eye open, in the same resting pose. A clear strip of empty ground separates the two halves at the center. Three horizontal bands: a night sky band across the top, a window and reed band through the middle, a bed and pond band along the bottom.",
+      "colors": [
+        "azul_profundo",
+        "oliva",
+        "lavanda"
+      ],
+      "bands": 3,
+      "characters": [
+        "nuna",
+        "maya"
+      ]
+    }
+  ],
+  "cover_scene": "Nuna and Maya stand front and center, full body, looking forward with bright, curious expressions. A small fox, a tiny beetle, and a small butterfly are playfully arranged around them, all facing the girls. The background is composed of three horizontal bands: a calm sky at the top, a lush green field in the middle, and a narrow strip of gentle earth at the bottom.",
+  "cover_bands": 3
+}
