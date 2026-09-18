@@ -5,6 +5,12 @@ o iPhone Duo. SwiftUI, iOS 27.1.
 
 Pasta irmã de geração de conteúdo: `scripts-picturebook/`.
 
+## Telas
+
+| Home | Biblioteca | Leitor | Assinatura | Pais |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/01-home.jpg" width="160" alt="Home: continuar lendo, histórias da semana e chegaram agora"> | <img src="docs/screenshots/02-biblioteca.jpg" width="160" alt="Biblioteca: grade com busca e filtros"> | <img src="docs/screenshots/03-leitor.jpg" width="160" alt="Leitor: página ilustrada com o texto na faixa de Papel"> | <img src="docs/screenshots/04-assinatura.jpg" width="160" alt="Assinatura: planos anual e mensal com teste grátis"> | <img src="docs/screenshots/05-pais.jpg" width="160" alt="Área dos pais: assinatura e leitura"> |
+
 ## Estado
 
 Onboarding, Home, Biblioteca e leitor montados, com o design system aplicado e

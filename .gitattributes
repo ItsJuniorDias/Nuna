@@ -6,3 +6,8 @@
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.mp4  filter=lfs diff=lfs merge=lfs -text
 *.mp3  filter=lfs diff=lfs merge=lfs -text
+
+# As capturas do README ficam FORA do LFS: são pequenas (~100 KB) e a página
+# do projeto as mostra a cada visita — no LFS, cada visita gastaria da cota
+# de banda da conta.
+docs/screenshots/*.jpg !filter !diff !merge -text
