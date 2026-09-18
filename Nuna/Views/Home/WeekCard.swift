@@ -30,6 +30,7 @@ struct WeekCard: View {
 
     @Environment(\.horizontalSizeClass) private var hSize
     @Environment(\.homeCoberta) private var homeCoberta
+    @Environment(\.homeRolando) private var homeRolando
     @Namespace private var vidro
 
     private var bloqueado: Bool { Store.shared.estaBloqueado(book) }
@@ -41,8 +42,11 @@ struct WeekCard: View {
             // Reduzir Movimento, fica só a capa parada.
             BookCover(book: book, estilo: .destaque,
                       proporcao: hSize == .regular ? 3.0 / 2.0 : 4.0 / 3.0) {
-                CoverMotion(book: book, tocando: emFoco && !homeCoberta)
+                CoverMotion(book: book, tocando: emFoco && !homeCoberta && !homeRolando)
             }
+            // O animado da semana leva a mesma marca das prateleiras e da
+            // Biblioteca: é a amostra grátis do recurso, e precisa se anunciar.
+            .auraDeMovimento(book.animado, raio: BookCover<EmptyView>.Estilo.destaque.raio)
             .overlay(alignment: .topLeading) { selo }
         }
         .buttonStyle(CartaoPressionado())
@@ -55,6 +59,7 @@ struct WeekCard: View {
 
     private var rotuloAcessivel: String {
         var base = "Story of the week: \(book.title.resolved())"
+        if book.animado { base += ", moving pictures" }
         if let posicao, let total, total > 1 {
             base += ", \(posicao + 1) of \(total)"
         }
@@ -73,14 +78,18 @@ struct WeekCard: View {
                     .glassEffect(.regular, in: .capsule)
                     .glassEffectID("selo", in: vidro)
 
-                Text(Featured.weekLabel())
-                    .font(TypeScale.legenda)
-                    .foregroundStyle(UITokens.inkSecondary)
-                    .monospacedDigit()
-                    .padding(.horizontal, Space.sm)
-                    .padding(.vertical, Space.xxs)
-                    .glassEffect(.regular, in: .capsule)
-                    .glassEffectID("semana", in: vidro)
+                // A semana já está no título da seção, logo acima; repetida
+                // em cada cartão era só ruído. O lugar fica com o que só este
+                // cartão tem: as páginas se mexem.
+                if book.animado {
+                    Label("Moves", systemImage: "wand.and.sparkles")
+                        .font(TypeScale.legenda.weight(.semibold))
+                        .foregroundStyle(UITokens.accent)
+                        .padding(.horizontal, Space.sm)
+                        .padding(.vertical, Space.xxs)
+                        .glassEffect(.regular, in: .capsule)
+                        .glassEffectID("movimento", in: vidro)
+                }
             }
         }
         .padding(Space.md)

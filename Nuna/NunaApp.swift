@@ -18,6 +18,9 @@ struct NunaApp: App {
         // Antes de qualquer coisa: o que vier depois pode cair, e o gancho
         // precisa estar armado para contar por quê.
         Diagnostico.instalar()
+        // Antes de qualquer vídeo ou voz: a sessão de áudio é fixa em
+        // `.playback` e nunca troca (ver `SessaoDeAudio`).
+        SessaoDeAudio.configurar()
         Analytics.shared.start()
     }
 

@@ -28,6 +28,12 @@ extension EnvironmentValues {
     /// o player com quem está na frente — e cada virada de página, que salva o
     /// progresso, ainda redesenha a Home invisível.
     @Entry var homeCoberta: Bool = false
+
+    /// A Home está rolando. O vídeo da capa do carrossel pausa enquanto isso:
+    /// com ele tocando, o vidro dos selos e a sombra do cartão refaziam o
+    /// trabalho a cada quadro de vídeo, somado ao de cada quadro de rolagem —
+    /// e a Home deixava de rolar liso. Parou de rolar, o vídeo volta.
+    @Entry var homeRolando: Bool = false
 }
 
 extension View {

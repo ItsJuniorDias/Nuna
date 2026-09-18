@@ -18,45 +18,70 @@ enum Featured {
     /// Quantas histórias a semana abre. Todas ficam grátis.
     static let porSemana = 3
 
-    /// As histórias da semana, na ordem do carrossel.
+    /// As histórias da semana, na ordem do carrossel: um livro ANIMADO, um
+    /// clássico com amigo e um clássico só da Nuna.
     ///
-    /// A PRIMEIRA é a que o carrossel mostra sozinha ao abrir, então fica com
-    /// um livro com amigo, de capa diferente das duas de trás, que são só da
-    /// Nuna. Sem livro com amigo, ou sem dois só da Nuna, valem três seguidos
-    /// na ordem do catálogo.
+    /// O animado abre o carrossel — é o cartão que aparece sozinho — e é a
+    /// amostra grátis do que a assinatura entrega: a criança lê um livro
+    /// inteiro com as páginas se mexendo. Os outros 14 continuam sendo o
+    /// motivo de assinar. Antes os animados ficavam de fora da semana, e quem
+    /// não assina nunca via o recurso.
     ///
-    /// De uma semana para a outra cada grupo anda o número de livros que usa
-    /// (um com amigo, dois só da Nuna), então a semana nova não repete a
-    /// anterior enquanto o grupo tiver livro para isso.
+    /// Os dois clássicos mantêm o que a regra já cuidava: capas diferentes
+    /// lado a lado (a de amigo é bem diferente das só da Nuna).
+    ///
+    /// Cada grupo anda um livro por semana, então nenhum se repete de uma
+    /// semana para a seguinte enquanto o grupo tiver mais de um.
+    ///
+    /// O livro grátis de sempre (`Store.livrosGratis`) fica fora: a semana
+    /// existe para abrir três livros que estariam trancados, e sorteá-lo
+    /// desperdiçava uma das três vagas.
     static func storiesOfTheWeek(from books: [Book], on date: Date = .now) -> [Book] {
-        // Os animados ficam de fora: a semana é o que o app dá de graça, e as
-        // páginas em movimento são justamente o que a assinatura entrega de
-        // mais caro. Um livro animado na trinca grátis daria o prêmio sem
-        // ninguém pagar por ele.
-        //
-        // A reserva existe para o dia em que TODOS forem animados: melhor uma
-        // semana com livro animado do que um carrossel vazio.
-        let prontos = books.filter(\.isAvailable)
-        let semMovimento = prontos.filter { !$0.animado }
-        let elegiveis = semMovimento.count >= porSemana ? semMovimento : prontos
-        guard !elegiveis.isEmpty else { return [] }
         var cal = Calendar(identifier: .iso8601)
         cal.timeZone = .current
         let semana = cal.component(.weekOfYear, from: date)
         let ano = cal.component(.yearForWeekOfYear, from: date)
         let passo = abs(ano &* 53 &+ semana)
 
-        let comAmigos = elegiveis.filter(\.temAmigos)
-        let soNuna = elegiveis.filter { !$0.temAmigos }
-        if !comAmigos.isEmpty, soNuna.count >= 2 {
-            let primeira = comAmigos[passo % comAmigos.count]
-            let resto = (passo &* 2) % soNuna.count
-            return [primeira, soNuna[resto], soNuna[(resto + 1) % soNuna.count]]
+        // Memória da última conta. Cada capa pergunta "estou trancado?", e a
+        // resposta passa por aqui: sem isto, a trinca inteira (filtros sobre
+        // o catálogo, elenco de 12 spreads por livro) era refeita duas vezes
+        // por capa, a cada capa que entrava na tela durante a rolagem.
+        let ids = books.map(\.id)
+        if let m = memoria, m.passo == passo, m.ids == ids, m.animados == Catalog.animados {
+            return m.trio
+        }
+        let trio = sortear(books, passo: passo)
+        memoria = (passo, ids, Catalog.animados, trio)
+        return trio
+    }
+
+    private static var memoria: (passo: Int, ids: [String], animados: Set<String>, trio: [Book])?
+
+    private static func sortear(_ books: [Book], passo: Int) -> [Book] {
+        let elegiveis = books.filter { $0.isAvailable && !Store.livrosGratis.contains($0.id) }
+        guard !elegiveis.isEmpty else { return [] }
+
+        let animados = elegiveis.filter(\.animado)
+        let classicos = elegiveis.filter { !$0.animado }
+        func um(_ grupo: [Book]) -> Book? {
+            grupo.isEmpty ? nil : grupo[passo % grupo.count]
         }
 
-        let quantos = min(porSemana, elegiveis.count)
-        let inicio = (passo &* porSemana) % elegiveis.count
-        return (0..<quantos).map { elegiveis[(inicio + $0) % elegiveis.count] }
+        var trio = [um(animados),
+                    um(classicos.filter(\.temAmigos)),
+                    um(classicos.filter { !$0.temAmigos })].compactMap { $0 }
+
+        // Catálogo que não tem um dos grupos: completa com clássicos, depois
+        // com animados, na ordem da semana e sem repetir.
+        for grupo in [classicos, animados] where trio.count < porSemana {
+            let inicio = passo % max(1, grupo.count)
+            for i in grupo.indices where trio.count < porSemana {
+                let livro = grupo[(inicio + i) % grupo.count]
+                if !trio.contains(where: { $0.id == livro.id }) { trio.append(livro) }
+            }
+        }
+        return trio
     }
 
     static func weekLabel(on date: Date = .now) -> String {

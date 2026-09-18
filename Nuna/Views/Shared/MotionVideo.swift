@@ -70,13 +70,9 @@ nonisolated final class TocadorDeMotion: @unchecked Sendable {
     private init() {
         player.isMuted = true
         player.actionAtItemEnd = .none
-        // Vídeo mudo não tem o direito de calar o podcast de quem está com a
-        // criança no colo. Mas se a narração já pediu reprodução, fica a dela:
-        // ambiente aqui obedeceria a chave do silencioso e cortaria a voz.
-        let sessao = AVAudioSession.sharedInstance()
-        if sessao.category != .playback {
-            try? sessao.setCategory(.ambient, mode: .default)
-        }
+        // A sessão de áudio é do app inteiro (`SessaoDeAudio`, na abertura):
+        // `.playback` com `mixWithOthers`, então este vídeo mudo não cala o
+        // podcast de quem está com a criança no colo.
 
         // Um observador para a vida do app. Não é removido porque o player
         // não morre — e era justamente o par registrar/remover a cada página

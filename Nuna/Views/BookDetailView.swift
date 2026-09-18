@@ -181,6 +181,9 @@ struct BookDetailView: View {
                 .font(TypeScale.legenda)
                 .foregroundStyle(UITokens.accent)
                 .buttonStyle(.plain)
+                // Centrado embaixo do botão principal, que ocupa a largura
+                // toda: alinhado à esquerda ele parecia solto da ação.
+                .frame(maxWidth: .infinity)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)

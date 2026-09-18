@@ -12,9 +12,10 @@
 //  Regras de casa:
 //    - ligada de fábrica: quem tem três anos ainda não lê sozinho. O adulto
 //      que prefere ler ele mesmo desliga uma vez, e fica desligado;
-//    - toca com o aparelho no silencioso: foi alguém que ligou a voz;
-//    - não cala a música de ninguém (`mixWithOthers`), e devolve o áudio ao
-//      modo ambiente quando o livro fecha;
+//    - toca com o aparelho no silencioso: foi alguém que ligou a voz. A
+//      sessão é `.playback` o app inteiro (`SessaoDeAudio`), definida uma vez
+//      na abertura e nunca trocada;
+//    - não cala a música de ninguém (`mixWithOthers`);
 //    - página sem fala (ainda não gerada) fica muda. Nunca trava a leitura.
 //
 
@@ -68,13 +69,11 @@ final class Narracao {
         player = nil
     }
 
-    /// Livro fechado: cala e devolve o áudio do aparelho ao modo ambiente,
-    /// o mesmo em que os vídeos mudos da Home tocam.
+    /// Livro fechado: a voz para. A sessão continua em `.playback` — trocar
+    /// de categoria com vídeo tocando falhava em silêncio e deixava o app no
+    /// modo ambiente, que a chave do silencioso cala.
     func encerrar() {
         parar()
-        guard sessaoAtiva else { return }
-        sessaoAtiva = false
-        try? AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default)
     }
 
     private func proxima() {
@@ -90,22 +89,51 @@ final class Narracao {
             ativarSessao()
             novo.delegate = fim
             novo.prepareToPlay()
-            novo.play()
+            if novo.play() {
+                Diagnostico.rastro("narração: \(nome) (\(String(format: "%.1f", novo.duration))s, "
+                                   + "sessão \(AVAudioSession.sharedInstance().category.rawValue))")
+            } else {
+                Diagnostico.rastro("narração: \(nome) NÃO tocou")
+            }
             player = novo
             return
         }
         player = nil
     }
 
-    /// Reprodução, e não ambiente: a voz foi pedida, então toca mesmo com a
-    /// chave do silencioso. `mixWithOthers` para não parar o que o adulto
-    /// estiver ouvindo; `spokenAudio` avisa o sistema de que é fala.
+    /// A categoria já é `.playback` desde a abertura; aqui só se ativa a
+    /// sessão, uma vez. Falha vai para a caixa-preta em vez de sumir num `try?`.
     private func ativarSessao() {
         guard !sessaoAtiva else { return }
-        sessaoAtiva = true
-        let sessao = AVAudioSession.sharedInstance()
-        try? sessao.setCategory(.playback, mode: .spokenAudio, options: [.mixWithOthers])
-        try? sessao.setActive(true)
+        do {
+            try AVAudioSession.sharedInstance().setActive(true)
+            sessaoAtiva = true
+        } catch {
+            Diagnostico.rastro("narração: sessão não ativou — \(error.localizedDescription)")
+        }
+    }
+}
+
+/// A sessão de áudio do app inteiro: `.playback`, definida UMA vez, na
+/// abertura, antes de qualquer vídeo ou voz tocar.
+///
+/// Antes a sessão alternava — ambiente para os vídeos mudos, reprodução só
+/// enquanto a voz tocava —, e cada troca era um `try?`. Com vídeo rodando, a
+/// troca podia falhar sem aviso e deixar o app em ambiente, que obedece a
+/// chave do silencioso: a voz simplesmente não saía. Fixa, não há troca que
+/// falhe.
+///
+/// `mixWithOthers` mantém o que já valia: o vídeo mudo da Home não para a
+/// música de ninguém, e a voz toca junto com ela em vez de interrompê-la.
+nonisolated enum SessaoDeAudio {
+    static func configurar() {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default,
+                                                            options: [.mixWithOthers])
+            Diagnostico.rastro("áudio: sessão em playback")
+        } catch {
+            Diagnostico.rastro("áudio: sessão NÃO configurou — \(error.localizedDescription)")
+        }
     }
 }
 

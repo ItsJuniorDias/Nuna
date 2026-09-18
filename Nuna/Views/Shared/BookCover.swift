@@ -32,6 +32,11 @@ struct BookCover<SobreArte: View>: View {
     /// é o que mantém o título legível.
     @ViewBuilder var sobreArte: () -> SobreArte
 
+    @Environment(\.displayScale) private var escalaDaTela
+    /// A capa reduzida desta grade, quando ficou pronta depois do primeiro
+    /// quadro (ver `Miniaturas`).
+    @State private var miniatura: UIImage?
+
     enum Estilo {
         /// Cartão grande da história da semana.
         case destaque
@@ -58,8 +63,16 @@ struct BookCover<SobreArte: View>: View {
                 RoundedRectangle(cornerRadius: estilo.raio, style: .continuous)
                     .strokeBorder(UITokens.ink.opacity(0.10), lineWidth: 0.5)
             }
-            .shadow(color: UITokens.ink.opacity(estilo.sombraOpacidade),
-                    radius: estilo.sombraRaio, x: 0, y: estilo.sombraY)
+            // A sombra é de uma FORMA atrás do cartão, não do cartão inteiro.
+            // Sombra sobre imagem + degradê + título exige renderizar tudo fora
+            // da tela para achar o contorno — cartão por cartão, a cada quadro
+            // de rolagem. A forma já é o contorno; o cartão, opaco, a cobre.
+            .background {
+                RoundedRectangle(cornerRadius: estilo.raio, style: .continuous)
+                    .fill(UITokens.surface)
+                    .shadow(color: UITokens.ink.opacity(estilo.sombraOpacidade),
+                            radius: estilo.sombraRaio, x: 0, y: estilo.sombraY)
+            }
     }
 
     // MARK: Título
@@ -96,7 +109,13 @@ struct BookCover<SobreArte: View>: View {
     @ViewBuilder
     private var arte: some View {
         if let imagem = UIImage(named: book.coverImageName) {
-            recorte(imagem)
+            // Na grade, a capa reduzida; no destaque (cartão da semana,
+            // página do livro), a inteira — ali ela aparece grande.
+            if estilo == .grade {
+                capaReduzida
+            } else {
+                recorte(imagem)
+            }
         } else if let s = book.spreads.first {
             BandPlaceholder(colors: s.colors, bands: s.bands)
         } else {
@@ -107,18 +126,44 @@ struct BookCover<SobreArte: View>: View {
     /// Preenche o cartão e centra a janela visível em `foco`, sem deixar a
     /// janela sair da imagem. Com cartão 2:3 e capa 2:3 não há recorte.
     private func recorte(_ imagem: UIImage) -> some View {
-        GeometryReader { geo in
-            let escala = max(geo.size.width / imagem.size.width,
-                             geo.size.height / imagem.size.height)
-            let largura = imagem.size.width * escala
-            let altura = imagem.size.height * escala
-            let topo = min(max(foco * altura - geo.size.height / 2, 0),
-                           altura - geo.size.height)
+        GeometryReader { geo in enquadrada(imagem, em: geo.size) }
+    }
 
-            Image(uiImage: imagem)
-                .resizable()
-                .frame(width: largura, height: altura)
-                .offset(x: (geo.size.width - largura) / 2, y: -topo)
+    private func enquadrada(_ imagem: UIImage, em tamanho: CGSize) -> some View {
+        let escala = max(tamanho.width / imagem.size.width,
+                         tamanho.height / imagem.size.height)
+        let largura = imagem.size.width * escala
+        let altura = imagem.size.height * escala
+        let topo = min(max(foco * altura - tamanho.height / 2, 0),
+                       altura - tamanho.height)
+
+        return Image(uiImage: imagem)
+            .resizable()
+            .frame(width: largura, height: altura)
+            .offset(x: (tamanho.width - largura) / 2, y: -topo)
+    }
+
+    /// A capa no tamanho em pixels em que aparece, pronta fora da main. Se
+    /// ainda não estiver pronta (a Home prepara todas quando aparece), o
+    /// Papel segura o lugar por um instante — nunca uma decodificação no
+    /// meio da rolagem.
+    private var capaReduzida: some View {
+        GeometryReader { geo in
+            let largura = Miniaturas.faixa(geo.size.width * escalaDaTela)
+            Group {
+                if let imagem = miniatura
+                    ?? Miniaturas.shared.pronta(book.coverImageName, largura: largura) {
+                    enquadrada(imagem, em: geo.size)
+                } else {
+                    Palette.papel
+                }
+            }
+            .task(id: largura) {
+                guard Miniaturas.shared.pronta(book.coverImageName, largura: largura) == nil
+                else { return }
+                miniatura = await Miniaturas.shared.preparar(book.coverImageName,
+                                                             largura: largura)
+            }
         }
     }
 

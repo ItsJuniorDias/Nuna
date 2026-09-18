@@ -32,6 +32,9 @@ struct HomeView: View {
     private var store: Store { .shared }
 
     @Environment(\.postura) private var postura
+    @Environment(\.displayScale) private var escalaDaTela
+    /// A Home está rolando agora (ver `homeRolando`).
+    @State private var rolando = false
 
     // MARK: Seleções
 
@@ -145,10 +148,27 @@ struct HomeView: View {
         }
         .background(UITokens.surface)
         .scrollEdgeEffectStyle(.soft, for: .bottom)
+        // O vídeo da capa do carrossel pausa enquanto a Home rola, e volta
+        // quando ela para. Muda duas vezes por gesto, não a cada quadro.
+        .onScrollPhaseChange { _, fase in
+            if rolando != fase.isScrolling { rolando = fase.isScrolling }
+        }
+        .environment(\.homeRolando, rolando)
+        // As capas das prateleiras, reduzidas ao tamanho em que aparecem e
+        // decodificadas fora da main, antes de a criança rolar até elas.
+        .task {
+            await Miniaturas.shared.prepararTodas(
+                books.map(\.coverImageName),
+                largura: Miniaturas.faixa(Self.larguraDaCapa * escalaDaTela))
+        }
         // As três da semana são as mais tocadas da Home: o pacote de arte
         // delas vem em segundo plano, sem pressa, para o toque abrir na hora.
         .task(id: idsDaSemana) {
-            Pacotes.shared.antecipar(daSemana.map(\.artTag))
+            // O animado da semana leva junto as páginas em movimento: é a
+            // amostra grátis do recurso e o primeiro cartão do carrossel, e a
+            // primeira impressão dele não pode ser uma barra de download.
+            Pacotes.shared.antecipar(daSemana.map(\.artTag)
+                                     + daSemana.filter(\.animado).map(\.spreadMotionTag))
         }
     }
 
@@ -167,6 +187,10 @@ struct HomeView: View {
                  trailing: store.isPremium ? nil : "Premium")
         }
     }
+
+    /// Largura das capas nas prateleiras. É também o tamanho em que as
+    /// miniaturas são preparadas — um número só para os dois.
+    static let larguraDaCapa: CGFloat = 132
 
     // MARK: Cabeçalho
 
@@ -264,7 +288,9 @@ struct HomeView: View {
             // a primeira capa alinha com o título, e as capas deslizam até a
             // borda em vez de serem cortadas 24pt antes dela.
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: Space.md) {
+                // Preguiçosa: só as capas que aparecem existem. Com `HStack`,
+                // uma prateleira entrando na tela criava as até 19 de uma vez.
+                LazyHStack(alignment: .top, spacing: Space.md) {
                     ForEach(Array(books.enumerated()), id: \.element.id) { posicao, book in
                         // bloqueado continua tocável — o `RootView` desvia
                         // pro paywall em vez de abrir o leitor
@@ -273,7 +299,7 @@ struct HomeView: View {
                             if book.isAvailable { onOpen(book, origem) }
                         } label: {
                             LibraryTile(book: book, showsProgress: false)
-                                .frame(width: 132)
+                                .frame(width: Self.larguraDaCapa)
                                 .origemDoZoom(origem.idDoZoom(book), raio: 16)
                                 .opacity(book.isAvailable ? 1 : 0.55)
                         }
