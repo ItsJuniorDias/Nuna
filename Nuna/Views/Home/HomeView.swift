@@ -108,8 +108,13 @@ struct HomeView: View {
                                 }
                             }
                             if !novos.isEmpty {
+                                // Na metade da direita a prateleira vai até a
+                                // beira da tela, como as de largura inteira:
+                                // cortada na borda da metade, a última capa
+                                // parecia defeito.
                                 rail("Just arrived", icon: "sparkle", books: novos,
-                                     trilho: .chegaramAgora, margem: 0)
+                                     trilho: .chegaramAgora, margem: 0,
+                                     sangria: Space.lg)
                             }
                         }
                     }
@@ -276,10 +281,14 @@ struct HomeView: View {
         }
     }
 
+    /// `sangria`: quanto a rolagem passa da borda direita da seção. Numa
+    /// metade do Duo, a margem da tela fica por fora da seção, e a prateleira
+    /// avança por ela até a beira.
     private func rail(_ titulo: String, subtitle: String? = nil,
                       icon: String, books: [Book], trilho: TrilhoDaHome,
                       trailing: String? = nil,
-                      margem: CGFloat = Space.lg) -> some View {
+                      margem: CGFloat = Space.lg,
+                      sangria: CGFloat = 0) -> some View {
         VStack(alignment: .leading, spacing: Space.sm) {
             SectionHeader(titulo, icon: icon, subtitle: subtitle, trailing: trailing)
                 .padding(.horizontal, margem)
@@ -309,8 +318,13 @@ struct HomeView: View {
                 }
                 .padding(.vertical, Space.xxs)
             }
-            .contentMargins(.horizontal, margem, for: .scrollContent)
+            // A última capa para na mesma margem do título, mesmo com sangria.
+            .contentMargins(.horizontal,
+                            EdgeInsets(top: 0, leading: margem, bottom: 0,
+                                       trailing: margem + sangria),
+                            for: .scrollContent)
             .scrollEdgeEffectStyle(.soft, for: .horizontal)
+            .padding(.trailing, -sangria)
         }
         .onScrollVisibilityChange(threshold: 0.5) { visivel in
             if visivel { registrarVisita(trilho.secao, colecao: trilho.idDaColecao) }
@@ -336,7 +350,12 @@ struct HomeView: View {
 
 }
 
-/// Cabeçalho de seção. Aceita subtítulo (para coleções) OU rótulo trailing.
+/// Cabeçalho de seção, com subtítulo (coleções) e rótulo trailing opcionais.
+///
+/// Ícone, título e rótulo formam a primeira linha; o subtítulo vem embaixo,
+/// alinhado com o título e com a largura toda. Com os quatro numa linha só, o
+/// ícone ficava centrado entre título e subtítulo e o subtítulo quebrava
+/// antes da hora, espremido pela pílula ("Premium").
 struct SectionHeader: View {
     let titulo: String
     let icon: String
@@ -351,34 +370,40 @@ struct SectionHeader: View {
         self.trailing = trailing
     }
 
-    var body: some View {
-        HStack(alignment: .center, spacing: Space.xs) {
-            Image(systemName: icon)
-                .font(.system(size: 13, weight: .semibold))
-                .foregroundStyle(UITokens.accent)
-                .frame(width: 22)
+    private static let larguraDoIcone: CGFloat = 22
 
-            VStack(alignment: .leading, spacing: 1) {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 1) {
+            HStack(alignment: .center, spacing: Space.xs) {
+                Image(systemName: icon)
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(UITokens.accent)
+                    .frame(width: Self.larguraDoIcone)
+
                 Text(titulo)
                     .font(TypeScale.ui.weight(.semibold))
                     .foregroundStyle(UITokens.ink)
-                if let subtitle {
-                    Text(subtitle)
+
+                Spacer(minLength: Space.xs)
+
+                if let trailing {
+                    Text(trailing)
                         .font(TypeScale.legenda)
                         .foregroundStyle(UITokens.inkSecondary)
+                        .monospacedDigit()
+                        .lineLimit(1)
+                        .fixedSize()
+                        .padding(.horizontal, Space.sm)
+                        .padding(.vertical, 3)
+                        .glassEffect(.regular, in: .capsule)
                 }
             }
 
-            Spacer(minLength: 0)
-
-            if let trailing {
-                Text(trailing)
+            if let subtitle {
+                Text(subtitle)
                     .font(TypeScale.legenda)
                     .foregroundStyle(UITokens.inkSecondary)
-                    .monospacedDigit()
-                    .padding(.horizontal, Space.sm)
-                    .padding(.vertical, 3)
-                    .glassEffect(.regular, in: .capsule)
+                    .padding(.leading, Self.larguraDoIcone + Space.xs)
             }
         }
     }

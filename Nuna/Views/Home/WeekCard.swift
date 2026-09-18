@@ -7,14 +7,17 @@
 //  quadro em várias capas). A arte, o degradê e o título dentro vêm de
 //  `BookCover`, o mesmo das outras capas.
 //
-//  O selo de vidro fica no canto superior esquerdo. Centrado, ele pousava na
-//  cabeça da Nuna depois do recorte; no canto pega céu ou margem.
+//  Os selos de vidro ficam nos cantos de cima: "Story of the week" no da
+//  esquerda, "Moves" no da direita. Centrados, ou lado a lado, eles pousavam
+//  na cabeça da Nuna, que fica no meio de quase toda capa; nos cantos pegam
+//  céu ou margem.
 //
 //  O cartão inteiro é o botão — sem CTA separado.
 //
 //  Sem assinatura, o cadeado entra NO selo, no lugar das faíscas, e não numa
-//  terceira pílula: o selo já ocupa ~300 dos 322pt livres num iPhone de
-//  402pt, e o título da seção logo acima já leva as faíscas.
+//  terceira pílula. Em cartão estreito (Duo fechado, iPhone pequeno) os dois
+//  selos não cabem por extenso: o da semana encurta para "This week" e,
+//  sem espaço nem para isso, fica só o ícone. Quebrar em duas linhas nunca.
 //
 
 import SwiftUI
@@ -31,7 +34,6 @@ struct WeekCard: View {
     @Environment(\.horizontalSizeClass) private var hSize
     @Environment(\.homeCoberta) private var homeCoberta
     @Environment(\.homeRolando) private var homeRolando
-    @Namespace private var vidro
 
     private var bloqueado: Bool { Store.shared.estaBloqueado(book) }
 
@@ -66,33 +68,49 @@ struct WeekCard: View {
         return bloqueado ? "\(base), locked" : base
     }
 
+    /// O primeiro arranjo que cabe na largura do cartão, do mais completo ao
+    /// mais curto.
     private var selo: some View {
-        GlassEffectContainer(spacing: Space.xs) {
-            HStack(spacing: Space.xs) {
-                Label("Story of the week",
-                      systemImage: bloqueado ? "lock.fill" : "sparkles")
-                    .font(TypeScale.legenda.weight(.semibold))
-                    .foregroundStyle(UITokens.ink)
-                    .padding(.horizontal, Space.sm)
-                    .padding(.vertical, Space.xxs)
-                    .glassEffect(.regular, in: .capsule)
-                    .glassEffectID("selo", in: vidro)
-
-                // A semana já está no título da seção, logo acima; repetida
-                // em cada cartão era só ruído. O lugar fica com o que só este
-                // cartão tem: as páginas se mexem.
-                if book.animado {
-                    Label("Moves", systemImage: "wand.and.sparkles")
-                        .font(TypeScale.legenda.weight(.semibold))
-                        .foregroundStyle(UITokens.accent)
-                        .padding(.horizontal, Space.sm)
-                        .padding(.vertical, Space.xxs)
-                        .glassEffect(.regular, in: .capsule)
-                        .glassEffectID("movimento", in: vidro)
-                }
-            }
+        ViewThatFits(in: .horizontal) {
+            selos(rotulo: "Story of the week")
+            selos(rotulo: "This week")
+            selos(rotulo: nil)
         }
         .padding(Space.md)
+    }
+
+    /// `rotulo` nil: o selo da semana fica só com o ícone.
+    private func selos(rotulo: LocalizedStringKey?) -> some View {
+        HStack(spacing: 0) {
+            pilula(rotulo, icone: bloqueado ? "lock.fill" : "sparkles",
+                   cor: UITokens.ink)
+
+            Spacer(minLength: Space.xs)
+
+            // A semana já está no título da seção, logo acima; repetida
+            // em cada cartão era só ruído. O lugar fica com o que só este
+            // cartão tem: as páginas se mexem.
+            if book.animado {
+                pilula("Moves", icone: "wand.and.sparkles", cor: UITokens.accent)
+            }
+        }
+    }
+
+    private func pilula(_ titulo: LocalizedStringKey?, icone: String, cor: Color) -> some View {
+        Group {
+            if let titulo {
+                Label(titulo, systemImage: icone)
+            } else {
+                Image(systemName: icone)
+            }
+        }
+        .font(TypeScale.legenda.weight(.semibold))
+        .foregroundStyle(cor)
+        .lineLimit(1)
+        .fixedSize()
+        .padding(.horizontal, Space.sm)
+        .padding(.vertical, Space.xxs)
+        .glassEffect(.regular, in: .capsule)
     }
 }
 

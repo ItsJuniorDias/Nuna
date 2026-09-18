@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		Uma janela só, no iPhone e no iPad. O resto do Info.plist continua
+		saindo dos build settings (GENERATE_INFOPLIST_FILE); só o manifesto
+		de cenas mora aqui, porque o gerado é sempre o de várias janelas.
+
+		O app foi feito para uma tela: um player de vídeo e uma voz de
+		narração para o app inteiro (TocadorDeMotion, Narracao). O iPhone
+		Duo é o primeiro iPhone que abre duas janelas do mesmo app, e dois
+		livros lado a lado disputariam o vídeo e a voz. Dividir a tela com
+		OUTRO app continua funcionando: isso não depende desta chave.
+	-->
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

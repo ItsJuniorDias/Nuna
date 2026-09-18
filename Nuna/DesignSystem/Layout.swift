@@ -44,10 +44,5 @@ enum SafeZone {
     }
 }
 
-enum Corner {
-    /// Raio interno concêntrico: raio da tela menos o padding.
-    /// No Duo o raio do container muda entre poses, então nunca fixe um valor.
-    static func interno(container: CGFloat, padding: CGFloat) -> CGFloat {
-        max(0, container - padding)
-    }
-}
+// Canto que acompanha a curva da tela (o raio do Duo muda entre as poses):
+// `ConcentricRectangle`, do sistema. Não calcular raio à mão.

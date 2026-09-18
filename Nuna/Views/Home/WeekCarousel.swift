@@ -8,8 +8,13 @@
 //
 //  Cada cartão ocupa a largura do carrossel menos as margens
 //  (`containerRelativeFrame` desconta o `contentMargins`), e o arrasto para
-//  num cartão por vez. Com margens iguais dos dois lados, parar num cartão é
-//  parar com ele no centro.
+//  num cartão por vez, encostado na margem da esquerda — a mesma do título
+//  da seção e das prateleiras de baixo. A margem da direita é maior: é a
+//  faixa onde a próxima aparece.
+//
+//  Antes as margens eram iguais e o cartão parava no centro, 24pt para
+//  dentro do título. No Duo aberto na horizontal, preso numa metade, o
+//  cartão ficava recuado dos dois lados e a vizinha nem aparecia.
 //
 //  "Sempre na primeira" vale para cada vez que a Home é montada. Ao voltar do
 //  leitor, o carrossel continua no cartão que a criança abriu: voltar para o
@@ -20,17 +25,18 @@ import SwiftUI
 
 struct WeekCarousel: View {
     let books: [Book]
-    /// Margem da seção. As vizinhas aparecem por dentro dela, na faixa
-    /// `espiada` a mais de cada lado.
+    /// Margem da seção, à esquerda do cartão. Dentro de uma metade do Duo é
+    /// zero: quem dá a margem é a metade.
     var margem: CGFloat
     var onOpen: (Book, OrigemDaLeitura) -> Void
 
     @State private var foco: String?
     @Environment(\.accessibilityReduceMotion) private var reduzirMovimento
 
-    /// Quanto do cartão central fica para dentro da margem da Home, e é
-    /// onde a vizinha aparece.
-    private static let espiada: CGFloat = Space.lg
+    /// Faixa à direita do cartão onde a vizinha aparece. Igual com ou sem
+    /// margem: numa metade do Duo o carrossel é cortado na borda dela, e
+    /// menos que isto a vizinha encolhida some.
+    private static let espiada: CGFloat = Space.xxl
     private static let espaco: CGFloat = Space.sm
 
     init(books: [Book], margem: CGFloat = Space.lg,
@@ -69,11 +75,15 @@ struct WeekCarousel: View {
         }
         .scrollIndicators(.hidden)
         .scrollTargetBehavior(.viewAligned(limitBehavior: .alwaysByOne))
+        // O centro da tela cai sempre dentro do cartão encostado na margem
+        // (a faixa da vizinha é mais estreita que meio cartão), então a
+        // âncora no centro continua apontando para ele.
         .scrollPosition(id: $foco, anchor: .center)
-        // Sem âncora inicial: o carrossel começa no zero, e com as margens de
-        // conteúdo iguais dos dois lados isso deixa a primeira capa no centro
-        // da tela, com a segunda espiando na borda.
-        .contentMargins(.horizontal, margem + Self.espiada, for: .scrollContent)
+        // Sem âncora inicial: o carrossel começa no zero, com a primeira capa
+        // alinhada ao título e a segunda espiando na borda.
+        .contentMargins(.horizontal,
+                        EdgeInsets(top: 0, leading: margem, bottom: 0, trailing: Self.espiada),
+                        for: .scrollContent)
         .sensoryFeedback(.selection, trigger: foco)
         // A semana virou com o app aberto: volta para a primeira das novas.
         .onChange(of: books.map(\.id)) { _, ids in
