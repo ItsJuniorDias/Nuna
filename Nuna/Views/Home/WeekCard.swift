@@ -59,13 +59,33 @@ struct WeekCard: View {
         .accessibilityAddTraits(.isButton)
     }
 
+    /// Uma frase inteira por combinação, em vez de fragmentos concatenados:
+    /// o Xcode 27 gera um símbolo Swift por chave do catálogo, e chaves que
+    /// só mudam por uma vírgula ficariam com nomes iguais.
     private var rotuloAcessivel: Text {
-        var base = Text("Story of the week: \(book.title.resolved())")
-        if book.animado { base = base + Text(", moving pictures") }
-        if let posicao, let total, total > 1 {
-            base = base + Text(", \(posicao + 1) of \(total)")
+        let titulo = book.title.resolved()
+        let temPos = posicao != nil && (total ?? 0) > 1
+        let pos = (posicao ?? 0) + 1
+        let tot = total ?? 0
+
+        switch (book.animado, temPos, bloqueado) {
+        case (false, false, false):
+            return Text("This week's story: \(titulo)")
+        case (true,  false, false):
+            return Text("This week's story: \(titulo), moving pictures")
+        case (false, true,  false):
+            return Text("This week's story: \(titulo), \(pos) of \(tot)")
+        case (true,  true,  false):
+            return Text("This week's story: \(titulo), moving pictures, \(pos) of \(tot)")
+        case (false, false, true):
+            return Text("This week's story: \(titulo), locked")
+        case (true,  false, true):
+            return Text("This week's story: \(titulo), moving pictures, locked")
+        case (false, true,  true):
+            return Text("This week's story: \(titulo), \(pos) of \(tot), locked")
+        case (true,  true,  true):
+            return Text("This week's story: \(titulo), moving pictures, \(pos) of \(tot), locked")
         }
-        return bloqueado ? base + Text(", locked") : base
     }
 
     /// O primeiro arranjo que cabe na largura do cartão, do mais completo ao

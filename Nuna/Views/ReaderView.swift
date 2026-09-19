@@ -503,7 +503,7 @@ struct ReaderView: View {
         let frase = compact
             ? (state.side == .left ? spread.left.resolved() : spread.right.resolved())
             : "\(spread.left.resolved()) \(spread.right.resolved())"
-        let anuncio = String(localized: "Page \(state.spreadIndex + 1) of \(book.spreads.count). \(frase)")
+        let anuncio = String(localized: "Now on page \(state.spreadIndex + 1) of \(book.spreads.count). \(frase)")
         AccessibilityNotification.PageScrolled(anuncio).post()
     }
 

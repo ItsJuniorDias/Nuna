@@ -92,7 +92,7 @@ struct ParentsView: View {
             .medirPostura()
         }
         .manageSubscriptionsSheet(isPresented: $gerenciando)
-        .confirmationDialog("Restart all books?",
+        .confirmationDialog("Restart every book?",
                             isPresented: $confirmandoRecomeco,
                             titleVisibility: .visible) {
             Button("Restart", role: .destructive) {
@@ -176,7 +176,7 @@ struct ParentsView: View {
 
                 divisor
                 Button(action: restaurar) {
-                    rotuloLinha(restaurando ? "Restoring…" : "Restore purchases",
+                    rotuloLinha(restaurando ? "Restoring…" : "Restore Purchases",
                                 icone: "arrow.clockwise", acessorio: .nenhum)
                 }
                 .buttonStyle(LinhaStyle())

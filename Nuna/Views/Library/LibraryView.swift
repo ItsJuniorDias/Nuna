@@ -254,7 +254,7 @@ struct LibraryView: View {
 
             Spacer(minLength: 0)
 
-            Text("\(resultado.count)")
+            Text(resultado.count, format: .number)
                 .font(TypeScale.legenda.weight(.medium))
                 .foregroundStyle(UITokens.inkSecondary)
                 .monospacedDigit()
@@ -365,12 +365,24 @@ struct LibraryTile: View {
     }
 
     /// Segue o selo: bloqueado esconde a página, então o VoiceOver também.
+    /// "Book %@, ..." em vez de "%@, ..." porque o Xcode gera o símbolo Swift
+    /// a partir da primeira palavra depois do %@ — sem o "Book" na frente,
+    /// "%@, locked" e "Locked" (o selo) colidiriam.
     private var rotuloAcessivel: Text {
-        var texto = Text(verbatim: book.title.resolved())
-        if book.animado { texto = texto + Text(", moving pictures") }
-        if bloqueado { return texto + Text(", locked") }
-        if comecou { return texto + Text(", page \(pagina) of \(book.spreads.count)") }
-        return texto
+        let titulo = book.title.resolved()
+        if bloqueado {
+            return book.animado
+                ? Text("Book \(titulo), moving pictures, locked")
+                : Text("Book \(titulo), locked")
+        }
+        if comecou {
+            return book.animado
+                ? Text("Book \(titulo), moving pictures, page \(pagina) of \(book.spreads.count)")
+                : Text("Book \(titulo), page \(pagina) of \(book.spreads.count)")
+        }
+        return book.animado
+            ? Text("Book \(titulo), moving pictures")
+            : Text(verbatim: titulo)
     }
 
     /// Cadeado no lugar do progresso, com a mesma altura de cápsula: página
@@ -386,7 +398,7 @@ struct LibraryTile: View {
                 .glassEffect(.regular, in: .capsule)
                 .padding(Space.xs)
         } else if comecou {
-            Text("\(pagina)/\(book.spreads.count)")
+            Text(verbatim: "\(pagina)/\(book.spreads.count)")
                 .font(.system(size: 11, weight: .semibold, design: .rounded))
                 .foregroundStyle(UITokens.ink)
                 .monospacedDigit()

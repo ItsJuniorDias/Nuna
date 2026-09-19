@@ -1,96 +1,237 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "%@ plan, %@ %@": {
+    "%@ plan, %@, billed every month": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "خطة %@، %@ %@"
+            "value": "خطة %@، %@، تُدفع كل شهر"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@-Abo, %@ %@"
+            "value": "%@-Abo, %@, monatliche Abrechnung"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ plan, %@ %@"
+            "value": "%@ plan, %@, billed every month"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "plan %@, %@ %@"
+            "value": "Plan %@, %@, cobrado cada mes"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "abonnement %@, %@ %@"
+            "value": "Abonnement %@, %@, facturé chaque mois"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "abbonamento %@, %@ %@"
+            "value": "Abbonamento %@, %@, addebito mensile"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "plano %@, %@ %@"
+            "value": "Plano %@, %@, cobrado todo mês"
           }
         }
       }
     },
-    "%lld": {
+    "%@ plan, %@, just %@ per month": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "خطة %@، %@، فقط %@ شهريًا"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "%@-Abo, %@, nur %@ pro Monat"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "%@ plan, %@, just %@ per month"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "Plan %@, %@, solo %@ al mes"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "Abonnement %@, %@, seulement %@ par mois"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "Abbonamento %@, %@, solo %@ al mese"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld"
+            "value": "Plano %@, %@, só %@ por mês"
+          }
+        }
+      }
+    },
+    "%@ plan, %@, just %@ per month, 7 days free": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطة %@، %@، فقط %@ شهريًا، 7 أيام مجانًا"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@-Abo, %@, nur %@ pro Monat, 7 Tage gratis"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ plan, %@, just %@ per month, 7 days free"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan %@, %@, solo %@ al mes, 7 días gratis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abonnement %@, %@, seulement %@ par mois, 7 jours gratuits"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbonamento %@, %@, solo %@ al mese, 7 giorni gratis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plano %@, %@, só %@ por mês, 7 dias grátis"
+          }
+        }
+      }
+    },
+    "%@ plan, %@, just %@ per month, save %lld%%": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطة %@، %@، فقط %@ شهريًا، وفّر %lld%%"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@-Abo, %@, nur %@ pro Monat, spare %lld %%"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ plan, %@, just %@ per month, save %lld%%"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan %@, %@, solo %@ al mes, ahorra %lld%%"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abonnement %@, %@, seulement %@ par mois, économise %lld %%"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbonamento %@, %@, solo %@ al mese, risparmi il %lld%%"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plano %@, %@, só %@ por mês, economize %lld%%"
+          }
+        }
+      }
+    },
+    "%@ plan, %@, just %@ per month, save %lld%%, 7 days free": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطة %@، %@، فقط %@ شهريًا، وفّر %lld%%، 7 أيام مجانًا"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@-Abo, %@, nur %@ pro Monat, spare %lld %%, 7 Tage gratis"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ plan, %@, just %@ per month, save %lld%%, 7 days free"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan %@, %@, solo %@ al mes, ahorra %lld%%, 7 días gratis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abonnement %@, %@, seulement %@ par mois, économise %lld %%, 7 jours gratuits"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbonamento %@, %@, solo %@ al mese, risparmi il %lld%%, 7 giorni gratis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plano %@, %@, só %@ por mês, economize %lld%%, 7 dias grátis"
           }
         }
       }
@@ -401,382 +542,6 @@
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "%lld × %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld × %lld"
-          }
-        }
-      }
-    },
-    "%lld/%lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/%lld"
-          }
-        }
-      }
-    },
-    ", %lld of %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، %lld من %lld"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld von %lld"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld of %lld"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld de %lld"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld sur %lld"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld di %lld"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", %lld de %lld"
-          }
-        }
-      }
-    },
-    ", 7 days free": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، 7 أيام مجانًا"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 Tage gratis"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 days free"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 días gratis"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 jours gratuits"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 giorni gratis"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", 7 dias grátis"
-          }
-        }
-      }
-    },
-    ", locked": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، مقفل"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", gesperrt"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", locked"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", bloqueado"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", verrouillé"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", bloccato"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", trancado"
-          }
-        }
-      }
-    },
-    ", moving pictures": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، صور متحركة"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", bewegte Seiten"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", moving pictures"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", páginas que se mueven"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", pages animées"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", pagine in movimento"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", páginas que se mexem"
-          }
-        }
-      }
-    },
-    ", page %lld of %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، صفحة %lld من %lld"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", Seite %lld von %lld"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", page %lld of %lld"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", página %lld de %lld"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", page %lld sur %lld"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", pagina %lld di %lld"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", página %lld de %lld"
-          }
-        }
-      }
-    },
-    ", save %lld%%": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "، وفّر %lld%%"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", spare %lld %%"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", save %lld%%"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", ahorra %lld%%"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", économisez %lld %%"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", risparmi il %lld%%"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": ", economize %lld%%"
           }
         }
       }
@@ -1388,6 +1153,241 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cobrado todo mês"
+          }
+        }
+      }
+    },
+    "Book %@, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كتاب %@، مقفل"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buch %@, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Book %@, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livre %@, verrouillé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, bloccato"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livro %@, trancado"
+          }
+        }
+      }
+    },
+    "Book %@, moving pictures": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كتاب %@، مع صور متحركة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buch %@, mit bewegten Seiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Book %@, moving pictures"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con páginas que se mueven"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livre %@, avec des pages animées"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con pagine in movimento"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livro %@, com páginas que se mexem"
+          }
+        }
+      }
+    },
+    "Book %@, moving pictures, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كتاب %@، مع صور متحركة، مقفل"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buch %@, mit bewegten Seiten, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Book %@, moving pictures, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con páginas que se mueven, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livre %@, avec des pages animées, verrouillé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con pagine in movimento, bloccato"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livro %@, com páginas que se mexem, trancado"
+          }
+        }
+      }
+    },
+    "Book %@, moving pictures, page %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كتاب %@، مع صور متحركة، صفحة %lld من %lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buch %@, mit bewegten Seiten, Seite %lld von %lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Book %@, moving pictures, page %lld of %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con páginas que se mueven, página %lld de %lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livre %@, avec des pages animées, page %lld sur %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, con pagine in movimento, pagina %lld di %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livro %@, com páginas que se mexem, página %lld de %lld"
+          }
+        }
+      }
+    },
+    "Book %@, page %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كتاب %@، صفحة %lld من %lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buch %@, Seite %lld von %lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Book %@, page %lld of %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, página %lld de %lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livre %@, page %lld sur %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro %@, pagina %lld di %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livro %@, página %lld de %lld"
           }
         }
       }
@@ -3836,6 +3836,53 @@
         }
       }
     },
+    "Now on page %lld of %lld. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الآن في الصفحة %lld من %lld. %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt auf Seite %lld von %lld. %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now on page %lld of %lld. %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora en la página %lld de %lld. %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maintenant à la page %lld sur %lld. %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ora a pagina %lld di %lld. %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agora na página %lld de %lld. %@"
+          }
+        }
+      }
+    },
     "Nuna Premium": {
       "extractionState": "manual",
       "localizations": {
@@ -4048,7 +4095,7 @@
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abre el libro"
+            "value": "Abre la historia"
           }
         },
         "fr": {
@@ -4208,53 +4255,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Página %lld de %lld"
-          }
-        }
-      }
-    },
-    "Page %lld of %lld. %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "صفحة %lld من %lld. %@"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seite %lld von %lld. %@"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Page %lld of %lld. %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Página %lld de %lld. %@"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Page %lld sur %lld. %@"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pagina %lld di %lld. %@"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Página %lld de %lld. %@"
           }
         }
       }
@@ -5011,43 +5011,43 @@
         }
       }
     },
-    "Restart all books?": {
+    "Restart every book?": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "إعادة كل الكتب؟"
+            "value": "إعادة كل كتاب؟"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Alle Bücher neu starten?"
+            "value": "Jedes Buch neu starten?"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Restart all books?"
+            "value": "Restart every book?"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "¿Reiniciar todos los libros?"
+            "value": "¿Reiniciar cada libro?"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Recommencer tous les livres ?"
+            "value": "Recommencer chaque livre ?"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ricomincia tutti i libri?"
+            "value": "Ricomincia ogni libro?"
           }
         },
         "pt-BR": {
@@ -5077,53 +5077,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restore Purchases"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar compras"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurer les achats"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ripristina acquisti"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar compras"
-          }
-        }
-      }
-    },
-    "Restore purchases": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "استعادة المشتريات"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Käufe wiederherstellen"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore purchases"
           }
         },
         "es": {
@@ -5853,53 +5806,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "História da semana"
-          }
-        }
-      }
-    },
-    "Story of the week: %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "قصة الأسبوع: %@"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geschichte der Woche: %@"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Story of the week: %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cuento de la semana: %@"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histoire de la semaine : %@"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Storia della settimana: %@"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "História da semana: %@"
           }
         }
       }
@@ -6652,6 +6558,382 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esta semana"
+          }
+        }
+      }
+    },
+    "This week's story: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@"
+          }
+        }
+      }
+    },
+    "This week's story: %@, %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، %lld من %lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, %lld von %lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, %lld of %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, %lld de %lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, %lld sur %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, %lld di %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, %lld de %lld"
+          }
+        }
+      }
+    },
+    "This week's story: %@, %lld of %lld, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، %lld من %lld، مقفلة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, %lld von %lld, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, %lld of %lld, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, %lld de %lld, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, %lld sur %lld, verrouillée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, %lld di %lld, bloccata"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, %lld de %lld, trancada"
+          }
+        }
+      }
+    },
+    "This week's story: %@, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، مقفلة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, verrouillée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, bloccata"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, trancada"
+          }
+        }
+      }
+    },
+    "This week's story: %@, moving pictures": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، مع صور متحركة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, mit bewegten Seiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, moving pictures"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, con páginas que se mueven"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, avec des pages animées"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, con pagine in movimento"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, com páginas que se mexem"
+          }
+        }
+      }
+    },
+    "This week's story: %@, moving pictures, %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، مع صور متحركة، %lld من %lld"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, mit bewegten Seiten, %lld von %lld"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, moving pictures, %lld of %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, con páginas que se mueven, %lld de %lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, avec des pages animées, %lld sur %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, con pagine in movimento, %lld di %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, com páginas que se mexem, %lld de %lld"
+          }
+        }
+      }
+    },
+    "This week's story: %@, moving pictures, %lld of %lld, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، مع صور متحركة، %lld من %lld، مقفلة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, mit bewegten Seiten, %lld von %lld, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, moving pictures, %lld of %lld, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, con páginas que se mueven, %lld de %lld, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, avec des pages animées, %lld sur %lld, verrouillée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, con pagine in movimento, %lld di %lld, bloccata"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, com páginas que se mexem, %lld de %lld, trancada"
+          }
+        }
+      }
+    },
+    "This week's story: %@, moving pictures, locked": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصة الأسبوع: %@، مع صور متحركة، مقفلة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte der Woche: %@, mit bewegten Seiten, gesperrt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's story: %@, moving pictures, locked"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuento de la semana: %@, con páginas que se mueven, bloqueado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histoire de la semaine : %@, avec des pages animées, verrouillée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storia della settimana: %@, con pagine in movimento, bloccata"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "História da semana: %@, com páginas que se mexem, trancada"
           }
         }
       }
@@ -7733,53 +8015,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "por ano"
-          }
-        }
-      }
-    },
-    "·": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
           }
         }
       }

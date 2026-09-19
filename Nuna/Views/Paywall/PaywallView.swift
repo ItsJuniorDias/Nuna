@@ -400,18 +400,27 @@ struct PaywallView: View {
         }
     }
 
+    /// Uma frase inteira por combinação. Fragmentos como ", save %lld%%"
+    /// virariam chaves com nomes iguais aos das versões sem vírgula, e o
+    /// Xcode 27 recusa quando geraria dois símbolos Swift com o mesmo nome.
     private func rotuloAcessivel(_ p: Plano, produto: Product) -> Text {
-        var texto = Text("\(String(localized: p.titulo)) plan, \(produto.displayPrice) \(String(localized: p.periodo))")
-        if p == .anual {
-            texto = texto + Text(verbatim: ", ") + detalhe(p, produto: produto)
-            if let economia = economiaAnual {
-                texto = texto + Text(", save \(economia)%")
-            }
-            if store.trialEligible {
-                texto = texto + Text(", 7 days free")
-            }
+        let titulo = String(localized: p.titulo)
+        let periodo = String(localized: p.periodo)
+        let precoPeriodo = "\(produto.displayPrice) \(periodo)"
+        if p == .mensal {
+            return Text("\(titulo) plan, \(precoPeriodo), billed every month")
         }
-        return texto
+        let porMes = (produto.price / 12).formatted(produto.priceFormatStyle)
+        switch (economiaAnual, store.trialEligible) {
+        case (nil, false):
+            return Text("\(titulo) plan, \(precoPeriodo), just \(porMes) per month")
+        case (nil, true):
+            return Text("\(titulo) plan, \(precoPeriodo), just \(porMes) per month, 7 days free")
+        case (let saving?, false):
+            return Text("\(titulo) plan, \(precoPeriodo), just \(porMes) per month, save \(saving)%")
+        case (let saving?, true):
+            return Text("\(titulo) plan, \(precoPeriodo), just \(porMes) per month, save \(saving)%, 7 days free")
+        }
     }
 
     /// Quanto o anual sai mais barato que doze meses do mensal, em
@@ -634,7 +643,7 @@ struct PaywallView: View {
     }
 
     private var separador: some View {
-        Text("·")
+        Text(verbatim: "·")
             .foregroundStyle(UITokens.inkSecondary)
             .accessibilityHidden(true)
     }
