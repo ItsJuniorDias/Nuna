@@ -375,14 +375,14 @@ struct ReaderView: View {
                 .padding(.horizontal, Space.sm)
                 .padding(.vertical, Space.xxs)
                 .glassEffect(.regular, in: .capsule)
-                .accessibilityLabel("Page \(state.spreadIndex + 1) of \(book.spreads.count)")
+                .accessibilityLabel(Text("Page \(state.spreadIndex + 1) of \(book.spreads.count)"))
 
-            iconButton("chevron.left", label: "Previous page", pulso: state.recuos,
+            iconButton("chevron.backward", label: "Previous page", pulso: state.recuos,
                        action: { goBack(via: .button) })
                 .disabled(state.isAtStart(compact: compact))
                 .opacity(state.isAtStart(compact: compact) ? 0.35 : 1)
 
-            iconButton("chevron.right", label: "Next page", pulso: state.avancos,
+            iconButton("chevron.forward", label: "Next page", pulso: state.avancos,
                        action: { advance(via: .button) })
                 .disabled(state.isAtEnd(total: book.spreads.count, compact: compact))
                 .opacity(state.isAtEnd(total: book.spreads.count, compact: compact) ? 0.35 : 1)
@@ -394,7 +394,7 @@ struct ReaderView: View {
 
     /// `pulso` sobe a cada virada no sentido do botão, e o símbolo dá um
     /// pulinho: o toque na zona da página também "aperta" a seta certa.
-    private func iconButton(_ symbol: String, label: String, pulso: Int,
+    private func iconButton(_ symbol: String, label: LocalizedStringKey, pulso: Int,
                             action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
@@ -503,9 +503,8 @@ struct ReaderView: View {
         let frase = compact
             ? (state.side == .left ? spread.left.resolved() : spread.right.resolved())
             : "\(spread.left.resolved()) \(spread.right.resolved())"
-        AccessibilityNotification.PageScrolled(
-            "Page \(state.spreadIndex + 1) of \(book.spreads.count). \(frase)"
-        ).post()
+        let anuncio = String(localized: "Page \(state.spreadIndex + 1) of \(book.spreads.count). \(frase)")
+        AccessibilityNotification.PageScrolled(anuncio).post()
     }
 
     // MARK: Fechar

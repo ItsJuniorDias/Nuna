@@ -34,8 +34,8 @@ struct PaywallView: View {
     enum Plano: Hashable {
         case anual, mensal
 
-        var titulo: String { self == .anual ? "Yearly" : "Monthly" }
-        var periodo: String { self == .anual ? "per year" : "per month" }
+        var titulo: LocalizedStringResource { self == .anual ? "Yearly" : "Monthly" }
+        var periodo: LocalizedStringResource { self == .anual ? "per year" : "per month" }
         var analitico: PlanoDaAssinatura { self == .anual ? .annual : .monthly }
     }
 
@@ -82,9 +82,9 @@ struct PaywallView: View {
 
     private static let raioCartao: CGFloat = 20
 
-    private static let textoPendente = "Request sent to a parent for approval"
+    private static let textoPendente: LocalizedStringResource = "Request sent to a parent for approval"
 
-    private static let beneficios: [(icone: String, texto: String)] = [
+    private static let beneficios: [(icone: String, texto: LocalizedStringResource)] = [
         ("books.vertical.fill", "Every book unlocked"),
         ("sparkles",            "New books at no extra cost"),
         ("person.2.fill",       "Family Sharing included"),
@@ -105,7 +105,7 @@ struct PaywallView: View {
 
     private var comTeste: Bool { plano == .anual && store.trialEligible }
 
-    private var rotuloCTA: String { comTeste ? "Start 7-day free trial" : "Subscribe" }
+    private var rotuloCTA: LocalizedStringResource { comTeste ? "Start 7-day free trial" : "Subscribe" }
 
     // MARK: View
 
@@ -278,7 +278,7 @@ struct PaywallView: View {
     /// lista; centrar cada linha faria os ícones dançarem.
     private var listaBeneficios: some View {
         VStack(alignment: .leading, spacing: Space.sm) {
-            ForEach(Self.beneficios, id: \.texto) { item in
+            ForEach(Self.beneficios, id: \.icone) { item in
                 HStack(spacing: Space.sm) {
                     Image(systemName: item.icone)
                         .font(.system(size: 15, weight: .semibold))
@@ -310,7 +310,7 @@ struct PaywallView: View {
         } else if store.carregandoProdutos || !tentouCarregar {
             carregandoPlanos
         } else {
-            falhaPlanos(store.erroProdutos ?? "Couldn't load the plans right now.")
+            falhaPlanos(store.erroProdutos ?? String(localized: "Couldn't load the plans right now."))
         }
     }
 
@@ -336,7 +336,7 @@ struct PaywallView: View {
                     Text(p.titulo)
                         .font(TypeScale.ui.weight(.semibold))
                         .foregroundStyle(UITokens.ink)
-                    Text(detalhe(p, produto: produto))
+                    detalhe(p, produto: produto)
                         .font(TypeScale.legenda)
                         .foregroundStyle(UITokens.inkSecondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -390,25 +390,28 @@ struct PaywallView: View {
         }
     }
 
-    private func detalhe(_ p: Plano, produto: Product) -> String {
+    private func detalhe(_ p: Plano, produto: Product) -> Text {
         switch p {
         case .anual:
             let porMes = (produto.price / 12).formatted(produto.priceFormatStyle)
-            return "Just \(porMes) per month"
+            return Text("Just \(porMes) per month")
         case .mensal:
-            return "Billed every month"
+            return Text("Billed every month")
         }
     }
 
-    private func rotuloAcessivel(_ p: Plano, produto: Product) -> String {
-        var partes = ["\(p.titulo) plan",
-                      "\(produto.displayPrice) \(p.periodo)"]
+    private func rotuloAcessivel(_ p: Plano, produto: Product) -> Text {
+        var texto = Text("\(String(localized: p.titulo)) plan, \(produto.displayPrice) \(String(localized: p.periodo))")
         if p == .anual {
-            partes.append(detalhe(p, produto: produto))
-            if let economia = economiaAnual { partes.append("save \(economia)%") }
-            if store.trialEligible { partes.append("7 days free") }
+            texto = texto + Text(verbatim: ", ") + detalhe(p, produto: produto)
+            if let economia = economiaAnual {
+                texto = texto + Text(", save \(economia)%")
+            }
+            if store.trialEligible {
+                texto = texto + Text(", 7 days free")
+            }
         }
-        return partes.joined(separator: ", ")
+        return texto
     }
 
     /// Quanto o anual sai mais barato que doze meses do mensal, em
@@ -431,7 +434,7 @@ struct PaywallView: View {
 
     /// Cor cheia, não vidro: é marcação sobre Papel, não controle. Economia
     /// em Tinta e teste em acento, para os dois selos não virarem um só.
-    private func selo(_ texto: String, cor: Color,
+    private func selo(_ texto: LocalizedStringKey, cor: Color,
                       corDoTexto: Color = UITokens.inkOnArt) -> some View {
         Text(texto)
             .font(.system(size: 12, weight: .bold, design: .rounded))
@@ -485,12 +488,16 @@ struct PaywallView: View {
     private var rodape: some View {
         VStack(spacing: Space.sm) {
             if pendente {
-                Label(Self.textoPendente, systemImage: "hourglass")
-                    .font(TypeScale.legenda.weight(.medium))
-                    .foregroundStyle(UITokens.ink)
-                    .multilineTextAlignment(.center)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .transition(.opacity)
+                Label {
+                    Text(Self.textoPendente)
+                } icon: {
+                    Image(systemName: "hourglass")
+                }
+                .font(TypeScale.legenda.weight(.medium))
+                .foregroundStyle(UITokens.ink)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+                .transition(.opacity)
             }
 
             botaoAssinar
@@ -498,7 +505,7 @@ struct PaywallView: View {
             // Sem produto não há preço real para declarar; melhor calar do
             // que escrever um valor que a loja não confirmou.
             if prontos, let item = produto(de: plano) {
-                Text(divulgacao(plano, produto: item))
+                divulgacao(plano, produto: item)
                     .font(Self.letraMiuda)
                     .foregroundStyle(UITokens.inkSecondary)
                     .multilineTextAlignment(.center)
@@ -550,21 +557,21 @@ struct PaywallView: View {
         .tint(UITokens.accent)
         .controlSize(.large)
         .disabled(!prontos || comprando || restaurando)
-        .accessibilityLabel(comprando ? "Processing subscription" : rotuloCTA)
+        .accessibilityLabel(comprando ? Text("Processing subscription") : Text(rotuloCTA))
     }
 
     /// Texto de renovação automática: plano, duração, preço real da loja e
     /// como cancelar. Com teste, diz com todas as letras que os 7 dias viram
     /// assinatura paga — surpresa na fatura vira reembolso e nota baixa.
-    private func divulgacao(_ p: Plano, produto: Product) -> String {
+    private func divulgacao(_ p: Plano, produto: Product) -> Text {
         let preco = produto.displayPrice
         switch p {
         case .anual where store.trialEligible:
-            return "Free for 7 days, then \(preco) per year. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before the trial ends. Cancel anytime in Settings."
+            return Text("Free for 7 days, then \(preco) per year. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before the trial ends. Cancel anytime in Settings.")
         case .anual:
-            return "Yearly subscription for \(preco) per year. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before renewal. Cancel anytime in Settings."
+            return Text("Yearly subscription for \(preco) per year. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before renewal. Cancel anytime in Settings.")
         case .mensal:
-            return "Monthly subscription for \(preco) per month. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before renewal. Cancel anytime in Settings."
+            return Text("Monthly subscription for \(preco) per month. Payment is charged to your Apple Account, and the subscription renews automatically unless canceled at least 24 hours before renewal. Cancel anytime in Settings.")
         }
     }
 
@@ -725,7 +732,7 @@ struct PaywallView: View {
                     Analytics.shared.track(.purchasePending(
                         plano: planoDaCompra, comTeste: comTesteNaCompra, origem: origem))
                     pendente = true
-                    AccessibilityNotification.Announcement(Self.textoPendente).post()
+                    AccessibilityNotification.Announcement(String(localized: Self.textoPendente)).post()
                 case .cancelado:
                     Analytics.shared.track(.purchaseCancelled(
                         plano: planoDaCompra, comTeste: comTesteNaCompra, origem: origem))
@@ -734,7 +741,7 @@ struct PaywallView: View {
                 Analytics.shared.track(.purchaseFailed(
                     plano: planoDaCompra, comTeste: comTesteNaCompra, origem: origem,
                     erro: Store.categoriaDoErro(error)))
-                avisar("Couldn't subscribe", error)
+                avisar(titulo: "Couldn't subscribe", error)
             }
         }
     }
@@ -763,8 +770,8 @@ struct PaywallView: View {
                     fechar(.restored)
                 } else {
                     aviso = Aviso(
-                        titulo: "No subscription found",
-                        mensagem: "This Apple Account doesn't have an active Nuna subscription. If someone else in your family subscribed, make sure Family Sharing is turned on in Settings."
+                        titulo: String(localized: "No subscription found"),
+                        mensagem: String(localized: "This Apple Account doesn't have an active Nuna subscription. If someone else in your family subscribed, make sure Family Sharing is turned on in Settings.")
                     )
                     mostrandoAviso = true
                 }
@@ -772,37 +779,37 @@ struct PaywallView: View {
                 Analytics.shared.track(.restoreFinished(
                     tela: .paywall, resultado: .failed,
                     erro: Store.categoriaDoErro(error), origem: origem))
-                avisar("Couldn't restore purchases", error)
+                avisar(titulo: "Couldn't restore purchases", error)
             }
         }
     }
 
-    private func avisar(_ titulo: String, _ error: Error) {
+    private func avisar(titulo: LocalizedStringResource, _ error: Error) {
         guard let mensagem = Self.mensagem(de: error) else { return }
-        aviso = Aviso(titulo: titulo, mensagem: mensagem)
+        aviso = Aviso(titulo: String(localized: titulo), mensagem: mensagem)
         mostrandoAviso = true
     }
 
     /// Mensagem para o adulto, ou nil quando ele só desistiu — cancelar não é
-    /// erro e não merece alerta. O texto dos erros do StoreKit não serve: sai
-    /// no idioma do aparelho, e a interface é inglês fixo.
+    /// erro e não merece alerta. O texto do StoreKit vem no idioma do sistema,
+    /// mas às vezes é técnico demais; aqui trocamos por uma frase reescrita.
     /// Usada também pelo Restaurar da área dos pais.
     static func mensagem(de error: Error) -> String? {
-        let generica = "The App Store isn't responding right now. Please try again in a moment."
+        let generica = String(localized: "The App Store isn't responding right now. Please try again in a moment.")
         switch error {
         case StoreKitError.userCancelled:
             return nil
         case StoreKitError.networkError:
-            return "Can't connect to the App Store. Check your internet connection and try again."
+            return String(localized: "Can't connect to the App Store. Check your internet connection and try again.")
         case StoreKitError.notAvailableInStorefront:
-            return "This subscription isn't available in your country's App Store."
+            return String(localized: "This subscription isn't available in your country's App Store.")
         case Product.PurchaseError.purchaseNotAllowed:
-            return "Purchases are turned off on this device. You can allow them in Settings > Screen Time."
+            return String(localized: "Purchases are turned off on this device. You can allow them in Settings > Screen Time.")
         case is StoreKitError, is Product.PurchaseError:
             return generica
         case let proprio as LocalizedError:
-            // Erro da própria `Store` (compra não verificada) já vem com
-            // texto em inglês pronto para o alerta.
+            // Erro da própria `Store` (compra não verificada) já vem com o
+            // texto pronto: exibe direto, sem passar pelo catálogo.
             return proprio.errorDescription ?? generica
         default:
             return generica

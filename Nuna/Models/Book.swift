@@ -5,27 +5,36 @@
 
 import Foundation
 
-/// Texto localizado por idioma. O app lê só a chave "en".
+/// Texto localizado por idioma.
+///
+/// A chave é o código do idioma como aparece no JSON de conteúdo:
+/// "pt-BR", "en", "es-MX" hoje; "fr", "de", "it", "ar" quando os livros
+/// forem traduzidos. Aparelho num idioma que o JSON não tem cai no inglês.
 typealias LocalizedText = [String: String]
 
-/// Idioma do app: inglês dos EUA, fixo.
+/// Idioma escolhido para o conteúdo dos livros — segue o iOS.
 ///
-/// O texto dos livros e o da interface precisam sair no MESMO idioma, e a
-/// interface é escrita só em inglês. Por isso o idioma não segue o aparelho:
-/// um iPhone em português continua vendo capa E menu em inglês. Os JSONs
-/// ainda trazem "pt-BR" e "es-MX", mas nada no app lê essas chaves.
+/// A interface passa pelo String Catalog e não precisa desta enum; ela só
+/// escolhe qual chave do `LocalizedText` sair. Preferência do usuário no iOS
+/// vira uma das chaves que os JSONs carregam; o resto cai em `en`.
 enum AppLanguage {
-    static let atual = "en"
-
-    /// Números, datas e ordenação no formato dos EUA, qualquer que seja a
-    /// região do aparelho. Os preços NÃO passam por aqui: vêm formatados da
-    /// App Store, na moeda da conta de quem compra.
-    static let locale = Locale(identifier: "en_US")
+    static var atual: String {
+        let preferido = Locale.preferredLanguages.first ?? "en"
+        switch preferido.prefix(2) {
+        case "pt": return "pt-BR"
+        case "es": return "es-MX"
+        case "fr": return "fr"
+        case "de": return "de"
+        case "it": return "it"
+        case "ar": return "ar"
+        default:   return "en"
+        }
+    }
 }
 
 extension LocalizedText {
     func resolved() -> String {
-        self[AppLanguage.atual] ?? first?.value ?? ""
+        self[AppLanguage.atual] ?? self["en"] ?? first?.value ?? ""
     }
 }
 

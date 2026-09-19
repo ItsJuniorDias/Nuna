@@ -60,7 +60,7 @@ struct ContinueStrip: View {
             .overlay { forma.strokeBorder(UITokens.ink.opacity(0.08)) }
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("Continue \(book.title.resolved()), page \(pagina)")
+        .accessibilityLabel(Text("Continue \(book.title.resolved()), page \(pagina)"))
     }
 
     private var miniatura: some View {

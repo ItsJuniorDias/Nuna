@@ -27,7 +27,6 @@ struct NunaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.locale, AppLanguage.locale)
                 // A loja sobe junto com o app, não com o paywall: a escuta de
                 // transações precisa estar de pé antes de chegar a aprovação
                 // de um responsável, e livro já pago tem que abrir sem ninguém

@@ -31,7 +31,7 @@ struct ParentalGate: View {
 
     @State private var pergunta = Pergunta.nova()
     @State private var resposta = ""
-    @State private var mensagem: String?
+    @State private var mensagem: LocalizedStringResource?
     @State private var errosSeguidos = 0
     /// Sobe a cada resposta errada: dispara a vibração de erro e conta as
     /// tentativas para o analytics.
@@ -185,7 +185,7 @@ struct ParentalGate: View {
                 }
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel("Answer")
-                .accessibilityValue(resposta.isEmpty ? "empty" : resposta)
+                .accessibilityValue(resposta.isEmpty ? Text("empty") : Text(verbatim: resposta))
 
             // Linha reservada mesmo sem mensagem: o aviso aparecer não pode
             // empurrar o teclado para baixo do dedo de quem está digitando.
@@ -238,7 +238,7 @@ struct ParentalGate: View {
 
         case .apagar:
             Button(action: apagar) {
-                Image(systemName: "delete.left")
+                Image(systemName: "delete.backward")
                     .font(.system(size: 22, weight: .medium))
                     .foregroundStyle(UITokens.ink)
             }
@@ -335,7 +335,7 @@ struct ParentalGate: View {
         resposta = ""
         pergunta = .nova(diferenteDe: pergunta)
 
-        let aviso: String
+        let aviso: LocalizedStringResource
         if errosSeguidos >= Self.limiteErros {
             pausado = true
             pausas += 1
@@ -348,7 +348,7 @@ struct ParentalGate: View {
             proposito: proposito, errosSeguidos: errosSeguidos, causouPausa: pausado))
         mensagem = aviso
 
-        let anuncio = "\(aviso) \(pergunta.falada)"
+        let anuncio = "\(String(localized: aviso)) \(pergunta.falada)"
         AccessibilityNotification.Announcement(anuncio).post()
     }
 
@@ -375,7 +375,7 @@ struct ParentalGate: View {
         errosSeguidos = 0
         mensagem = nil
 
-        let anuncio = "You can try again. \(pergunta.falada)"
+        let anuncio = String(localized: "You can try again. \(pergunta.falada)")
         AccessibilityNotification.Announcement(anuncio).post()
     }
 }
@@ -397,7 +397,7 @@ extension ParentalGate {
         var texto: String { "\(a) × \(b)" }
 
         var falada: String {
-            "What is \(Self.extenso(a)) times \(Self.extenso(b))?"
+            String(localized: "What is \(Self.extenso(a)) times \(Self.extenso(b))?")
         }
 
         /// Sorteia uma conta cujo RESULTADO difere do anterior — trocar "sete
@@ -410,17 +410,14 @@ extension ParentalGate {
             return sorteada
         }
 
+        /// Número por extenso no idioma do aparelho — "seven", "sete", "sept",
+        /// "sieben" — via NumberFormatter, para o VoiceOver soletrar a conta
+        /// como um adulto leria.
         private static func extenso(_ n: Int) -> String {
-            switch n {
-            case 3:  return "three"
-            case 4:  return "four"
-            case 5:  return "five"
-            case 6:  return "six"
-            case 7:  return "seven"
-            case 8:  return "eight"
-            case 9:  return "nine"
-            default: return String(n)
-            }
+            let f = NumberFormatter()
+            f.numberStyle = .spellOut
+            f.locale = .current
+            return f.string(from: NSNumber(value: n)) ?? String(n)
         }
     }
 }

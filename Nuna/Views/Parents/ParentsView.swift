@@ -131,7 +131,7 @@ struct ParentsView: View {
         .padding(.top, Space.xs)
     }
 
-    private func secao<C: View>(_ titulo: String, icon: String,
+    private func secao<C: View>(_ titulo: LocalizedStringResource, icon: String,
                                 @ViewBuilder _ content: () -> C) -> some View {
         VStack(alignment: .leading, spacing: Space.sm) {
             SectionHeader(titulo, icon: icon)
@@ -185,9 +185,10 @@ struct ParentsView: View {
         }
     }
 
-    private var textoPremium: String {
-        let base = "Three stories a week are always free. Subscribe to unlock the whole library."
-        return store.trialEligible ? "\(base) The yearly plan starts with a 7-day free trial." : base
+    private var textoPremium: LocalizedStringResource {
+        store.trialEligible
+            ? "Three stories a week are always free. Subscribe to unlock the whole library. The yearly plan starts with a 7-day free trial."
+            : "Three stories a week are always free. Subscribe to unlock the whole library."
     }
 
     // MARK: Leitura
@@ -196,7 +197,8 @@ struct ParentsView: View {
         cartao {
             HStack(spacing: 0) {
                 numero(emAndamento, "in progress")
-                numero(disponiveis, disponiveis == 1 ? "book in the app" : "books in the app")
+                numero(disponiveis,
+                       disponiveis == 1 ? "book in the app" : "books in the app")
             }
             // Separador em overlay: dentro do HStack, numa ScrollView, o
             // retângulo não sabe a altura e fica com 10pt.
@@ -228,7 +230,7 @@ struct ParentsView: View {
         }
     }
 
-    private func numero(_ valor: Int, _ rotulo: String) -> some View {
+    private func numero(_ valor: Int, _ rotulo: LocalizedStringResource) -> some View {
         VStack(spacing: 2) {
             Text(valor, format: .number)
                 .font(.system(size: 28, weight: .semibold, design: .rounded))
@@ -326,7 +328,8 @@ struct ParentsView: View {
         .overlay { forma.strokeBorder(UITokens.ink.opacity(0.10)) }
     }
 
-    private func resumo(icone: String, titulo: String, texto: String) -> some View {
+    private func resumo(icone: String, titulo: LocalizedStringResource,
+                        texto: LocalizedStringResource) -> some View {
         HStack(alignment: .top, spacing: Space.sm) {
             Image(systemName: icone)
                 .font(.system(size: 18, weight: .semibold))
@@ -351,7 +354,8 @@ struct ParentsView: View {
 
     private enum Acessorio { case seta, externo, nenhum }
 
-    private func rotuloLinha(_ titulo: String, icone: String, acessorio: Acessorio,
+    private func rotuloLinha(_ titulo: LocalizedStringResource, icone: String,
+                             acessorio: Acessorio,
                              detalhe: String? = nil) -> some View {
         HStack(spacing: Space.sm) {
             Image(systemName: icone)
@@ -374,9 +378,9 @@ struct ParentsView: View {
 
             switch acessorio {
             case .seta:
-                seta("chevron.right")
+                seta("chevron.forward")
             case .externo:
-                seta("arrow.up.right")
+                seta("arrow.up.forward")
             case .nenhum:
                 EmptyView()
             }
@@ -444,18 +448,18 @@ struct ParentsView: View {
                 // toque que deu certo terminaria em silêncio.
                 aviso = store.isPremium
                     ? PaywallView.Aviso(
-                        titulo: "Subscription restored",
-                        mensagem: "Every story is unlocked on this device.")
+                        titulo: String(localized: "Subscription restored"),
+                        mensagem: String(localized: "Every story is unlocked on this device."))
                     : PaywallView.Aviso(
-                        titulo: "No subscription found",
-                        mensagem: "This Apple Account doesn't have an active Nuna subscription. If someone else in your family subscribed, make sure Family Sharing is turned on in Settings.")
+                        titulo: String(localized: "No subscription found"),
+                        mensagem: String(localized: "This Apple Account doesn't have an active Nuna subscription. If someone else in your family subscribed, make sure Family Sharing is turned on in Settings."))
                 mostrandoAviso = true
             } catch {
                 Analytics.shared.track(.restoreFinished(
                     tela: .parents, resultado: .failed,
                     erro: Store.categoriaDoErro(error), origem: nil))
                 guard let mensagem = PaywallView.mensagem(de: error) else { return }
-                aviso = PaywallView.Aviso(titulo: "Couldn't restore purchases",
+                aviso = PaywallView.Aviso(titulo: String(localized: "Couldn't restore purchases"),
                                           mensagem: mensagem)
                 mostrandoAviso = true
             }

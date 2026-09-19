@@ -84,7 +84,7 @@ enum Featured {
         return trio
     }
 
-    static func weekLabel(on date: Date = .now) -> String {
+    static func weekLabel(on date: Date = .now) -> LocalizedStringResource {
         var cal = Calendar(identifier: .iso8601)
         cal.timeZone = .current
         return "Week \(cal.component(.weekOfYear, from: date))"
@@ -97,8 +97,8 @@ enum Featured {
 
     struct Collection: Identifiable {
         let id: String
-        let title: String
-        let subtitle: String
+        let title: LocalizedStringResource
+        let subtitle: LocalizedStringResource
         let icon: String
         /// Pedaços de slug que entram na coleção.
         var matches: [String] = []

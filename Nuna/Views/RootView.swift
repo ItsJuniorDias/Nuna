@@ -94,7 +94,7 @@ struct RootView: View {
                                     set: { if !$0 { semRede = nil } })) {
             Button("OK", role: .cancel) { semRede = nil }
         } message: {
-            Text(mensagemDoPacote)
+            mensagemDoPacote
         }
         .fullScreenCover(item: $detalhe) { livro in
             BookDetailView(book: livro.book, origem: livro.origem,
@@ -123,12 +123,11 @@ struct RootView: View {
     /// O alerta é da criança e do adulto: uma frase, sem jargão. Em build de
     /// desenvolvimento vai junto o motivo real — "sem internet" é a mensagem
     /// errada quando a internet está boa e o que falhou foi o pacote.
-    private var mensagemDoPacote: String {
-        let base = "Nuna needs the internet the first time you open a book. "
-            + "Once it is on this device, it works offline."
+    private var mensagemDoPacote: Text {
+        let base = Text("Nuna needs the internet the first time you open a book. Once it is on this device, it works offline.")
         #if DEBUG
         if let falha = Pacotes.shared.ultimaFalha {
-            return base + "\n\n[debug] \(falha)"
+            return base + Text(verbatim: "\n\n[debug] \(falha)")
         }
         #endif
         return base

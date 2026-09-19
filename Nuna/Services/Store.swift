@@ -91,7 +91,7 @@ final class Store {
         var errorDescription: String? {
             switch self {
             case .naoVerificada:
-                return "We couldn't confirm the purchase with the App Store. Try again or tap Restore Purchases."
+                return String(localized: "We couldn't confirm the purchase with the App Store. Try again or tap Restore Purchases.")
             }
         }
     }
@@ -171,7 +171,7 @@ final class Store {
         // Os dois ou nenhum: o paywall pré-seleciona o anual e compara com o
         // mensal. Com um plano só, a tela mentiria sobre a escolha.
         if mensal == nil || anual == nil {
-            erroProdutos = "Couldn't load the plans right now. Check your internet connection and try again."
+            erroProdutos = String(localized: "Couldn't load the plans right now. Check your internet connection and try again.")
         }
 
         // Elegibilidade antes de soltar o carregamento, pra o botão não

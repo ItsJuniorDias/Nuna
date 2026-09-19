@@ -54,18 +54,18 @@ struct WeekCard: View {
         .buttonStyle(CartaoPressionado())
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(rotuloAcessivel)
-        .accessibilityHint(bloqueado ? "Ask a grown-up to unlock"
-                                     : "Opens the book")
+        .accessibilityHint(bloqueado ? Text("Ask a grown-up to unlock")
+                                     : Text("Opens the book"))
         .accessibilityAddTraits(.isButton)
     }
 
-    private var rotuloAcessivel: String {
-        var base = "Story of the week: \(book.title.resolved())"
-        if book.animado { base += ", moving pictures" }
+    private var rotuloAcessivel: Text {
+        var base = Text("Story of the week: \(book.title.resolved())")
+        if book.animado { base = base + Text(", moving pictures") }
         if let posicao, let total, total > 1 {
-            base += ", \(posicao + 1) of \(total)"
+            base = base + Text(", \(posicao + 1) of \(total)")
         }
-        return bloqueado ? "\(base), locked" : base
+        return bloqueado ? base + Text(", locked") : base
     }
 
     /// O primeiro arranjo que cabe na largura do cartão, do mais completo ao

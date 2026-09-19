@@ -34,7 +34,7 @@ struct LibraryView: View {
     enum Filtro: String, CaseIterable, Identifiable {
         case todos, disponiveis, comecados
         var id: String { rawValue }
-        var titulo: String {
+        var titulo: LocalizedStringResource {
             switch self {
             case .todos:       return "All"
             case .disponiveis: return "Available"
@@ -61,7 +61,7 @@ struct LibraryView: View {
     enum Ordem: String, CaseIterable, Identifiable {
         case catalogo, titulo
         var id: String { rawValue }
-        var titulo: String {
+        var titulo: LocalizedStringResource {
             switch self {
             case .catalogo: return "Catalog order"
             case .titulo:   return "Title"
@@ -263,7 +263,7 @@ struct LibraryView: View {
                 .padding(.horizontal, Space.sm)
                 .padding(.vertical, Space.xxs)
                 .glassEffect(.regular, in: .capsule)
-                .accessibilityLabel(resultado.count == 1 ? "1 book" : "\(resultado.count) books")
+                .accessibilityLabel(Text("\(resultado.count) books"))
         }
     }
 
@@ -365,13 +365,12 @@ struct LibraryTile: View {
     }
 
     /// Segue o selo: bloqueado esconde a página, então o VoiceOver também.
-    private var rotuloAcessivel: String {
-        var titulo = book.title.resolved()
-        if book.animado { titulo += ", moving pictures" }
-        if bloqueado { return "\(titulo), locked" }
-        return comecou
-            ? "\(titulo), page \(pagina) of \(book.spreads.count)"
-            : titulo
+    private var rotuloAcessivel: Text {
+        var texto = Text(verbatim: book.title.resolved())
+        if book.animado { texto = texto + Text(", moving pictures") }
+        if bloqueado { return texto + Text(", locked") }
+        if comecou { return texto + Text(", page \(pagina) of \(book.spreads.count)") }
+        return texto
     }
 
     /// Cadeado no lugar do progresso, com a mesma altura de cápsula: página

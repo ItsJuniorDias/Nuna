@@ -221,7 +221,7 @@ struct HomeView: View {
         .padding(.horizontal, Space.lg)
     }
 
-    private var saudacao: String {
+    private var saudacao: LocalizedStringResource {
         switch Calendar.current.component(.hour, from: .now) {
         case 5..<12:  return "Good morning"
         case 12..<18: return "Good afternoon"
@@ -252,8 +252,8 @@ struct HomeView: View {
     // MARK: Blocos reutilizáveis
 
     private func secao<Content: View>(
-        _ titulo: String, icon: String, analitico: SecaoDaHome,
-        trailing: String? = nil,
+        _ titulo: LocalizedStringResource, icon: String, analitico: SecaoDaHome,
+        trailing: LocalizedStringResource? = nil,
         margem: CGFloat = Space.lg,
         @ViewBuilder _ content: () -> Content
     ) -> some View {
@@ -284,9 +284,9 @@ struct HomeView: View {
     /// `sangria`: quanto a rolagem passa da borda direita da seção. Numa
     /// metade do Duo, a margem da tela fica por fora da seção, e a prateleira
     /// avança por ela até a beira.
-    private func rail(_ titulo: String, subtitle: String? = nil,
+    private func rail(_ titulo: LocalizedStringResource, subtitle: LocalizedStringResource? = nil,
                       icon: String, books: [Book], trilho: TrilhoDaHome,
-                      trailing: String? = nil,
+                      trailing: LocalizedStringResource? = nil,
                       margem: CGFloat = Space.lg,
                       sangria: CGFloat = 0) -> some View {
         VStack(alignment: .leading, spacing: Space.sm) {
@@ -357,13 +357,14 @@ struct HomeView: View {
 /// ícone ficava centrado entre título e subtítulo e o subtítulo quebrava
 /// antes da hora, espremido pela pílula ("Premium").
 struct SectionHeader: View {
-    let titulo: String
+    let titulo: LocalizedStringResource
     let icon: String
-    var subtitle: String? = nil
-    var trailing: String? = nil
+    var subtitle: LocalizedStringResource? = nil
+    var trailing: LocalizedStringResource? = nil
 
-    init(_ titulo: String, icon: String, subtitle: String? = nil,
-         trailing: String? = nil) {
+    init(_ titulo: LocalizedStringResource, icon: String,
+         subtitle: LocalizedStringResource? = nil,
+         trailing: LocalizedStringResource? = nil) {
         self.titulo = titulo
         self.icon = icon
         self.subtitle = subtitle

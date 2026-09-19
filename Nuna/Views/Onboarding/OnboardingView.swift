@@ -133,7 +133,7 @@ struct OnboardingView: View {
                 avancouPeloBotao = true
                 withAnimation { index += 1 }
             } label: {
-                Label(content.next.resolved(), systemImage: "arrow.right")
+                Label(content.next.resolved(), systemImage: "arrow.forward")
                     .labelStyle(.titleAndIcon)
                     .font(TypeScale.ui.weight(.medium))
             }

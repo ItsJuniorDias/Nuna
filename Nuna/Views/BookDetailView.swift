@@ -164,7 +164,7 @@ struct BookDetailView: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
 
-            Text(fatos)
+            fatos
                 .font(TypeScale.legenda)
                 .foregroundStyle(UITokens.inkSecondary)
 
@@ -189,12 +189,13 @@ struct BookDetailView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 
-    /// "12 pages · Nuna and Theo".
-    private var fatos: String {
-        var partes = ["\(book.spreads.count) pages"]
-        let elenco = Self.lista(book.elenco)
-        if !elenco.isEmpty { partes.append(elenco) }
-        return partes.joined(separator: "  ·  ")
+    /// "12 pages · Nuna and Theo". A vírgula gramatical entre os nomes segue
+    /// o idioma do aparelho.
+    private var fatos: Text {
+        var texto = Text("\(book.spreads.count) pages")
+        let elenco = book.elenco.formatted(.list(type: .and))
+        if !elenco.isEmpty { texto = texto + Text(verbatim: "  ·  ") + Text(verbatim: elenco) }
+        return texto
     }
 
     @ViewBuilder
@@ -208,7 +209,7 @@ struct BookDetailView: View {
         }
     }
 
-    private func etiqueta(_ texto: String, icone: String) -> some View {
+    private func etiqueta(_ texto: LocalizedStringKey, icone: String) -> some View {
         Label(texto, systemImage: icone)
             .font(TypeScale.legenda.weight(.medium))
             .foregroundStyle(UITokens.ink)
@@ -233,7 +234,7 @@ struct BookDetailView: View {
 
     private var botao: some View {
         Button(action: onRead) {
-            Text(rotulo)
+            rotulo
                 .font(TypeScale.ui.weight(.semibold))
                 // A largura mora DENTRO do rótulo, senão a cápsula de vidro
                 // não estica (mesma regra do paywall).
@@ -242,15 +243,15 @@ struct BookDetailView: View {
         .buttonStyle(.glassProminent)
         .tint(UITokens.accent)
         .controlSize(.large)
-        .accessibilityHint(bloqueado ? "Opens the subscription screen"
-                                     : "Opens the story")
+        .accessibilityHint(bloqueado ? Text("Opens the subscription screen")
+                                     : Text("Opens the story"))
     }
 
-    private var rotulo: String {
-        if bloqueado { return "Unlock this story" }
-        if comecou { return "Continue on page \(spreadSalvo + 1)" }
-        if concluido { return "Read it again" }
-        return "Read the story"
+    private var rotulo: Text {
+        if bloqueado { return Text("Unlock this story") }
+        if comecou { return Text("Continue on page \(spreadSalvo + 1)") }
+        if concluido { return Text("Read it again") }
+        return Text("Read the story")
     }
 
     // MARK: Fechar
@@ -268,15 +269,6 @@ struct BookDetailView: View {
         .padding(.top, Space.xs)
     }
 
-    /// "Nuna", "Nuna and Theo", "Nuna, Theo and Lia". Escrito à mão porque o
-    /// app é en-US fixo, e `ListFormatter` seguiria a região do aparelho.
-    private static func lista(_ nomes: [String]) -> String {
-        switch nomes.count {
-        case 0:  return ""
-        case 1:  return nomes[0]
-        default: return nomes.dropLast().joined(separator: ", ") + " and " + nomes[nomes.count - 1]
-        }
-    }
 }
 
 #Preview("Detalhe") {

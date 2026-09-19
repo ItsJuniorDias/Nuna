@@ -53,6 +53,6 @@ struct PreparandoLivro: View {
             .padding(Space.xl)
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("Getting \(book.title.resolved()) ready")
+        .accessibilityLabel(Text("Getting \(book.title.resolved()) ready"))
     }
 }
