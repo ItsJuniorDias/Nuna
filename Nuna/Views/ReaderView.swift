@@ -358,12 +358,16 @@ struct ReaderView: View {
             Spacer()
 
             // Ler em voz alta. Desligar vale para os próximos livros também:
-            // é o adulto dizendo "eu leio".
-            iconButton(narracao.ligada ? "speaker.wave.2.fill" : "speaker.slash.fill",
-                       label: narracao.ligada ? "Stop reading aloud" : "Read aloud",
-                       pulso: 0) {
-                narracao.alternar()
-                if narracao.ligada { lerPagina() }
+            // é o adulto dizendo "eu leio". Só aparece em inglês — as falas
+            // não têm versão nos outros seis idiomas (ver `Narracao`), e um
+            // botão sem áudio confunde mais que ajuda.
+            if narracao.disponivel {
+                iconButton(narracao.ligada ? "speaker.wave.2.fill" : "speaker.slash.fill",
+                           label: narracao.ligada ? "Stop reading aloud" : "Read aloud",
+                           pulso: 0) {
+                    narracao.alternar()
+                    if narracao.ligada { lerPagina() }
+                }
             }
 
             Text("\(state.spreadIndex + 1) / \(book.spreads.count)")

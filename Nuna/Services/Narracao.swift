@@ -16,7 +16,10 @@
 //      sessão é `.playback` o app inteiro (`SessaoDeAudio`), definida uma vez
 //      na abertura e nunca trocada;
 //    - não cala a música de ninguém (`mixWithOthers`);
-//    - página sem fala (ainda não gerada) fica muda. Nunca trava a leitura.
+//    - página sem fala (ainda não gerada) fica muda. Nunca trava a leitura;
+//    - só em inglês: as falas foram gravadas em inglês e não têm versão nos
+//      outros seis idiomas do app. Fora do inglês a voz fica calada e a
+//      interface esconde o botão (ver `ReaderView.topBar`).
 //
 
 import AVFoundation
@@ -55,13 +58,19 @@ final class Narracao {
         Diagnostico.rastro("narração \(ligada ? "ligada" : "desligada")")
     }
 
-    /// Lê estas falas em sequência, no lugar do que estava tocando.
+    /// Lê estas falas em sequência, no lugar do que estava tocando. Fora do
+    /// inglês volta calado — as falas só existem em inglês, e tocar áudio
+    /// numa língua enquanto o texto está em outra é pior que ficar mudo.
     func ler(_ assets: [String]) {
         parar()
-        guard ligada else { return }
+        guard ligada, AppLanguage.atual == "en" else { return }
         fila = assets
         proxima()
     }
+
+    /// A voz é oferecida ao adulto? Só quando o idioma efetivo é inglês.
+    /// Consultada pelo `ReaderView` para esconder o botão do topo.
+    var disponivel: Bool { AppLanguage.atual == "en" }
 
     func parar() {
         fila = []
