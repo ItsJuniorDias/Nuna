@@ -189,12 +189,16 @@ struct ParentalGate: View {
 
             // Linha reservada mesmo sem mensagem: o aviso aparecer não pode
             // empurrar o teclado para baixo do dedo de quem está digitando.
-            Text(mensagem ?? " ")
-                .font(TypeScale.legenda.weight(.medium))
-                .foregroundStyle(UITokens.accent)
-                .multilineTextAlignment(.center)
-                .frame(minHeight: 20)
-                .accessibilityHidden(mensagem == nil)
+            // Espaço em branco vai verbatim para o Xcode não extrair " " como
+            // chave do catálogo (ele não gera símbolo pra chave só com espaço).
+            Group {
+                if let mensagem { Text(mensagem) } else { Text(verbatim: " ") }
+            }
+            .font(TypeScale.legenda.weight(.medium))
+            .foregroundStyle(UITokens.accent)
+            .multilineTextAlignment(.center)
+            .frame(minHeight: 20)
+            .accessibilityHidden(mensagem == nil)
         }
     }
 
