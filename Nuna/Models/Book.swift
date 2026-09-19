@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 /// Texto localizado por idioma.
 ///
@@ -12,15 +13,28 @@ import Foundation
 /// forem traduzidos. Aparelho num idioma que o JSON não tem cai no inglês.
 typealias LocalizedText = [String: String]
 
-/// Idioma escolhido para o conteúdo dos livros — segue o iOS.
+/// Idioma escolhido para o conteúdo dos livros e para a interface.
 ///
-/// A interface passa pelo String Catalog e não precisa desta enum; ela só
-/// escolhe qual chave do `LocalizedText` sair. Preferência do usuário no iOS
-/// vira uma das chaves que os JSONs carregam; o resto cai em `en`.
+/// "auto" segue a preferência do iOS; qualquer outro código sobrepõe. A
+/// escolha mora no AppStorage e é aplicada na árvore de SwiftUI via
+/// `.environment(\.locale, AppLanguage.locale)` no `NunaApp`. Aqui a mesma
+/// escolha decide qual chave do `LocalizedText` os JSONs de livro entregam.
 enum AppLanguage {
+    /// Chave do UserDefaults/AppStorage que guarda a escolha.
+    static let chaveEscolha = "idiomaEscolhido"
+
+    /// "auto" ou um código de idioma. Lido direto do UserDefaults para
+    /// funcionar fora de uma View (loaders, resolved()).
+    static var escolhido: String {
+        UserDefaults.standard.string(forKey: chaveEscolha) ?? "auto"
+    }
+
+    /// Idioma de fato usado para escolher a chave do JSON de conteúdo.
     static var atual: String {
-        let preferido = Locale.preferredLanguages.first ?? "en"
-        switch preferido.prefix(2) {
+        let base = escolhido == "auto"
+            ? (Locale.preferredLanguages.first ?? "en")
+            : escolhido
+        switch base.prefix(2) {
         case "pt": return "pt-BR"
         case "es": return "es-MX"
         case "fr": return "fr"
@@ -30,7 +44,45 @@ enum AppLanguage {
         default:   return "en"
         }
     }
+
+    /// Locale que a árvore do SwiftUI usa. Com "auto" segue o sistema; com
+    /// idioma escolhido, força esse. O SwiftUI observa isso para achar as
+    /// traduções no String Catalog em runtime.
+    static var locale: Locale {
+        escolhido == "auto" ? .current : Locale(identifier: escolhido)
+    }
+
+    /// Sentido de leitura para o `.environment(\.layoutDirection)`. Só o
+    /// árabe entra como RTL no app; "auto" segue o idioma preferido do iOS.
+    static var direcao: LayoutDirection {
+        let base = escolhido == "auto"
+            ? (Locale.preferredLanguages.first ?? "en")
+            : escolhido
+        return base.hasPrefix("ar") ? .rightToLeft : .leftToRight
+    }
+
+    /// Os idiomas disponíveis para o menu, na ordem em que aparecem.
+    /// "auto" no topo, depois os sete idiomas do catálogo.
+    static let opcoes: [String] = [
+        "auto", "pt-BR", "en", "es", "fr", "de", "it", "ar",
+    ]
+
+    /// Nome do idioma escrito no idioma dele mesmo. "auto" fica em branco
+    /// — quem chama monta "Automatic" pelo próprio catálogo.
+    static func nomeNativo(_ codigo: String) -> String {
+        switch codigo {
+        case "pt-BR": return "Português (Brasil)"
+        case "en":    return "English"
+        case "es":    return "Español"
+        case "fr":    return "Français"
+        case "de":    return "Deutsch"
+        case "it":    return "Italiano"
+        case "ar":    return "العربية"
+        default:      return ""
+        }
+    }
 }
+
 
 extension LocalizedText {
     func resolved() -> String {

@@ -10,9 +10,9 @@
 //  dentro do paywall; Gerenciar assinatura e os links de Terms e Privacy,
 //  aqui (diretriz 1.3: nenhum link para fora sem portão).
 //
-//  Só entra o que o app já faz de verdade. Idioma e narração ganham linha
-//  quando existirem: ajuste que não muda nada ensina o pai a desconfiar da
-//  tela inteira.
+//  Só entra o que o app já faz de verdade. A linha de Idioma troca o app
+//  na hora — o Locale muda no ambiente do SwiftUI e as strings do String
+//  Catalog viram outras. "Automático" segue o iOS.
 //
 
 import SwiftUI
@@ -24,6 +24,7 @@ struct ParentsView: View {
 
     @AppStorage("onboardingConcluido") private var onboardingDone = false
     @AppStorage(Analytics.chaveCompartilhar) private var compartilharUso = true
+    @AppStorage(AppLanguage.chaveEscolha) private var idiomaEscolhido: String = "auto"
 
     @State private var restaurando = false
     @State private var aviso: PaywallView.Aviso?
@@ -253,6 +254,9 @@ struct ParentsView: View {
             compartilharDadosDeUso
 
             divisor
+            idioma
+
+            divisor
             Button { pedirPortao(.abrir(Store.Links.termos)) } label: {
                 rotuloLinha("Terms of Use", icone: "doc.text", acessorio: .externo)
             }
@@ -272,6 +276,35 @@ struct ParentsView: View {
                         detalhe: versao)
                 .accessibilityElement(children: .combine)
         }
+    }
+
+    /// Menu com os sete idiomas do catálogo + "Automático". Escolher troca o
+    /// `AppStorage` do NunaApp e o Locale do ambiente muda na hora — nenhum
+    /// reload, sem reiniciar o app.
+    private var idioma: some View {
+        Menu {
+            Picker(selection: $idiomaEscolhido) {
+                ForEach(AppLanguage.opcoes, id: \.self) { codigo in
+                    if codigo == "auto" {
+                        Text("Automatic").tag(codigo)
+                    } else {
+                        Text(verbatim: AppLanguage.nomeNativo(codigo)).tag(codigo)
+                    }
+                }
+            } label: { EmptyView() }
+        } label: {
+            rotuloLinha("Language", icone: "globe", acessorio: .seta,
+                        detalhe: nomeDoIdiomaAtual)
+        }
+        .buttonStyle(LinhaStyle())
+        .accessibilityElement(children: .combine)
+    }
+
+    /// Rótulo curto para mostrar do lado direito da linha: nome nativo do
+    /// idioma escolhido, ou "Automatic" quando segue o iOS.
+    private var nomeDoIdiomaAtual: String {
+        if idiomaEscolhido == "auto" { return String(localized: "Automatic") }
+        return AppLanguage.nomeNativo(idiomaEscolhido)
     }
 
     /// Sem portão: desligar só protege, e vem ligado por padrão. Nenhum

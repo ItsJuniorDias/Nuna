@@ -10,6 +10,10 @@ import SwiftUI
 @main
 struct NunaApp: App {
     @Environment(\.scenePhase) private var fase
+    /// Idioma escolhido pelo adulto nos Ajustes ("auto" segue o iOS).
+    /// Muda o Locale e o sentido de leitura na árvore inteira e o SwiftUI
+    /// re-renderiza tudo com as strings do idioma novo.
+    @AppStorage(AppLanguage.chaveEscolha) private var idiomaEscolhido: String = "auto"
 
     /// Roda uma vez por processo. Só abre a fila do analytics: o sistema pode
     /// pré-aquecer o app e rodar este `init` sem ele nunca aparecer, então o
@@ -24,9 +28,23 @@ struct NunaApp: App {
         Analytics.shared.start()
     }
 
+    /// Idioma efetivo depois de resolver "auto": ou o escolhido, ou o do iOS.
+    private var idiomaEfetivo: String {
+        idiomaEscolhido == "auto"
+            ? (Locale.preferredLanguages.first ?? "en")
+            : idiomaEscolhido
+    }
+
     var body: some Scene {
         WindowGroup {
+            // `idiomaEfetivo` lê `idiomaEscolhido`, e o AppStorage sendo lido
+            // aqui é o que faz o SwiftUI reavaliar body na troca. Fonte de
+            // verdade para leituras fora de View continua sendo o UserDefaults
+            // via AppLanguage.
             ContentView()
+                .environment(\.locale, Locale(identifier: idiomaEfetivo))
+                .environment(\.layoutDirection,
+                             idiomaEfetivo.hasPrefix("ar") ? .rightToLeft : .leftToRight)
                 // A loja sobe junto com o app, não com o paywall: a escuta de
                 // transações precisa estar de pé antes de chegar a aprovação
                 // de um responsável, e livro já pago tem que abrir sem ninguém
