@@ -3198,53 +3198,6 @@
         }
       }
     },
-    "Helps us improve Nuna. Never names or anything your child types." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "يساعدنا في تحسين نونا. لن نجمع أسماء ولا أي شيء يكتبه طفلك."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hilft uns, Nuna zu verbessern. Niemals Namen oder was dein Kind tippt."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Helps us improve Nuna. Never names or anything your child types."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nos ayuda a mejorar Nuna. Nunca nombres ni nada que escriba tu hijo."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ça nous aide à améliorer Nuna. Jamais de noms ni de ce que ton enfant tape."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ci aiuta a migliorare Nuna. Mai nomi né ciò che scrive tuo figlio."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajuda a Nuna a melhorar. Nunca nomes nem nada que a criança digite."
-          }
-        }
-      }
-    },
     "Home" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5735,53 +5688,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manda todos os livros pra primeira página"
-          }
-        }
-      }
-    },
-    "Share anonymous usage data" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "مشاركة بيانات استخدام مجهولة"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anonyme Nutzungsdaten teilen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share anonymous usage data"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Compartir datos anónimos de uso"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Partager des données d'utilisation anonymes"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Condividi dati d'uso anonimi"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Compartilhar dados anônimos de uso"
           }
         }
       }

@@ -23,7 +23,6 @@ struct ParentsView: View {
     var onUnlock: () -> Void
 
     @AppStorage("onboardingConcluido") private var onboardingDone = false
-    @AppStorage(Analytics.chaveCompartilhar) private var compartilharUso = true
     @AppStorage(AppLanguage.chaveEscolha) private var idiomaEscolhido: String = "auto"
 
     @State private var restaurando = false
@@ -251,9 +250,6 @@ struct ParentsView: View {
 
     private var sobre: some View {
         cartao {
-            compartilharDadosDeUso
-
-            divisor
             idioma
 
             divisor
@@ -305,37 +301,6 @@ struct ParentsView: View {
     private var nomeDoIdiomaAtual: String {
         if idiomaEscolhido == "auto" { return String(localized: "Automatic") }
         return AppLanguage.nomeNativo(idiomaEscolhido)
-    }
-
-    /// Sem portão: desligar só protege, e vem ligado por padrão. Nenhum
-    /// evento registra a escolha, em nenhum dos dois sentidos.
-    private var compartilharDadosDeUso: some View {
-        HStack(spacing: Space.sm) {
-            Image(systemName: "chart.bar")
-                .font(.system(size: 15, weight: .semibold))
-                .foregroundStyle(UITokens.accent)
-                .frame(width: Self.larguraIcone, height: Self.larguraIcone)
-                .accessibilityHidden(true)
-
-            Toggle(isOn: $compartilharUso) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Share anonymous usage data")
-                        .font(TypeScale.ui)
-                        .foregroundStyle(UITokens.ink)
-                    Text("Helps us improve Nuna. Never names or anything your child types.")
-                        .font(TypeScale.legenda)
-                        .foregroundStyle(UITokens.inkSecondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-            .tint(UITokens.accent)
-        }
-        .padding(.horizontal, Space.md)
-        .padding(.vertical, Space.sm)
-        .frame(minHeight: 52)
-        .onChange(of: compartilharUso) { _, ligado in
-            Analytics.shared.definirCompartilhamento(ligado)
-        }
     }
 
     private var versao: String {

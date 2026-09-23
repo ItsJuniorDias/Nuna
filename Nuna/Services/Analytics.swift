@@ -19,8 +19,8 @@
 //      sem cache, e sem cabeçalho além do tipo e da chave do app — que é a
 //      mesma em todos os aparelhos.
 //
-//  O responsável desliga em Parents > "Share anonymous usage data" (ligado
-//  por padrão). Desligado, nada entra na fila e a fila salva é apagada.
+//  Ligado por padrão. Quem desligou no antigo interruptor da área dos pais
+//  continua desligado: nada entra na fila e a fila salva é apagada.
 //
 //  Fila: memória primeiro, disco em Application Support (fora do backup),
 //  no máximo 500 eventos e 7 dias. Envia com 20 na fila, a cada 30 s com o
@@ -238,7 +238,8 @@ private actor DiscoDaFila {
 final class Analytics {
     static let shared = Analytics()
 
-    /// Chave do interruptor da área dos pais. Ausente vale ligado.
+    /// Escolha salva pelo antigo interruptor da área dos pais. Ausente vale
+    /// ligado.
     nonisolated static let chaveCompartilhar = "analyticsEnabled"
 
     private(set) var compartilhar = true
